@@ -1,0 +1,151 @@
+{
+  "upstream_revision": "3cdb8709635beb29f66e4e23cd66060872ac3996",
+  "environment": {
+    "python": "3.12.3",
+    "packages": {
+      "torch": "2.8.0+cu128",
+      "torchvision": "0.23.0+cu128",
+      "transformers": "4.46.0",
+      "diffusers": "0.32.2",
+      "accelerate": "1.10.1",
+      "numpy": "2.3.2",
+      "safetensors": "0.8.0",
+      "tokenizers": "0.20.3",
+      "omegaconf": "2.3.0"
+    },
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5090"
+  },
+  "sources": {
+    "evaluation/degap/metrics.py": "e26bd1ff31377407e7ca121d0848558e228fbae9215c53adee8e1cb6d4a644e7",
+    "evaluation/degap/pipeline.py": "131c2cd7a50a0a6a04d25e4ed34d4f4b9b57b56ffd0f7256248437242cc144c9",
+    "evaluation/degap/prepare.py": "e02a6880c2f0d58f9b6b0623d768287a0b61223c8882f1e5a66710021069675e",
+    "evaluation/degap/run.py": "6c2bf3cdb3965b9563ac6f4b27262ca03632eee8561b65d89dee7143216e33fb",
+    "evaluation/degap/runtime.py": "0aff19de8c108095b329e12f094afd6a0efdf548498f58697c302fd18ced8ec7",
+    "evaluation/degap/score_chair.py": "a45a7d37edfbe6d50bdb305e1919927b999a8798a20e13d505df469a96e4a05c",
+    "evaluation/degap/verify.py": "39746b9fd31c3f1f30f304a9486e4683d5cadcc0bfa79e441cc161a8c1200927",
+    "models/__init__.py": "bca0306b914d9de5564dc91c185b4e2f78cbd8189bacea4f9e5a2f268a799be8",
+    "models/common_modules.py": "dc9163ba4ff37d37a2fe5d7337d7e768d2a92e4d386c6a3c467bfd2ee1f73be6",
+    "models/configuration_llada.py": "c947a64d8b735affa69d5adeb416c83ce607c8925270884e4471ae11068e2bfe",
+    "models/degap.py": "24d429e0d48b860e8e5703fa2a29ecd64ebf0188ca20390c02fa02e589980b01",
+    "models/logging.py": "4cedc29bfcc9fe367714b3d15fc91a8a49dee5fddaad0f835127baae1b28432c",
+    "models/lr_schedulers.py": "3d3e1c3b6b5ba2015b3bc51f36f6c866a2414633c82ef391e10da3a28596a7da",
+    "models/misc.py": "d78e4d44fbdadae1ef04f4150f3d28ab2a9f0843cc733ef7a872f8a3900bdc7b",
+    "models/modeling_llada.py": "bb929398306b5a1ed5cfa08184e2fbe8d295923158758df2a1f3dafd32eb1236",
+    "models/modeling_magvitv2.py": "0937009e8b744ddfbd7495dd6bf1640863990a0a02a7c04a824db077d64b0c89",
+    "models/modeling_mmada.py": "9c1538c629bf757694d11367fb5b147ef100891823c31dbb507fba3651d0d4bf",
+    "models/modeling_utils.py": "d302a648dc6998d96789f1c08dfb6fdb85ad46c1bb8111facef230064a2ee8c0",
+    "models/sampling.py": "c261d90ea703276c1887f6149bf62592d4945b3ae47e6169ec485c89004bc5e4",
+    "models/training_utils.py": "5398e76279b5c01d808b3919c7313ee404fa079fbee0bebe95e159f4caab2989",
+    "training/prompting_utils.py": "a69b611427b2d5a954e63f9b39502e21d824a4ed53ef40760e057ae12c0f0c9c",
+    "training/utils.py": "99d3307d6af9b77ffa292eeb8fc9dc12d125caa236d092dfa64faecb90a83ee4"
+  },
+  "config": {
+    "upstream_revision": "3cdb8709635beb29f66e4e23cd66060872ac3996",
+    "checkpoint": "/root/autodl-fs/models/MMaDA-8B-MixCoT",
+    "vq_checkpoint": "/root/autodl-fs/models/magvitv2",
+    "resolution": 512,
+    "resize": "crop",
+    "seed": 42,
+    "degap": {
+      "alpha": 1.0,
+      "mode": "degap_token",
+      "fixed_boundary": 16,
+      "lens": "native",
+      "query_scope": "all",
+      "chunk_size": 16,
+      "record_entropy": false
+    },
+    "generation": {
+      "max_new_tokens": 128,
+      "steps": 64,
+      "block_length": 32,
+      "temperature": 0.0,
+      "cfg_scale": 0.0,
+      "remasking": "low_confidence"
+    },
+    "benchmarks": {
+      "POPE": {
+        "max_new_tokens": 128,
+        "steps": 64,
+        "block_length": 32
+      },
+      "CHAIR": {
+        "max_new_tokens": 64,
+        "steps": 32,
+        "block_length": 16
+      }
+    }
+  },
+  "generation": {
+    "max_new_tokens": 128,
+    "steps": 64,
+    "block_length": 32,
+    "temperature": 0.0,
+    "cfg_scale": 0.0,
+    "remasking": "low_confidence"
+  },
+  "methods": {
+    "native": null,
+    "degap_token": {
+      "alpha": 1.0,
+      "mode": "degap_token",
+      "fixed_boundary": 16,
+      "lens": "native",
+      "query_scope": "all",
+      "chunk_size": 16,
+      "record_entropy": false
+    }
+  },
+  "samples_sha256": "d5626c25fac6022536657d2efb680a4453492cf41e2bea89875ad8edb26777e9",
+  "limit": 0,
+  "expected_rows": 9000,
+  "selected_rows": 9000,
+  "benchmark": "POPE",
+  "warmups_per_method_per_session": 3,
+  "excluded_samples_sha256": "b80ac4743e0f0befc8195f2135af05232bd20a21345673ddb88e037f60cc14af",
+  "seed_protocol": "same fixed seed reset for every unique input and method",
+  "checkpoints": {
+    "checkpoint": {
+      "path": "/autodl-fs/data/models/MMaDA-8B-MixCoT",
+      "metadata_sha256": {
+        "config.json": "e798636d887be4afbd938af19aaa5aba748af4079a340a9b7e37b7af3fe4b7e8",
+        "generation_config.json": "2b06946000aac36401a59811f315ea250926dfc7886f84460d147c65365b9d1d",
+        "model.safetensors.index.json": "100d866bf5712c18a168445bee60259c260fdb4d3901559444c7bce073e1a97a",
+        "special_tokens_map.json": "e9f1f0f6fa133da3169ae69b1969c51cced047a900050893d7a0711c6bd063aa",
+        "tokenizer.json": "be68475113d6c30e24247fa3f35bf328dad9c80c2f6fb04ced6e77077a0e6977",
+        "tokenizer_config.json": "89ec85925800c40ca73c3f2d52d22c195b40bc61f779918598729b433372599b"
+      },
+      "weights": {
+        "model-00001-of-00004.safetensors": {
+          "bytes": 4928472568,
+          "mtime_ns": 1785307388537536792
+        },
+        "model-00002-of-00004.safetensors": {
+          "bytes": 4932693832,
+          "mtime_ns": 1785307500249467249
+        },
+        "model-00003-of-00004.safetensors": {
+          "bytes": 4999819560,
+          "mtime_ns": 1785307461500735456
+        },
+        "model-00004-of-00004.safetensors": {
+          "bytes": 1304428928,
+          "mtime_ns": 1785306668639722754
+        }
+      }
+    },
+    "vq_checkpoint": {
+      "path": "/autodl-fs/data/models/magvitv2",
+      "metadata_sha256": {
+        "config.json": "75b8e650dce094065e2da4983c323f8ca943ed76b8ec8960aef99dafa3d04e6d"
+      },
+      "weights": {
+        "pytorch_model.safetensors": {
+          "bytes": 382013656,
+          "mtime_ns": 1785306216716747250
+        }
+      }
+    }
+  }
+}

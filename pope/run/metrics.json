@@ -1,0 +1,266 @@
+{
+  "native": {
+    "evaluated_rows": 9000,
+    "expected_rows": 9000,
+    "complete": true,
+    "unique_predictions": 5127,
+    "pope": {
+      "adversarial": {
+        "n": 3000,
+        "accuracy": 0.76,
+        "precision": 0.7410383189122374,
+        "recall": 0.7993333333333333,
+        "f1": 0.7690827453495831,
+        "yes_ratio": 0.5393333333333333,
+        "invalid_ratio": 0.0,
+        "empty_answers": 0,
+        "confusion": {
+          "tp": 1199,
+          "invalid": 0,
+          "empty": 0,
+          "fp": 419,
+          "tn": 1081,
+          "fn": 301
+        }
+      },
+      "popular": {
+        "n": 3000,
+        "accuracy": 0.8196666666666667,
+        "precision": 0.8332175121612231,
+        "recall": 0.7993333333333333,
+        "f1": 0.815923783599864,
+        "yes_ratio": 0.4796666666666667,
+        "invalid_ratio": 0.0,
+        "empty_answers": 0,
+        "confusion": {
+          "tp": 1199,
+          "invalid": 0,
+          "empty": 0,
+          "tn": 1260,
+          "fn": 301,
+          "fp": 240
+        }
+      },
+      "random": {
+        "n": 3000,
+        "accuracy": 0.8303333333333334,
+        "precision": 0.8521677327647477,
+        "recall": 0.7993333333333333,
+        "f1": 0.824905400756794,
+        "yes_ratio": 0.469,
+        "invalid_ratio": 0.0,
+        "empty_answers": 0,
+        "confusion": {
+          "tp": 1199,
+          "invalid": 0,
+          "empty": 0,
+          "tn": 1292,
+          "fn": 301,
+          "fp": 208
+        }
+      }
+    },
+    "decode_seconds": {
+      "mean": 6.6461802891204735,
+      "std": 0.030451880900338592
+    },
+    "end_to_end_seconds": {
+      "mean": 6.71649776734063,
+      "std": 0.030324387014501342
+    },
+    "preprocessing_seconds": {
+      "mean": 0.06970951152173066,
+      "std": 0.0034384194113576587
+    },
+    "answer_token_length": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "entropy_seconds": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "suffix_layers": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "mean_unique_boundaries": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "peak_allocated_bytes": 17625426944,
+    "remaining_masks": 0,
+    "image_tokens": 0,
+    "no_valid_split_ratio": null,
+    "candidate_flip_ratio": null,
+    "boundary_counts": {}
+  },
+  "degap_token": {
+    "evaluated_rows": 9000,
+    "expected_rows": 9000,
+    "complete": true,
+    "unique_predictions": 5127,
+    "pope": {
+      "adversarial": {
+        "n": 3000,
+        "accuracy": 0.729,
+        "precision": 0.6775193798449612,
+        "recall": 0.874,
+        "f1": 0.7633187772925765,
+        "yes_ratio": 0.645,
+        "invalid_ratio": 0.0,
+        "empty_answers": 0,
+        "confusion": {
+          "tp": 1311,
+          "invalid": 0,
+          "empty": 0,
+          "fp": 624,
+          "tn": 876,
+          "fn": 189
+        },
+        "paired_vs_native": {
+          "unit": "image",
+          "images": 500,
+          "repeats": 2000,
+          "seed": 42,
+          "delta_accuracy_ci95": [
+            -0.04166666666666663,
+            -0.01966666666666661
+          ],
+          "delta_f1_ci95": [
+            -0.01520399181823639,
+            0.0047543701543506225
+          ]
+        }
+      },
+      "popular": {
+        "n": 3000,
+        "accuracy": 0.8006666666666666,
+        "precision": 0.7622093023255814,
+        "recall": 0.874,
+        "f1": 0.8142857142857143,
+        "yes_ratio": 0.5733333333333334,
+        "invalid_ratio": 0.0003333333333333333,
+        "empty_answers": 1,
+        "confusion": {
+          "tp": 1311,
+          "invalid": 1,
+          "empty": 1,
+          "tn": 1091,
+          "fp": 409,
+          "fn": 189
+        },
+        "paired_vs_native": {
+          "unit": "image",
+          "images": 500,
+          "repeats": 2000,
+          "seed": 42,
+          "delta_accuracy_ci95": [
+            -0.02966666666666662,
+            -0.008333333333333304
+          ],
+          "delta_f1_ci95": [
+            -0.011784303787901292,
+            0.009126647788983368
+          ]
+        }
+      },
+      "random": {
+        "n": 3000,
+        "accuracy": 0.7933333333333333,
+        "precision": 0.7525832376578645,
+        "recall": 0.874,
+        "f1": 0.8087600246761258,
+        "yes_ratio": 0.5806666666666667,
+        "invalid_ratio": 0.0,
+        "empty_answers": 0,
+        "confusion": {
+          "tp": 1311,
+          "invalid": 0,
+          "empty": 0,
+          "tn": 1069,
+          "fp": 431,
+          "fn": 189
+        },
+        "paired_vs_native": {
+          "unit": "image",
+          "images": 500,
+          "repeats": 2000,
+          "seed": 42,
+          "delta_accuracy_ci95": [
+            -0.049000000000000044,
+            -0.024666666666666615
+          ],
+          "delta_f1_ci95": [
+            -0.02736791316658125,
+            -0.0039869156818184625
+          ]
+        }
+      }
+    },
+    "decode_seconds": {
+      "mean": 13.239183968197178,
+      "std": 1.4631869345852906
+    },
+    "end_to_end_seconds": {
+      "mean": 13.30801468328701,
+      "std": 1.4631894944876271
+    },
+    "preprocessing_seconds": {
+      "mean": 0.06828269769419627,
+      "std": 0.0028504140671479043
+    },
+    "answer_token_length": {
+      "mean": 1.0054612834015995,
+      "std": 0.39100653399705465
+    },
+    "entropy_seconds": {
+      "mean": 0.34561989854302627,
+      "std": 0.001987664328139205
+    },
+    "suffix_layers": {
+      "mean": 1263.2104544567974,
+      "std": 305.03913868587523
+    },
+    "mean_unique_boundaries": {
+      "mean": 3.19089806417008,
+      "std": 0.6926634033065167
+    },
+    "peak_allocated_bytes": 18442850816,
+    "remaining_masks": 0,
+    "image_tokens": 1,
+    "no_valid_split_ratio": 0.0,
+    "candidate_flip_ratio": 0.002934830310122879,
+    "boundary_counts": {
+      "23": 72145,
+      "29": 4504905,
+      "28": 300384,
+      "26": 223057,
+      "27": 190535,
+      "20": 8078,
+      "21": 13287,
+      "13": 32176,
+      "25": 92347,
+      "24": 73026,
+      "22": 23812,
+      "18": 2931,
+      "12": 14006,
+      "3": 7091,
+      "16": 9850,
+      "17": 1195,
+      "19": 4116,
+      "15": 400,
+      "14": 964,
+      "4": 237,
+      "10": 993,
+      "11": 2142,
+      "2": 437,
+      "9": 18,
+      "6": 10,
+      "5": 22,
+      "8": 5,
+      "1": 6,
+      "7": 1
+    }
+  }
+}

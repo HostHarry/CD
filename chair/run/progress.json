@@ -1,0 +1,15 @@
+{
+  "completed_unique_predictions": 1000,
+  "target_unique_predictions": 1000,
+  "completed_by_method": {
+    "degap_token": 500,
+    "native": 500
+  },
+  "gpus": [
+    "0",
+    "1"
+  ],
+  "worker_state": "complete",
+  "session": "19bfc8c97ace441ea82d49281d0d4b34",
+  "updated": 1793898217.76592
+}

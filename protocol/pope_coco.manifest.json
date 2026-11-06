@@ -1,0 +1,14 @@
+{
+  "dataset": "POPE-COCO",
+  "questions_sha256": {
+    "random": "ac25245170b975a5bdf9080b23fd431dfe6be458bc038259c1f4f09a6bef7994",
+    "popular": "72c1a8ad45d0c13514f5f22598261df41d3b533854d29682e924db50ed8aa753",
+    "adversarial": "420b3407db1fa9f1187a805dca41cb7b97fd91504e6c2179706188c107fb8ef8"
+  },
+  "parquet_sha256": "9957efc4a701d4a30d15ee828a9e4329df2de2bae751ac60e1fcd07267e75a8b",
+  "prompt_suffix": "",
+  "answer_parser": "official_no_not_no_else_yes",
+  "rows": 9000,
+  "images": 500,
+  "samples_sha256": "d279b2083f9fe97e502eee6a8e191ce5d2bb528fdbedfb10c357c3d7288346f6"
+}

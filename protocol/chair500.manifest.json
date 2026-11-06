@@ -1,0 +1,10 @@
+{
+  "dataset": "COCO-val2014",
+  "seed": 42,
+  "candidate_images": 40472,
+  "instances_sha256": "e1b4d1bc54906827b1a029981b1c77f2088bd4462569b7615db7929070c3ab47",
+  "excluded_samples_sha256": "b80ac4743e0f0befc8195f2135af05232bd20a21345673ddb88e037f60cc14af",
+  "rows": 500,
+  "images": 500,
+  "samples_sha256": "d06a661f5d1262a5856a577ed0a53f2c209481a8ac17b182ef59a5a5a778726c"
+}

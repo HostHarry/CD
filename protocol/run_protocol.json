@@ -1,0 +1,56 @@
+{
+  "previous_protocol_sha256": "efb4365615972119c1a729f57e22fc15f4bcce560f4514b612bdd0a1e89e8084",
+  "config_sha256": "6707ba733e43f54259bb7951e10be63726d74f109369dc4892bd1be3f04baa62",
+  "config": {
+    "upstream_revision": "3cdb8709635beb29f66e4e23cd66060872ac3996",
+    "checkpoint": "/root/autodl-fs/models/MMaDA-8B-MixCoT",
+    "vq_checkpoint": "/root/autodl-fs/models/magvitv2",
+    "resolution": 512,
+    "resize": "crop",
+    "seed": 42,
+    "degap": {
+      "alpha": 1.0,
+      "mode": "degap_token",
+      "fixed_boundary": 16,
+      "lens": "native",
+      "query_scope": "all",
+      "chunk_size": 16,
+      "record_entropy": false
+    },
+    "generation": {
+      "max_new_tokens": 128,
+      "steps": 64,
+      "block_length": 32,
+      "temperature": 0.0,
+      "cfg_scale": 0.0,
+      "remasking": "low_confidence"
+    },
+    "benchmarks": {
+      "POPE": {
+        "max_new_tokens": 128,
+        "steps": 64,
+        "block_length": 32
+      },
+      "CHAIR": {
+        "max_new_tokens": 64,
+        "steps": 32,
+        "block_length": 16
+      }
+    }
+  },
+  "reused_calibration": "/root/autodl-tmp/MMaDA-DEGAP/results/experiment/calibration",
+  "fixed_baseline": "fixed30",
+  "fixed_selection_scope": "unchanged CHAIR-64 calibration; not retuned on the new POPE schedule",
+  "old_pope_predictions_reused": false,
+  "methods": [
+    "native",
+    "degap_token"
+  ],
+  "pope_samples": {
+    "path": "data/pope_coco_yesno.jsonl",
+    "sha256": "d5626c25fac6022536657d2efb680a4453492cf41e2bea89875ad8edb26777e9",
+    "manifest_sha256": "91857b47bed4ca7e7e75540d1299b444fbba5d0f7d7c5e27d767632aa1c99e16",
+    "parent_sha256": "d279b2083f9fe97e502eee6a8e191ce5d2bb528fdbedfb10c357c3d7288346f6",
+    "prompt_suffix": " Please answer yes or no."
+  }
+}

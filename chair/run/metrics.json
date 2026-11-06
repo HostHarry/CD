@@ -1,0 +1,115 @@
+{
+  "native": {
+    "evaluated_rows": 500,
+    "expected_rows": 500,
+    "complete": true,
+    "unique_predictions": 500,
+    "pope": {},
+    "decode_seconds": {
+      "mean": 3.4994535106197,
+      "std": 0.008353005442940192
+    },
+    "end_to_end_seconds": {
+      "mean": 4.034040663141758,
+      "std": 0.012267226598912615
+    },
+    "preprocessing_seconds": {
+      "mean": 0.06411416991055012,
+      "std": 0.004089907165902729
+    },
+    "answer_token_length": {
+      "mean": 61.994,
+      "std": 5.363391091464429
+    },
+    "entropy_seconds": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "suffix_layers": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "mean_unique_boundaries": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "peak_allocated_bytes": 20446755328,
+    "remaining_masks": 0,
+    "image_tokens": 0,
+    "no_valid_split_ratio": null,
+    "candidate_flip_ratio": null,
+    "boundary_counts": {}
+  },
+  "degap_token": {
+    "evaluated_rows": 500,
+    "expected_rows": 500,
+    "complete": true,
+    "unique_predictions": 500,
+    "pope": {},
+    "decode_seconds": {
+      "mean": 7.793249172251672,
+      "std": 0.6089208239083724
+    },
+    "end_to_end_seconds": {
+      "mean": 8.329238468125462,
+      "std": 0.608828421667805
+    },
+    "preprocessing_seconds": {
+      "mean": 0.06395829851552844,
+      "std": 0.003650167741201989
+    },
+    "answer_token_length": {
+      "mean": 60.31,
+      "std": 6.221085114351032
+    },
+    "entropy_seconds": {
+      "mean": 0.7570436723265648,
+      "std": 0.0026533029222462704
+    },
+    "suffix_layers": {
+      "mean": 747.552,
+      "std": 135.16358716755042
+    },
+    "mean_unique_boundaries": {
+      "mean": 3.913625,
+      "std": 0.4327242734987257
+    },
+    "peak_allocated_bytes": 20746139648,
+    "remaining_masks": 0,
+    "image_tokens": 0,
+    "no_valid_split_ratio": 2.0833333333333333e-05,
+    "candidate_flip_ratio": 0.2734027777777778,
+    "boundary_counts": {
+      "26": 16552,
+      "25": 14313,
+      "24": 7154,
+      "29": 46974,
+      "28": 31775,
+      "27": 19650,
+      "23": 2081,
+      "21": 779,
+      "22": 1264,
+      "18": 332,
+      "17": 363,
+      "19": 631,
+      "20": 446,
+      "16": 364,
+      "14": 159,
+      "15": 259,
+      "10": 165,
+      "12": 229,
+      "13": 162,
+      "4": 65,
+      "8": 32,
+      "6": 21,
+      "9": 29,
+      "3": 52,
+      "7": 18,
+      "5": 32,
+      "11": 75,
+      "1": 17,
+      "2": 4,
+      "-1": 3
+    }
+  }
+}
