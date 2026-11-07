@@ -1,9 +1,9 @@
 {
   "destination_repository": "HostHarry/CD",
-  "remote_base_commit": "8faf3e2dbe6e63ec3121b68d5c98a10ddef6cddd",
+  "remote_base_commit": "4c56e6f2f5c5a69ef2287d55caaaa8f5911909f3",
   "source_git_commit": "6d84db7f66ee805f476e4cfafb3378f52fa0265b",
   "source_includes_uncommitted_experiment_implementation": true,
-  "scope": "Prompt/input implementation excerpts, exact runtime configurations, tokenizer configuration, and offline mechanism audit. Source excerpts require the original project environment; full run predictions and model weights are not included.",
+  "scope": "Input and decoding source excerpts, configurations, complete normalized answers, and offline mechanism/failure analyses. Full raw token/commit-log prediction artifacts and model weights are not included.",
   "files": {
     "source/configs/experiments/mmada_mmmu_cdapc_r50_shard0.yaml": {
       "source_path": "configs/experiments/mmada_mmmu_cdapc_r50_shard0.yaml",
@@ -136,6 +136,54 @@
     "reports/r50_generation_patterns.md": {
       "source_path": "reports/mmmu_r50_generation_patterns.md",
       "sha256": "1b90ec696f60d5f94ec220c37c99bc73a5feaf10aad7161cbab58922783ca213"
+    },
+    "reports/failure_modes.md": {
+      "source_path": "reports/mmmu_failure_modes.md",
+      "sha256": "91949524c7b083223cc1b84c390b60008a5ae8d9911eef3f28fd5a410d7163e1"
+    },
+    "reports/failure_modes.json": {
+      "source_path": "reports/mmmu_failure_modes.json",
+      "sha256": "f196f7019b08ec3fe1a8bae17e919c418cba97e226cea341cf4968d8fb9fbd4b"
+    },
+    "source/scripts/mmmu_failure_modes.py": {
+      "source_path": "scripts/mmmu_failure_modes.py",
+      "sha256": "bfa6e69d22e33a15919766a4838de5f5a9eff19a5e0d574ed17ee83b9db32916"
+    },
+    "source/scripts/export_mmmu_answers.py": {
+      "source_path": "scripts/export_mmmu_answers.py",
+      "sha256": "db7b7682b8842524ecda02db774441b3e8ff242290066bed1ab68fc1355dc398"
+    },
+    "answers/README.md": {
+      "source_path": "reports/mmmu_answers/README.md",
+      "sha256": "33dfb5c2390e1d8c6de37f0a0d226e1972b9d75a5eb69fdd71afe5ab315f2c5f"
+    },
+    "answers/manifest.json": {
+      "source_path": "reports/mmmu_answers/manifest.json",
+      "sha256": "8432267d4ab15527e39f87af8122d9ddd4f43c37d1fb7f51e038e97205ee1573"
+    },
+    "answers/native.txt": {
+      "source_path": "reports/mmmu_answers/native.txt",
+      "sha256": "562fb3ad9d74919f88b05e3b42646e912edd3c791ef862195e4742c1ff88fce0"
+    },
+    "answers/native.jsonl": {
+      "source_path": "reports/mmmu_answers/native.jsonl",
+      "sha256": "8095b9502ee58093758d2d510c98cb2a1c583345c4e3cd7e0e23ac3531093cca"
+    },
+    "answers/cdapc_r90.txt": {
+      "source_path": "reports/mmmu_answers/cdapc_r90.txt",
+      "sha256": "e125fb8f29f4544b4be12609a7d0b2bf4a8a8a23dd167a88b647a25614a1decd"
+    },
+    "answers/cdapc_r90.jsonl": {
+      "source_path": "reports/mmmu_answers/cdapc_r90.jsonl",
+      "sha256": "014915d5e79532936f13341e809b40d191ea2eebc02d89d85c771947e219acc7"
+    },
+    "answers/cdapc_r50.txt": {
+      "source_path": "reports/mmmu_answers/cdapc_r50.txt",
+      "sha256": "84f96964c03baf35485cbd9b5517b63091d41f04c0fed48f54fd27e72d17e5a2"
+    },
+    "answers/cdapc_r50.jsonl": {
+      "source_path": "reports/mmmu_answers/cdapc_r50.jsonl",
+      "sha256": "4e063acf4ff590109e8f686e93de6b7b23e26fc6dea5f3fd0b37fe2f91db07ef"
     }
   }
 }

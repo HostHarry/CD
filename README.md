@@ -85,8 +85,9 @@ The [r90 mechanism audit](mmmu/reports/r90_mechanism_audit.md) summarizes all
 900 questions per method, including gate activity, contrast replacements,
 fallback, stopping behavior, and paired judge results. The
 [machine-readable audit](mmmu/reports/mechanism_audit.json) contains the detailed
-statistics and r90 replacement events. This package contains source excerpts
-and summaries; the original MMMU predictions and model weights are not included.
+statistics and r90 replacement events. This package contains source excerpts,
+normalized answer text, and summaries; full raw-token/commit-log prediction
+artifacts and model weights are not included.
 
 The [generation-pattern follow-up](mmmu/reports/r90_generation_patterns.md)
 reconstructs how suffix EOS commits delay unfinished prefixes, when answer
@@ -97,5 +98,14 @@ per-question summaries and three complete example timelines.
 The [r50 comparison](mmmu/reports/r50_generation_patterns.md) examines increased
 contrast replacements, early EOS, output structure, and paired answer changes.
 It also separates official random-fallback hits from strict scoring results.
+
+[All 2,700 MMMU answer texts](mmmu/answers/README.md) are available as readable
+TXT and JSONL files, with 900 responses each for Native, r90, and r50. The text
+is copied exactly from the saved scoring records, including incomplete or
+repetitive reasoning and the final answer.
+
+The [failure-mode analysis](mmmu/reports/failure_modes.md) separates missing
+reasoning tags, empty reasoning, unclosed reasoning, missing suffix answers,
+and reviewed arithmetic or consistency errors, with per-question assignments.
 
 To verify the MMMU package files, run `cd mmmu && sha256sum -c SHA256SUMS`.
