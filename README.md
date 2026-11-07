@@ -94,4 +94,8 @@ letters are committed relative to reasoning text, and how empty `<think>`
 outputs arise. Its [data](mmmu/reports/generation_patterns.json) includes
 per-question summaries and three complete example timelines.
 
+The [r50 comparison](mmmu/reports/r50_generation_patterns.md) examines increased
+contrast replacements, early EOS, output structure, and paired answer changes.
+It also separates official random-fallback hits from strict scoring results.
+
 To verify the MMMU package files, run `cd mmmu && sha256sum -c SHA256SUMS`.

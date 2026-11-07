@@ -6,7 +6,7 @@ from collections import Counter, defaultdict
 
 from tokenizers import Tokenizer
 
-from mmmu_mechanism_audit import ROOT, describe, read
+from mmmu_mechanism_audit import ROOT, describe, question_bootstrap, read, transitions
 
 
 CASE_IDS = {
@@ -62,7 +62,8 @@ def analyze(method, index, tokenizer):
             counts["samples"] += 1
             counts["judge_correct"] += judge
             summary = {"judge": judge, "steps": p["decode_iterations"], "length": n,
-                       "structure": structure, "repeated_8gram": repeated}
+                       "structure": structure, "repeated_8gram": repeated,
+                       "think_only": text.strip() == "<think>", "gold": score["gold"]}
             rows[sid] = summary
             if sid in CASE_IDS:
                 cases[sid] = {"text": score["normalized"]["text"], "gold": score["gold"],
@@ -85,6 +86,7 @@ def analyze(method, index, tokenizer):
                 if e["reason"] == "qualified":
                     r["qualified_pool1"] += e["pool_size"] == 1
                     r["qualified_visual_base_below_r_threshold"] += math.exp(e["logp_visual_base"]) < threshold
+                    values[region + "_qualified_visual_probability"].append(math.exp(e["logp_visual_contrast"]))
                 else:
                     r["fallback_visual_base_above_r_threshold"] += math.exp(e["logp_visual_base"]) >= threshold
                 if e["pool_size"] == 1:
@@ -170,7 +172,11 @@ def analyze(method, index, tokenizer):
                 hist["suffix_option_group_n"]["body_incomplete" if late_body else "body_complete"] += 1
                 values["body_holes_after_suffix_option_commit"].append(len(late_body))
                 summary.update(suffix_option=letter, suffix_option_iteration=answer_iteration,
-                               body_holes_after_suffix_option_commit=len(late_body))
+                               body_holes_after_suffix_option_commit=len(late_body),
+                               suffix_option_switch=position_entry[answer_pos]["written_id"] != position_entry[answer_pos]["base_id"],
+                               suffix_option_base=tokenizer.decode([position_entry[answer_pos]["base_id"]], skip_special_tokens=False),
+                               suffix_option_written=tokenizer.decode([position_entry[answer_pos]["written_id"]], skip_special_tokens=False),
+                               suffix_option_choices=list(p["options"]))
                 if sid in CASE_IDS:
                     cases[sid]["suffix_option_probe"] = {
                         "letter": letter, "token_position": answer_pos, "iteration": answer_iteration,
@@ -194,6 +200,34 @@ def main():
               for method in ("native", "cdapc_r90", "cdapc_r50")}
     sets = [set(value["samples"]) for value in report.values()]
     assert len(sets[0]) == 900 and all(s == sets[0] for s in sets)
+    r90, r50 = report["cdapc_r90"]["samples"], report["cdapc_r50"]["samples"]
+    ids = sorted(r90)
+    subsets = {
+        "all": ids,
+        "became_think_only": [s for s in ids if r50[s]["think_only"] and not r90[s]["think_only"]],
+        "recovered_from_think_only": [s for s in ids if r90[s]["think_only"] and not r50[s]["think_only"]],
+        "lost_closed_suffix": [s for s in ids if r90[s]["structure"] == "closed_with_suffix"
+                               and r50[s]["structure"] != "closed_with_suffix"],
+        "gained_closed_suffix": [s for s in ids if r50[s]["structure"] == "closed_with_suffix"
+                                 and r90[s]["structure"] != "closed_with_suffix"],
+        "r50_explicit_suffix_switch": [s for s in ids if r50[s].get("suffix_option_switch")],
+    }
+    local_letter_flips = []
+    for sid in subsets["r50_explicit_suffix_switch"]:
+        row = r50[sid]
+        base, written = row["suffix_option_base"].strip(), row["suffix_option_written"].strip()
+        if base in row["suffix_option_choices"] and written in row["suffix_option_choices"]:
+            local_letter_flips.append({"sample_id": sid, "base": base, "written": written,
+                                      "gold": row["gold"], "judge_r50": row["judge"],
+                                      "judge_r90": r90[sid]["judge"]})
+    report["r50_vs_r90"] = {
+        "judge_transitions": {name: transitions(r90, r50, selected) for name, selected in subsets.items()},
+        "judge_delta_bootstrap": question_bootstrap({s: r90[s]["judge"] for s in ids},
+                                                   {s: r50[s]["judge"] for s in ids}),
+        "r50_suffix_switch_base_tokens": dict(Counter(r50[s]["suffix_option_base"]
+                                                      for s in subsets["r50_explicit_suffix_switch"])),
+        "r50_suffix_local_letter_flips": local_letter_flips,
+    }
     metadata = {r["sample_id"]: r for r in read(ROOT / "data/mmmu_val/samples.json")}
     report["case_questions"] = {sid: {k: metadata[sid][k] for k in ("question", "options")} for sid in sorted(CASE_IDS)}
     report["limitations"] = [

@@ -1,6 +1,6 @@
 {
   "destination_repository": "HostHarry/CD",
-  "remote_base_commit": "e48814d6994bd3a8ed1647f5e3906758135bfc6d",
+  "remote_base_commit": "8faf3e2dbe6e63ec3121b68d5c98a10ddef6cddd",
   "source_git_commit": "6d84db7f66ee805f476e4cfafb3378f52fa0265b",
   "source_includes_uncommitted_experiment_implementation": true,
   "scope": "Prompt/input implementation excerpts, exact runtime configurations, tokenizer configuration, and offline mechanism audit. Source excerpts require the original project environment; full run predictions and model weights are not included.",
@@ -127,11 +127,15 @@
     },
     "reports/generation_patterns.json": {
       "source_path": "reports/mmmu_generation_patterns.json",
-      "sha256": "6ebef636c910c2e352b59e6d93130eccd5c2ddda90c5e5631a55ffde818e890e"
+      "sha256": "b8e70aa8d8e3dec7e1ed05be4252ddb458791d640a459754621455654bf78480"
     },
     "source/scripts/mmmu_generation_patterns.py": {
       "source_path": "scripts/mmmu_generation_patterns.py",
-      "sha256": "2dfadd3d6d0c84936af16289d87d45289beedab1da3ddcc40189e0ef67fb0d39"
+      "sha256": "569d19d93ccb0a3048c71be63fce3896587236a711f9d387e68949ccfc6ad320"
+    },
+    "reports/r50_generation_patterns.md": {
+      "source_path": "reports/mmmu_r50_generation_patterns.md",
+      "sha256": "1b90ec696f60d5f94ec220c37c99bc73a5feaf10aad7161cbab58922783ca213"
     }
   }
 }
