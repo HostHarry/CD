@@ -88,4 +88,10 @@ fallback, stopping behavior, and paired judge results. The
 statistics and r90 replacement events. This package contains source excerpts
 and summaries; the original MMMU predictions and model weights are not included.
 
+The [generation-pattern follow-up](mmmu/reports/r90_generation_patterns.md)
+reconstructs how suffix EOS commits delay unfinished prefixes, when answer
+letters are committed relative to reasoning text, and how empty `<think>`
+outputs arise. Its [data](mmmu/reports/generation_patterns.json) includes
+per-question summaries and three complete example timelines.
+
 To verify the MMMU package files, run `cd mmmu && sha256sum -c SHA256SUMS`.
