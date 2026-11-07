@@ -73,3 +73,19 @@ degap_token 26.8 / 10.6 / 56.1.
   source snapshot used (MMaDA code under its MIT licence, see `LICENSE-MMaDA`).
 - `protocol/`, `environment/`: sample files, manifests, run config, package lock.
 - `scripts/export_from_server.py` produced this export; `scripts/verify.py` checks it.
+
+## MMMU input protocol and CDAPC audit
+
+The separate [MMMU protocol](mmmu/README.md) documents the exact
+`mmmu_wino_reasoning_v1` user prompt, tokenizer template, image preprocessing,
+and single-image selection for multi-image questions. It includes the input
+construction source excerpts and Native / CDAPC r90 / CDAPC r50 configurations.
+
+The [r90 mechanism audit](mmmu/reports/r90_mechanism_audit.md) summarizes all
+900 questions per method, including gate activity, contrast replacements,
+fallback, stopping behavior, and paired judge results. The
+[machine-readable audit](mmmu/reports/mechanism_audit.json) contains the detailed
+statistics and r90 replacement events. This package contains source excerpts
+and summaries; the original MMMU predictions and model weights are not included.
+
+To verify the MMMU package files, run `cd mmmu && sha256sum -c SHA256SUMS`.
