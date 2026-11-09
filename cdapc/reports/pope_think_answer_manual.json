@@ -1,0 +1,183 @@
+{
+  "pope_aokvqa_reasoning_r90": {
+    "2887c54b40cb9a7fac022d7a64fec281300cb810525d75d10f993f5ffcff02c1": {
+      "category": "no_reliable_answer", "answer": null,
+      "text_sha256": "6d1a04a068f625653839254491a56976ef913c16ca500e76095d9d0b599b5921",
+      "reason": "Only says the brick wall is not a floor; does not establish whether a floor exists elsewhere."
+    },
+    "221de7572226d33e51ae6be53b7ccc9ff2a2c1bb004da7966757175b82dd9f43": {
+      "category": "body_semantic", "answer": "yes",
+      "text_sha256": "491874368baecdb884604eae0f4e2afe8a28da77705b17ffdc135b77a5988e1f",
+      "reason": "Explicitly describes various food items in a tray before degenerating into repetition."
+    },
+    "77566e6bcbe8a97fdb68b01a66a03aea739cafe34935a87351b903d78fa559d5": {
+      "category": "no_reliable_answer", "answer": null,
+      "text_sha256": "0fe80344e6ce4c68c6b68b51746487ae4b783c114913f25886656d81706ae52c",
+      "reason": "Describes donuts and repeats a sign; makes no claim about the queried horse."
+    },
+    "a0b3338a2394fd0194c514898f875cf411bc2f126ecae34c2337fe41d5a35843": {
+      "category": "outside_semantic", "answer": "no",
+      "text_sha256": "c5b1ac972d9501bfaf3772b5669bf2c2a8f3cf17985b3a4a0621477e0d4c0293",
+      "reason": "Final sentence explicitly says there is no pavement in the image."
+    }
+  },
+  "pope_gqa_reasoning_r90": {
+    "4dc3061de350690b2d64296594ce7c5c037cede8228b9d29e5e1a39d73ce8f41": {
+      "category": "outside_semantic", "answer": "no",
+      "text_sha256": "73887e14e0814f465902a8b1a39a4079891000c2b1ec83b867b22792bf6f434d",
+      "reason": "Final sentence explicitly says there is no bed in the image."
+    },
+    "e7205536762f8080928fd63eef67e2bdc7687189fbcf7d85f3054c46019b9f3b": {
+      "category": "outside_semantic", "answer": "yes",
+      "text_sha256": "5ffe45fa0d46c2a972e20b02cb70798716d1a4b4fe0e9fb96e2084263096d4bf",
+      "reason": "Final sentence explicitly states there is pavement in the image."
+    },
+    "34da561acda5f6ca4f52e2136bd33e7bdd6ff90267e11aebe51989535928ea49": {
+      "category": "outside_semantic", "answer": "yes",
+      "text_sha256": "944bc713238ce32bfb86a89f4ba4ccced84e6cc7e1b09f016e8a8f3327cce448",
+      "reason": "Final sentence explicitly states there is a table in the image."
+    },
+    "3bed51386a1b747ec4d92d60ccc69e19a6b5d70274082247144e88a0152d686b": {
+      "category": "outside_semantic", "answer": "yes",
+      "text_sha256": "5bf18e215d5754341bb454431fe709fde3271972822633414bec91c8f9ca6599",
+      "reason": "Final sentence explicitly states there is a dining table in the image."
+    }
+  },
+  "pope_gqa_reasoning_r70": {
+    "de01c1c92f8c3f324bfd1f6e66392eaf076bae3ec13ab356d7e00395f76fbdcb": {
+      "category": "body_semantic", "answer": "yes",
+      "text_sha256": "7d0ae546deb1ad02973fed6f61fecaa8c3af667d1ad572f5e901bb6024750c1e",
+      "reason": "The explicit concluding answer asserts a donut exists, despite contradictory earlier reasoning. Extract the conclusion, not reasoning correctness."
+    },
+    "d06a0c63ad632274964fb5307ce42c73d064091da484b976a4a9bf39269c1ecf": {
+      "category": "body_semantic", "answer": "yes",
+      "text_sha256": "0f21c451ac169be640ef80abff3be8b5b74689aa1265fd71af1714e5d843c72e",
+      "reason": "Concluding sentence explicitly states there is a person; whether that inference is justified is separate."
+    },
+    "d4c2a80c7f1cfa9b3fbd3d96d2894fa884932baf21f2d2574272bf4ade1f1b67": {
+      "category": "outside_semantic", "answer": "no",
+      "text_sha256": "976d32d8c5c1204e3e2ca473956da52cca4617dc1a3f7254819781f220d7af5a",
+      "reason": "Final sentence explicitly says there is no oven in the image."
+    },
+    "ea03f6185f3b0f6896c0964568d3cfdcc51310ea9e006f08cf9c182035fff741": {
+      "category": "body_semantic", "answer": "no",
+      "text_sha256": "0c6a2bed32ab5224ec5a6af135bf294df60866c287f5f42b52ebb7ae4db677f5",
+      "reason": "Body explicitly says there is no visible floor."
+    },
+    "602c452084c549ed7e8b55b91058defaf4f2c9fb049d24d438f3d0b30a1bcfa3": {
+      "category": "malformed_final", "answer": "no",
+      "text_sha256": "06b238a8cf2d5f8040adf5373d03b8477b62af420267d158d2b79a4dcaddf942",
+      "reason": "Ends with malformed 'Thethink> No'; preceding body also explicitly denies a person."
+    },
+    "ba968ffaa84a912fb99af2f2ec742242cd1895b2099ad5dcce28d1108f7c989d": {
+      "category": "no_reliable_answer", "answer": null,
+      "text_sha256": "cb54987d4b62a2f03c697e527e3a8ef8e5d20042397137e2c291f23c0c0165e9",
+      "reason": "Repetition of giraffe fragments supplies no answer about the queried person."
+    },
+    "e9886f28b2e26c8460a6127c9f95da33673fe13e1210469df708ac2eaa7d779c": {
+      "category": "body_semantic", "answer": "no",
+      "text_sha256": "befdbc7fca0a0391f4ca092da0ae25c9f9f98236947b8d31739190823a3aed05",
+      "reason": "Body explicitly says there is no indication of a tree and surrounding objects are not trees."
+    },
+    "7d98d1aa7ed0fffd967a61467ce7ab0335e5a128a0d6ce4f9c325bcdd666be48": {
+      "category": "body_semantic", "answer": "yes",
+      "text_sha256": "8a5edf95105cdebcb1aa106c44f304af1492e09894c61e47c38692b34d4f6a59",
+      "reason": "Body explicitly describes a person's legs and the presence of a person."
+    },
+    "bb3cd98d17c4de3a868d44e5d9400b815ce4e87cf38b886ed8c8e579f6744a7b": {
+      "category": "malformed_final", "answer": "no",
+      "text_sha256": "beda3adcdca3c62b90fd01dbb66988f885e02298a4d93c9f4c6711fff0779354",
+      "reason": "Ends with '</thinkthink No' and explicitly states no sandwich in the preceding text."
+    },
+    "853f73cd3155407a5267cd1d43ff8475984f40fa01d10312d7284a93409870e2": {
+      "category": "body_semantic", "answer": "yes",
+      "text_sha256": "022a352df47fe0b6534f7ac9ed2823fae149e7c4643322804fdf55e23fb51ece",
+      "reason": "Identifies an object as a refrigerator and describes its position; supplies an affirmative textual claim."
+    },
+    "5f3607e37a85fcef38da4cb5779f0149883a0025ea620531c83af5788c353467": {
+      "category": "body_semantic", "answer": "yes",
+      "text_sha256": "99eb2c486a8c5473ec466a29790c47490b0d579b1f39a4dc18226a31770213bc",
+      "reason": "Explicitly says the frisbee is visible in the dog's mouth."
+    },
+    "71ffcd64109d45f236240122948edabfd9ec4e31db0a0cb7916dcf6f3bcbfedf": {
+      "category": "body_semantic", "answer": "yes",
+      "text_sha256": "26fcfe5007d7785ec09503d53430848a7cbe93a4c3bef75bfffccc2415b6a68a",
+      "reason": "Body explicitly describes a table, although the final 'answer is:' has no following answer."
+    },
+    "691edb718b4faa96f3a467a251f25e2c019a2fa35a6688f18425dab8e870d7b7": {
+      "category": "body_semantic", "answer": "yes",
+      "text_sha256": "b329774e7abc536b24d8d4968ad5c507d4334d15e46f3acc565948b92dc3c20d",
+      "reason": "Concludes that there is a knife in the image."
+    },
+    "e7205536762f8080928fd63eef67e2bdc7687189fbcf7d85f3054c46019b9f3b": {
+      "category": "malformed_final", "answer": "yes",
+      "text_sha256": "078937fb677ac3a3737d77a5070a1acfa77938e8d53727bbb74e5836eb3ec7f4",
+      "reason": "Clear Yes sentence follows a normal closing tag but is followed by an extra closing tag."
+    },
+    "de751c02f23761f1de48871651008cc56bb5f5f4229d51e0f422a1ac9fa48fdd": {
+      "category": "body_explicit", "answer": "yes",
+      "text_sha256": "0c19c6e542e5406d34e192bf19bd0fc079673fb71a26010570d6a3090cfe9b11",
+      "reason": "Body explicitly says 'Answer: Yes, there is a cow in the image.'"
+    },
+    "99c206878f8f21c66cb5e80cc6993985370b93bf4467be5b57a42b786fcc1eb7": {
+      "category": "outside_semantic", "answer": "yes",
+      "text_sha256": "7b08b5370948093f94770e4d188fc401b1c12af112ab325df6bc930d644e623a",
+      "reason": "Final sentence explicitly states there is a platform."
+    },
+    "3b640d37bfd5a6ce2a018e10e15d7b0082c856600644c58b00c64502590270a7": {
+      "category": "conflicting_answer", "answer": null,
+      "text_sha256": "9889aade48178f923bd6d0b98a4a5dd1a0844ca52cdfe3cfbf11bfc54a346343",
+      "reason": "Final 'Yes, there is no person' has opposite literal and semantic polarities; retain unresolved."
+    },
+    "f860c091821e2f5150c7ed801bb2bde1b738bdd728aa8bd08990d0b4e9ca3c41": {
+      "category": "no_reliable_answer", "answer": null,
+      "text_sha256": "f5b8af7f367831fcbbd3fcc099e913c9142a2716306d856f977e25d781874063",
+      "reason": "Kitchen repetition makes no presence/absence claim about the queried person."
+    },
+    "3a1bf4fc89f300dffe1e6fa4ddf1a9a7bbb979319b465b7c00c0eaf9fcfb1e2c": {
+      "category": "body_semantic", "answer": "yes",
+      "text_sha256": "3fd4bf87ad9235c002e08d9889f3c3491890c4c82f75583cc9fe6848bb047e98",
+      "reason": "Explicitly describes the tiled floor and states it is present."
+    },
+    "2a2ad81eea97fdaa7e199db6256dd7f06856267be92dd3b2f088dca87eaa1a18": {
+      "category": "outside_semantic", "answer": "yes",
+      "text_sha256": "611e8c194b5300b4c500c21f4f3d2cdbb6bfb84413e8ae75ca8b4f7c63012e89",
+      "reason": "After malformed closing tag, final text explicitly states there is a bed."
+    },
+    "0289a1f35b81c2e8fca8b964f6cb68182838e76ca4811203af615d73e54257bb": {
+      "category": "no_reliable_answer", "answer": null,
+      "text_sha256": "12827808b5993378770ac35e416f5b57dcf48be90c55fa85183320dc6b6f218c",
+      "reason": "Repeating sign text does not answer whether there is a floor."
+    },
+    "10a697672a41d2dbc4f711fe9925f1ed00d005c47cfd2cb8dc547e70ec7f3dab": {
+      "category": "no_reliable_answer", "answer": null,
+      "text_sha256": "06c86d7018858145dee3a95dc18f533225a8c8efffb5086c66b849ac186130e7",
+      "reason": "Describes a tennis court without saying whether it counts as a floor; do not infer the target label."
+    },
+    "ff790f88564758019c91458658789e158be61d6cfd4d5ae7d29a680bc45b222d": {
+      "category": "outside_semantic", "answer": "yes",
+      "text_sha256": "ed59bc2ef445e9d7ffc1f8afdbf89dfeec9cb1844aaca57936ec5ee9df853304",
+      "reason": "Final sentence explicitly states there is a fence."
+    },
+    "29131b220aeec5d259d5cbee90ab3bd9abbc18c1fb9743a1bc6c1c0daa360acb": {
+      "category": "body_semantic", "answer": "yes",
+      "text_sha256": "b03e82d0c9b5793c701cea90f71ef1a555151be886e7102720d3a6752882d4cd",
+      "reason": "Body explicitly identifies the paved area as pavement and says it is present."
+    },
+    "d3268fd52a88cb3e8413edd4f1128fd40528ef7707646e43ed59f96f9d6e76c8": {
+      "category": "body_semantic", "answer": "yes",
+      "text_sha256": "de9ca7104f73c4a15777f28befa92131864093946fe661865a8504c87ef53401",
+      "reason": "Body explicitly says grass is visible in the foreground and middle ground."
+    },
+    "b304f74866e7f39fae9e8da977d35f3b273e8242b0ab52f0d027f9afb77c3194": {
+      "category": "outside_semantic", "answer": "yes",
+      "text_sha256": "c7982a85885bb85251adc100f24cf4ac74fcf3c6ff57b45fe88d21092ada9fe1",
+      "reason": "Final sentence explicitly states there is a bed."
+    },
+    "40e10cf2a1a2958732e72ad8a0b72a3e0bd70ff43c7d782c275b591d2e017d9d": {
+      "category": "outside_semantic", "answer": "yes",
+      "text_sha256": "919a0352e3d85670b7ed7fac116dd2ba778c30fc02153934e07868e1a7193f57",
+      "reason": "Final sentence explicitly states there is a bed."
+    }
+  }
+}

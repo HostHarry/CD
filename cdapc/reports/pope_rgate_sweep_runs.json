@@ -1,0 +1,38 @@
+{
+  "r80": {
+    "shard0": "runs/20261106T040920557476Z_4a68efaf2981",
+    "shard1": "runs/20261106T040920584262Z_fa2df5c489e9",
+    "shard2": "runs/20261106T040920434954Z_8c09a03b6192",
+    "eval0": "e29ec8ce0147afeddabe775412871cd2627e8eba81afdad5b971a6b78708bc00",
+    "eval1": "cfabb5dd06baef88c0c98826ca07315a18aa33493062c1884c06bc901bcc0fab",
+    "eval2": "d50de02f74d613ca8de4424a023c14379dcb0c59deafd6a45740b31862e8f6a1",
+    "report": "reports/pope_yesno_mmada_cdapc_L128_r80.json"
+  },
+  "r70": {
+    "shard0": "runs/20261106T051017657714Z_566245eb7288",
+    "shard1": "runs/20261106T051017795577Z_9b7e6bcb77f1",
+    "shard2": "runs/20261106T051017681423Z_6d26f5987659",
+    "eval0": "1838a3ab25d77ab5bc7b5a7eda9fb2047afa99fea54cc6f87a88755bc6499a6d",
+    "eval1": "8e77649e892d56c7cda95fc7e951a162fa6279ec7c4ddbeee543273f3ab333e7",
+    "eval2": "e1b2da1abda4fc5f109006ec866b47061c362da9f01ae3bce53be65ae0b81b77",
+    "report": "reports/pope_yesno_mmada_cdapc_L128_r70.json"
+  },
+  "r60": {
+    "shard0": "runs/20261106T055610093038Z_7aa0a9c38dc0",
+    "shard1": "runs/20261106T055609765614Z_26f5b1777dbf",
+    "shard2": "runs/20261106T055609908386Z_d7f2022231b0",
+    "eval0": "c8da55b540c1c289e27b7f5629d8d5eba27f70d70ccfece771709695aedeb9a4",
+    "eval1": "ec69c313924fd0bcbcf2bec94ba6c7d64a641768b6d7ac57865e62c422b49453",
+    "eval2": "32a445d08742477f0824bc07956f33061c81ad85135d019ece8d840345f3c4e5",
+    "report": "reports/pope_yesno_mmada_cdapc_L128_r60.json"
+  },
+  "r50": {
+    "shard0": "runs/20261106T062650829508Z_79dcdfeb830f",
+    "shard1": "runs/20261106T062650656233Z_ef56b3ab4f6c",
+    "shard2": "runs/20261106T062650510935Z_859982d8d8f6",
+    "eval0": "71f1bd325179f991d4f4b3636a701f5e692694fb7817a262f5e7ccad763b114c",
+    "eval1": "98c5c39de39d9357cb38839b3f542d3a3d497d3103182b04301ccce3bf1f445a",
+    "eval2": "c230001104a0ae0dde924a9f5e1bfa3e099244c49ba9f33d558c699e8eb10d65",
+    "report": "reports/pope_yesno_mmada_cdapc_L128_r50.json"
+  }
+}

@@ -1,0 +1,46 @@
+schema_version: 1
+run:
+  name: mmada_m3cot_native_smoke_v1
+  seed: 20261105
+  replicate_id: 0
+  sample_ids_file: manifests/m3cot_smoke_ids.json
+  output_root: runs
+  fail_on_error: true
+model:
+  backend: mmada
+  checkpoint: models/mmada
+  checkpoint_revision: 3ee0085f0c42541f1134aae30482954451952406
+  tokenizer_revision: 3ee0085f0c42541f1134aae30482954451952406
+  upstream_source_revision: 3cdb8709635beb29f66e4e23cd66060872ac3996
+  vision_component_revision: 5c3fa78f8b3523347c5cd1a4c97f3c4e96f33d5d
+  vision_checkpoint: models/magvitv2
+  upstream_root: upstream/mmada
+  dtype: bfloat16
+  attention_backend: sdpa
+  attention_semantics: bidirectional
+runtime:
+  device: cuda:0
+  sample_batch_size: 1
+protocol:
+  task: m3cot
+  dataset_revision: 48cf35001d595a6b0290c82c897a4b4563390821
+  data_root: data/m3cot_smoke
+  split: test
+  prompt_id: m3cot_cot_final_v1
+  canvas_length: 128
+  normalizer_id: first_eos_v1
+  strict_parser_id: strict_final_v1
+  official_scorer_revision: ee50d5ac69661f81731d33647dd307d1f84eada5
+  scorer_profile: official_and_strict
+  primary_metric: official
+method: native
+recording:
+  trace_level: 'off'
+  snapshot_first_eligible_flip: true
+native:
+  steps: 128
+  block_length: 32
+  temperature: 0.0
+  remasking: low_confidence
+  cfg_scale: 0.0
+  cache: disabled

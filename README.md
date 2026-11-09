@@ -109,3 +109,13 @@ reasoning tags, empty reasoning, unclosed reasoning, missing suffix answers,
 and reviewed arithmetic or consistency errors, with per-question assignments.
 
 To verify the MMMU package files, run `cd mmmu && sha256sum -c SHA256SUMS`.
+
+## CD-APC experiments
+
+The [cdapc/](cdapc/README.md) package archives all completed CD-APC experiments
+from `cdapc-experiments` and the `cdapc-mme` snapshot: MMMU r70 (L256/I128),
+POPE direct/think on COCO/A-OKVQA/GQA, CHAIR, the GQA think K-commit pilot,
+and MME. It includes source excerpts, configs, stored reports, and normalized
+per-sample answer text (JSONL/TXT); raw token artifacts, model weights, and
+the incomplete POPE think K4 L256/I128 experiment are excluded. Verify with
+`cd cdapc && sha256sum -c SHA256SUMS`.

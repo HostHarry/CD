@@ -1,0 +1,61 @@
+schema_version: 1
+run:
+  name: mmada_chair_r70_shard1
+  seed: 42
+  replicate_id: 0
+  sample_ids_file: manifests/chair_shard1_ids.json
+  output_root: runs
+  fail_on_error: false
+model:
+  backend: mmada
+  checkpoint: models/mmada
+  checkpoint_revision: 3ee0085f0c42541f1134aae30482954451952406
+  tokenizer_revision: 3ee0085f0c42541f1134aae30482954451952406
+  upstream_source_revision: 3cdb8709635beb29f66e4e23cd66060872ac3996
+  vision_component_revision: 5c3fa78f8b3523347c5cd1a4c97f3c4e96f33d5d
+  vision_checkpoint: models/magvitv2
+  upstream_root: upstream/mmada
+  dtype: bfloat16
+  attention_backend: sdpa
+  attention_semantics: bidirectional
+runtime:
+  device: cuda:0
+  sample_batch_size: 1
+protocol:
+  task: chair
+  dataset_revision: d06a661f5d1262a5856a577ed0a53f2c209481a8ac17b182ef59a5a5a778726c
+  data_root: data/chair
+  split: validation
+  prompt_id: chair_caption_v1
+  canvas_length: 64
+  normalizer_id: first_eos_v1
+  strict_parser_id: chair_caption_v1
+  official_scorer_revision: 4087a26211aa2339b9a76307cb8f0321ef691d0a
+  scorer_profile: official_and_strict
+  primary_metric: official
+method: cdapc
+recording:
+  trace_level: 'off'
+  snapshot_first_eligible_flip: true
+  commit_log: true
+cdapc:
+  variant: full
+  alpha: 0.5
+  beta: 0.1
+  u_gate:
+    enabled: true
+    threshold: 0.1
+  r_gate:
+    enabled: true
+    threshold: 0.7
+  window:
+    kind: fixed
+    width: 16
+  max_commit_per_iteration: 16
+  fallback:
+    position_rule: normalized_gate_readiness
+    token_rule: base_top1
+  branch_execution: sequential
+  cache: disabled
+  stop_rule: eos_prefix_complete
+  iteration_limit: 64

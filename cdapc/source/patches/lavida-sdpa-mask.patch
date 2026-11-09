@@ -1,0 +1,22 @@
+diff --git a/llava/model/language_model/llada/modeling_llada.py b/llava/model/language_model/llada/modeling_llada.py
+index 85638af..d09270d 100644
+--- a/llava/model/language_model/llada/modeling_llada.py
++++ b/llava/model/language_model/llada/modeling_llada.py
+@@ -666,7 +666,7 @@ def _scaled_dot_product_attention(
+                 q,
+                 k,
+                 v,
+-                attn_mask=None,
++                attn_mask=attn_mask,
+                 dropout_p=dropout_p,
+                 is_causal=False,
+             )
+@@ -763,7 +763,7 @@ def attention(
+                 q,
+                 k,
+                 v,
+-                attn_mask=None,
++                attn_mask=attention_bias,
+                 dropout_p=0.0 if not self.training else self.config.attention_dropout,
+                 is_causal=False,
+             )

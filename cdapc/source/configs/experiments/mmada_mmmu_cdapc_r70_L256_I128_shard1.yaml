@@ -1,0 +1,62 @@
+schema_version: 1
+run:
+  name: mmada_mmmu_cdapc_r70_L256_I128_shard1
+  seed: 20261105
+  replicate_id: 0
+  sample_ids_file: manifests/mmmu_val_shard1_ids.json
+  output_root: runs
+  fail_on_error: false
+model:
+  backend: mmada
+  checkpoint: models/mmada
+  checkpoint_revision: 3ee0085f0c42541f1134aae30482954451952406
+  tokenizer_revision: 3ee0085f0c42541f1134aae30482954451952406
+  upstream_source_revision: 3cdb8709635beb29f66e4e23cd66060872ac3996
+  vision_component_revision: 5c3fa78f8b3523347c5cd1a4c97f3c4e96f33d5d
+  vision_checkpoint: models/magvitv2
+  upstream_root: upstream/mmada
+  dtype: bfloat16
+  attention_backend: sdpa
+  attention_semantics: bidirectional
+runtime:
+  device: cuda:0
+  sample_batch_size: 1
+protocol:
+  task: mmmu
+  dataset_revision: 364f2e2eb107b36e07ff4c5a15f5947a759cef47
+  data_root: data/mmmu_val
+  split: validation
+  prompt_id: mmmu_wino_reasoning_v1
+  canvas_length: 256
+  normalizer_id: first_eos_v1
+  strict_parser_id: mmmu_rule_noguess_v1
+  official_scorer_revision: 51ce7f3e829c16bb44bc5445782686b4c3508794
+  scorer_profile: official_and_strict
+  primary_metric: official
+method: cdapc
+recording:
+  trace_level: 'off'
+  snapshot_first_eligible_flip: true
+  commit_log: true
+cdapc:
+  variant: full
+  alpha: 0.5
+  beta: 0.1
+  u_gate:
+    enabled: true
+    threshold: 0.1
+  r_gate:
+    enabled: true
+    threshold: 0.7
+  window:
+    kind: fixed
+    width: 16
+  max_commit_per_iteration: 16
+  fallback:
+    position_rule: normalized_gate_readiness
+    token_rule: base_top1
+  branch_execution: sequential
+  cache: disabled
+  stop_rule: eos_prefix_complete
+  iteration_limit: 128
+  budget_limited: true

@@ -1,0 +1,60 @@
+schema_version: 1
+run:
+  name: lavida_m3cot_timing_only_crossed_smoke_v1
+  seed: 20261105
+  replicate_id: 0
+  sample_ids_file: manifests/m3cot_smoke_ids.json
+  output_root: runs
+  fail_on_error: true
+model:
+  backend: lavida
+  checkpoint: models/lavida
+  checkpoint_revision: 246b218b0444bc9edfd09ab0e05b072db96e5e2a
+  tokenizer_revision: 246b218b0444bc9edfd09ab0e05b072db96e5e2a
+  upstream_source_revision: 24220c0077f403d24ca52968b6a7c55b687d5c2f
+  vision_component_revision: 9fdffc58afc957d1a03a25b10dba0329ab15c2a3
+  vision_checkpoint: models/siglip
+  upstream_root: upstream/lavida
+  dtype: bfloat16
+  attention_backend: sdpa
+  attention_semantics: bidirectional
+runtime:
+  device: cuda:0
+  sample_batch_size: 1
+protocol:
+  task: m3cot
+  dataset_revision: 48cf35001d595a6b0290c82c897a4b4563390821
+  data_root: data/m3cot_smoke
+  split: test
+  prompt_id: m3cot_cot_final_v1
+  canvas_length: 128
+  normalizer_id: first_eos_v1
+  strict_parser_id: strict_final_v1
+  official_scorer_revision: ee50d5ac69661f81731d33647dd307d1f84eada5
+  scorer_profile: official_and_strict
+  primary_metric: official
+method: cdapc
+recording:
+  trace_level: 'off'
+  snapshot_first_eligible_flip: true
+cdapc:
+  variant: timing_only_crossed
+  alpha: 0.25
+  beta: 0.1
+  u_gate:
+    enabled: true
+    threshold: 0.1
+  r_gate:
+    enabled: true
+    threshold: 0.9
+  window:
+    kind: fixed
+    width: 16
+  max_commit_per_iteration: 16
+  fallback:
+    position_rule: normalized_gate_readiness
+    token_rule: base_top1
+  branch_execution: sequential
+  cache: disabled
+  stop_rule: fill_canvas
+  iteration_limit: 128

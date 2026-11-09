@@ -1,0 +1,11 @@
+Please install pyav to use video processing functions.
+OpenCLIP not installed
+[2026-11-06 02:47:18,529] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+You are using a model of type llada to instantiate a model of type llava_llada. This is not supported for all configurations of models and can yield errors.
+Loading vision tower: /root/autodl-tmp/cdapc-experiments/models/siglip
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.29it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.13s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.04it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.04it/s]
+{"run": "runs/20261105T184733587137Z_857539ce320d", "sample_id": "physical-commonsense-855", "status": "success"}
+{"run": "runs/20261105T184733587137Z_857539ce320d", "sample_id": "physical-commonsense-386", "status": "success"}
+{"run": "runs/20261105T184800495823Z_77c87440f651", "sample_id": "physical-commonsense-855", "status": "success"}
+{"run": "runs/20261105T184800495823Z_77c87440f651", "sample_id": "physical-commonsense-386", "status": "success"}
+{"report": "/root/autodl-tmp/cdapc-experiments/reports/lavida_ccaw_v1.json", "passed": true}

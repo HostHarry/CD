@@ -1,0 +1,31 @@
+diff --git a/llava/conversation.py b/llava/conversation.py
+index 869a12b..093d707 100755
+--- a/llava/conversation.py
++++ b/llava/conversation.py
+@@ -393,7 +393,7 @@ def safe_load_tokenizer(tokenizer_id):
+     sep="<|eot_id|>",
+     sep_style=SeparatorStyle.LLAMA_3,
+     tokenizer_id="meta-llama/Meta-Llama-3-8B-Instruct",
+-    tokenizer=safe_load_tokenizer("meta-llama/Meta-Llama-3-8B-Instruct"),
++    tokenizer=None,  # Bind the chosen pinned tokenizer at the call site.
+     stop_token_ids=[128009],
+ )
+ 
+@@ -408,7 +408,7 @@ def safe_load_tokenizer(tokenizer_id):
+     sep="<|eot_id|>",
+     sep_style=SeparatorStyle.LLAMA_3,
+     tokenizer_id=llada_tokenizer,
+-    tokenizer=safe_load_tokenizer(llada_tokenizer),
++    tokenizer=None,
+     stop_token_ids=[126348],
+ )
+ 
+@@ -485,7 +485,7 @@ def safe_load_tokenizer(tokenizer_id):
+     sep="<|im_end|>",
+     sep_style=SeparatorStyle.LLAMA_3,
+     tokenizer_id="Dream-org/Dream-v0-Instruct-7B",
+-    tokenizer=AutoTokenizer.from_pretrained("Dream-org/Dream-v0-Instruct-7B",trust_remote_code=True),
++    tokenizer=None,
+     stop_token_ids=[151643],
+ )
+ 
