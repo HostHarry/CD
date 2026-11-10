@@ -1,0 +1,340 @@
+{
+ "complete": true,
+ "rows_scored": 192,
+ "missing_ids": [],
+ "unique_committed": 192,
+ "metrics": {
+  "rows": 192,
+  "overall": {
+   "n": 192,
+   "accuracy": 0.75,
+   "precision": 0.75,
+   "recall": 0.75,
+   "f1": 0.75,
+   "yes_ratio": 0.5,
+   "invalid_ratio": 0.010416666666666666,
+   "empty_answers": 0,
+   "confusion": {
+    "fp": 24,
+    "invalid": 2,
+    "empty": 0,
+    "tn": 72,
+    "tp": 72,
+    "fn": 24
+   }
+  },
+  "splits": {
+   "random": {
+    "n": 64,
+    "accuracy": 0.640625,
+    "precision": 0.6363636363636364,
+    "recall": 0.65625,
+    "f1": 0.6461538461538462,
+    "yes_ratio": 0.515625,
+    "invalid_ratio": 0.0,
+    "empty_answers": 0,
+    "confusion": {
+     "fp": 12,
+     "invalid": 0,
+     "empty": 0,
+     "tn": 20,
+     "fn": 11,
+     "tp": 21
+    }
+   },
+   "popular": {
+    "n": 64,
+    "accuracy": 0.8125,
+    "precision": 0.8125,
+    "recall": 0.8125,
+    "f1": 0.8125,
+    "yes_ratio": 0.5,
+    "invalid_ratio": 0.0,
+    "empty_answers": 0,
+    "confusion": {
+     "tn": 26,
+     "invalid": 0,
+     "empty": 0,
+     "fp": 6,
+     "tp": 26,
+     "fn": 6
+    }
+   },
+   "adversarial": {
+    "n": 64,
+    "accuracy": 0.796875,
+    "precision": 0.8064516129032258,
+    "recall": 0.78125,
+    "f1": 0.7936507936507936,
+    "yes_ratio": 0.484375,
+    "invalid_ratio": 0.03125,
+    "empty_answers": 0,
+    "confusion": {
+     "fp": 6,
+     "invalid": 2,
+     "empty": 0,
+     "tn": 26,
+     "tp": 25,
+     "fn": 7
+    }
+   }
+  }
+ },
+ "diagnostics": {
+  "rows": 192,
+  "yes_start_parsed_no": 0,
+  "no_start_parsed_yes": 0,
+  "not_starting_with_yes_or_no": 2,
+  "answer_token_length_mean": 67.72395833333333,
+  "answer_token_length_median": 69.5,
+  "eos_found_rate": 1.0,
+  "executed_steps_mean": 83.16666666666667,
+  "end_to_end_seconds_mean": 13.49570031631932
+ },
+ "examples_label_no": [
+  {
+   "id": "adversarial:2274",
+   "split": "adversarial",
+   "label": "no",
+   "q0": "Is there a chair in the image?",
+   "answer": "Yes, there is a chair in the image.",
+   "generated_text": "<think> The image shows a close-up of a chair with a white cushion and a backrest. The chair appears to be part of a larger structure, possibly a chair or a piece of furniture, and the presence of a shadow on the wall suggests that it is a chair. The angle and the shape of the cushion are consistent with that of a chair.</think> Yes, there is a chair in the image.",
+   "parsed": "yes",
+   "eos_found": true,
+   "executed_steps": 96,
+   "end_to_end_seconds": 15.616855723783374
+  },
+  {
+   "id": "adversarial:1208",
+   "split": "adversarial",
+   "label": "no",
+   "q0": "Is there a car in the image?",
+   "answer": "No, there is no car in the image.",
+   "generated_text": "<think> The image shows a group of people in a swimming pool, with some floating on inflatable rafts and others in the water. There is no car visible in the image. The focus is on the people and the pool setting.</think> No, there is no car in the image.",
+   "parsed": "no",
+   "eos_found": true,
+   "executed_steps": 64,
+   "end_to_end_seconds": 10.460998134687543
+  },
+  {
+   "id": "adversarial:1314",
+   "split": "adversarial",
+   "label": "no",
+   "q0": "Is there a cup in the image?",
+   "answer": "No, there is not a cup in the image.",
+   "generated_text": "<think> The image shows a bedroom with a bed, a chair, a desk, and a mirror. There is a small object on the desk that appears to be a cup, but it is not clearly identifiable as a cup. The cup is not in the image.</think> No, there is not a cup in the image.",
+   "parsed": "no",
+   "eos_found": true,
+   "executed_steps": 96,
+   "end_to_end_seconds": 15.486600276082754
+  }
+ ],
+ "think": {
+  "rows": 192,
+  "with_think_tag": 192,
+  "with_think_tag_ratio": 1.0,
+  "with_think_close": 191,
+  "with_think_close_ratio": 0.9947916666666666,
+  "think_close_missing": 1
+ },
+ "fulltext_secondary": {
+  "metrics": {
+   "rows": 192,
+   "overall": {
+    "n": 192,
+    "accuracy": 0.5104166666666666,
+    "precision": 0.5054945054945055,
+    "recall": 0.9583333333333334,
+    "f1": 0.6618705035971223,
+    "yes_ratio": 0.9479166666666666,
+    "invalid_ratio": 1.0,
+    "empty_answers": 0,
+    "confusion": {
+     "fp": 90,
+     "invalid": 192,
+     "empty": 0,
+     "tn": 6,
+     "tp": 92,
+     "fn": 4
+    }
+   },
+   "splits": {
+    "random": {
+     "n": 64,
+     "accuracy": 0.515625,
+     "precision": 0.5081967213114754,
+     "recall": 0.96875,
+     "f1": 0.6666666666666666,
+     "yes_ratio": 0.953125,
+     "invalid_ratio": 1.0,
+     "empty_answers": 0,
+     "confusion": {
+      "fp": 30,
+      "invalid": 64,
+      "empty": 0,
+      "tn": 2,
+      "tp": 31,
+      "fn": 1
+     }
+    },
+    "popular": {
+     "n": 64,
+     "accuracy": 0.53125,
+     "precision": 0.5166666666666667,
+     "recall": 0.96875,
+     "f1": 0.6739130434782609,
+     "yes_ratio": 0.9375,
+     "invalid_ratio": 1.0,
+     "empty_answers": 0,
+     "confusion": {
+      "tn": 3,
+      "invalid": 64,
+      "empty": 0,
+      "fp": 29,
+      "tp": 31,
+      "fn": 1
+     }
+    },
+    "adversarial": {
+     "n": 64,
+     "accuracy": 0.484375,
+     "precision": 0.4918032786885246,
+     "recall": 0.9375,
+     "f1": 0.6451612903225806,
+     "yes_ratio": 0.953125,
+     "invalid_ratio": 1.0,
+     "empty_answers": 0,
+     "confusion": {
+      "fp": 31,
+      "invalid": 64,
+      "empty": 0,
+      "tn": 1,
+      "tp": 30,
+      "fn": 2
+     }
+    }
+   }
+  },
+  "diagnostics": {
+   "rows": 192,
+   "yes_start_parsed_no": 0,
+   "no_start_parsed_yes": 0,
+   "not_starting_with_yes_or_no": 192,
+   "answer_token_length_mean": 67.72395833333333,
+   "answer_token_length_median": 69.5,
+   "eos_found_rate": 1.0,
+   "executed_steps_mean": 83.16666666666667,
+   "end_to_end_seconds_mean": 13.49570031631932
+  }
+ },
+ "paired_vs_A": {
+  "changed": 93,
+  "fixed": 70,
+  "broken": 23,
+  "by_label": {
+   "yes": {
+    "fixed": 0,
+    "broken": 23
+   },
+   "no": {
+    "fixed": 70,
+    "broken": 0
+   }
+  },
+  "changed_ids": [
+   "adversarial:1208",
+   "adversarial:1314",
+   "adversarial:1100",
+   "adversarial:2174",
+   "adversarial:614",
+   "adversarial:560",
+   "adversarial:14",
+   "adversarial:194",
+   "adversarial:1692",
+   "adversarial:2948",
+   "adversarial:1914",
+   "adversarial:686",
+   "adversarial:2208",
+   "adversarial:482",
+   "adversarial:328",
+   "adversarial:1434",
+   "adversarial:2924",
+   "adversarial:2824",
+   "adversarial:1772",
+   "adversarial:382",
+   "adversarial:1032",
+   "adversarial:2828",
+   "adversarial:2296",
+   "adversarial:202",
+   "adversarial:62",
+   "adversarial:577",
+   "adversarial:2801",
+   "adversarial:1239",
+   "adversarial:2605",
+   "adversarial:1287",
+   "adversarial:2027",
+   "adversarial:2465",
+   "popular:666",
+   "popular:1508",
+   "popular:644",
+   "popular:1930",
+   "popular:250",
+   "popular:1714",
+   "popular:894",
+   "popular:2608",
+   "popular:1224",
+   "popular:2450",
+   "popular:1274",
+   "popular:2336",
+   "popular:374",
+   "popular:2672",
+   "popular:1828",
+   "popular:2738",
+   "popular:2004",
+   "popular:1430",
+   "popular:1106",
+   "popular:2264",
+   "popular:712",
+   "popular:694",
+   "popular:1540",
+   "popular:614",
+   "popular:502",
+   "popular:2512",
+   "popular:611",
+   "popular:2115",
+   "popular:23",
+   "popular:1071",
+   "popular:849",
+   "popular:2931",
+   "random:248",
+   "random:1614",
+   "random:580",
+   "random:1040",
+   "random:2052",
+   "random:2970",
+   "random:1142",
+   "random:2636",
+   "random:644",
+   "random:980",
+   "random:1554",
+   "random:1812",
+   "random:1870",
+   "random:2040",
+   "random:2510",
+   "random:1280",
+   "random:1980",
+   "random:2420",
+   "random:296",
+   "random:2703",
+   "random:1947",
+   "random:935",
+   "random:75",
+   "random:1251",
+   "random:749",
+   "random:259",
+   "random:1333",
+   "random:65",
+   "random:1925"
+  ]
+ }
+}

@@ -1,0 +1,144 @@
+{
+ "complete": true,
+ "rows_scored": 192,
+ "missing_ids": [],
+ "unique_committed": 192,
+ "metrics": {
+  "rows": 192,
+  "overall": {
+   "n": 192,
+   "accuracy": 0.5,
+   "precision": 0.5,
+   "recall": 1.0,
+   "f1": 0.6666666666666666,
+   "yes_ratio": 1.0,
+   "invalid_ratio": 1.0,
+   "empty_answers": 0,
+   "confusion": {
+    "fp": 96,
+    "invalid": 192,
+    "empty": 0,
+    "tp": 96
+   }
+  },
+  "splits": {
+   "random": {
+    "n": 64,
+    "accuracy": 0.5,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "yes_ratio": 1.0,
+    "invalid_ratio": 1.0,
+    "empty_answers": 0,
+    "confusion": {
+     "fp": 32,
+     "invalid": 64,
+     "empty": 0,
+     "tp": 32
+    }
+   },
+   "popular": {
+    "n": 64,
+    "accuracy": 0.5,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "yes_ratio": 1.0,
+    "invalid_ratio": 1.0,
+    "empty_answers": 0,
+    "confusion": {
+     "fp": 32,
+     "invalid": 64,
+     "empty": 0,
+     "tp": 32
+    }
+   },
+   "adversarial": {
+    "n": 64,
+    "accuracy": 0.5,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "yes_ratio": 1.0,
+    "invalid_ratio": 1.0,
+    "empty_answers": 0,
+    "confusion": {
+     "fp": 32,
+     "invalid": 64,
+     "empty": 0,
+     "tp": 32
+    }
+   }
+  }
+ },
+ "diagnostics": {
+  "rows": 192,
+  "yes_start_parsed_no": 0,
+  "no_start_parsed_yes": 0,
+  "not_starting_with_yes_or_no": 192,
+  "answer_token_length_mean": 77.24479166666667,
+  "answer_token_length_median": 87.5,
+  "eos_found_rate": 1.0,
+  "executed_steps_mean": 95.98958333333333,
+  "end_to_end_seconds_mean": 15.263847153798755
+ },
+ "examples_label_no": [
+  {
+   "id": "adversarial:2274",
+   "split": "adversarial",
+   "label": "no",
+   "q0": "Is there a chair in the image?",
+   "answer": "A black and white photograph of a chair with a shadow cast on the wall.",
+   "generated_text": "A black and white photograph of a chair with a shadow cast on the wall.",
+   "parsed": "yes",
+   "eos_found": true,
+   "executed_steps": 32,
+   "end_to_end_seconds": 5.078330213204026
+  },
+  {
+   "id": "adversarial:1208",
+   "split": "adversarial",
+   "label": "no",
+   "q0": "Is there a car in the image?",
+   "answer": "The image depicts a lively scene at a swimming pool. Several people are enjoying themselves, with some floating on inflatable rafts and others swimming in the water. The pool is filled with individuals, and the atmosphere appears relaxed and social. The setting includes a brick wall with framed pictures and a staircase leading to an upper level. The overall ambiance suggests a fun and casual poolside gathering.",
+   "generated_text": "The image depicts a lively scene at a swimming pool. Several people are enjoying themselves, with some floating on inflatable rafts and others swimming in the water. The pool is filled with individuals, and the atmosphere appears relaxed and social. The setting includes a brick wall with framed pictures and a staircase leading to an upper level. The overall ambiance suggests a fun and casual poolside gathering.",
+   "parsed": "yes",
+   "eos_found": true,
+   "executed_steps": 96,
+   "end_to_end_seconds": 15.282371250912547
+  },
+  {
+   "id": "adversarial:1314",
+   "split": "adversarial",
+   "label": "no",
+   "q0": "Is there a cup in the image?",
+   "answer": "A vintage photograph of a bedroom with a large bed, a desk, and a chair. the room is decorated with floral wallpaper and has a vintage aesthetic. there is a mirror on the wall, and a window with a white frame. the bed is neatly made with a white comforter and pillows. the room has a dated appearance, suggesting it may be from the mid-20th century. the text in the image indicates that the room is part of a hotel room, and it is described as being dated.",
+   "generated_text": "A vintage photograph of a bedroom with a large bed, a desk, and a chair. the room is decorated with floral wallpaper and has a vintage aesthetic. there is a mirror on the wall, and a window with a white frame. the bed is neatly made with a white comforter and pillows. the room has a dated appearance, suggesting it may be from the mid-20th century. the text in the image indicates that the room is part of a hotel room, and it is described as being dated.",
+   "parsed": "yes",
+   "eos_found": true,
+   "executed_steps": 128,
+   "end_to_end_seconds": 20.337348161265254
+  }
+ ],
+ "paired_vs_A": {
+  "changed": 3,
+  "fixed": 1,
+  "broken": 2,
+  "by_label": {
+   "yes": {
+    "fixed": 1,
+    "broken": 0
+   },
+   "no": {
+    "fixed": 0,
+    "broken": 2
+   }
+  },
+  "changed_ids": [
+   "adversarial:1198",
+   "random:1236",
+   "random:2685"
+  ]
+ }
+}

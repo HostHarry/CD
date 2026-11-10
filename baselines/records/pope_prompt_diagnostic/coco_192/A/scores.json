@@ -1,0 +1,129 @@
+{
+ "complete": true,
+ "rows_scored": 192,
+ "missing_ids": [],
+ "unique_committed": 192,
+ "metrics": {
+  "rows": 192,
+  "overall": {
+   "n": 192,
+   "accuracy": 0.5052083333333334,
+   "precision": 0.5026455026455027,
+   "recall": 0.9895833333333334,
+   "f1": 0.6666666666666666,
+   "yes_ratio": 0.984375,
+   "invalid_ratio": 0.0,
+   "empty_answers": 0,
+   "confusion": {
+    "fp": 94,
+    "invalid": 0,
+    "empty": 0,
+    "tn": 2,
+    "tp": 95,
+    "fn": 1
+   }
+  },
+  "splits": {
+   "random": {
+    "n": 64,
+    "accuracy": 0.5,
+    "precision": 0.5,
+    "recall": 0.96875,
+    "f1": 0.6595744680851063,
+    "yes_ratio": 0.96875,
+    "invalid_ratio": 0.0,
+    "empty_answers": 0,
+    "confusion": {
+     "fp": 31,
+     "invalid": 0,
+     "empty": 0,
+     "tn": 1,
+     "tp": 31,
+     "fn": 1
+    }
+   },
+   "popular": {
+    "n": 64,
+    "accuracy": 0.5,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "yes_ratio": 1.0,
+    "invalid_ratio": 0.0,
+    "empty_answers": 0,
+    "confusion": {
+     "fp": 32,
+     "invalid": 0,
+     "empty": 0,
+     "tp": 32
+    }
+   },
+   "adversarial": {
+    "n": 64,
+    "accuracy": 0.515625,
+    "precision": 0.5079365079365079,
+    "recall": 1.0,
+    "f1": 0.6736842105263158,
+    "yes_ratio": 0.984375,
+    "invalid_ratio": 0.0,
+    "empty_answers": 0,
+    "confusion": {
+     "fp": 31,
+     "invalid": 0,
+     "empty": 0,
+     "tn": 1,
+     "tp": 32
+    }
+   }
+  }
+ },
+ "diagnostics": {
+  "rows": 192,
+  "yes_start_parsed_no": 0,
+  "no_start_parsed_yes": 0,
+  "not_starting_with_yes_or_no": 0,
+  "answer_token_length_mean": 10.234375,
+  "answer_token_length_median": 10.0,
+  "eos_found_rate": 1.0,
+  "executed_steps_mean": 32,
+  "end_to_end_seconds_mean": 5.029782341938699
+ },
+ "examples_label_no": [
+  {
+   "id": "adversarial:2274",
+   "split": "adversarial",
+   "label": "no",
+   "q0": "Is there a chair in the image?",
+   "answer": "Yes, there is a chair in the image.",
+   "generated_text": "Yes, there is a chair in the image.",
+   "parsed": "yes",
+   "eos_found": true,
+   "executed_steps": 32,
+   "end_to_end_seconds": 4.976732170209289
+  },
+  {
+   "id": "adversarial:1208",
+   "split": "adversarial",
+   "label": "no",
+   "q0": "Is there a car in the image?",
+   "answer": "Yes, there is a car in the image.",
+   "generated_text": "Yes, there is a car in the image.",
+   "parsed": "yes",
+   "eos_found": true,
+   "executed_steps": 32,
+   "end_to_end_seconds": 4.972291806712747
+  },
+  {
+   "id": "adversarial:1314",
+   "split": "adversarial",
+   "label": "no",
+   "q0": "Is there a cup in the image?",
+   "answer": "Yes, there is a cup in the image.",
+   "generated_text": "Yes, there is a cup in the image.",
+   "parsed": "yes",
+   "eos_found": true,
+   "executed_steps": 32,
+   "end_to_end_seconds": 4.978282444179058
+  }
+ ]
+}

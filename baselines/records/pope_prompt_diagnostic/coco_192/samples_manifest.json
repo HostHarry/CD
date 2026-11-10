@@ -1,0 +1,12 @@
+{
+ "files": [
+  {
+   "name": "samples.jsonl",
+   "sha256": "c03cae4af9d07f153a5ba7aca4ac5ec6f2492ebc5e73e850b2b4212f3e3127cf",
+   "rows": 192
+  }
+ ],
+ "source_files": [
+  "results/pope_prompt_diagnostic/samples.jsonl"
+ ]
+}
