@@ -43,4 +43,29 @@ running and will be added when finished.
 Paired 95% CI of delta accuracy vs native: VCD Random [+1.0, +4.4] points;
 all other splits for VCD and VIGOR include zero.
 
+## DeepSeek text judge (`coco/judge/`)
+
+Protocol `pope_text_llm_judge_v1`, reused verbatim from the cloud CD-APC
+package (`cdapc/source/src/cdapc_lab/evaluation/pope_llm_judge.py`, sha256
+`1ab1a8ef…fa57`), runner `methods/judge_pope_think.py`. Model `deepseek-flash`,
+temperature 0, thinking disabled, max_tokens 192. The API receives only the
+plain POPE question (thinking instruction and yes/no suffix removed) and the
+complete decoded response; no image and no gold. The judge returns
+answered / missing / ambiguous with a verbatim evidence quote; scoring is
+local and missing/ambiguous count as wrong. 15,132 unique requests, 0 errors;
+every request and raw response is in `api_records.jsonl.gz`.
+
+| Split (judge, Acc / F1 %) | native | VCD | VIGOR |
+|---|---:|---:|---:|
+| Random | 76.37 / 77.54 | 78.70 / 79.36 | 77.40 / 79.42 |
+| Popular | 75.37 / 76.73 | 76.33 / 77.61 | 74.67 / 77.04 |
+| Adversarial | 72.10 / 74.38 | 72.43 / 74.75 | 71.40 / 74.80 |
+| **Mean** | 74.61 / 76.22 | 75.82 / 77.24 | 74.49 / 77.09 |
+| missing / ambiguous rows | 43 / 16 | 12 / 19 | 4 / 117 |
+
+Paired image-level bootstrap of delta accuracy vs native (95% CI, points):
+VCD Random +2.33 [+0.73, +4.07], Popular +0.97 [−0.50, +2.57], Adversarial
++0.33 [−1.33, +2.07]; VIGOR Random +1.03 [−0.53, +2.63], Popular −0.70
+[−2.27, +0.87], Adversarial −0.70 [−2.30, +0.93].
+
 Payloads use format B (see `../../README.md`).

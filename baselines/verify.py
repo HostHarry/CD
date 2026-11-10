@@ -269,6 +269,60 @@ def verify_think_primary(exp):
         print(f"{exp}/{ds_dir.name}: post-</think> primary metrics + paired bootstrap match")
 
 
+def judge_pope_metrics(pairs):
+    """cdapc_lab.experiments.score.pope_metrics: None predictions are wrong."""
+    tp = fp = tn = fn = unresolved = 0
+    for pred, gold in pairs:
+        if pred == "yes":
+            tp += gold == "yes"
+            fp += gold == "no"
+        elif pred == "no":
+            tn += gold == "no"
+            fn += gold == "yes"
+        elif gold == "yes":
+            fn += 1
+        else:
+            unresolved += 1
+    n = len(pairs)
+    safe = lambda a, b: a / b if b else None
+    precision, recall = safe(tp, tp + fp), safe(tp, tp + fn)
+    return {"TP": tp, "FP": fp, "TN": tn, "FN": fn, "unresolved": unresolved,
+            "accuracy": safe(tp + tn, n), "precision": precision, "recall": recall,
+            "f1": safe(2 * precision * recall, precision + recall)
+            if precision is not None and recall is not None else None,
+            "yes_ratio": safe(sum(p == "yes" for p, _ in pairs), n)}
+
+
+def verify_think_judge(exp):
+    """Re-derive DeepSeek-judge metrics from api_records + *_judged.json."""
+    for judge_dir in sorted((RECORDS / exp).glob("*/judge")):
+        summary = json.loads((judge_dir / "summary.json").read_text())
+        records = {}
+        with gzip.open(judge_dir / "api_records.jsonl.gz", "rt") as handle:
+            for line in handle:
+                rec = json.loads(line)
+                records[rec["request_sha256"]] = rec
+        answers_dir = judge_dir.parent
+        for method in ("native", "vcd", "vigor"):
+            judged = json.loads((judge_dir / f"{method}_judged.json").read_text())
+            answers = json.loads((answers_dir / method / "answers.json").read_text())
+            assert len(judged) == len(answers)
+            for row, ans in zip(judged, answers):
+                assert (row["id"], row["split"]) == (ans["id"], ans["split"])
+                assert row["text_sha256"] == hashlib.sha256(ans["text"].encode()).hexdigest()
+                rec = records[row["request_sha256"]]
+                assert rec["status"] == "success"
+                assert json.loads(rec["request"]["messages"][1]["content"])["candidate_response"] == ans["text"]
+                assert rec["parsed"]["answer"] == row["judge_prediction"]
+            for split in SPLITS:
+                sub = [r for r in judged if r["split"] == split]
+                got = judge_pope_metrics([(r["judge_prediction"], r["label"]) for r in sub])
+                want = {k: v for k, v in summary["methods"][method]["splits"][split].items()
+                        if k not in ("n", "statuses")}
+                assert got == want, (judge_dir, method, split)
+        print(f"{judge_dir.relative_to(RECORDS)}: {len(records)} API records, judge metrics match")
+
+
 # --- CHAIR re-scoring ---
 
 def chair_overall(chair):
@@ -688,6 +742,7 @@ def main():
         verify_pope_experiment(exp)
     for exp in THINK_EXPERIMENTS:
         verify_think_primary(exp)
+        verify_think_judge(exp)
     verify_chair()
     verify_diagnostic()
     if "--rebuild-prompts" in sys.argv:
