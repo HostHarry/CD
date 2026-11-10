@@ -1,1486 +1,1496 @@
 {
- "destination_repository": "HostHarry/CD",
- "files": {
-  "README.md": {
-   "sha256": "8c31b2b4f06c339d43e2c4505e8ad37c0195169493b10e569d80d21540a1ab6a",
-   "source_path": "reports/experiment_summary.md"
-  },
-  "answers/README.md": {
-   "sha256": "fb0c7f64d3b32d296e78995a5295c98d1163e0e2ec97491b7362747228b18d6f",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/chair_r50.jsonl": {
-   "sha256": "cced311a5dc6167934c588963d67cff3610f223985284a43bf3a026e851fd873",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/chair_r50.txt": {
-   "sha256": "452d14a22dd3e05b036372b17bab0fb1e03aa686924b35d0daae1fb4a658bbb3",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/chair_r70.jsonl": {
-   "sha256": "64501a62a3302b7dcb0856bdfe209a77acdc78369e6b9a3812b52e02dcac6abf",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/chair_r70.txt": {
-   "sha256": "ab6866675a4aef4e75ae6235414a1463f86866a404327820596af2eb69072f66",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/chair_r90.jsonl": {
-   "sha256": "9b79455aaf39e3808914753aab49f80932e681df74f29ee5c10700c816f33e6d",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/chair_r90.txt": {
-   "sha256": "67bed14b42f999733708ccd5e5bbf079a8a80fec69249dd54e3637ef41f36fd3",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/gqa_think_k2_pilot.jsonl": {
-   "sha256": "9d8206fae8662cde091f94248448f6a2756398b951fd87181b6fef286a4c96e3",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/gqa_think_k2_pilot.txt": {
-   "sha256": "844c9b9cdccd7b8d18cbef798131fc13d2ce991c199990ea5070e31988edca4a",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/gqa_think_k4_pilot.jsonl": {
-   "sha256": "674051581d2b4cd88c357150e3d9ff4b5c7a5b93485ad87195e7f95984df9b88",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/gqa_think_k4_pilot.txt": {
-   "sha256": "9f2af0d50cd7879f7921cc295835e438d7630fde2f9a4ba50a73a84589e81925",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/manifest.json": {
-   "sha256": "3bd9c5dc8197efc1205372fbfae8aabcb783a30337f3b2a208ccb24adbae9100",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/mme_r70_L256_I128.jsonl": {
-   "sha256": "4e9d6119ce7956826f0694e1ba57383f931c819a6fc21be282e88b21167189cf",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/mme_r70_L256_I128.txt": {
-   "sha256": "2938ceb74f00672b08310580233f0e899d2fd959ff96175e842d6045560f3e03",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/mmmu_cdapc_r70_L256_I128.jsonl": {
-   "sha256": "5a22241b2ba6730454244fd49ac8386303c39c4f9488ab754a3fde41be372585",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/mmmu_cdapc_r70_L256_I128.txt": {
-   "sha256": "9fdbc5da6a435719c4e87d9357b43599b850793e89ca9a4d2723efa3a7385ea8",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/pope_aokvqa_direct_r50.jsonl": {
-   "sha256": "f9249288e506b3ccfb731ba1785479117a1470f7ff92658d10ef846415e8eebd",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/pope_aokvqa_direct_r50.txt": {
-   "sha256": "0df0495e9b844c748dddf01a0e32483f34ab27ab5232cc3a55228e9cd0f4c18c",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/pope_aokvqa_direct_r70.jsonl": {
-   "sha256": "566b823e2c35ea78599fede9fe630c186b3cd31abe3992fa9c8447f2fbdfd463",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/pope_aokvqa_direct_r70.txt": {
-   "sha256": "d2e5cd82fc6c8c927cf5a6398197805b9f92d387b234cc371bb1eb2f2bb402e8",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/pope_aokvqa_direct_r90.jsonl": {
-   "sha256": "30d517643637659c032a2f393691125fb17cc04f0a1675ba3d9af1c5e34c6a6a",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/pope_aokvqa_direct_r90.txt": {
-   "sha256": "730dca391214a770d3ecb519d516c8006e2e081ab785ad78f4999cc6443d1105",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/pope_aokvqa_think_r70.jsonl": {
-   "sha256": "bf69820c798df698979b69a4dd7e07ff0120b5e07d2be79921f6f4cf8894fc06",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/pope_aokvqa_think_r70.txt": {
-   "sha256": "277a66b29e6e0d7f36a0c08020f24f50a7457e5b11402dcb718eec88585b3dc8",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/pope_aokvqa_think_r90.jsonl": {
-   "sha256": "a2300728269d5b869b29425868be25c3450ddf0c09fe9fb3ee666307b7e88fd8",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/pope_aokvqa_think_r90.txt": {
-   "sha256": "cae85856ab81368908a499c61826914ba0d927f63f0fc8fee56c014c5eb60463",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/pope_coco_direct_r50.jsonl": {
-   "sha256": "d60b8bffca93691b808c9b0704e8d92a8655d3a85aa98772da6091c6b10f6bcb",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/pope_coco_direct_r50.txt": {
-   "sha256": "d3a1bead4e4abd2a28181efb1e8192735a37aadd552ab2aca2f2d47384e18397",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/pope_coco_direct_r60.jsonl": {
-   "sha256": "d0d1c33fd1f5f3c76bf1904fcc22f4513c3f0c1259ec007aed478f045aa74d77",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/pope_coco_direct_r60.txt": {
-   "sha256": "92759530d876b95b0e36435fa5082254eab9e3d3f9963ee601e0bbf9b6f713b9",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/pope_coco_direct_r70.jsonl": {
-   "sha256": "fb9e1895e6208b0231aea735a6812574669d135f4ff64a0bf0bbc86eb6d3007c",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/pope_coco_direct_r70.txt": {
-   "sha256": "bc64270a71c0a07733337085be479f0c9ae62babc6fa3958fe8013f275f24561",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/pope_coco_direct_r80.jsonl": {
-   "sha256": "d9c8e8229303e5320e396d4c6ea9913510e2cf962fde1204052be44a27946383",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/pope_coco_direct_r80.txt": {
-   "sha256": "07f249b38c84ee30b4ea6cf95ddc273ab9c5b94b21b0fe9b80ece92eee8df9cc",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/pope_coco_direct_r90.jsonl": {
-   "sha256": "dd636f11342e34fc9d5bf08dd057513887ad11e5b5d63aecf1ea818132db8cdb",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/pope_coco_direct_r90.txt": {
-   "sha256": "0b386100d42d0fb6e0a4ce887024e9b7c03a46ae0d55148a4d156e0e6fd21aa3",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/pope_gqa_direct_r50.jsonl": {
-   "sha256": "5c81cdfdd113bfb87127769924736bec879f61fa519d33b91f1817eaef357111",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/pope_gqa_direct_r50.txt": {
-   "sha256": "53ef26dc52a21607610e8ccc8536258b3fb6e05fd8cc8586d8403e0f434421a3",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/pope_gqa_direct_r70.jsonl": {
-   "sha256": "0c8ed5b2db3e36ada2a97f40ef1ab6bd08366adf80dc50441a0768e304b0c0aa",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/pope_gqa_direct_r70.txt": {
-   "sha256": "57a604e1fd02119f8b6ee27aac09f0802078347db21086591dc36715899772ea",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/pope_gqa_direct_r90.jsonl": {
-   "sha256": "7c298a0b1651ff0c21b94cc136e83eaf671e25f047bde99e163bae1b1dd0c67b",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/pope_gqa_direct_r90.txt": {
-   "sha256": "25e88d61e0eba51f2568f1c55063679201f08381e2453010809fb415f9b94fb5",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/pope_gqa_think_r50.jsonl": {
-   "sha256": "85027e6670ed8932d1d23d6d75480cbd6470767cd8ae20a7d99838fdef655fb2",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/pope_gqa_think_r50.txt": {
-   "sha256": "16375db53fc7f8d553bbd1245f509fdbd58144a15cba450117fe8cb6b76a0b08",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/pope_gqa_think_r70.jsonl": {
-   "sha256": "d7fc0b6787bddb2c41dda1704a01ff2965d5f96ca0694035c23af32517e955a8",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/pope_gqa_think_r70.txt": {
-   "sha256": "4fbbbf10110f2d292bc3a8e90b26f1886d6a940ed2eff4276b9f01838d54fa80",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/pope_gqa_think_r90.jsonl": {
-   "sha256": "c1dc5494d9f9cc37e0f242654a10a501f6bb5ea96c00d1cbff1355507b2042eb",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "answers/pope_gqa_think_r90.txt": {
-   "sha256": "ecd59873aa7a179bdb0914a2a230b5a3b42631baa7652061fb05244e9f7c4a2c",
-   "source_path": "scripts/export_cdapc_upload.py"
-  },
-  "reports/chair_pope_extensions_runs.json": {
-   "sha256": "b90a69e20663dd0fe21e6b00d418e67a9161f9357097f778fea1d14b8a314806",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/chair_pope_extensions_runs.json"
-  },
-  "reports/chair_r50.json": {
-   "sha256": "bc89a9f1869537d3ea757c222b0d6f74dc03d4fcc863ac4a3bda39b99d500d6f",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/chair_r50.json"
-  },
-  "reports/chair_r50_answers.json": {
-   "sha256": "eb718f1b61f06c74d00df1e350c464e4132819e1baf38abd72d6360d7cbbcb32",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/chair_r50_answers.json"
-  },
-  "reports/chair_r70.json": {
-   "sha256": "06151aa794444feec2b40258ea3f2a6575c94c73c05b6c27bb50bd5ba119569e",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/chair_r70.json"
-  },
-  "reports/chair_r70_answers.json": {
-   "sha256": "44804c597a8c7ffcc84a05cfec59447cbb17b9a50d6df8be32090c9841da4ee9",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/chair_r70_answers.json"
-  },
-  "reports/chair_r90.json": {
-   "sha256": "3ae8c149de98ff8a953b7767ebb1465c96034d4157b19c4a4ad666b5cf6f504f",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/chair_r90.json"
-  },
-  "reports/chair_r90_answers.json": {
-   "sha256": "d2884c284d56cde80c733648757bdfbd6cb848bfa550820bea3db38cce4825e3",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/chair_r90_answers.json"
-  },
-  "reports/chair_reference_verified.json": {
-   "sha256": "c68807da05cc2f0c3684781507e38baf482a795df72487ad9577d203c86498b7",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/chair_reference_verified.json"
-  },
-  "reports/final_audit.json": {
-   "sha256": "2130f60c836b7609c4d7bda069829bef4942c13af7a56ae20aeb4f410526583b",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/final_audit.json"
-  },
-  "reports/k_commit_pilot/baseline_records.json": {
-   "sha256": "5879d362c78744dd3f0125ddbab90f1975916204d8d65a6dafa75f31d03c96fb",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/k_commit_pilot/baseline_records.json"
-  },
-  "reports/k_commit_pilot/index.json": {
-   "sha256": "3d67312a46a49463962b6f492b36c9f6af136f6fb35c1dd203dca862c4a3e099",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/k_commit_pilot/index.json"
-  },
-  "reports/k_commit_pilot/protocol.json": {
-   "sha256": "010c6bf50dcaf5f5ec6299c1c63a1c130d5478d49a250477c6eb172b6bee593a",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/k_commit_pilot/protocol.json"
-  },
-  "reports/k_commit_pilot/results.json": {
-   "sha256": "65e64fde2ab4b0f87200a8cdc9b8447bf5b1cfe0cf259a16d9ba3d2ff0060f4c",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/k_commit_pilot/results.json"
-  },
-  "reports/k_commit_pilot/results.md": {
-   "sha256": "9be54202a02247be55911e1738c6839efa6065bf9e2dc00d08fe4815813523f0",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/k_commit_pilot/results.md"
-  },
-  "reports/k_commit_pilot/rows.json": {
-   "sha256": "0a6eefa52a6ee90c9bee3175e9845fea64be0ff9377a078888ba954e74a01fd7",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/k_commit_pilot/rows.json"
-  },
-  "reports/lavida_acceptance.json": {
-   "sha256": "883c1539f0a4d950bc1cd12ef70b70bc50a1f53e29135ec7c68d3d5f1d8651e5",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/lavida_acceptance.json"
-  },
-  "reports/lavida_adapter_670937dbb911.json": {
-   "sha256": "5eba58bafeebe08b9c98f2dbf72a67c14cd4fb97933f6a9acef371e664e0363d",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/lavida_adapter_670937dbb911.json"
-  },
-  "reports/lavida_ccaw_v1.json": {
-   "sha256": "e3eac9d782f4fa75dd2246362b0d2fa56b263630771f306d72cc7d261581e560",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/lavida_ccaw_v1.json"
-  },
-  "reports/lavida_ccaw_v1.log": {
-   "sha256": "d10b2cf3a510d3413700d468d1afba2cd49ed8166cc6cf421e5bba4b39e050e8",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/lavida_ccaw_v1.log"
-  },
-  "reports/lavida_native_c1e9554b77cf.json": {
-   "sha256": "ba15b999ada86c67fd083c819c8a867a9812ec2ee1b1ed3a99624c284feadb82",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/lavida_native_c1e9554b77cf.json"
-  },
-  "reports/mechanism16-replay.json": {
-   "sha256": "ce99f13f024dff6a5e112e79056aca7f3fe42bcc07b2bdd1cb999937cd277c98",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/mechanism16-replay.json"
-  },
-  "reports/mechanism16.json": {
-   "sha256": "dafeeba23d29ef6fdc067d0a4c86c349d53e400c3478117bd8d3a00d1bd3c4b7",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/mechanism16.json"
-  },
-  "reports/mmada_acceptance.json": {
-   "sha256": "c5f5a46850fb2b4875aa76044094858f36651de2cecb851d30de9dc7f7ffd6d7",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/mmada_acceptance.json"
-  },
-  "reports/mmada_adapter_01f69ea8f0e8.json": {
-   "sha256": "188db062830b99c90f6e816609d96565142015cbf9ba1f370bd392525c1978b2",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/mmada_adapter_01f69ea8f0e8.json"
-  },
-  "reports/mmada_adapter_416467fe3778.json": {
-   "sha256": "56a722f2a230650ef44374896a3b1ab6bc3bd691678a25eb54af26df650793f4",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/mmada_adapter_416467fe3778.json"
-  },
-  "reports/mmada_adapter_fa8e5f5be3ad.json": {
-   "sha256": "5883b4f17fc1ca24c6bde47bddc4b3d3c1031f1a4954c8dec81ccdfc0bd37909",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/mmada_adapter_fa8e5f5be3ad.json"
-  },
-  "reports/mmada_adapter_fcb547b991a1.json": {
-   "sha256": "977a4b93cc204ee95e450c398f9abe5db29d0e62d84b40030bbe37394a22124e",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/mmada_adapter_fcb547b991a1.json"
-  },
-  "reports/mmada_ccaw_v1.json": {
-   "sha256": "7a636f45e2f56b98dc772e6bf09d3a5ecefc8c25d11677ec1a76007b34e2915e",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/mmada_ccaw_v1.json"
-  },
-  "reports/mmada_ccaw_v1.log": {
-   "sha256": "38dfcbb1f843af75dd786937d452b0bcb4d52d7f29d44ccba24ef27fb5cc1ea9",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/mmada_ccaw_v1.log"
-  },
-  "reports/mmada_native_31ceead74a93.json": {
-   "sha256": "3a69ea813be466095a22047c37ae728453803a10d9ee50a2754e5f4d68bacca1",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/mmada_native_31ceead74a93.json"
-  },
-  "reports/mmada_native_58325bdb5173.json": {
-   "sha256": "f1c1f0d9adf80cc44de160c95beee9bedb3fc72e0379b36c3148cf0d1a13dd5e",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/mmada_native_58325bdb5173.json"
-  },
-  "reports/mmada_native_6044bf9090af.json": {
-   "sha256": "f14640c4af8d0e1606b6c1e3a4f9fd66d562feb578b1d8b76550f6be4a4522e0",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/mmada_native_6044bf9090af.json"
-  },
-  "reports/mme_cdapc_r70_L256_I128.json": {
-   "sha256": "20a6aeccb29bffe98c7e5b9f4c257de3e251ac96fba8df73d205db4f164faf8c",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/mme_cdapc_r70_L256_I128.json"
-  },
-  "reports/mme_cdapc_r70_L256_I128.md": {
-   "sha256": "25eb0a7133fedf05b93e7a7c4dba1143d1a85b9cd25be0a0ff5f7073c3ecdf73",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/mme_cdapc_r70_L256_I128.md"
-  },
-  "reports/mme_index.json": {
-   "sha256": "d0ca18913a6946024cc6acda3e98687e3db69a37eb187e8e1b76f5c341370a07",
-   "source_path": "/root/autodl-tmp/cdapc-mme/reports/index.json"
-  },
-  "reports/mme_official_scorer.log": {
-   "sha256": "5fe4a5abea0b30a1ffbfdf7c5001e5340a14a1ff3318f8471298b20acc1fc4a9",
-   "source_path": "/root/autodl-tmp/cdapc-mme/reports/mme_official_scorer.log"
-  },
-  "reports/mme_official_text/OCR.txt": {
-   "sha256": "783c7e26aa7b9f909e352466b21439a8bbee38ae6afdd560a8f2e21ac9042e79",
-   "source_path": "/root/autodl-tmp/cdapc-mme/reports/mme_official_text/OCR.txt"
-  },
-  "reports/mme_official_text/artwork.txt": {
-   "sha256": "da43b5a667ff4b22fe1e8b6472971a9d310c4fa262f24c947533e0c77e3364b4",
-   "source_path": "/root/autodl-tmp/cdapc-mme/reports/mme_official_text/artwork.txt"
-  },
-  "reports/mme_official_text/celebrity.txt": {
-   "sha256": "8ec91c15411065fed047427b2a6632e08a3d4b16453dec0e009ed30aa48d513d",
-   "source_path": "/root/autodl-tmp/cdapc-mme/reports/mme_official_text/celebrity.txt"
-  },
-  "reports/mme_official_text/code_reasoning.txt": {
-   "sha256": "eff946ccbc15c153484f814b3ae40c9fdab595ead84a755a8b601d1ee1cac38a",
-   "source_path": "/root/autodl-tmp/cdapc-mme/reports/mme_official_text/code_reasoning.txt"
-  },
-  "reports/mme_official_text/color.txt": {
-   "sha256": "bf5844f70076201463b57fb32499443439acaf74c1b8877ec4210798bddcaac1",
-   "source_path": "/root/autodl-tmp/cdapc-mme/reports/mme_official_text/color.txt"
-  },
-  "reports/mme_official_text/commonsense_reasoning.txt": {
-   "sha256": "1360fd6f45a31f9c45d4110d4821356387990b0a0b7cab1780f8411d39e93fe3",
-   "source_path": "/root/autodl-tmp/cdapc-mme/reports/mme_official_text/commonsense_reasoning.txt"
-  },
-  "reports/mme_official_text/count.txt": {
-   "sha256": "65918b6be3f50b96a1d323368022cc29789639625d9d84f2581e734ee8372ae4",
-   "source_path": "/root/autodl-tmp/cdapc-mme/reports/mme_official_text/count.txt"
-  },
-  "reports/mme_official_text/existence.txt": {
-   "sha256": "5be9d60f90db0206ebc8461b90747d9034ea004bde6bf43f0578433f2d182617",
-   "source_path": "/root/autodl-tmp/cdapc-mme/reports/mme_official_text/existence.txt"
-  },
-  "reports/mme_official_text/landmark.txt": {
-   "sha256": "15d9c2cafff22dcdf09e23995a7140ba4bbf7a497e8f4da1dec2f62ac99a02bf",
-   "source_path": "/root/autodl-tmp/cdapc-mme/reports/mme_official_text/landmark.txt"
-  },
-  "reports/mme_official_text/numerical_calculation.txt": {
-   "sha256": "61e05585b15e75a65519909e4f1dc546101c8ecc3fa64543f369bce766d75700",
-   "source_path": "/root/autodl-tmp/cdapc-mme/reports/mme_official_text/numerical_calculation.txt"
-  },
-  "reports/mme_official_text/position.txt": {
-   "sha256": "436a8ec36f45ed21be9dfc8b970581866e53e0bb1ac8b5f9d9de866b20c87962",
-   "source_path": "/root/autodl-tmp/cdapc-mme/reports/mme_official_text/position.txt"
-  },
-  "reports/mme_official_text/posters.txt": {
-   "sha256": "0c432ec56658c1445fd461b813d06df41464f93bfc8d8bbc895436b0d00e301a",
-   "source_path": "/root/autodl-tmp/cdapc-mme/reports/mme_official_text/posters.txt"
-  },
-  "reports/mme_official_text/scene.txt": {
-   "sha256": "002a74ce8474861400638779218e84a40681ca9b3548b32947db16ab9456793a",
-   "source_path": "/root/autodl-tmp/cdapc-mme/reports/mme_official_text/scene.txt"
-  },
-  "reports/mme_official_text/text_translation.txt": {
-   "sha256": "caa9171b6618cbe1366cfe9a1f6cdce3d002b39ad7db9ef849dd728715dd2c0c",
-   "source_path": "/root/autodl-tmp/cdapc-mme/reports/mme_official_text/text_translation.txt"
-  },
-  "reports/mme_r70_256_128_runs.json": {
-   "sha256": "d0ca18913a6946024cc6acda3e98687e3db69a37eb187e8e1b76f5c341370a07",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/mme_r70_256_128_runs.json"
-  },
-  "reports/mmmu_cdapc_r70_L256_I128.json": {
-   "sha256": "c0f41df51425d08ed83b05f80a7031a5b8900bdd42778a88d388b9ca14a5970e",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/mmmu_cdapc_r70_L256_I128.json"
-  },
-  "reports/mmmu_r70_256_128_runs.json": {
-   "sha256": "570f6e4fc05244c0ca435ec91cc5560645f5f4590b363114c02c84d6001f0b4a",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/mmmu_r70_256_128_runs.json"
-  },
-  "reports/pope-native-recompute.json": {
-   "sha256": "a2a2f3c748d5024fd3fed241847f36087590ee586eaa72894953cd88f6708e81",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope-native-recompute.json"
-  },
-  "reports/pope_aokvqa_r50.json": {
-   "sha256": "87360b9767240911ed515f0dee834795246a6173ddbe6a1eebc8cb732baaf7d1",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_aokvqa_r50.json"
-  },
-  "reports/pope_aokvqa_r70.json": {
-   "sha256": "0016044d37119073146ffc68affb740a4d3a3476f76bfeecc61f89ce8d5dfa71",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_aokvqa_r70.json"
-  },
-  "reports/pope_aokvqa_r90.json": {
-   "sha256": "2eb309976777dda344cb9b5ab6cf7a1d209b986dce6fd62ea272954af7de85cc",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_aokvqa_r90.json"
-  },
-  "reports/pope_aokvqa_reasoning_r70.json": {
-   "sha256": "90ff0f24d67b319c9d869a4cd1d419d63a477f0394e668d7e45032e262537a8f",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_aokvqa_reasoning_r70.json"
-  },
-  "reports/pope_aokvqa_reasoning_r90.json": {
-   "sha256": "483f700eea7d202e4a9b084de1235a63cbc6e74eb3919365b2faf2112bb99073",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_aokvqa_reasoning_r90.json"
-  },
-  "reports/pope_gqa_r50.json": {
-   "sha256": "fb00f59d599d4b4a39dc2da8457ece3ed05b8a21ada4e94841adb1b5fdc21d43",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_gqa_r50.json"
-  },
-  "reports/pope_gqa_r70.json": {
-   "sha256": "812b3fb3b641023e6c218d57d7cdc67446076125c3dca4f1570b7cc08ed6b989",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_gqa_r70.json"
-  },
-  "reports/pope_gqa_r90.json": {
-   "sha256": "a7c6171e30695aca447220604bbd08dbf1dc617daf4ebe8fbe619677a7441007",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_gqa_r90.json"
-  },
-  "reports/pope_gqa_reasoning_r50.json": {
-   "sha256": "1144df3d3054fca9b96dbad8d5ec7856cdbd935d3824ef7ee0d5b88190de81bb",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_gqa_reasoning_r50.json"
-  },
-  "reports/pope_gqa_reasoning_r70.json": {
-   "sha256": "796a2ccb2f7d48f7e1108dabb94c639fa4884cacccd86d3a2c7896d1f7dbeaa5",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_gqa_reasoning_r70.json"
-  },
-  "reports/pope_gqa_reasoning_r90.json": {
-   "sha256": "75159fd19935bba0ffd959e6a2338939622da5e49aba99320631ed9a1589b3eb",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_gqa_reasoning_r90.json"
-  },
-  "reports/pope_rgate_behavior.json": {
-   "sha256": "e9a08904ab4d3c18a9495fd8cb8ba6d8fd3777afb936c4afd0b82830e18de44e",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_rgate_behavior.json"
-  },
-  "reports/pope_rgate_behavior.md": {
-   "sha256": "885f8776477d2353c2edbf9f3cde0d9254fd4a7de79aee57afb52f848f66ceb7",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_rgate_behavior.md"
-  },
-  "reports/pope_rgate_behavior.sha256": {
-   "sha256": "cf6b664f677cbdfebb40d97265f6ab7cecd182a4692199240448238fa91faafa",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_rgate_behavior.sha256"
-  },
-  "reports/pope_rgate_sweep.json": {
-   "sha256": "3998e7159b18daf2491f747b7529c06dc19fde96229ae933307721896e48b3c9",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_rgate_sweep.json"
-  },
-  "reports/pope_rgate_sweep_runs.json": {
-   "sha256": "2a73b6899ebe0303a4a3ec8d9ebc80d227040a9aa432b7fb9c5854733e5598ff",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_rgate_sweep_runs.json"
-  },
-  "reports/pope_think_answer_audit.json": {
-   "sha256": "95bb3d1ea49c0d4e1b10a6e1481cf3b5935918f7a9e7523d3744522068c462f7",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_think_answer_audit.json"
-  },
-  "reports/pope_think_answer_audit.md": {
-   "sha256": "dd3007f0ad6e061b4b54279fbe2e584ba8eabf936e1d99ca77e3c0677d112715",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_think_answer_audit.md"
-  },
-  "reports/pope_think_answer_audit.sha256": {
-   "sha256": "5ab505f13c3c7ed7ff00bc698f169699c534880b9c547b6cd2c9b08f116fba81",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_think_answer_audit.sha256"
-  },
-  "reports/pope_think_answer_manual.json": {
-   "sha256": "35e224b0ac7d8571c5e8eb943e49d5094cf25b4de72c1c773114971ffc4e4e26",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_think_answer_manual.json"
-  },
-  "reports/pope_think_answer_review.json": {
-   "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_think_answer_review.json"
-  },
-  "reports/pope_think_llm_judge/index.json": {
-   "sha256": "58be14fa4f17d91860de2a1fcfcc4a1d786e3ff3d4236586ad6181ff102ca08d",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_think_llm_judge/index.json"
-  },
-  "reports/pope_think_llm_judge/judge_manifest.json": {
-   "sha256": "bd8289b06f5276274e5902c219c4dfcf1d59b00788f17f9257011471614ead11",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_think_llm_judge/judge_manifest.json"
-  },
-  "reports/pope_think_llm_judge/pope_aokvqa_reasoning_r70.json": {
-   "sha256": "11efcdbdedb61f2dfedebf6296610d09b42b0e7e140d9d8dae41ae2bc9ac8dd7",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_think_llm_judge/pope_aokvqa_reasoning_r70.json"
-  },
-  "reports/pope_think_llm_judge/pope_aokvqa_reasoning_r90.json": {
-   "sha256": "fc74e904a4602a7a65185c6833d940958494b02fc3079543372a06b8309c8fb0",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_think_llm_judge/pope_aokvqa_reasoning_r90.json"
-  },
-  "reports/pope_think_llm_judge/pope_gqa_reasoning_r50.json": {
-   "sha256": "7738ba5b135b60d75db2855a7583c8b128159008aaf67e1babc18ad45d6a6c96",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_think_llm_judge/pope_gqa_reasoning_r50.json"
-  },
-  "reports/pope_think_llm_judge/pope_gqa_reasoning_r70.json": {
-   "sha256": "3f9f8f4f989eb49abb543e9a0fa352948e91916583cbb26bb41d0a5908e7df3e",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_think_llm_judge/pope_gqa_reasoning_r70.json"
-  },
-  "reports/pope_think_llm_judge/pope_gqa_reasoning_r90.json": {
-   "sha256": "9b56c62640e48e44f279208792f717650e3c301d513bb2c8011fb051a0ac3e20",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_think_llm_judge/pope_gqa_reasoning_r90.json"
-  },
-  "reports/pope_yesno_mmada_cdapc_L128.json": {
-   "sha256": "f85a37da90822fad37c02b5dc1dec98b5e12cc00165964d8483382f2b42920bf",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_yesno_mmada_cdapc_L128.json"
-  },
-  "reports/pope_yesno_mmada_cdapc_L128_r50.json": {
-   "sha256": "98f8123b8fcf483f8a700b7c162cab139327e6d5287c98234cc254290f56ca10",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_yesno_mmada_cdapc_L128_r50.json"
-  },
-  "reports/pope_yesno_mmada_cdapc_L128_r60.json": {
-   "sha256": "41f3a809247078bebbaa2611c4574595e82d374e7e3ad4132a23c3cfa1e99ee6",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_yesno_mmada_cdapc_L128_r60.json"
-  },
-  "reports/pope_yesno_mmada_cdapc_L128_r70.json": {
-   "sha256": "f533db4635d39fe4c634623f1963a902cab65867f8f00086eea7093b0b70cb04",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_yesno_mmada_cdapc_L128_r70.json"
-  },
-  "reports/pope_yesno_mmada_cdapc_L128_r80.json": {
-   "sha256": "0acbc0a4fe2812eccddfe2b44e5f2d8a66631bf14685d5b93fc86cf93daa3368",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_yesno_mmada_cdapc_L128_r80.json"
-  },
-  "source/README.md": {
-   "sha256": "bb1d03c0cabf9b542307646ac32d6ac2754d99fe9389a8eb4ee8cff9e1d3330c",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/README.md"
-  },
-  "source/configs/experiments/lavida_m3cot_base_candidate_visual_smoke.yaml": {
-   "sha256": "28211a482dabd4d32e7035adf708e0292fd2a32e46cfa64c4e16adfe14a63385",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/lavida_m3cot_base_candidate_visual_smoke.yaml"
-  },
-  "source/configs/experiments/lavida_m3cot_ccaw_v1_smoke.yaml": {
-   "sha256": "f425b814303bd654ccb94cd289f3e2dd62176488d8753c1779d19eb5ca1d738b",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/lavida_m3cot_ccaw_v1_smoke.yaml"
-  },
-  "source/configs/experiments/lavida_m3cot_fixed_smoke.yaml": {
-   "sha256": "6bfd84dc02a04767fa31f7f881b0939100b338202c1d05193b435a031f63b9f0",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/lavida_m3cot_fixed_smoke.yaml"
-  },
-  "source/configs/experiments/lavida_m3cot_gain_zero_smoke.yaml": {
-   "sha256": "8bb02713363542ec375bd3e3142fc776164b6b004548a1dac1264b799b149d10",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/lavida_m3cot_gain_zero_smoke.yaml"
-  },
-  "source/configs/experiments/lavida_m3cot_timing_only_crossed_smoke.yaml": {
-   "sha256": "f25fb2399c34d68c2c7c0518f642b26cae97d2e0514facd6831603ff1c7ad131",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/lavida_m3cot_timing_only_crossed_smoke.yaml"
-  },
-  "source/configs/experiments/lavida_native_smoke.yaml": {
-   "sha256": "805e4615d37929ea7b0b92ef117e7282b3da62f6efa5b9ff41818395429bf1e9",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/lavida_native_smoke.yaml"
-  },
-  "source/configs/experiments/mmada_chair_r50_shard0.yaml": {
-   "sha256": "dcb8ca4f79d074f41d13b43f00858e99bf5eda86c4884ed89f04106840302a9b",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_chair_r50_shard0.yaml"
-  },
-  "source/configs/experiments/mmada_chair_r50_shard1.yaml": {
-   "sha256": "f9f8dae65ece5ad451479a504f024db005a2a4fead16bedb98c748a10c3cdfa1",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_chair_r50_shard1.yaml"
-  },
-  "source/configs/experiments/mmada_chair_r50_shard2.yaml": {
-   "sha256": "d6332e5ee0de707385753d3e994cdda7eec547fc0faf9cd0d0e53623a1164775",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_chair_r50_shard2.yaml"
-  },
-  "source/configs/experiments/mmada_chair_r70_shard0.yaml": {
-   "sha256": "7b8e6bc772f13c39c2cc60634024d41689396a801d06a5bee8d7e2b36532dcfb",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_chair_r70_shard0.yaml"
-  },
-  "source/configs/experiments/mmada_chair_r70_shard1.yaml": {
-   "sha256": "1aabe543a72b3dc61c8e3820bab7c50e07cd88d51f3aa83f697f83973a2c7c59",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_chair_r70_shard1.yaml"
-  },
-  "source/configs/experiments/mmada_chair_r70_shard2.yaml": {
-   "sha256": "dd2a14f6fcc5b4735ad3ef0cd27d82624551c92094ce662e0ee46b2ebe50470b",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_chair_r70_shard2.yaml"
-  },
-  "source/configs/experiments/mmada_chair_r90_shard0.yaml": {
-   "sha256": "aef2ecf1a794b520ec390ba31d606e44ea144a37b72fecd182f10cbe77fcdd4e",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_chair_r90_shard0.yaml"
-  },
-  "source/configs/experiments/mmada_chair_r90_shard1.yaml": {
-   "sha256": "e0fc5e0fbe5088c9bc2801daf2bfb15a6564c24c846b10dcd8cdd8e6e83214e1",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_chair_r90_shard1.yaml"
-  },
-  "source/configs/experiments/mmada_chair_r90_shard2.yaml": {
-   "sha256": "827c4052c433ad66588fd530a3ac317bbeada7edff187bd70a5e8708cb7ec27c",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_chair_r90_shard2.yaml"
-  },
-  "source/configs/experiments/mmada_gqa_think_r70_k2_pilot_shard0.yaml": {
-   "sha256": "76e34c8b331daadac21100d763dfca7203aec0e08f86ea3cf20902adfb74209a",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_gqa_think_r70_k2_pilot_shard0.yaml"
-  },
-  "source/configs/experiments/mmada_gqa_think_r70_k2_pilot_shard1.yaml": {
-   "sha256": "aa6be5099aa96d9c774582a6ec2d6d6c640773d5af3e0ffda65148caf5238a41",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_gqa_think_r70_k2_pilot_shard1.yaml"
-  },
-  "source/configs/experiments/mmada_gqa_think_r70_k2_pilot_shard2.yaml": {
-   "sha256": "b6cc40826abb119d8ba44865be8aabfa67cdbbf5d082af2f0a93b3fa16f00e3b",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_gqa_think_r70_k2_pilot_shard2.yaml"
-  },
-  "source/configs/experiments/mmada_gqa_think_r70_k4_pilot_shard0.yaml": {
-   "sha256": "441e25ef529db3e814cd0a83db57ef745a81a679782d413fd29fb82de76143ce",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_gqa_think_r70_k4_pilot_shard0.yaml"
-  },
-  "source/configs/experiments/mmada_gqa_think_r70_k4_pilot_shard1.yaml": {
-   "sha256": "a2d896fffe59874f491eb5666bc4ce59dca538c2be05565ebf71c407f464c1c8",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_gqa_think_r70_k4_pilot_shard1.yaml"
-  },
-  "source/configs/experiments/mmada_gqa_think_r70_k4_pilot_shard2.yaml": {
-   "sha256": "383b36da838abb1a79b266f281c988289ffcb25112f04a4804c200e6b871ec7c",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_gqa_think_r70_k4_pilot_shard2.yaml"
-  },
-  "source/configs/experiments/mmada_m3cot_base_candidate_visual_smoke.yaml": {
-   "sha256": "1c4768ed16d3b00b732cb9bc61a4145ecfc3c2045c10251cf6f8e9cecd5d7d37",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_m3cot_base_candidate_visual_smoke.yaml"
-  },
-  "source/configs/experiments/mmada_m3cot_ccaw_v1_smoke.yaml": {
-   "sha256": "0a2e41f8e91fced2d626ecac1a6fdcb73046a478a2ad09508be8999035d55026",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_m3cot_ccaw_v1_smoke.yaml"
-  },
-  "source/configs/experiments/mmada_m3cot_fixed_smoke.yaml": {
-   "sha256": "213f27d80e662eb16ea922bc229ec08f13cde530a5454f0a905109495c2f2a88",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_m3cot_fixed_smoke.yaml"
-  },
-  "source/configs/experiments/mmada_m3cot_gain_zero_smoke.yaml": {
-   "sha256": "d38d356612eca23f2ca17a68552bf482ac412200f4c394412ab502fcd33e1ae4",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_m3cot_gain_zero_smoke.yaml"
-  },
-  "source/configs/experiments/mmada_m3cot_timing_only_crossed_smoke.yaml": {
-   "sha256": "1d2432fd20c1fe6ae2f7a1f657ff1bf273f701310f4cc0c316f573baa7a05eda",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_m3cot_timing_only_crossed_smoke.yaml"
-  },
-  "source/configs/experiments/mmada_mechanism16.yaml": {
-   "sha256": "3dcace4f97f33a92d19448a9d1dd6b3fae4147a7e740ee942e3b1e46b9eff68d",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mechanism16.yaml"
-  },
-  "source/configs/experiments/mmada_mmmu_cdapc_r50_shard0.yaml": {
-   "sha256": "08753770713bc4ed3c2ada0e901d28fdd21a28780ba7b83b8825e963a39a4017",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mmmu_cdapc_r50_shard0.yaml"
-  },
-  "source/configs/experiments/mmada_mmmu_cdapc_r50_shard1.yaml": {
-   "sha256": "27011a7ac59c9ee5b01a2935c45affbd0725473ac18a45c3b6da015a7356412d",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mmmu_cdapc_r50_shard1.yaml"
-  },
-  "source/configs/experiments/mmada_mmmu_cdapc_r50_shard2.yaml": {
-   "sha256": "2e0a03ad93082cafc976acb1ff2884c4f5052cec47f37a3c6e3244aa28474266",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mmmu_cdapc_r50_shard2.yaml"
-  },
-  "source/configs/experiments/mmada_mmmu_cdapc_r50_smoke.yaml": {
-   "sha256": "ec87ca1825bc6aa6b9a772d87c0d433b943bc5d3bb50bea15228be82c262ed84",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mmmu_cdapc_r50_smoke.yaml"
-  },
-  "source/configs/experiments/mmada_mmmu_cdapc_r70_L256_I128_shard0.yaml": {
-   "sha256": "a0ad14b2e6971c52a8be71fb2cb02921750391e3a8b30c02c3e188b46ac6d071",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mmmu_cdapc_r70_L256_I128_shard0.yaml"
-  },
-  "source/configs/experiments/mmada_mmmu_cdapc_r70_L256_I128_shard1.yaml": {
-   "sha256": "5ad3af4403e5a8ef746ef60e7669e3ae0bf5440930c6eeca5497f789b4bf3654",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mmmu_cdapc_r70_L256_I128_shard1.yaml"
-  },
-  "source/configs/experiments/mmada_mmmu_cdapc_r70_L256_I128_shard2.yaml": {
-   "sha256": "e6053ebf0c0bdabf8fe298575842bf188cea4ecaef9b4a49d73e3f1f441e6c94",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mmmu_cdapc_r70_L256_I128_shard2.yaml"
-  },
-  "source/configs/experiments/mmada_mmmu_cdapc_r90_shard0.yaml": {
-   "sha256": "a68063c7547aed3d6a70c127804ae2c5e38ffe091234ecf6fb63bc4c4ef4fa02",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mmmu_cdapc_r90_shard0.yaml"
-  },
-  "source/configs/experiments/mmada_mmmu_cdapc_r90_shard1.yaml": {
-   "sha256": "990ab4f500393a9e8850bc2568879e48c15a42351aa022434fe35661ab2c3e9f",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mmmu_cdapc_r90_shard1.yaml"
-  },
-  "source/configs/experiments/mmada_mmmu_cdapc_r90_shard2.yaml": {
-   "sha256": "b5f3127a288da9fa68ccf283f173c5948e056a5b345169b070066d5821d99e57",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mmmu_cdapc_r90_shard2.yaml"
-  },
-  "source/configs/experiments/mmada_mmmu_cdapc_r90_smoke.yaml": {
-   "sha256": "b35496150ffaf885e96338df1de47ef15cc72dc9f4276ab78438a06dec838aac",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mmmu_cdapc_r90_smoke.yaml"
-  },
-  "source/configs/experiments/mmada_mmmu_native_shard0.yaml": {
-   "sha256": "ef8c0153a1fc31d79f4c62f08e73d32829adf7ae196deed435d276bc8ad91202",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mmmu_native_shard0.yaml"
-  },
-  "source/configs/experiments/mmada_mmmu_native_shard1.yaml": {
-   "sha256": "0553fe12e00933165a62185dbe412216b36d4fce453ff82a049ccdf74fb5b8a1",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mmmu_native_shard1.yaml"
-  },
-  "source/configs/experiments/mmada_mmmu_native_shard2.yaml": {
-   "sha256": "79eaea1d2b9da4dc7962ef5c0c0776206868b6ca02ca742c06be661fbe0ed1f9",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mmmu_native_shard2.yaml"
-  },
-  "source/configs/experiments/mmada_mmmu_native_smoke.yaml": {
-   "sha256": "f3d56acae15771c590059fd314d5786af3e8f103f9497483b3f84e533ca3377e",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mmmu_native_smoke.yaml"
-  },
-  "source/configs/experiments/mmada_native_smoke.yaml": {
-   "sha256": "9b03c3dbc6158ed9f6e008d0143f629be94816b3dfbae8693ab36c6a3a97903a",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_native_smoke.yaml"
-  },
-  "source/configs/experiments/mmada_pope_aokvqa_r50_shard0.yaml": {
-   "sha256": "1b20d00d08714c1c9e0e01e85b952c6ae65620dee41a4cc70190e16a503e5687",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_aokvqa_r50_shard0.yaml"
-  },
-  "source/configs/experiments/mmada_pope_aokvqa_r50_shard1.yaml": {
-   "sha256": "929ce83ecb889a9dbb7224764ba487d6c6600f68636a4b5bd64f0ea36e44749e",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_aokvqa_r50_shard1.yaml"
-  },
-  "source/configs/experiments/mmada_pope_aokvqa_r50_shard2.yaml": {
-   "sha256": "98009ab7b74a680ac25419770681e4525f502722b57db65f30c5deeb6d4d5f2a",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_aokvqa_r50_shard2.yaml"
-  },
-  "source/configs/experiments/mmada_pope_aokvqa_r70_shard0.yaml": {
-   "sha256": "165bb012fe549b7672e44731447206f090ec70f96cd7f9a20350e35f853af892",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_aokvqa_r70_shard0.yaml"
-  },
-  "source/configs/experiments/mmada_pope_aokvqa_r70_shard1.yaml": {
-   "sha256": "804c1951c119b25a65324e316023f8a72dc068b7e55c2cfa5f88317d2d2db796",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_aokvqa_r70_shard1.yaml"
-  },
-  "source/configs/experiments/mmada_pope_aokvqa_r70_shard2.yaml": {
-   "sha256": "82c318d599f8514f42b7a8b07e8725afa956212c81948e3e55ea17128a3e4ee7",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_aokvqa_r70_shard2.yaml"
-  },
-  "source/configs/experiments/mmada_pope_aokvqa_r90_shard0.yaml": {
-   "sha256": "de629c1d901b08ee2c992c2d8d81b5cc7982190b96d1afe7ec22dbd464d24ca2",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_aokvqa_r90_shard0.yaml"
-  },
-  "source/configs/experiments/mmada_pope_aokvqa_r90_shard1.yaml": {
-   "sha256": "37e5d8fdd1feb8088e6953fccb9192d1311a2b3b302df8603c0dbd998f4d6131",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_aokvqa_r90_shard1.yaml"
-  },
-  "source/configs/experiments/mmada_pope_aokvqa_r90_shard2.yaml": {
-   "sha256": "10b871032a1c2043afa38ba7fbd9bab2ceeba9be17b0477959fb4e2393f49b20",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_aokvqa_r90_shard2.yaml"
-  },
-  "source/configs/experiments/mmada_pope_aokvqa_reasoning_r70_shard0.yaml": {
-   "sha256": "dc282ebbdf5c94c809fb5e1d403f274c6d378cf37d977194a4d7ca794cfeed5f",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_aokvqa_reasoning_r70_shard0.yaml"
-  },
-  "source/configs/experiments/mmada_pope_aokvqa_reasoning_r70_shard1.yaml": {
-   "sha256": "28714ad50d72b95e201caafce072e5732dec6809291efd6c466396043c56dfb6",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_aokvqa_reasoning_r70_shard1.yaml"
-  },
-  "source/configs/experiments/mmada_pope_aokvqa_reasoning_r70_shard2.yaml": {
-   "sha256": "25e2e21d26d4361c3928d9b6877105074f2c8f0e15b58070e7a9704e99b4edc4",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_aokvqa_reasoning_r70_shard2.yaml"
-  },
-  "source/configs/experiments/mmada_pope_aokvqa_reasoning_r90_shard0.yaml": {
-   "sha256": "972aadb653513cb73cd7d79493d0bc16027403df58eff10df5cf342fec8c08c2",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_aokvqa_reasoning_r90_shard0.yaml"
-  },
-  "source/configs/experiments/mmada_pope_aokvqa_reasoning_r90_shard1.yaml": {
-   "sha256": "ac32c73fca36e72cc0c8326b3ccb18c93037599d18e50c39b72e4f3f751ddb47",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_aokvqa_reasoning_r90_shard1.yaml"
-  },
-  "source/configs/experiments/mmada_pope_aokvqa_reasoning_r90_shard2.yaml": {
-   "sha256": "42f2110928a7d2683ca51f8c317a49d77c77b2986d13a9bfd2be9d9fd9739793",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_aokvqa_reasoning_r90_shard2.yaml"
-  },
-  "source/configs/experiments/mmada_pope_gqa_r50_shard0.yaml": {
-   "sha256": "bd93ecb70f639733564fb1a2ebfc62e1e421a350c53eb0e6e3db5b91abe8f4ff",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_r50_shard0.yaml"
-  },
-  "source/configs/experiments/mmada_pope_gqa_r50_shard1.yaml": {
-   "sha256": "772bd6fd6c5e459d43a8caa665c473e187f357c206925f0a09a17f14da50f4b8",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_r50_shard1.yaml"
-  },
-  "source/configs/experiments/mmada_pope_gqa_r50_shard2.yaml": {
-   "sha256": "0ffc54f6d7a2e9f17ec8832617f2bee10962fa9bb189872daf320ebc6556a98d",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_r50_shard2.yaml"
-  },
-  "source/configs/experiments/mmada_pope_gqa_r70_shard0.yaml": {
-   "sha256": "d2aed2acbc2aaa5c4b5f7afd1c4c5094c219d05be0c4f16b2834b197eb05df1c",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_r70_shard0.yaml"
-  },
-  "source/configs/experiments/mmada_pope_gqa_r70_shard1.yaml": {
-   "sha256": "19f23fe374cfc1716ec5601ec372c56fcae078d9ab4448219b136537789ea86a",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_r70_shard1.yaml"
-  },
-  "source/configs/experiments/mmada_pope_gqa_r70_shard2.yaml": {
-   "sha256": "13bc9310ddcb1ea44d882e9d5926782a4f193dd61047ce7a8af24a47b13c8aca",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_r70_shard2.yaml"
-  },
-  "source/configs/experiments/mmada_pope_gqa_r90_shard0.yaml": {
-   "sha256": "19b47d11562f155a7f801c1b097609479661aa18914cebd8d89838296f0360e4",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_r90_shard0.yaml"
-  },
-  "source/configs/experiments/mmada_pope_gqa_r90_shard1.yaml": {
-   "sha256": "be04b53ce0f98d3cfe199875ee2a2ec5fe9646c55d56d584fe18211d3e8a900d",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_r90_shard1.yaml"
-  },
-  "source/configs/experiments/mmada_pope_gqa_r90_shard2.yaml": {
-   "sha256": "7476f27ac8a42f8dd5e220bf08e54c533041afd838b4e4110cbff1893a879be6",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_r90_shard2.yaml"
-  },
-  "source/configs/experiments/mmada_pope_gqa_reasoning_r50_shard0.yaml": {
-   "sha256": "03591713c9b40ea2c206bf2e62605507dfa137289b036cdef342b7a68d88d4ea",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_reasoning_r50_shard0.yaml"
-  },
-  "source/configs/experiments/mmada_pope_gqa_reasoning_r50_shard1.yaml": {
-   "sha256": "21fb46da6e0adf21143779b7cd20d8c51d5aac287ea014d9ff9ae69fc4b12dd7",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_reasoning_r50_shard1.yaml"
-  },
-  "source/configs/experiments/mmada_pope_gqa_reasoning_r50_shard2.yaml": {
-   "sha256": "24e37d8b9d8dc51fb81420b144f70ab112b525fa689fb3850d675292a3af8106",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_reasoning_r50_shard2.yaml"
-  },
-  "source/configs/experiments/mmada_pope_gqa_reasoning_r70_shard0.yaml": {
-   "sha256": "5ebf5ac3c377b1f371771290f253efda33173e23684513f90d6564d7d55a2a93",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_reasoning_r70_shard0.yaml"
-  },
-  "source/configs/experiments/mmada_pope_gqa_reasoning_r70_shard1.yaml": {
-   "sha256": "9123efb3f05233adc3e2b2e7571990ac525ae4b7478a66d5878ceef6c858f535",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_reasoning_r70_shard1.yaml"
-  },
-  "source/configs/experiments/mmada_pope_gqa_reasoning_r70_shard2.yaml": {
-   "sha256": "0939f528e8f9c822eb881ab3ee401e6afce1236c80bf13e5a95d480618799818",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_reasoning_r70_shard2.yaml"
-  },
-  "source/configs/experiments/mmada_pope_gqa_reasoning_r90_shard0.yaml": {
-   "sha256": "0d2086560bb36da998a348472985df997f1efa54f5680b7a47b8bdabd70260ba",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_reasoning_r90_shard0.yaml"
-  },
-  "source/configs/experiments/mmada_pope_gqa_reasoning_r90_shard1.yaml": {
-   "sha256": "8b5baf85e6322257fb60f3647e94f0fa884b04e208965c79e35155246707ef11",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_reasoning_r90_shard1.yaml"
-  },
-  "source/configs/experiments/mmada_pope_gqa_reasoning_r90_shard2.yaml": {
-   "sha256": "239af5bcf1c58b55f91931dba3d8eab16b2ad602ac7e2f84c33bfc41b9bdb4e1",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_reasoning_r90_shard2.yaml"
-  },
-  "source/configs/experiments/mmada_pope_native_parity.yaml": {
-   "sha256": "5378f4aac93e2f5b4c42c20240537a6290eb9ef853423510f3bdb59e34b19f23",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_native_parity.yaml"
-  },
-  "source/configs/experiments/mmada_pope_yesno_r50_shard0.yaml": {
-   "sha256": "398dda9162c63eacd75c38fdb38ecb1513d87bc016b8b9c89e2f2f00cbe31b1f",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_yesno_r50_shard0.yaml"
-  },
-  "source/configs/experiments/mmada_pope_yesno_r50_shard1.yaml": {
-   "sha256": "0efd95424cd88390accb722774eeec79e2d8530a50bc9378dd90dfdcf83aac69",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_yesno_r50_shard1.yaml"
-  },
-  "source/configs/experiments/mmada_pope_yesno_r50_shard2.yaml": {
-   "sha256": "df822a4e0c3e4836fcee22673376c1c79b919ba54c77b814c974ece5dd80c45f",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_yesno_r50_shard2.yaml"
-  },
-  "source/configs/experiments/mmada_pope_yesno_r60_shard0.yaml": {
-   "sha256": "e2ffc440bd8ec92592c66cf060513252f3ded0966cc59737a4ab70f98451fd5f",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_yesno_r60_shard0.yaml"
-  },
-  "source/configs/experiments/mmada_pope_yesno_r60_shard1.yaml": {
-   "sha256": "c32eef149a2aa6b23962f73a46dc2122d4894ade3f4d305481c795b29da1e912",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_yesno_r60_shard1.yaml"
-  },
-  "source/configs/experiments/mmada_pope_yesno_r60_shard2.yaml": {
-   "sha256": "9e31bc109e650984ebf7db7f2ae9c6f076122b0abb3481c0be92fb213d56a72f",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_yesno_r60_shard2.yaml"
-  },
-  "source/configs/experiments/mmada_pope_yesno_r70_shard0.yaml": {
-   "sha256": "28996976ace2a3748ba1199bff7609ad5da41bfe443bbce48812b495e9b5c01b",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_yesno_r70_shard0.yaml"
-  },
-  "source/configs/experiments/mmada_pope_yesno_r70_shard1.yaml": {
-   "sha256": "8e14c8374830b34d6842c75bb6c8eec1a1a9d3f30a9b855cb717defc60ab54c2",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_yesno_r70_shard1.yaml"
-  },
-  "source/configs/experiments/mmada_pope_yesno_r70_shard2.yaml": {
-   "sha256": "3bb463531645fbcb2fa3a89a9e51f63719fa988d6673b26198adb4178219f008",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_yesno_r70_shard2.yaml"
-  },
-  "source/configs/experiments/mmada_pope_yesno_r80_shard0.yaml": {
-   "sha256": "ce74dd597e99755befbc6a0ac4670d2cf4277513f0b978c9b1b392e05f9d234d",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_yesno_r80_shard0.yaml"
-  },
-  "source/configs/experiments/mmada_pope_yesno_r80_shard1.yaml": {
-   "sha256": "4064b90e10cbb3ec75d04afa1eb10aa82e680f560b303f38a05ebf471f51e020",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_yesno_r80_shard1.yaml"
-  },
-  "source/configs/experiments/mmada_pope_yesno_r80_shard2.yaml": {
-   "sha256": "e789646ba2491f4c9c44e8f2d045da732c0785065ecccb2af35ff1af03dd4b8e",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_yesno_r80_shard2.yaml"
-  },
-  "source/configs/experiments/mmada_pope_yesno_shard0.yaml": {
-   "sha256": "a85d13cf3256b5ed777a2670f2b79ad956b8eeebd16c6377258ee06a5395b7ea",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_yesno_shard0.yaml"
-  },
-  "source/configs/experiments/mmada_pope_yesno_shard1.yaml": {
-   "sha256": "f7ca1ff54545b2d0df3acb25682b3c92b496a30b5104bd082316f5ba6489007f",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_yesno_shard1.yaml"
-  },
-  "source/configs/experiments/mmada_pope_yesno_shard2.yaml": {
-   "sha256": "3a195294ce5d62c7b18a9f90500c2271b7753b26ca043e9ad5804454a9240ea4",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_yesno_shard2.yaml"
-  },
-  "source/docs/ACCEPTANCE.md": {
-   "sha256": "2930dcfeeb3a53ac61075483e80086d14eab41e1a9405e897e9bd75076dcac0c",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/docs/ACCEPTANCE.md"
-  },
-  "source/docs/ALGORITHM_SPEC.md": {
-   "sha256": "6b6597f1142a3f13e123c9be18fe33a09a4ec056ab46e3c08d50548b0596916f",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/docs/ALGORITHM_SPEC.md"
-  },
-  "source/docs/CD_APC_Implementation_Guide_v1_No_DCD.md": {
-   "sha256": "d9c551bc89a4073688d6d956ce9aea774d2c21ed99cbe92bba41ff75d2b84a50",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/docs/CD_APC_Implementation_Guide_v1_No_DCD.md"
-  },
-  "source/docs/CHAIR_POPE_EXTENSIONS.md": {
-   "sha256": "b4419898be0433871a5d194a6ab4cf2f1ca56bd71fb1ae1d6a8006c6706bc1d9",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/docs/CHAIR_POPE_EXTENSIONS.md"
-  },
-  "source/docs/DECISIONS.md": {
-   "sha256": "899833485ee0277ffa5180c46cc34ea625673ff402a6bbae7717d5bed1968d11",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/docs/DECISIONS.md"
-  },
-  "source/docs/K_COMMIT_PILOT.md": {
-   "sha256": "e7d51944ce7c21b4f1abc1c7a857782b3b01c6581c911a75283751c94e7e909d",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/docs/K_COMMIT_PILOT.md"
-  },
-  "source/docs/MME_L256_I128.md": {
-   "sha256": "719711cace111ba8cf7fd770d63daf98026551b23e63a39b872ef675c3e475b3",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/docs/MME_L256_I128.md"
-  },
-  "source/docs/MMMU_INPUT_REPRODUCTION.md": {
-   "sha256": "7beeeef110591dbb15a004f22d52ecf03980be3f922dde9342e5f0df9f1df5b7",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/docs/MMMU_INPUT_REPRODUCTION.md"
-  },
-  "source/docs/MMMU_R70_POPE_LLM_JUDGE.md": {
-   "sha256": "f11479f4e49d77392ccb6fbacb0344f4b4c22c4231eafc752b6df0356fffded3",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/docs/MMMU_R70_POPE_LLM_JUDGE.md"
-  },
-  "source/docs/PROTOCOL_SPEC.md": {
-   "sha256": "3162a7be5f8cbf7ea4ada6861c0700454bc3750748a9c37abf1d62b3150b04b1",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/docs/PROTOCOL_SPEC.md"
-  },
-  "source/manifests/chair_all_ids.json": {
-   "sha256": "b46b1b702afa4183e559a80825b532c44b75e71cbb87b32247dd00cb336302a1",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/chair_all_ids.json"
-  },
-  "source/manifests/chair_shard0_ids.json": {
-   "sha256": "1fb7a98f5c9fe219a17c3a794c02336765ca826f0447c81163c4840a5d7b0c49",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/chair_shard0_ids.json"
-  },
-  "source/manifests/chair_shard1_ids.json": {
-   "sha256": "38b5a1c7a98a725e7dddad1c5fd02daa11ff072dc8878555aa9478827e0c7584",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/chair_shard1_ids.json"
-  },
-  "source/manifests/chair_shard2_ids.json": {
-   "sha256": "bf478d5f3227b5f853c620c0fbcc6221679fc74983891abc9903d247fc1dae8f",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/chair_shard2_ids.json"
-  },
-  "source/manifests/chair_smoke_ids.json": {
-   "sha256": "7b76cf43a1d5e939f39d7c1ef38a39fdcc4edd818f5a9a369b54deee755274e1",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/chair_smoke_ids.json"
-  },
-  "source/manifests/gqa_think_r70_k_pilot_shard0_ids.json": {
-   "sha256": "8a15651058ca54497b4a6819ec04950904fb6cbee6eec6c53ba13a3f1b4f0dbd",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/gqa_think_r70_k_pilot_shard0_ids.json"
-  },
-  "source/manifests/gqa_think_r70_k_pilot_shard1_ids.json": {
-   "sha256": "751ebde13e4926d209ed59958db139f4dab43c093efe76657690d154b041cc46",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/gqa_think_r70_k_pilot_shard1_ids.json"
-  },
-  "source/manifests/gqa_think_r70_k_pilot_shard2_ids.json": {
-   "sha256": "c7930339aba603e73500bcc72531676ad164f6da9ea6ffec767c28771a7a106c",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/gqa_think_r70_k_pilot_shard2_ids.json"
-  },
-  "source/manifests/m3cot_mechanism16_ids.json": {
-   "sha256": "38684b092b95bde2e723781c485af3bb344bcc1ad4907448d4b2a4fbc399938f",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/m3cot_mechanism16_ids.json"
-  },
-  "source/manifests/m3cot_smoke_ids.json": {
-   "sha256": "456860fda7cd44e51db04a0cd257b9584c80867be3a637616803cab586059a3d",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/m3cot_smoke_ids.json"
-  },
-  "source/manifests/m3cot_trace_ids.json": {
-   "sha256": "456860fda7cd44e51db04a0cd257b9584c80867be3a637616803cab586059a3d",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/m3cot_trace_ids.json"
-  },
-  "source/manifests/mmmu_val_all_ids.json": {
-   "sha256": "3fc465fbfe42d87975e6c5f54f3e36e1d915f218b176084c16a286a313432222",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/mmmu_val_all_ids.json"
-  },
-  "source/manifests/mmmu_val_shard0_ids.json": {
-   "sha256": "92cdcec09d48f69fec407e2d4e1015a48bd1012176666b456c90d14f84042ec5",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/mmmu_val_shard0_ids.json"
-  },
-  "source/manifests/mmmu_val_shard1_ids.json": {
-   "sha256": "4a1e0e668fe095e491c1c07f5ce511b0606c5c30d410581ff4da61cd5651aeb4",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/mmmu_val_shard1_ids.json"
-  },
-  "source/manifests/mmmu_val_shard2_ids.json": {
-   "sha256": "e2f2bb5eaffe8994c6b23918a93e997022403cb2fccb68112e4135fb00c65041",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/mmmu_val_shard2_ids.json"
-  },
-  "source/manifests/mmmu_val_smoke8_ids.json": {
-   "sha256": "f5f93eb884303169cdbe6dcc052408110bae051162b01c28c902bf209bff56bc",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/mmmu_val_smoke8_ids.json"
-  },
-  "source/manifests/pope_aokvqa_all_ids.json": {
-   "sha256": "ffc2c054785a9978f6d9fac69460f34b54e603c4068e7eb433f78de98575a3c4",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/pope_aokvqa_all_ids.json"
-  },
-  "source/manifests/pope_aokvqa_shard0_ids.json": {
-   "sha256": "57cb1d3fc99b4c917ebbf724da82f523c89125af256ab867dcf63bf1caf5937c",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/pope_aokvqa_shard0_ids.json"
-  },
-  "source/manifests/pope_aokvqa_shard1_ids.json": {
-   "sha256": "d80a6cfc1bdded9de7b6ec2c122938da7952fc61d6f4b0e91eabe34f0af11872",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/pope_aokvqa_shard1_ids.json"
-  },
-  "source/manifests/pope_aokvqa_shard2_ids.json": {
-   "sha256": "37810175d5981b04c33580fbfeaa146ee096a9d11bec5a84824929e30d216837",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/pope_aokvqa_shard2_ids.json"
-  },
-  "source/manifests/pope_aokvqa_smoke_ids.json": {
-   "sha256": "3bba26faaee2f0e45920a2adf4a5cbe89981dd04878198eeb3ca018daef82a91",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/pope_aokvqa_smoke_ids.json"
-  },
-  "source/manifests/pope_gqa_all_ids.json": {
-   "sha256": "4c6fc94f5db2de9d8bfd75a68f93495fc6ae9087e159f22ffb4ba49ed22a28ca",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/pope_gqa_all_ids.json"
-  },
-  "source/manifests/pope_gqa_shard0_ids.json": {
-   "sha256": "6cd0841bfdf99c8a9f35230e144e3b16001b847e1559d9dc9e4ed7022e2ea864",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/pope_gqa_shard0_ids.json"
-  },
-  "source/manifests/pope_gqa_shard1_ids.json": {
-   "sha256": "c9be4ee69f55a776ae5f3b9511aca4faf4787e1671aeff0657b2a6c304667d3d",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/pope_gqa_shard1_ids.json"
-  },
-  "source/manifests/pope_gqa_shard2_ids.json": {
-   "sha256": "c7cb30651c6a7a58b0418c4045c541ae82cabaf08aba9a870fb2c5ff2e668ef2",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/pope_gqa_shard2_ids.json"
-  },
-  "source/manifests/pope_gqa_smoke_ids.json": {
-   "sha256": "d51035d4fb46ebbe3e9cda41774a64189b1ece6061076397fff3fd5b2b2f9654",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/pope_gqa_smoke_ids.json"
-  },
-  "source/manifests/pope_yesno_all_ids.json": {
-   "sha256": "77df4546f2eab34831c7942df7982d81584d90e52f1c5b95290c7feeaf871ca6",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/pope_yesno_all_ids.json"
-  },
-  "source/manifests/pope_yesno_parity16_ids.json": {
-   "sha256": "2eb7101346d1b0c8c3861864a9110d168fa748c34cbf6e5059bedffd7212272a",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/pope_yesno_parity16_ids.json"
-  },
-  "source/manifests/pope_yesno_shard0_ids.json": {
-   "sha256": "e40e1b3a8994f83d180b31c0fa8ac0072ad38837c7729fb29f7e3803242d4864",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/pope_yesno_shard0_ids.json"
-  },
-  "source/manifests/pope_yesno_shard1_ids.json": {
-   "sha256": "57b623f1a80daf18882a4e1d210fae915e950a1c5f853a5181af192650d78bc8",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/pope_yesno_shard1_ids.json"
-  },
-  "source/manifests/pope_yesno_shard2_ids.json": {
-   "sha256": "4a37add22be717f6e8df8a15bf6308f9ed3a74a0d8c56fcd4188a1859e2e73dd",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/pope_yesno_shard2_ids.json"
-  },
-  "source/mme/README.md": {
-   "sha256": "6e4bb68c73b1f05cc09f9831f1880d0cf7cd8e87ddab0340e10073d38ac37bff",
-   "source_path": "/root/autodl-tmp/cdapc-mme/README.md"
-  },
-  "source/mme/configs/experiments/mmada_mme_cdapc_r70_L256_I128_shard0.yaml": {
-   "sha256": "f6922184b9ffa5a39aee7a3c9f80ee97344c6a1e925120ae2746d7a2017b0464",
-   "source_path": "/root/autodl-tmp/cdapc-mme/configs/experiments/mmada_mme_cdapc_r70_L256_I128_shard0.yaml"
-  },
-  "source/mme/configs/experiments/mmada_mme_cdapc_r70_L256_I128_shard1.yaml": {
-   "sha256": "0b30486a8a5c778edb0150daec18f9e3da9fca12ae17d58f8d9ec30ecf2de804",
-   "source_path": "/root/autodl-tmp/cdapc-mme/configs/experiments/mmada_mme_cdapc_r70_L256_I128_shard1.yaml"
-  },
-  "source/mme/configs/experiments/mmada_mme_cdapc_r70_L256_I128_shard2.yaml": {
-   "sha256": "62870ef20a94dffb8de28c76385c5806a8400f706bf93fe97184bb4276a56551",
-   "source_path": "/root/autodl-tmp/cdapc-mme/configs/experiments/mmada_mme_cdapc_r70_L256_I128_shard2.yaml"
-  },
-  "source/mme/manifests/mme_all_ids.json": {
-   "sha256": "caaaa6490e7365d95a0e9a9a955f26606bfbefa107cea4fea6089002b16adad0",
-   "source_path": "/root/autodl-tmp/cdapc-mme/manifests/mme_all_ids.json"
-  },
-  "source/mme/manifests/mme_shard0_ids.json": {
-   "sha256": "cdefc4626f05e6674297298e9565111af3db8180bd558eb999c3bc54ff799958",
-   "source_path": "/root/autodl-tmp/cdapc-mme/manifests/mme_shard0_ids.json"
-  },
-  "source/mme/manifests/mme_shard1_ids.json": {
-   "sha256": "a583b63422b56aa7cca0db7192c5e9a925908a91b628c5f3d316933dcd146037",
-   "source_path": "/root/autodl-tmp/cdapc-mme/manifests/mme_shard1_ids.json"
-  },
-  "source/mme/manifests/mme_shard2_ids.json": {
-   "sha256": "afebdf346648c074139c40160f2ec6409f2aa4d38758a930338165bf8aa9b051",
-   "source_path": "/root/autodl-tmp/cdapc-mme/manifests/mme_shard2_ids.json"
-  },
-  "source/mme/reports/source_snapshot.json": {
-   "sha256": "25c71644f25ecf5c10b7d6c5168392341b04b736bcc85ab4770db8d21dc0ee0f",
-   "source_path": "/root/autodl-tmp/cdapc-mme/reports/source_snapshot.json"
-  },
-  "source/mme/scripts/prepare_mme.py": {
-   "sha256": "ef9e209fe3f2d6ee5d4fb36cc9a12ce6ff350637a51757565d80f61bea7b009d",
-   "source_path": "/root/autodl-tmp/cdapc-mme/scripts/prepare_mme.py"
-  },
-  "source/mme/scripts/run_mme_256_128.py": {
-   "sha256": "6c10f0c55f3e4e24aa735ab299ea031e3066ca77c49d31af83a4ea7c1bfb80a8",
-   "source_path": "/root/autodl-tmp/cdapc-mme/scripts/run_mme_256_128.py"
-  },
-  "source/mme/scripts/score_mme.py": {
-   "sha256": "28dc437fb4ed0a0ad0b945f14013ddd6aa4fe456c184d6cc86366dfb20d79b98",
-   "source_path": "/root/autodl-tmp/cdapc-mme/scripts/score_mme.py"
-  },
-  "source/mme/src/cdapc_lab/config.py": {
-   "sha256": "738d6cbcc9563d958c8d4c96d2d5203438f3e2b253d7d6db7096b07f74a5ceec",
-   "source_path": "/root/autodl-tmp/cdapc-mme/src/cdapc_lab/config.py"
-  },
-  "source/mme/src/cdapc_lab/data/records.py": {
-   "sha256": "e055c2d4ba318338573b3c2a560fa2aa9eb8d5740be04a099f9d625d73782654",
-   "source_path": "/root/autodl-tmp/cdapc-mme/src/cdapc_lab/data/records.py"
-  },
-  "source/mme/src/cdapc_lab/experiments/pope_report.py": {
-   "sha256": "3433234fb9dfdfe29c67952413594c8d574929b609321c041b7ed27d5c25d266",
-   "source_path": "/root/autodl-tmp/cdapc-mme/src/cdapc_lab/experiments/pope_report.py"
-  },
-  "source/mme/tests/integration/test_mme.py": {
-   "sha256": "6fa46a49f92377ff36ed5dcf01ecb8c18dd49ea38b4acc4714c2cb9dfd19e72d",
-   "source_path": "/root/autodl-tmp/cdapc-mme/tests/integration/test_mme.py"
-  },
-  "source/patches/lavida-offline-tokenizer.patch": {
-   "sha256": "dab9ccfa44974426e9b6e5ad0ed4914935f1cb8d938ce2cc31951e9dfadb7a58",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/patches/lavida-offline-tokenizer.patch"
-  },
-  "source/patches/lavida-sdpa-mask.patch": {
-   "sha256": "47d7b214ecd96792ac7f0b22a2549500bda9c23dee1991e6590192b3c49c99fa",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/patches/lavida-sdpa-mask.patch"
-  },
-  "source/pyproject.toml": {
-   "sha256": "bf30ff52d7d0db9c090a24ea83c3c107aa0485f633d792220c71f7033b3641ab",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/pyproject.toml"
-  },
-  "source/reports/runtime.freeze.txt": {
-   "sha256": "bc01e18a45081d44dd00778abeb2a01403644a07180bc0016dc56cd208319af2",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/reports/runtime.freeze.txt"
-  },
-  "source/requirements-inference.txt": {
-   "sha256": "29955805ab3ebff6c140580d14f629ccbeadd86c195d14a1e6e03939da5840a3",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/requirements-inference.txt"
-  },
-  "source/scripts/accept_model.py": {
-   "sha256": "245193913abd37f47f1387f4c8dd0999c89655e2814277e309c51b43ff2ece43",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/accept_model.py"
-  },
-  "source/scripts/accept_replay.py": {
-   "sha256": "f5249893f1b626e55b899cedd34fcc8afc6897778b161fb8a3a18c33e4ac0e4c",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/accept_replay.py"
-  },
-  "source/scripts/accept_window.py": {
-   "sha256": "84311aba39ef748e01bee1906e43618c796cb12a3b5c36fe6d17302331e6db24",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/accept_window.py"
-  },
-  "source/scripts/export_cdapc_upload.py": {
-   "sha256": "903d5602950ba008a196b308c6fd5b26af73eb404d2d680bad282d9b7a5e0c5d",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/export_cdapc_upload.py"
-  },
-  "source/scripts/export_mmmu_answers.py": {
-   "sha256": "db7b7682b8842524ecda02db774441b3e8ff242290066bed1ab68fc1355dc398",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/export_mmmu_answers.py"
-  },
-  "source/scripts/k_commit_report.py": {
-   "sha256": "82872a87a548fc409cab26bd3ee3e1e5104a74d5c168a32df604296988b64d29",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/k_commit_report.py"
-  },
-  "source/scripts/mmmu_failure_modes.py": {
-   "sha256": "bfa6e69d22e33a15919766a4838de5f5a9eff19a5e0d574ed17ee83b9db32916",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/mmmu_failure_modes.py"
-  },
-  "source/scripts/mmmu_generation_patterns.py": {
-   "sha256": "569d19d93ccb0a3048c71be63fce3896587236a711f9d387e68949ccfc6ad320",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/mmmu_generation_patterns.py"
-  },
-  "source/scripts/mmmu_mechanism_audit.py": {
-   "sha256": "c929e24834e41857b3832e82560ce41e09457be346c487a12bade97521bc887c",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/mmmu_mechanism_audit.py"
-  },
-  "source/scripts/mmmu_runs.sh": {
-   "sha256": "f80e40e388e9da5c40a63269a82a9452d6550a6d0a70b169457a24feb7f14483",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/mmmu_runs.sh"
-  },
-  "source/scripts/pope_progress.sh": {
-   "sha256": "cb90771d6c3acb84327c064a8d3cf25fc94dedb7bad40c05a8355fe91d0e401e",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/pope_progress.sh"
-  },
-  "source/scripts/pope_rgate_behavior.py": {
-   "sha256": "1e1a6eada92799de1387d075d62f25e8571180dd1cd96ea48e0238f53b8755f5",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/pope_rgate_behavior.py"
-  },
-  "source/scripts/pope_rgate_summary.py": {
-   "sha256": "8ec9404437003aaebd83113510c8cc2ff1c04802b78a3342d39e0ca04eac75f8",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/pope_rgate_summary.py"
-  },
-  "source/scripts/pope_rgate_sweep.sh": {
-   "sha256": "fc092dcacdcb703bb9a442155b2125f8442495d4dbdedfba5c941a27092ff3fc",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/pope_rgate_sweep.sh"
-  },
-  "source/scripts/pope_think_answer_audit.py": {
-   "sha256": "95ed513fb9ffdce5ad4732ad454fe935846e730e4bd5dc2dbf93162c70796826",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/pope_think_answer_audit.py"
-  },
-  "source/scripts/prepare_assets.py": {
-   "sha256": "77d3edced16aaebcaa711187df3f2fb5b320302c067acccdf1549cb08483b8b2",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/prepare_assets.py"
-  },
-  "source/scripts/prepare_eval_extensions.py": {
-   "sha256": "153fca89806bb20f0b640cd4d0c45b548aacc4a97a3bd410995b4710c8fbcc1b",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/prepare_eval_extensions.py"
-  },
-  "source/scripts/prepare_mechanism.py": {
-   "sha256": "01be3cfb1e727c759a9361c20c010e820aa489c961569fba433ff924ea0b0087",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/prepare_mechanism.py"
-  },
-  "source/scripts/prepare_mmmu.py": {
-   "sha256": "bf26df41e2efbff1163ea933478e376ffab1f30a701d3371f995a6f8e20ee0a1",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/prepare_mmmu.py"
-  },
-  "source/scripts/prepare_pope.py": {
-   "sha256": "6a978e79101294587e5984dec5990df8975985406b9bcc5b406b246d6dc23967",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/prepare_pope.py"
-  },
-  "source/scripts/run_chair_pope_extensions.py": {
-   "sha256": "473a932d916311d3aca7a496ad07d21b684a3e29b908b91e37bdaa9594ee3262",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/run_chair_pope_extensions.py"
-  },
-  "source/scripts/run_k_commit_pilot.py": {
-   "sha256": "7a343c99d1c80d4509a4d5315f74ff93e1958cd966d131a14332695681385c27",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/run_k_commit_pilot.py"
-  },
-  "source/scripts/run_mmmu_r70_256_128.py": {
-   "sha256": "a407f484d62f13a376b5cf52afc50dc178d65d9107ec593dbf6acf6aa097fd1b",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/run_mmmu_r70_256_128.py"
-  },
-  "source/scripts/run_pope_think_judge.py": {
-   "sha256": "e635df0e4f3ad5d79ef57197397eaa7298be6347ce71a4281d3e2d9786f8aaab",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/run_pope_think_judge.py"
-  },
-  "source/scripts/score_chair_runs.py": {
-   "sha256": "0f043d922b3221e55d1b84e9b55b91e7f6af16dfa4eec9f6efe16541adac0a52",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/score_chair_runs.py"
-  },
-  "source/scripts/summarize_experiments.py": {
-   "sha256": "442201d6ade40a2d3841fbdcef880432bc01d77f223bb4e0450e3615da042bfb",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/summarize_experiments.py"
-  },
-  "source/scripts/write_smoke_configs.py": {
-   "sha256": "827b04709037801f2bc812675ec8d4106c422723fd4b20b6392bec934aece565",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/write_smoke_configs.py"
-  },
-  "source/src/cdapc_lab/__init__.py": {
-   "sha256": "82a8ea944594602134c69c92b34f15d03c2e1cc1ebe4a817547de14779b79860",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/__init__.py"
-  },
-  "source/src/cdapc_lab/__main__.py": {
-   "sha256": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/__main__.py"
-  },
-  "source/src/cdapc_lab/analysis/paired.py": {
-   "sha256": "f5f294e27ccf6c6a57f34ba11455d68e18e2f5bbbd864a41b00a5248b45cd137",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/analysis/paired.py"
-  },
-  "source/src/cdapc_lab/cli.py": {
-   "sha256": "0b5389ebbb446b565797c0ccfe2b92e0175e678cb9c7ec6e4d47007d9d7ee657",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/cli.py"
-  },
-  "source/src/cdapc_lab/config.py": {
-   "sha256": "e925889fd48c925e1ee2390f845952a84465789646cbb4d7b3a71bc109babf02",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/config.py"
-  },
-  "source/src/cdapc_lab/data/mmmu.py": {
-   "sha256": "b30e77d49d63b5ce0df016c6e6d990128bd245f8ba0be2ec9273f385dce1ed97",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/data/mmmu.py"
-  },
-  "source/src/cdapc_lab/data/pope.py": {
-   "sha256": "1d8b293266014aecfe9d4e55d4422342ce7cb8a5eb66e828b7d98b5177ed143c",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/data/pope.py"
-  },
-  "source/src/cdapc_lab/data/records.py": {
-   "sha256": "ce14be47126ef5ee2885d6eae39834c8c0d11d4cf091cafb93efbb6eccb3cc6e",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/data/records.py"
-  },
-  "source/src/cdapc_lab/decoding/engine.py": {
-   "sha256": "fdd67bbb4a247b2f6fa619f2cb6a650f9233bb0e1525e07028f5ca4cd24124f4",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/decoding/engine.py"
-  },
-  "source/src/cdapc_lab/decoding/gates.py": {
-   "sha256": "a3cb3ef37d0eef8bc6e437f88101098edaf96946026d53c9ca26f448ca50d074",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/decoding/gates.py"
-  },
-  "source/src/cdapc_lab/decoding/proposal.py": {
-   "sha256": "cc09f97d5071c35d98239178a2959914bb9e737384236a26f60a4e3ca8bff743",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/decoding/proposal.py"
-  },
-  "source/src/cdapc_lab/decoding/selection.py": {
-   "sha256": "d61b0c647fdf5aa26debcb89201fd9e3116e9132789bbcbd60d231e41b87b416",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/decoding/selection.py"
-  },
-  "source/src/cdapc_lab/decoding/state.py": {
-   "sha256": "454114b91507eef0b653755c592a88f5ce86c664789e8511c4388795496109c8",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/decoding/state.py"
-  },
-  "source/src/cdapc_lab/decoding/window.py": {
-   "sha256": "b55fe329ee908f3df48f6878b6d85dd7a445c076d36c12fa4c19f69c1ad7aedb",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/decoding/window.py"
-  },
-  "source/src/cdapc_lab/evaluation/llm_judge.py": {
-   "sha256": "7edcb58582d5004ea38839c923abc1a9453e105107106d1e021e53fabdb70128",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/evaluation/llm_judge.py"
-  },
-  "source/src/cdapc_lab/evaluation/normalize.py": {
-   "sha256": "8a05acb25b19ae0f12e6faa5213d8a6b4b9fcaf3c0c8300a4127b5e1f79b34b4",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/evaluation/normalize.py"
-  },
-  "source/src/cdapc_lab/evaluation/parsers.py": {
-   "sha256": "7fa8760fcd90f8245b64f970ac046100780a1fe3ecdab09b696d5b3545296129",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/evaluation/parsers.py"
-  },
-  "source/src/cdapc_lab/evaluation/pope_llm_judge.py": {
-   "sha256": "1ab1a8ef942edc347f87f8165df6d870cff67fb040b976006fff2a03e846fa57",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/evaluation/pope_llm_judge.py"
-  },
-  "source/src/cdapc_lab/evaluation/scorers.py": {
-   "sha256": "1684f4af895233722a8facf6efba6b0767a435e01c20930ae0e43cff2231f143",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/evaluation/scorers.py"
-  },
-  "source/src/cdapc_lab/experiments/infer.py": {
-   "sha256": "3e3932faa07097f2445d5bbc7fb0791c28febc01a84dd533853ffa9efcaf0a78",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/experiments/infer.py"
-  },
-  "source/src/cdapc_lab/experiments/mmmu_report.py": {
-   "sha256": "c9197bc0425298e5e56c623d8d4031c7a3315700daf10d81f3fe2eb63c5b4f84",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/experiments/mmmu_report.py"
-  },
-  "source/src/cdapc_lab/experiments/pope_report.py": {
-   "sha256": "38dcf7d058e99ce55639eb5810640b4ed32c83104fcb86b8baeb9b6c4707f0cd",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/experiments/pope_report.py"
-  },
-  "source/src/cdapc_lab/experiments/replay.py": {
-   "sha256": "f7fd9021a6601f23dd4f9bc6d2af74341e97827ebbeaefdd877edcf4ae6558a6",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/experiments/replay.py"
-  },
-  "source/src/cdapc_lab/experiments/score.py": {
-   "sha256": "dccdc927ca3a274f9bc0e39fb435905f4207ca0b8f3db869f825f1ea276546bb",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/experiments/score.py"
-  },
-  "source/src/cdapc_lab/experiments/verify.py": {
-   "sha256": "8a4b65fd61041dbc34666d4ac608da6abd7ac0bde1740b1c753ad1b545304b79",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/experiments/verify.py"
-  },
-  "source/src/cdapc_lab/io/artifacts.py": {
-   "sha256": "4731901eddc59f7dcd1d5a665b853f4f6c7473da3f5d44fd5aa8e0b0c798383e",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/io/artifacts.py"
-  },
-  "source/src/cdapc_lab/models/base.py": {
-   "sha256": "2fa182b408a5e101336d76f9dec2a620d6b9b80a8183652e1b6274fe5fdb6533",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/models/base.py"
-  },
-  "source/src/cdapc_lab/models/lavida.py": {
-   "sha256": "749ca57646547deabce6f45e25e61f2229e8a30d8ba1facd4ed8d5946af28c0f",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/models/lavida.py"
-  },
-  "source/src/cdapc_lab/models/mmada.py": {
-   "sha256": "6189c406de680dccbbedfe85ba7338ef3425233131547b2d427deae9eb53f048",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/models/mmada.py"
-  },
-  "source/src/cdapc_lab/types.py": {
-   "sha256": "5c1b4be42ab66c3ffec37538fcf4162bf0f86c262308d24586dc656cf075a0b3",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/types.py"
-  },
-  "source/tests/evaluation/test_evaluation.py": {
-   "sha256": "ea594962e95b833b8d879cd194cc7fabd4559a09e86683ddbb2d4d50960e6ad7",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/tests/evaluation/test_evaluation.py"
-  },
-  "source/tests/integration/test_attention.py": {
-   "sha256": "db4e331f43f23d2da000a93c32d6a06fede394fc8f4b31978499c5312c9717a5",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/tests/integration/test_attention.py"
-  },
-  "source/tests/integration/test_lavida_template.py": {
-   "sha256": "00877caf9e2178cba4b7e61ac79b673c0d0f61fa472d32ea02407a3432fd04d2",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/tests/integration/test_lavida_template.py"
-  },
-  "source/tests/integration/test_mmada_prompt.py": {
-   "sha256": "15f26ca90226be0a1afbc6f92329c082c187923160bd64ae76255f8f60230619",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/tests/integration/test_mmada_prompt.py"
-  },
-  "source/tests/integration/test_mmmu.py": {
-   "sha256": "0314a1f697e11bd46174494d5fc274d92d9864a40b83999dcd191114f61bb851",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/tests/integration/test_mmmu.py"
-  },
-  "source/tests/integration/test_pope.py": {
-   "sha256": "60ff35e48a8305f6c8749734de4317a74895a91d27d88755efd53169553a4dbe",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/tests/integration/test_pope.py"
-  },
-  "source/tests/integration/test_replay.py": {
-   "sha256": "18b5c136c4bb0b27a25d56f2d8ce70b5e32fb95aaa256504379f96d4233a7a21",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/tests/integration/test_replay.py"
-  },
-  "source/tests/integration/test_run.py": {
-   "sha256": "3f47569bcc18707a6ab56e58305477e3548a1dabe4e3c03ccbbe76ddf125fbf7",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/tests/integration/test_run.py"
-  },
-  "source/tests/unit/test_artifacts.py": {
-   "sha256": "ad1f9abd6fb2038e5e8e683cfaaac4b667ee5b983ac68ff47496d554ebeb3d0e",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/tests/unit/test_artifacts.py"
-  },
-  "source/tests/unit/test_config.py": {
-   "sha256": "7d6c1d5d78087c956ca410305728b10c668099257d79e037f5a5e2e8c2bca7fc",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/tests/unit/test_config.py"
-  },
-  "source/tests/unit/test_core.py": {
-   "sha256": "4a442e01e31467f3035908dd86ef001dbed4fe21a42907ac038639ca7a136a47",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/tests/unit/test_core.py"
-  },
-  "source/tests/unit/test_eos_commit.py": {
-   "sha256": "2f0702302e6081fd511f7fe2038ef278e01bd38517eb4746a982aa3e9d960f37",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/tests/unit/test_eos_commit.py"
-  },
-  "source/tests/unit/test_window.py": {
-   "sha256": "f5f78407f8a591a245312b1e03442c28beb746d9c83ea7686f223f9d2407ef47",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/tests/unit/test_window.py"
-  },
-  "source/upstream.lock.json": {
-   "sha256": "88c789c724008815035c370e49b7e103702f3307baf3e16c247e299428251617",
-   "source_path": "/root/autodl-tmp/cdapc-experiments/upstream.lock.json"
+  "destination_repository": "HostHarry/CD",
+  "files": {
+    "README.md": {
+      "sha256": "360733d7609b28ea54f84bdb7af0fac5ae13dc0e58fbfff45ecc6d378b6be887",
+      "source_path": "reports/experiment_summary.md",
+      "repository_update": "2026-11-10: add link and scope correction for completed COCO supplement"
+    },
+    "answers/README.md": {
+      "sha256": "fb0c7f64d3b32d296e78995a5295c98d1163e0e2ec97491b7362747228b18d6f",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/chair_r50.jsonl": {
+      "sha256": "cced311a5dc6167934c588963d67cff3610f223985284a43bf3a026e851fd873",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/chair_r50.txt": {
+      "sha256": "452d14a22dd3e05b036372b17bab0fb1e03aa686924b35d0daae1fb4a658bbb3",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/chair_r70.jsonl": {
+      "sha256": "64501a62a3302b7dcb0856bdfe209a77acdc78369e6b9a3812b52e02dcac6abf",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/chair_r70.txt": {
+      "sha256": "ab6866675a4aef4e75ae6235414a1463f86866a404327820596af2eb69072f66",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/chair_r90.jsonl": {
+      "sha256": "9b79455aaf39e3808914753aab49f80932e681df74f29ee5c10700c816f33e6d",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/chair_r90.txt": {
+      "sha256": "67bed14b42f999733708ccd5e5bbf079a8a80fec69249dd54e3637ef41f36fd3",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/gqa_think_k2_pilot.jsonl": {
+      "sha256": "9d8206fae8662cde091f94248448f6a2756398b951fd87181b6fef286a4c96e3",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/gqa_think_k2_pilot.txt": {
+      "sha256": "844c9b9cdccd7b8d18cbef798131fc13d2ce991c199990ea5070e31988edca4a",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/gqa_think_k4_pilot.jsonl": {
+      "sha256": "674051581d2b4cd88c357150e3d9ff4b5c7a5b93485ad87195e7f95984df9b88",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/gqa_think_k4_pilot.txt": {
+      "sha256": "9f2af0d50cd7879f7921cc295835e438d7630fde2f9a4ba50a73a84589e81925",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/manifest.json": {
+      "sha256": "3bd9c5dc8197efc1205372fbfae8aabcb783a30337f3b2a208ccb24adbae9100",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/mme_r70_L256_I128.jsonl": {
+      "sha256": "4e9d6119ce7956826f0694e1ba57383f931c819a6fc21be282e88b21167189cf",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/mme_r70_L256_I128.txt": {
+      "sha256": "2938ceb74f00672b08310580233f0e899d2fd959ff96175e842d6045560f3e03",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/mmmu_cdapc_r70_L256_I128.jsonl": {
+      "sha256": "5a22241b2ba6730454244fd49ac8386303c39c4f9488ab754a3fde41be372585",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/mmmu_cdapc_r70_L256_I128.txt": {
+      "sha256": "9fdbc5da6a435719c4e87d9357b43599b850793e89ca9a4d2723efa3a7385ea8",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/pope_aokvqa_direct_r50.jsonl": {
+      "sha256": "f9249288e506b3ccfb731ba1785479117a1470f7ff92658d10ef846415e8eebd",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/pope_aokvqa_direct_r50.txt": {
+      "sha256": "0df0495e9b844c748dddf01a0e32483f34ab27ab5232cc3a55228e9cd0f4c18c",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/pope_aokvqa_direct_r70.jsonl": {
+      "sha256": "566b823e2c35ea78599fede9fe630c186b3cd31abe3992fa9c8447f2fbdfd463",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/pope_aokvqa_direct_r70.txt": {
+      "sha256": "d2e5cd82fc6c8c927cf5a6398197805b9f92d387b234cc371bb1eb2f2bb402e8",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/pope_aokvqa_direct_r90.jsonl": {
+      "sha256": "30d517643637659c032a2f393691125fb17cc04f0a1675ba3d9af1c5e34c6a6a",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/pope_aokvqa_direct_r90.txt": {
+      "sha256": "730dca391214a770d3ecb519d516c8006e2e081ab785ad78f4999cc6443d1105",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/pope_aokvqa_think_r70.jsonl": {
+      "sha256": "bf69820c798df698979b69a4dd7e07ff0120b5e07d2be79921f6f4cf8894fc06",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/pope_aokvqa_think_r70.txt": {
+      "sha256": "277a66b29e6e0d7f36a0c08020f24f50a7457e5b11402dcb718eec88585b3dc8",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/pope_aokvqa_think_r90.jsonl": {
+      "sha256": "a2300728269d5b869b29425868be25c3450ddf0c09fe9fb3ee666307b7e88fd8",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/pope_aokvqa_think_r90.txt": {
+      "sha256": "cae85856ab81368908a499c61826914ba0d927f63f0fc8fee56c014c5eb60463",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/pope_coco_direct_r50.jsonl": {
+      "sha256": "d60b8bffca93691b808c9b0704e8d92a8655d3a85aa98772da6091c6b10f6bcb",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/pope_coco_direct_r50.txt": {
+      "sha256": "d3a1bead4e4abd2a28181efb1e8192735a37aadd552ab2aca2f2d47384e18397",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/pope_coco_direct_r60.jsonl": {
+      "sha256": "d0d1c33fd1f5f3c76bf1904fcc22f4513c3f0c1259ec007aed478f045aa74d77",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/pope_coco_direct_r60.txt": {
+      "sha256": "92759530d876b95b0e36435fa5082254eab9e3d3f9963ee601e0bbf9b6f713b9",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/pope_coco_direct_r70.jsonl": {
+      "sha256": "fb9e1895e6208b0231aea735a6812574669d135f4ff64a0bf0bbc86eb6d3007c",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/pope_coco_direct_r70.txt": {
+      "sha256": "bc64270a71c0a07733337085be479f0c9ae62babc6fa3958fe8013f275f24561",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/pope_coco_direct_r80.jsonl": {
+      "sha256": "d9c8e8229303e5320e396d4c6ea9913510e2cf962fde1204052be44a27946383",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/pope_coco_direct_r80.txt": {
+      "sha256": "07f249b38c84ee30b4ea6cf95ddc273ab9c5b94b21b0fe9b80ece92eee8df9cc",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/pope_coco_direct_r90.jsonl": {
+      "sha256": "dd636f11342e34fc9d5bf08dd057513887ad11e5b5d63aecf1ea818132db8cdb",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/pope_coco_direct_r90.txt": {
+      "sha256": "0b386100d42d0fb6e0a4ce887024e9b7c03a46ae0d55148a4d156e0e6fd21aa3",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/pope_gqa_direct_r50.jsonl": {
+      "sha256": "5c81cdfdd113bfb87127769924736bec879f61fa519d33b91f1817eaef357111",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/pope_gqa_direct_r50.txt": {
+      "sha256": "53ef26dc52a21607610e8ccc8536258b3fb6e05fd8cc8586d8403e0f434421a3",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/pope_gqa_direct_r70.jsonl": {
+      "sha256": "0c8ed5b2db3e36ada2a97f40ef1ab6bd08366adf80dc50441a0768e304b0c0aa",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/pope_gqa_direct_r70.txt": {
+      "sha256": "57a604e1fd02119f8b6ee27aac09f0802078347db21086591dc36715899772ea",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/pope_gqa_direct_r90.jsonl": {
+      "sha256": "7c298a0b1651ff0c21b94cc136e83eaf671e25f047bde99e163bae1b1dd0c67b",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/pope_gqa_direct_r90.txt": {
+      "sha256": "25e88d61e0eba51f2568f1c55063679201f08381e2453010809fb415f9b94fb5",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/pope_gqa_think_r50.jsonl": {
+      "sha256": "85027e6670ed8932d1d23d6d75480cbd6470767cd8ae20a7d99838fdef655fb2",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/pope_gqa_think_r50.txt": {
+      "sha256": "16375db53fc7f8d553bbd1245f509fdbd58144a15cba450117fe8cb6b76a0b08",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/pope_gqa_think_r70.jsonl": {
+      "sha256": "d7fc0b6787bddb2c41dda1704a01ff2965d5f96ca0694035c23af32517e955a8",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/pope_gqa_think_r70.txt": {
+      "sha256": "4fbbbf10110f2d292bc3a8e90b26f1886d6a940ed2eff4276b9f01838d54fa80",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/pope_gqa_think_r90.jsonl": {
+      "sha256": "c1dc5494d9f9cc37e0f242654a10a501f6bb5ea96c00d1cbff1355507b2042eb",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "answers/pope_gqa_think_r90.txt": {
+      "sha256": "ecd59873aa7a179bdb0914a2a230b5a3b42631baa7652061fb05244e9f7c4a2c",
+      "source_path": "scripts/export_cdapc_upload.py"
+    },
+    "reports/chair_pope_extensions_runs.json": {
+      "sha256": "b90a69e20663dd0fe21e6b00d418e67a9161f9357097f778fea1d14b8a314806",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/chair_pope_extensions_runs.json"
+    },
+    "reports/chair_r50.json": {
+      "sha256": "bc89a9f1869537d3ea757c222b0d6f74dc03d4fcc863ac4a3bda39b99d500d6f",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/chair_r50.json"
+    },
+    "reports/chair_r50_answers.json": {
+      "sha256": "eb718f1b61f06c74d00df1e350c464e4132819e1baf38abd72d6360d7cbbcb32",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/chair_r50_answers.json"
+    },
+    "reports/chair_r70.json": {
+      "sha256": "06151aa794444feec2b40258ea3f2a6575c94c73c05b6c27bb50bd5ba119569e",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/chair_r70.json"
+    },
+    "reports/chair_r70_answers.json": {
+      "sha256": "44804c597a8c7ffcc84a05cfec59447cbb17b9a50d6df8be32090c9841da4ee9",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/chair_r70_answers.json"
+    },
+    "reports/chair_r90.json": {
+      "sha256": "3ae8c149de98ff8a953b7767ebb1465c96034d4157b19c4a4ad666b5cf6f504f",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/chair_r90.json"
+    },
+    "reports/chair_r90_answers.json": {
+      "sha256": "d2884c284d56cde80c733648757bdfbd6cb848bfa550820bea3db38cce4825e3",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/chair_r90_answers.json"
+    },
+    "reports/chair_reference_verified.json": {
+      "sha256": "c68807da05cc2f0c3684781507e38baf482a795df72487ad9577d203c86498b7",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/chair_reference_verified.json"
+    },
+    "reports/final_audit.json": {
+      "sha256": "2130f60c836b7609c4d7bda069829bef4942c13af7a56ae20aeb4f410526583b",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/final_audit.json"
+    },
+    "reports/k_commit_pilot/baseline_records.json": {
+      "sha256": "5879d362c78744dd3f0125ddbab90f1975916204d8d65a6dafa75f31d03c96fb",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/k_commit_pilot/baseline_records.json"
+    },
+    "reports/k_commit_pilot/index.json": {
+      "sha256": "3d67312a46a49463962b6f492b36c9f6af136f6fb35c1dd203dca862c4a3e099",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/k_commit_pilot/index.json"
+    },
+    "reports/k_commit_pilot/protocol.json": {
+      "sha256": "010c6bf50dcaf5f5ec6299c1c63a1c130d5478d49a250477c6eb172b6bee593a",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/k_commit_pilot/protocol.json"
+    },
+    "reports/k_commit_pilot/results.json": {
+      "sha256": "65e64fde2ab4b0f87200a8cdc9b8447bf5b1cfe0cf259a16d9ba3d2ff0060f4c",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/k_commit_pilot/results.json"
+    },
+    "reports/k_commit_pilot/results.md": {
+      "sha256": "9be54202a02247be55911e1738c6839efa6065bf9e2dc00d08fe4815813523f0",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/k_commit_pilot/results.md"
+    },
+    "reports/k_commit_pilot/rows.json": {
+      "sha256": "0a6eefa52a6ee90c9bee3175e9845fea64be0ff9377a078888ba954e74a01fd7",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/k_commit_pilot/rows.json"
+    },
+    "reports/lavida_acceptance.json": {
+      "sha256": "883c1539f0a4d950bc1cd12ef70b70bc50a1f53e29135ec7c68d3d5f1d8651e5",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/lavida_acceptance.json"
+    },
+    "reports/lavida_adapter_670937dbb911.json": {
+      "sha256": "5eba58bafeebe08b9c98f2dbf72a67c14cd4fb97933f6a9acef371e664e0363d",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/lavida_adapter_670937dbb911.json"
+    },
+    "reports/lavida_ccaw_v1.json": {
+      "sha256": "e3eac9d782f4fa75dd2246362b0d2fa56b263630771f306d72cc7d261581e560",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/lavida_ccaw_v1.json"
+    },
+    "reports/lavida_ccaw_v1.log": {
+      "sha256": "d10b2cf3a510d3413700d468d1afba2cd49ed8166cc6cf421e5bba4b39e050e8",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/lavida_ccaw_v1.log"
+    },
+    "reports/lavida_native_c1e9554b77cf.json": {
+      "sha256": "ba15b999ada86c67fd083c819c8a867a9812ec2ee1b1ed3a99624c284feadb82",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/lavida_native_c1e9554b77cf.json"
+    },
+    "reports/mechanism16-replay.json": {
+      "sha256": "ce99f13f024dff6a5e112e79056aca7f3fe42bcc07b2bdd1cb999937cd277c98",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/mechanism16-replay.json"
+    },
+    "reports/mechanism16.json": {
+      "sha256": "dafeeba23d29ef6fdc067d0a4c86c349d53e400c3478117bd8d3a00d1bd3c4b7",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/mechanism16.json"
+    },
+    "reports/mmada_acceptance.json": {
+      "sha256": "c5f5a46850fb2b4875aa76044094858f36651de2cecb851d30de9dc7f7ffd6d7",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/mmada_acceptance.json"
+    },
+    "reports/mmada_adapter_01f69ea8f0e8.json": {
+      "sha256": "188db062830b99c90f6e816609d96565142015cbf9ba1f370bd392525c1978b2",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/mmada_adapter_01f69ea8f0e8.json"
+    },
+    "reports/mmada_adapter_416467fe3778.json": {
+      "sha256": "56a722f2a230650ef44374896a3b1ab6bc3bd691678a25eb54af26df650793f4",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/mmada_adapter_416467fe3778.json"
+    },
+    "reports/mmada_adapter_fa8e5f5be3ad.json": {
+      "sha256": "5883b4f17fc1ca24c6bde47bddc4b3d3c1031f1a4954c8dec81ccdfc0bd37909",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/mmada_adapter_fa8e5f5be3ad.json"
+    },
+    "reports/mmada_adapter_fcb547b991a1.json": {
+      "sha256": "977a4b93cc204ee95e450c398f9abe5db29d0e62d84b40030bbe37394a22124e",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/mmada_adapter_fcb547b991a1.json"
+    },
+    "reports/mmada_ccaw_v1.json": {
+      "sha256": "7a636f45e2f56b98dc772e6bf09d3a5ecefc8c25d11677ec1a76007b34e2915e",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/mmada_ccaw_v1.json"
+    },
+    "reports/mmada_ccaw_v1.log": {
+      "sha256": "38dfcbb1f843af75dd786937d452b0bcb4d52d7f29d44ccba24ef27fb5cc1ea9",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/mmada_ccaw_v1.log"
+    },
+    "reports/mmada_native_31ceead74a93.json": {
+      "sha256": "3a69ea813be466095a22047c37ae728453803a10d9ee50a2754e5f4d68bacca1",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/mmada_native_31ceead74a93.json"
+    },
+    "reports/mmada_native_58325bdb5173.json": {
+      "sha256": "f1c1f0d9adf80cc44de160c95beee9bedb3fc72e0379b36c3148cf0d1a13dd5e",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/mmada_native_58325bdb5173.json"
+    },
+    "reports/mmada_native_6044bf9090af.json": {
+      "sha256": "f14640c4af8d0e1606b6c1e3a4f9fd66d562feb578b1d8b76550f6be4a4522e0",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/mmada_native_6044bf9090af.json"
+    },
+    "reports/mme_cdapc_r70_L256_I128.json": {
+      "sha256": "20a6aeccb29bffe98c7e5b9f4c257de3e251ac96fba8df73d205db4f164faf8c",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/mme_cdapc_r70_L256_I128.json"
+    },
+    "reports/mme_cdapc_r70_L256_I128.md": {
+      "sha256": "25eb0a7133fedf05b93e7a7c4dba1143d1a85b9cd25be0a0ff5f7073c3ecdf73",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/mme_cdapc_r70_L256_I128.md"
+    },
+    "reports/mme_index.json": {
+      "sha256": "d0ca18913a6946024cc6acda3e98687e3db69a37eb187e8e1b76f5c341370a07",
+      "source_path": "/root/autodl-tmp/cdapc-mme/reports/index.json"
+    },
+    "reports/mme_official_scorer.log": {
+      "sha256": "5fe4a5abea0b30a1ffbfdf7c5001e5340a14a1ff3318f8471298b20acc1fc4a9",
+      "source_path": "/root/autodl-tmp/cdapc-mme/reports/mme_official_scorer.log"
+    },
+    "reports/mme_official_text/OCR.txt": {
+      "sha256": "783c7e26aa7b9f909e352466b21439a8bbee38ae6afdd560a8f2e21ac9042e79",
+      "source_path": "/root/autodl-tmp/cdapc-mme/reports/mme_official_text/OCR.txt"
+    },
+    "reports/mme_official_text/artwork.txt": {
+      "sha256": "da43b5a667ff4b22fe1e8b6472971a9d310c4fa262f24c947533e0c77e3364b4",
+      "source_path": "/root/autodl-tmp/cdapc-mme/reports/mme_official_text/artwork.txt"
+    },
+    "reports/mme_official_text/celebrity.txt": {
+      "sha256": "8ec91c15411065fed047427b2a6632e08a3d4b16453dec0e009ed30aa48d513d",
+      "source_path": "/root/autodl-tmp/cdapc-mme/reports/mme_official_text/celebrity.txt"
+    },
+    "reports/mme_official_text/code_reasoning.txt": {
+      "sha256": "eff946ccbc15c153484f814b3ae40c9fdab595ead84a755a8b601d1ee1cac38a",
+      "source_path": "/root/autodl-tmp/cdapc-mme/reports/mme_official_text/code_reasoning.txt"
+    },
+    "reports/mme_official_text/color.txt": {
+      "sha256": "bf5844f70076201463b57fb32499443439acaf74c1b8877ec4210798bddcaac1",
+      "source_path": "/root/autodl-tmp/cdapc-mme/reports/mme_official_text/color.txt"
+    },
+    "reports/mme_official_text/commonsense_reasoning.txt": {
+      "sha256": "1360fd6f45a31f9c45d4110d4821356387990b0a0b7cab1780f8411d39e93fe3",
+      "source_path": "/root/autodl-tmp/cdapc-mme/reports/mme_official_text/commonsense_reasoning.txt"
+    },
+    "reports/mme_official_text/count.txt": {
+      "sha256": "65918b6be3f50b96a1d323368022cc29789639625d9d84f2581e734ee8372ae4",
+      "source_path": "/root/autodl-tmp/cdapc-mme/reports/mme_official_text/count.txt"
+    },
+    "reports/mme_official_text/existence.txt": {
+      "sha256": "5be9d60f90db0206ebc8461b90747d9034ea004bde6bf43f0578433f2d182617",
+      "source_path": "/root/autodl-tmp/cdapc-mme/reports/mme_official_text/existence.txt"
+    },
+    "reports/mme_official_text/landmark.txt": {
+      "sha256": "15d9c2cafff22dcdf09e23995a7140ba4bbf7a497e8f4da1dec2f62ac99a02bf",
+      "source_path": "/root/autodl-tmp/cdapc-mme/reports/mme_official_text/landmark.txt"
+    },
+    "reports/mme_official_text/numerical_calculation.txt": {
+      "sha256": "61e05585b15e75a65519909e4f1dc546101c8ecc3fa64543f369bce766d75700",
+      "source_path": "/root/autodl-tmp/cdapc-mme/reports/mme_official_text/numerical_calculation.txt"
+    },
+    "reports/mme_official_text/position.txt": {
+      "sha256": "436a8ec36f45ed21be9dfc8b970581866e53e0bb1ac8b5f9d9de866b20c87962",
+      "source_path": "/root/autodl-tmp/cdapc-mme/reports/mme_official_text/position.txt"
+    },
+    "reports/mme_official_text/posters.txt": {
+      "sha256": "0c432ec56658c1445fd461b813d06df41464f93bfc8d8bbc895436b0d00e301a",
+      "source_path": "/root/autodl-tmp/cdapc-mme/reports/mme_official_text/posters.txt"
+    },
+    "reports/mme_official_text/scene.txt": {
+      "sha256": "002a74ce8474861400638779218e84a40681ca9b3548b32947db16ab9456793a",
+      "source_path": "/root/autodl-tmp/cdapc-mme/reports/mme_official_text/scene.txt"
+    },
+    "reports/mme_official_text/text_translation.txt": {
+      "sha256": "caa9171b6618cbe1366cfe9a1f6cdce3d002b39ad7db9ef849dd728715dd2c0c",
+      "source_path": "/root/autodl-tmp/cdapc-mme/reports/mme_official_text/text_translation.txt"
+    },
+    "reports/mme_r70_256_128_runs.json": {
+      "sha256": "d0ca18913a6946024cc6acda3e98687e3db69a37eb187e8e1b76f5c341370a07",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/mme_r70_256_128_runs.json"
+    },
+    "reports/mmmu_cdapc_r70_L256_I128.json": {
+      "sha256": "c0f41df51425d08ed83b05f80a7031a5b8900bdd42778a88d388b9ca14a5970e",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/mmmu_cdapc_r70_L256_I128.json"
+    },
+    "reports/mmmu_r70_256_128_runs.json": {
+      "sha256": "570f6e4fc05244c0ca435ec91cc5560645f5f4590b363114c02c84d6001f0b4a",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/mmmu_r70_256_128_runs.json"
+    },
+    "reports/pope-native-recompute.json": {
+      "sha256": "a2a2f3c748d5024fd3fed241847f36087590ee586eaa72894953cd88f6708e81",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope-native-recompute.json"
+    },
+    "reports/pope_aokvqa_r50.json": {
+      "sha256": "87360b9767240911ed515f0dee834795246a6173ddbe6a1eebc8cb732baaf7d1",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_aokvqa_r50.json"
+    },
+    "reports/pope_aokvqa_r70.json": {
+      "sha256": "0016044d37119073146ffc68affb740a4d3a3476f76bfeecc61f89ce8d5dfa71",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_aokvqa_r70.json"
+    },
+    "reports/pope_aokvqa_r90.json": {
+      "sha256": "2eb309976777dda344cb9b5ab6cf7a1d209b986dce6fd62ea272954af7de85cc",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_aokvqa_r90.json"
+    },
+    "reports/pope_aokvqa_reasoning_r70.json": {
+      "sha256": "90ff0f24d67b319c9d869a4cd1d419d63a477f0394e668d7e45032e262537a8f",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_aokvqa_reasoning_r70.json"
+    },
+    "reports/pope_aokvqa_reasoning_r90.json": {
+      "sha256": "483f700eea7d202e4a9b084de1235a63cbc6e74eb3919365b2faf2112bb99073",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_aokvqa_reasoning_r90.json"
+    },
+    "reports/pope_gqa_r50.json": {
+      "sha256": "fb00f59d599d4b4a39dc2da8457ece3ed05b8a21ada4e94841adb1b5fdc21d43",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_gqa_r50.json"
+    },
+    "reports/pope_gqa_r70.json": {
+      "sha256": "812b3fb3b641023e6c218d57d7cdc67446076125c3dca4f1570b7cc08ed6b989",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_gqa_r70.json"
+    },
+    "reports/pope_gqa_r90.json": {
+      "sha256": "a7c6171e30695aca447220604bbd08dbf1dc617daf4ebe8fbe619677a7441007",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_gqa_r90.json"
+    },
+    "reports/pope_gqa_reasoning_r50.json": {
+      "sha256": "1144df3d3054fca9b96dbad8d5ec7856cdbd935d3824ef7ee0d5b88190de81bb",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_gqa_reasoning_r50.json"
+    },
+    "reports/pope_gqa_reasoning_r70.json": {
+      "sha256": "796a2ccb2f7d48f7e1108dabb94c639fa4884cacccd86d3a2c7896d1f7dbeaa5",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_gqa_reasoning_r70.json"
+    },
+    "reports/pope_gqa_reasoning_r90.json": {
+      "sha256": "75159fd19935bba0ffd959e6a2338939622da5e49aba99320631ed9a1589b3eb",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_gqa_reasoning_r90.json"
+    },
+    "reports/pope_rgate_behavior.json": {
+      "sha256": "e9a08904ab4d3c18a9495fd8cb8ba6d8fd3777afb936c4afd0b82830e18de44e",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_rgate_behavior.json"
+    },
+    "reports/pope_rgate_behavior.md": {
+      "sha256": "885f8776477d2353c2edbf9f3cde0d9254fd4a7de79aee57afb52f848f66ceb7",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_rgate_behavior.md"
+    },
+    "reports/pope_rgate_behavior.sha256": {
+      "sha256": "cf6b664f677cbdfebb40d97265f6ab7cecd182a4692199240448238fa91faafa",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_rgate_behavior.sha256"
+    },
+    "reports/pope_rgate_sweep.json": {
+      "sha256": "3998e7159b18daf2491f747b7529c06dc19fde96229ae933307721896e48b3c9",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_rgate_sweep.json"
+    },
+    "reports/pope_rgate_sweep_runs.json": {
+      "sha256": "2a73b6899ebe0303a4a3ec8d9ebc80d227040a9aa432b7fb9c5854733e5598ff",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_rgate_sweep_runs.json"
+    },
+    "reports/pope_think_answer_audit.json": {
+      "sha256": "95bb3d1ea49c0d4e1b10a6e1481cf3b5935918f7a9e7523d3744522068c462f7",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_think_answer_audit.json"
+    },
+    "reports/pope_think_answer_audit.md": {
+      "sha256": "dd3007f0ad6e061b4b54279fbe2e584ba8eabf936e1d99ca77e3c0677d112715",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_think_answer_audit.md"
+    },
+    "reports/pope_think_answer_audit.sha256": {
+      "sha256": "5ab505f13c3c7ed7ff00bc698f169699c534880b9c547b6cd2c9b08f116fba81",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_think_answer_audit.sha256"
+    },
+    "reports/pope_think_answer_manual.json": {
+      "sha256": "35e224b0ac7d8571c5e8eb943e49d5094cf25b4de72c1c773114971ffc4e4e26",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_think_answer_manual.json"
+    },
+    "reports/pope_think_answer_review.json": {
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_think_answer_review.json"
+    },
+    "reports/pope_think_llm_judge/index.json": {
+      "sha256": "58be14fa4f17d91860de2a1fcfcc4a1d786e3ff3d4236586ad6181ff102ca08d",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_think_llm_judge/index.json"
+    },
+    "reports/pope_think_llm_judge/judge_manifest.json": {
+      "sha256": "bd8289b06f5276274e5902c219c4dfcf1d59b00788f17f9257011471614ead11",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_think_llm_judge/judge_manifest.json"
+    },
+    "reports/pope_think_llm_judge/pope_aokvqa_reasoning_r70.json": {
+      "sha256": "11efcdbdedb61f2dfedebf6296610d09b42b0e7e140d9d8dae41ae2bc9ac8dd7",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_think_llm_judge/pope_aokvqa_reasoning_r70.json"
+    },
+    "reports/pope_think_llm_judge/pope_aokvqa_reasoning_r90.json": {
+      "sha256": "fc74e904a4602a7a65185c6833d940958494b02fc3079543372a06b8309c8fb0",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_think_llm_judge/pope_aokvqa_reasoning_r90.json"
+    },
+    "reports/pope_think_llm_judge/pope_gqa_reasoning_r50.json": {
+      "sha256": "7738ba5b135b60d75db2855a7583c8b128159008aaf67e1babc18ad45d6a6c96",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_think_llm_judge/pope_gqa_reasoning_r50.json"
+    },
+    "reports/pope_think_llm_judge/pope_gqa_reasoning_r70.json": {
+      "sha256": "3f9f8f4f989eb49abb543e9a0fa352948e91916583cbb26bb41d0a5908e7df3e",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_think_llm_judge/pope_gqa_reasoning_r70.json"
+    },
+    "reports/pope_think_llm_judge/pope_gqa_reasoning_r90.json": {
+      "sha256": "9b56c62640e48e44f279208792f717650e3c301d513bb2c8011fb051a0ac3e20",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_think_llm_judge/pope_gqa_reasoning_r90.json"
+    },
+    "reports/pope_yesno_mmada_cdapc_L128.json": {
+      "sha256": "f85a37da90822fad37c02b5dc1dec98b5e12cc00165964d8483382f2b42920bf",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_yesno_mmada_cdapc_L128.json"
+    },
+    "reports/pope_yesno_mmada_cdapc_L128_r50.json": {
+      "sha256": "98f8123b8fcf483f8a700b7c162cab139327e6d5287c98234cc254290f56ca10",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_yesno_mmada_cdapc_L128_r50.json"
+    },
+    "reports/pope_yesno_mmada_cdapc_L128_r60.json": {
+      "sha256": "41f3a809247078bebbaa2611c4574595e82d374e7e3ad4132a23c3cfa1e99ee6",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_yesno_mmada_cdapc_L128_r60.json"
+    },
+    "reports/pope_yesno_mmada_cdapc_L128_r70.json": {
+      "sha256": "f533db4635d39fe4c634623f1963a902cab65867f8f00086eea7093b0b70cb04",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_yesno_mmada_cdapc_L128_r70.json"
+    },
+    "reports/pope_yesno_mmada_cdapc_L128_r80.json": {
+      "sha256": "0acbc0a4fe2812eccddfe2b44e5f2d8a66631bf14685d5b93fc86cf93daa3368",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/pope_yesno_mmada_cdapc_L128_r80.json"
+    },
+    "source/README.md": {
+      "sha256": "bb1d03c0cabf9b542307646ac32d6ac2754d99fe9389a8eb4ee8cff9e1d3330c",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/README.md"
+    },
+    "source/configs/experiments/lavida_m3cot_base_candidate_visual_smoke.yaml": {
+      "sha256": "28211a482dabd4d32e7035adf708e0292fd2a32e46cfa64c4e16adfe14a63385",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/lavida_m3cot_base_candidate_visual_smoke.yaml"
+    },
+    "source/configs/experiments/lavida_m3cot_ccaw_v1_smoke.yaml": {
+      "sha256": "f425b814303bd654ccb94cd289f3e2dd62176488d8753c1779d19eb5ca1d738b",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/lavida_m3cot_ccaw_v1_smoke.yaml"
+    },
+    "source/configs/experiments/lavida_m3cot_fixed_smoke.yaml": {
+      "sha256": "6bfd84dc02a04767fa31f7f881b0939100b338202c1d05193b435a031f63b9f0",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/lavida_m3cot_fixed_smoke.yaml"
+    },
+    "source/configs/experiments/lavida_m3cot_gain_zero_smoke.yaml": {
+      "sha256": "8bb02713363542ec375bd3e3142fc776164b6b004548a1dac1264b799b149d10",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/lavida_m3cot_gain_zero_smoke.yaml"
+    },
+    "source/configs/experiments/lavida_m3cot_timing_only_crossed_smoke.yaml": {
+      "sha256": "f25fb2399c34d68c2c7c0518f642b26cae97d2e0514facd6831603ff1c7ad131",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/lavida_m3cot_timing_only_crossed_smoke.yaml"
+    },
+    "source/configs/experiments/lavida_native_smoke.yaml": {
+      "sha256": "805e4615d37929ea7b0b92ef117e7282b3da62f6efa5b9ff41818395429bf1e9",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/lavida_native_smoke.yaml"
+    },
+    "source/configs/experiments/mmada_chair_r50_shard0.yaml": {
+      "sha256": "dcb8ca4f79d074f41d13b43f00858e99bf5eda86c4884ed89f04106840302a9b",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_chair_r50_shard0.yaml"
+    },
+    "source/configs/experiments/mmada_chair_r50_shard1.yaml": {
+      "sha256": "f9f8dae65ece5ad451479a504f024db005a2a4fead16bedb98c748a10c3cdfa1",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_chair_r50_shard1.yaml"
+    },
+    "source/configs/experiments/mmada_chair_r50_shard2.yaml": {
+      "sha256": "d6332e5ee0de707385753d3e994cdda7eec547fc0faf9cd0d0e53623a1164775",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_chair_r50_shard2.yaml"
+    },
+    "source/configs/experiments/mmada_chair_r70_shard0.yaml": {
+      "sha256": "7b8e6bc772f13c39c2cc60634024d41689396a801d06a5bee8d7e2b36532dcfb",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_chair_r70_shard0.yaml"
+    },
+    "source/configs/experiments/mmada_chair_r70_shard1.yaml": {
+      "sha256": "1aabe543a72b3dc61c8e3820bab7c50e07cd88d51f3aa83f697f83973a2c7c59",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_chair_r70_shard1.yaml"
+    },
+    "source/configs/experiments/mmada_chair_r70_shard2.yaml": {
+      "sha256": "dd2a14f6fcc5b4735ad3ef0cd27d82624551c92094ce662e0ee46b2ebe50470b",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_chair_r70_shard2.yaml"
+    },
+    "source/configs/experiments/mmada_chair_r90_shard0.yaml": {
+      "sha256": "aef2ecf1a794b520ec390ba31d606e44ea144a37b72fecd182f10cbe77fcdd4e",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_chair_r90_shard0.yaml"
+    },
+    "source/configs/experiments/mmada_chair_r90_shard1.yaml": {
+      "sha256": "e0fc5e0fbe5088c9bc2801daf2bfb15a6564c24c846b10dcd8cdd8e6e83214e1",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_chair_r90_shard1.yaml"
+    },
+    "source/configs/experiments/mmada_chair_r90_shard2.yaml": {
+      "sha256": "827c4052c433ad66588fd530a3ac317bbeada7edff187bd70a5e8708cb7ec27c",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_chair_r90_shard2.yaml"
+    },
+    "source/configs/experiments/mmada_gqa_think_r70_k2_pilot_shard0.yaml": {
+      "sha256": "76e34c8b331daadac21100d763dfca7203aec0e08f86ea3cf20902adfb74209a",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_gqa_think_r70_k2_pilot_shard0.yaml"
+    },
+    "source/configs/experiments/mmada_gqa_think_r70_k2_pilot_shard1.yaml": {
+      "sha256": "aa6be5099aa96d9c774582a6ec2d6d6c640773d5af3e0ffda65148caf5238a41",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_gqa_think_r70_k2_pilot_shard1.yaml"
+    },
+    "source/configs/experiments/mmada_gqa_think_r70_k2_pilot_shard2.yaml": {
+      "sha256": "b6cc40826abb119d8ba44865be8aabfa67cdbbf5d082af2f0a93b3fa16f00e3b",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_gqa_think_r70_k2_pilot_shard2.yaml"
+    },
+    "source/configs/experiments/mmada_gqa_think_r70_k4_pilot_shard0.yaml": {
+      "sha256": "441e25ef529db3e814cd0a83db57ef745a81a679782d413fd29fb82de76143ce",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_gqa_think_r70_k4_pilot_shard0.yaml"
+    },
+    "source/configs/experiments/mmada_gqa_think_r70_k4_pilot_shard1.yaml": {
+      "sha256": "a2d896fffe59874f491eb5666bc4ce59dca538c2be05565ebf71c407f464c1c8",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_gqa_think_r70_k4_pilot_shard1.yaml"
+    },
+    "source/configs/experiments/mmada_gqa_think_r70_k4_pilot_shard2.yaml": {
+      "sha256": "383b36da838abb1a79b266f281c988289ffcb25112f04a4804c200e6b871ec7c",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_gqa_think_r70_k4_pilot_shard2.yaml"
+    },
+    "source/configs/experiments/mmada_m3cot_base_candidate_visual_smoke.yaml": {
+      "sha256": "1c4768ed16d3b00b732cb9bc61a4145ecfc3c2045c10251cf6f8e9cecd5d7d37",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_m3cot_base_candidate_visual_smoke.yaml"
+    },
+    "source/configs/experiments/mmada_m3cot_ccaw_v1_smoke.yaml": {
+      "sha256": "0a2e41f8e91fced2d626ecac1a6fdcb73046a478a2ad09508be8999035d55026",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_m3cot_ccaw_v1_smoke.yaml"
+    },
+    "source/configs/experiments/mmada_m3cot_fixed_smoke.yaml": {
+      "sha256": "213f27d80e662eb16ea922bc229ec08f13cde530a5454f0a905109495c2f2a88",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_m3cot_fixed_smoke.yaml"
+    },
+    "source/configs/experiments/mmada_m3cot_gain_zero_smoke.yaml": {
+      "sha256": "d38d356612eca23f2ca17a68552bf482ac412200f4c394412ab502fcd33e1ae4",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_m3cot_gain_zero_smoke.yaml"
+    },
+    "source/configs/experiments/mmada_m3cot_timing_only_crossed_smoke.yaml": {
+      "sha256": "1d2432fd20c1fe6ae2f7a1f657ff1bf273f701310f4cc0c316f573baa7a05eda",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_m3cot_timing_only_crossed_smoke.yaml"
+    },
+    "source/configs/experiments/mmada_mechanism16.yaml": {
+      "sha256": "3dcace4f97f33a92d19448a9d1dd6b3fae4147a7e740ee942e3b1e46b9eff68d",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mechanism16.yaml"
+    },
+    "source/configs/experiments/mmada_mmmu_cdapc_r50_shard0.yaml": {
+      "sha256": "08753770713bc4ed3c2ada0e901d28fdd21a28780ba7b83b8825e963a39a4017",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mmmu_cdapc_r50_shard0.yaml"
+    },
+    "source/configs/experiments/mmada_mmmu_cdapc_r50_shard1.yaml": {
+      "sha256": "27011a7ac59c9ee5b01a2935c45affbd0725473ac18a45c3b6da015a7356412d",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mmmu_cdapc_r50_shard1.yaml"
+    },
+    "source/configs/experiments/mmada_mmmu_cdapc_r50_shard2.yaml": {
+      "sha256": "2e0a03ad93082cafc976acb1ff2884c4f5052cec47f37a3c6e3244aa28474266",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mmmu_cdapc_r50_shard2.yaml"
+    },
+    "source/configs/experiments/mmada_mmmu_cdapc_r50_smoke.yaml": {
+      "sha256": "ec87ca1825bc6aa6b9a772d87c0d433b943bc5d3bb50bea15228be82c262ed84",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mmmu_cdapc_r50_smoke.yaml"
+    },
+    "source/configs/experiments/mmada_mmmu_cdapc_r70_L256_I128_shard0.yaml": {
+      "sha256": "a0ad14b2e6971c52a8be71fb2cb02921750391e3a8b30c02c3e188b46ac6d071",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mmmu_cdapc_r70_L256_I128_shard0.yaml"
+    },
+    "source/configs/experiments/mmada_mmmu_cdapc_r70_L256_I128_shard1.yaml": {
+      "sha256": "5ad3af4403e5a8ef746ef60e7669e3ae0bf5440930c6eeca5497f789b4bf3654",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mmmu_cdapc_r70_L256_I128_shard1.yaml"
+    },
+    "source/configs/experiments/mmada_mmmu_cdapc_r70_L256_I128_shard2.yaml": {
+      "sha256": "e6053ebf0c0bdabf8fe298575842bf188cea4ecaef9b4a49d73e3f1f441e6c94",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mmmu_cdapc_r70_L256_I128_shard2.yaml"
+    },
+    "source/configs/experiments/mmada_mmmu_cdapc_r90_shard0.yaml": {
+      "sha256": "a68063c7547aed3d6a70c127804ae2c5e38ffe091234ecf6fb63bc4c4ef4fa02",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mmmu_cdapc_r90_shard0.yaml"
+    },
+    "source/configs/experiments/mmada_mmmu_cdapc_r90_shard1.yaml": {
+      "sha256": "990ab4f500393a9e8850bc2568879e48c15a42351aa022434fe35661ab2c3e9f",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mmmu_cdapc_r90_shard1.yaml"
+    },
+    "source/configs/experiments/mmada_mmmu_cdapc_r90_shard2.yaml": {
+      "sha256": "b5f3127a288da9fa68ccf283f173c5948e056a5b345169b070066d5821d99e57",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mmmu_cdapc_r90_shard2.yaml"
+    },
+    "source/configs/experiments/mmada_mmmu_cdapc_r90_smoke.yaml": {
+      "sha256": "b35496150ffaf885e96338df1de47ef15cc72dc9f4276ab78438a06dec838aac",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mmmu_cdapc_r90_smoke.yaml"
+    },
+    "source/configs/experiments/mmada_mmmu_native_shard0.yaml": {
+      "sha256": "ef8c0153a1fc31d79f4c62f08e73d32829adf7ae196deed435d276bc8ad91202",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mmmu_native_shard0.yaml"
+    },
+    "source/configs/experiments/mmada_mmmu_native_shard1.yaml": {
+      "sha256": "0553fe12e00933165a62185dbe412216b36d4fce453ff82a049ccdf74fb5b8a1",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mmmu_native_shard1.yaml"
+    },
+    "source/configs/experiments/mmada_mmmu_native_shard2.yaml": {
+      "sha256": "79eaea1d2b9da4dc7962ef5c0c0776206868b6ca02ca742c06be661fbe0ed1f9",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mmmu_native_shard2.yaml"
+    },
+    "source/configs/experiments/mmada_mmmu_native_smoke.yaml": {
+      "sha256": "f3d56acae15771c590059fd314d5786af3e8f103f9497483b3f84e533ca3377e",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mmmu_native_smoke.yaml"
+    },
+    "source/configs/experiments/mmada_native_smoke.yaml": {
+      "sha256": "9b03c3dbc6158ed9f6e008d0143f629be94816b3dfbae8693ab36c6a3a97903a",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_native_smoke.yaml"
+    },
+    "source/configs/experiments/mmada_pope_aokvqa_r50_shard0.yaml": {
+      "sha256": "1b20d00d08714c1c9e0e01e85b952c6ae65620dee41a4cc70190e16a503e5687",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_aokvqa_r50_shard0.yaml"
+    },
+    "source/configs/experiments/mmada_pope_aokvqa_r50_shard1.yaml": {
+      "sha256": "929ce83ecb889a9dbb7224764ba487d6c6600f68636a4b5bd64f0ea36e44749e",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_aokvqa_r50_shard1.yaml"
+    },
+    "source/configs/experiments/mmada_pope_aokvqa_r50_shard2.yaml": {
+      "sha256": "98009ab7b74a680ac25419770681e4525f502722b57db65f30c5deeb6d4d5f2a",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_aokvqa_r50_shard2.yaml"
+    },
+    "source/configs/experiments/mmada_pope_aokvqa_r70_shard0.yaml": {
+      "sha256": "165bb012fe549b7672e44731447206f090ec70f96cd7f9a20350e35f853af892",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_aokvqa_r70_shard0.yaml"
+    },
+    "source/configs/experiments/mmada_pope_aokvqa_r70_shard1.yaml": {
+      "sha256": "804c1951c119b25a65324e316023f8a72dc068b7e55c2cfa5f88317d2d2db796",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_aokvqa_r70_shard1.yaml"
+    },
+    "source/configs/experiments/mmada_pope_aokvqa_r70_shard2.yaml": {
+      "sha256": "82c318d599f8514f42b7a8b07e8725afa956212c81948e3e55ea17128a3e4ee7",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_aokvqa_r70_shard2.yaml"
+    },
+    "source/configs/experiments/mmada_pope_aokvqa_r90_shard0.yaml": {
+      "sha256": "de629c1d901b08ee2c992c2d8d81b5cc7982190b96d1afe7ec22dbd464d24ca2",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_aokvqa_r90_shard0.yaml"
+    },
+    "source/configs/experiments/mmada_pope_aokvqa_r90_shard1.yaml": {
+      "sha256": "37e5d8fdd1feb8088e6953fccb9192d1311a2b3b302df8603c0dbd998f4d6131",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_aokvqa_r90_shard1.yaml"
+    },
+    "source/configs/experiments/mmada_pope_aokvqa_r90_shard2.yaml": {
+      "sha256": "10b871032a1c2043afa38ba7fbd9bab2ceeba9be17b0477959fb4e2393f49b20",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_aokvqa_r90_shard2.yaml"
+    },
+    "source/configs/experiments/mmada_pope_aokvqa_reasoning_r70_shard0.yaml": {
+      "sha256": "dc282ebbdf5c94c809fb5e1d403f274c6d378cf37d977194a4d7ca794cfeed5f",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_aokvqa_reasoning_r70_shard0.yaml"
+    },
+    "source/configs/experiments/mmada_pope_aokvqa_reasoning_r70_shard1.yaml": {
+      "sha256": "28714ad50d72b95e201caafce072e5732dec6809291efd6c466396043c56dfb6",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_aokvqa_reasoning_r70_shard1.yaml"
+    },
+    "source/configs/experiments/mmada_pope_aokvqa_reasoning_r70_shard2.yaml": {
+      "sha256": "25e2e21d26d4361c3928d9b6877105074f2c8f0e15b58070e7a9704e99b4edc4",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_aokvqa_reasoning_r70_shard2.yaml"
+    },
+    "source/configs/experiments/mmada_pope_aokvqa_reasoning_r90_shard0.yaml": {
+      "sha256": "972aadb653513cb73cd7d79493d0bc16027403df58eff10df5cf342fec8c08c2",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_aokvqa_reasoning_r90_shard0.yaml"
+    },
+    "source/configs/experiments/mmada_pope_aokvqa_reasoning_r90_shard1.yaml": {
+      "sha256": "ac32c73fca36e72cc0c8326b3ccb18c93037599d18e50c39b72e4f3f751ddb47",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_aokvqa_reasoning_r90_shard1.yaml"
+    },
+    "source/configs/experiments/mmada_pope_aokvqa_reasoning_r90_shard2.yaml": {
+      "sha256": "42f2110928a7d2683ca51f8c317a49d77c77b2986d13a9bfd2be9d9fd9739793",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_aokvqa_reasoning_r90_shard2.yaml"
+    },
+    "source/configs/experiments/mmada_pope_gqa_r50_shard0.yaml": {
+      "sha256": "bd93ecb70f639733564fb1a2ebfc62e1e421a350c53eb0e6e3db5b91abe8f4ff",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_r50_shard0.yaml"
+    },
+    "source/configs/experiments/mmada_pope_gqa_r50_shard1.yaml": {
+      "sha256": "772bd6fd6c5e459d43a8caa665c473e187f357c206925f0a09a17f14da50f4b8",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_r50_shard1.yaml"
+    },
+    "source/configs/experiments/mmada_pope_gqa_r50_shard2.yaml": {
+      "sha256": "0ffc54f6d7a2e9f17ec8832617f2bee10962fa9bb189872daf320ebc6556a98d",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_r50_shard2.yaml"
+    },
+    "source/configs/experiments/mmada_pope_gqa_r70_shard0.yaml": {
+      "sha256": "d2aed2acbc2aaa5c4b5f7afd1c4c5094c219d05be0c4f16b2834b197eb05df1c",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_r70_shard0.yaml"
+    },
+    "source/configs/experiments/mmada_pope_gqa_r70_shard1.yaml": {
+      "sha256": "19f23fe374cfc1716ec5601ec372c56fcae078d9ab4448219b136537789ea86a",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_r70_shard1.yaml"
+    },
+    "source/configs/experiments/mmada_pope_gqa_r70_shard2.yaml": {
+      "sha256": "13bc9310ddcb1ea44d882e9d5926782a4f193dd61047ce7a8af24a47b13c8aca",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_r70_shard2.yaml"
+    },
+    "source/configs/experiments/mmada_pope_gqa_r90_shard0.yaml": {
+      "sha256": "19b47d11562f155a7f801c1b097609479661aa18914cebd8d89838296f0360e4",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_r90_shard0.yaml"
+    },
+    "source/configs/experiments/mmada_pope_gqa_r90_shard1.yaml": {
+      "sha256": "be04b53ce0f98d3cfe199875ee2a2ec5fe9646c55d56d584fe18211d3e8a900d",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_r90_shard1.yaml"
+    },
+    "source/configs/experiments/mmada_pope_gqa_r90_shard2.yaml": {
+      "sha256": "7476f27ac8a42f8dd5e220bf08e54c533041afd838b4e4110cbff1893a879be6",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_r90_shard2.yaml"
+    },
+    "source/configs/experiments/mmada_pope_gqa_reasoning_r50_shard0.yaml": {
+      "sha256": "03591713c9b40ea2c206bf2e62605507dfa137289b036cdef342b7a68d88d4ea",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_reasoning_r50_shard0.yaml"
+    },
+    "source/configs/experiments/mmada_pope_gqa_reasoning_r50_shard1.yaml": {
+      "sha256": "21fb46da6e0adf21143779b7cd20d8c51d5aac287ea014d9ff9ae69fc4b12dd7",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_reasoning_r50_shard1.yaml"
+    },
+    "source/configs/experiments/mmada_pope_gqa_reasoning_r50_shard2.yaml": {
+      "sha256": "24e37d8b9d8dc51fb81420b144f70ab112b525fa689fb3850d675292a3af8106",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_reasoning_r50_shard2.yaml"
+    },
+    "source/configs/experiments/mmada_pope_gqa_reasoning_r70_shard0.yaml": {
+      "sha256": "5ebf5ac3c377b1f371771290f253efda33173e23684513f90d6564d7d55a2a93",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_reasoning_r70_shard0.yaml"
+    },
+    "source/configs/experiments/mmada_pope_gqa_reasoning_r70_shard1.yaml": {
+      "sha256": "9123efb3f05233adc3e2b2e7571990ac525ae4b7478a66d5878ceef6c858f535",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_reasoning_r70_shard1.yaml"
+    },
+    "source/configs/experiments/mmada_pope_gqa_reasoning_r70_shard2.yaml": {
+      "sha256": "0939f528e8f9c822eb881ab3ee401e6afce1236c80bf13e5a95d480618799818",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_reasoning_r70_shard2.yaml"
+    },
+    "source/configs/experiments/mmada_pope_gqa_reasoning_r90_shard0.yaml": {
+      "sha256": "0d2086560bb36da998a348472985df997f1efa54f5680b7a47b8bdabd70260ba",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_reasoning_r90_shard0.yaml"
+    },
+    "source/configs/experiments/mmada_pope_gqa_reasoning_r90_shard1.yaml": {
+      "sha256": "8b5baf85e6322257fb60f3647e94f0fa884b04e208965c79e35155246707ef11",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_reasoning_r90_shard1.yaml"
+    },
+    "source/configs/experiments/mmada_pope_gqa_reasoning_r90_shard2.yaml": {
+      "sha256": "239af5bcf1c58b55f91931dba3d8eab16b2ad602ac7e2f84c33bfc41b9bdb4e1",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_gqa_reasoning_r90_shard2.yaml"
+    },
+    "source/configs/experiments/mmada_pope_native_parity.yaml": {
+      "sha256": "5378f4aac93e2f5b4c42c20240537a6290eb9ef853423510f3bdb59e34b19f23",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_native_parity.yaml"
+    },
+    "source/configs/experiments/mmada_pope_yesno_r50_shard0.yaml": {
+      "sha256": "398dda9162c63eacd75c38fdb38ecb1513d87bc016b8b9c89e2f2f00cbe31b1f",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_yesno_r50_shard0.yaml"
+    },
+    "source/configs/experiments/mmada_pope_yesno_r50_shard1.yaml": {
+      "sha256": "0efd95424cd88390accb722774eeec79e2d8530a50bc9378dd90dfdcf83aac69",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_yesno_r50_shard1.yaml"
+    },
+    "source/configs/experiments/mmada_pope_yesno_r50_shard2.yaml": {
+      "sha256": "df822a4e0c3e4836fcee22673376c1c79b919ba54c77b814c974ece5dd80c45f",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_yesno_r50_shard2.yaml"
+    },
+    "source/configs/experiments/mmada_pope_yesno_r60_shard0.yaml": {
+      "sha256": "e2ffc440bd8ec92592c66cf060513252f3ded0966cc59737a4ab70f98451fd5f",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_yesno_r60_shard0.yaml"
+    },
+    "source/configs/experiments/mmada_pope_yesno_r60_shard1.yaml": {
+      "sha256": "c32eef149a2aa6b23962f73a46dc2122d4894ade3f4d305481c795b29da1e912",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_yesno_r60_shard1.yaml"
+    },
+    "source/configs/experiments/mmada_pope_yesno_r60_shard2.yaml": {
+      "sha256": "9e31bc109e650984ebf7db7f2ae9c6f076122b0abb3481c0be92fb213d56a72f",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_yesno_r60_shard2.yaml"
+    },
+    "source/configs/experiments/mmada_pope_yesno_r70_shard0.yaml": {
+      "sha256": "28996976ace2a3748ba1199bff7609ad5da41bfe443bbce48812b495e9b5c01b",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_yesno_r70_shard0.yaml"
+    },
+    "source/configs/experiments/mmada_pope_yesno_r70_shard1.yaml": {
+      "sha256": "8e14c8374830b34d6842c75bb6c8eec1a1a9d3f30a9b855cb717defc60ab54c2",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_yesno_r70_shard1.yaml"
+    },
+    "source/configs/experiments/mmada_pope_yesno_r70_shard2.yaml": {
+      "sha256": "3bb463531645fbcb2fa3a89a9e51f63719fa988d6673b26198adb4178219f008",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_yesno_r70_shard2.yaml"
+    },
+    "source/configs/experiments/mmada_pope_yesno_r80_shard0.yaml": {
+      "sha256": "ce74dd597e99755befbc6a0ac4670d2cf4277513f0b978c9b1b392e05f9d234d",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_yesno_r80_shard0.yaml"
+    },
+    "source/configs/experiments/mmada_pope_yesno_r80_shard1.yaml": {
+      "sha256": "4064b90e10cbb3ec75d04afa1eb10aa82e680f560b303f38a05ebf471f51e020",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_yesno_r80_shard1.yaml"
+    },
+    "source/configs/experiments/mmada_pope_yesno_r80_shard2.yaml": {
+      "sha256": "e789646ba2491f4c9c44e8f2d045da732c0785065ecccb2af35ff1af03dd4b8e",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_yesno_r80_shard2.yaml"
+    },
+    "source/configs/experiments/mmada_pope_yesno_shard0.yaml": {
+      "sha256": "a85d13cf3256b5ed777a2670f2b79ad956b8eeebd16c6377258ee06a5395b7ea",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_yesno_shard0.yaml"
+    },
+    "source/configs/experiments/mmada_pope_yesno_shard1.yaml": {
+      "sha256": "f7ca1ff54545b2d0df3acb25682b3c92b496a30b5104bd082316f5ba6489007f",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_yesno_shard1.yaml"
+    },
+    "source/configs/experiments/mmada_pope_yesno_shard2.yaml": {
+      "sha256": "3a195294ce5d62c7b18a9f90500c2271b7753b26ca043e9ad5804454a9240ea4",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_pope_yesno_shard2.yaml"
+    },
+    "source/docs/ACCEPTANCE.md": {
+      "sha256": "2930dcfeeb3a53ac61075483e80086d14eab41e1a9405e897e9bd75076dcac0c",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/docs/ACCEPTANCE.md"
+    },
+    "source/docs/ALGORITHM_SPEC.md": {
+      "sha256": "6b6597f1142a3f13e123c9be18fe33a09a4ec056ab46e3c08d50548b0596916f",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/docs/ALGORITHM_SPEC.md"
+    },
+    "source/docs/CD_APC_Implementation_Guide_v1_No_DCD.md": {
+      "sha256": "d9c551bc89a4073688d6d956ce9aea774d2c21ed99cbe92bba41ff75d2b84a50",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/docs/CD_APC_Implementation_Guide_v1_No_DCD.md"
+    },
+    "source/docs/CHAIR_POPE_EXTENSIONS.md": {
+      "sha256": "b4419898be0433871a5d194a6ab4cf2f1ca56bd71fb1ae1d6a8006c6706bc1d9",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/docs/CHAIR_POPE_EXTENSIONS.md"
+    },
+    "source/docs/DECISIONS.md": {
+      "sha256": "899833485ee0277ffa5180c46cc34ea625673ff402a6bbae7717d5bed1968d11",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/docs/DECISIONS.md"
+    },
+    "source/docs/K_COMMIT_PILOT.md": {
+      "sha256": "e7d51944ce7c21b4f1abc1c7a857782b3b01c6581c911a75283751c94e7e909d",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/docs/K_COMMIT_PILOT.md"
+    },
+    "source/docs/MME_L256_I128.md": {
+      "sha256": "719711cace111ba8cf7fd770d63daf98026551b23e63a39b872ef675c3e475b3",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/docs/MME_L256_I128.md"
+    },
+    "source/docs/MMMU_INPUT_REPRODUCTION.md": {
+      "sha256": "7beeeef110591dbb15a004f22d52ecf03980be3f922dde9342e5f0df9f1df5b7",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/docs/MMMU_INPUT_REPRODUCTION.md"
+    },
+    "source/docs/MMMU_R70_POPE_LLM_JUDGE.md": {
+      "sha256": "f11479f4e49d77392ccb6fbacb0344f4b4c22c4231eafc752b6df0356fffded3",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/docs/MMMU_R70_POPE_LLM_JUDGE.md"
+    },
+    "source/docs/PROTOCOL_SPEC.md": {
+      "sha256": "3162a7be5f8cbf7ea4ada6861c0700454bc3750748a9c37abf1d62b3150b04b1",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/docs/PROTOCOL_SPEC.md"
+    },
+    "source/manifests/chair_all_ids.json": {
+      "sha256": "b46b1b702afa4183e559a80825b532c44b75e71cbb87b32247dd00cb336302a1",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/chair_all_ids.json"
+    },
+    "source/manifests/chair_shard0_ids.json": {
+      "sha256": "1fb7a98f5c9fe219a17c3a794c02336765ca826f0447c81163c4840a5d7b0c49",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/chair_shard0_ids.json"
+    },
+    "source/manifests/chair_shard1_ids.json": {
+      "sha256": "38b5a1c7a98a725e7dddad1c5fd02daa11ff072dc8878555aa9478827e0c7584",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/chair_shard1_ids.json"
+    },
+    "source/manifests/chair_shard2_ids.json": {
+      "sha256": "bf478d5f3227b5f853c620c0fbcc6221679fc74983891abc9903d247fc1dae8f",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/chair_shard2_ids.json"
+    },
+    "source/manifests/chair_smoke_ids.json": {
+      "sha256": "7b76cf43a1d5e939f39d7c1ef38a39fdcc4edd818f5a9a369b54deee755274e1",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/chair_smoke_ids.json"
+    },
+    "source/manifests/gqa_think_r70_k_pilot_shard0_ids.json": {
+      "sha256": "8a15651058ca54497b4a6819ec04950904fb6cbee6eec6c53ba13a3f1b4f0dbd",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/gqa_think_r70_k_pilot_shard0_ids.json"
+    },
+    "source/manifests/gqa_think_r70_k_pilot_shard1_ids.json": {
+      "sha256": "751ebde13e4926d209ed59958db139f4dab43c093efe76657690d154b041cc46",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/gqa_think_r70_k_pilot_shard1_ids.json"
+    },
+    "source/manifests/gqa_think_r70_k_pilot_shard2_ids.json": {
+      "sha256": "c7930339aba603e73500bcc72531676ad164f6da9ea6ffec767c28771a7a106c",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/gqa_think_r70_k_pilot_shard2_ids.json"
+    },
+    "source/manifests/m3cot_mechanism16_ids.json": {
+      "sha256": "38684b092b95bde2e723781c485af3bb344bcc1ad4907448d4b2a4fbc399938f",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/m3cot_mechanism16_ids.json"
+    },
+    "source/manifests/m3cot_smoke_ids.json": {
+      "sha256": "456860fda7cd44e51db04a0cd257b9584c80867be3a637616803cab586059a3d",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/m3cot_smoke_ids.json"
+    },
+    "source/manifests/m3cot_trace_ids.json": {
+      "sha256": "456860fda7cd44e51db04a0cd257b9584c80867be3a637616803cab586059a3d",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/m3cot_trace_ids.json"
+    },
+    "source/manifests/mmmu_val_all_ids.json": {
+      "sha256": "3fc465fbfe42d87975e6c5f54f3e36e1d915f218b176084c16a286a313432222",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/mmmu_val_all_ids.json"
+    },
+    "source/manifests/mmmu_val_shard0_ids.json": {
+      "sha256": "92cdcec09d48f69fec407e2d4e1015a48bd1012176666b456c90d14f84042ec5",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/mmmu_val_shard0_ids.json"
+    },
+    "source/manifests/mmmu_val_shard1_ids.json": {
+      "sha256": "4a1e0e668fe095e491c1c07f5ce511b0606c5c30d410581ff4da61cd5651aeb4",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/mmmu_val_shard1_ids.json"
+    },
+    "source/manifests/mmmu_val_shard2_ids.json": {
+      "sha256": "e2f2bb5eaffe8994c6b23918a93e997022403cb2fccb68112e4135fb00c65041",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/mmmu_val_shard2_ids.json"
+    },
+    "source/manifests/mmmu_val_smoke8_ids.json": {
+      "sha256": "f5f93eb884303169cdbe6dcc052408110bae051162b01c28c902bf209bff56bc",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/mmmu_val_smoke8_ids.json"
+    },
+    "source/manifests/pope_aokvqa_all_ids.json": {
+      "sha256": "ffc2c054785a9978f6d9fac69460f34b54e603c4068e7eb433f78de98575a3c4",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/pope_aokvqa_all_ids.json"
+    },
+    "source/manifests/pope_aokvqa_shard0_ids.json": {
+      "sha256": "57cb1d3fc99b4c917ebbf724da82f523c89125af256ab867dcf63bf1caf5937c",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/pope_aokvqa_shard0_ids.json"
+    },
+    "source/manifests/pope_aokvqa_shard1_ids.json": {
+      "sha256": "d80a6cfc1bdded9de7b6ec2c122938da7952fc61d6f4b0e91eabe34f0af11872",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/pope_aokvqa_shard1_ids.json"
+    },
+    "source/manifests/pope_aokvqa_shard2_ids.json": {
+      "sha256": "37810175d5981b04c33580fbfeaa146ee096a9d11bec5a84824929e30d216837",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/pope_aokvqa_shard2_ids.json"
+    },
+    "source/manifests/pope_aokvqa_smoke_ids.json": {
+      "sha256": "3bba26faaee2f0e45920a2adf4a5cbe89981dd04878198eeb3ca018daef82a91",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/pope_aokvqa_smoke_ids.json"
+    },
+    "source/manifests/pope_gqa_all_ids.json": {
+      "sha256": "4c6fc94f5db2de9d8bfd75a68f93495fc6ae9087e159f22ffb4ba49ed22a28ca",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/pope_gqa_all_ids.json"
+    },
+    "source/manifests/pope_gqa_shard0_ids.json": {
+      "sha256": "6cd0841bfdf99c8a9f35230e144e3b16001b847e1559d9dc9e4ed7022e2ea864",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/pope_gqa_shard0_ids.json"
+    },
+    "source/manifests/pope_gqa_shard1_ids.json": {
+      "sha256": "c9be4ee69f55a776ae5f3b9511aca4faf4787e1671aeff0657b2a6c304667d3d",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/pope_gqa_shard1_ids.json"
+    },
+    "source/manifests/pope_gqa_shard2_ids.json": {
+      "sha256": "c7cb30651c6a7a58b0418c4045c541ae82cabaf08aba9a870fb2c5ff2e668ef2",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/pope_gqa_shard2_ids.json"
+    },
+    "source/manifests/pope_gqa_smoke_ids.json": {
+      "sha256": "d51035d4fb46ebbe3e9cda41774a64189b1ece6061076397fff3fd5b2b2f9654",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/pope_gqa_smoke_ids.json"
+    },
+    "source/manifests/pope_yesno_all_ids.json": {
+      "sha256": "77df4546f2eab34831c7942df7982d81584d90e52f1c5b95290c7feeaf871ca6",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/pope_yesno_all_ids.json"
+    },
+    "source/manifests/pope_yesno_parity16_ids.json": {
+      "sha256": "2eb7101346d1b0c8c3861864a9110d168fa748c34cbf6e5059bedffd7212272a",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/pope_yesno_parity16_ids.json"
+    },
+    "source/manifests/pope_yesno_shard0_ids.json": {
+      "sha256": "e40e1b3a8994f83d180b31c0fa8ac0072ad38837c7729fb29f7e3803242d4864",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/pope_yesno_shard0_ids.json"
+    },
+    "source/manifests/pope_yesno_shard1_ids.json": {
+      "sha256": "57b623f1a80daf18882a4e1d210fae915e950a1c5f853a5181af192650d78bc8",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/pope_yesno_shard1_ids.json"
+    },
+    "source/manifests/pope_yesno_shard2_ids.json": {
+      "sha256": "4a37add22be717f6e8df8a15bf6308f9ed3a74a0d8c56fcd4188a1859e2e73dd",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/manifests/pope_yesno_shard2_ids.json"
+    },
+    "source/mme/README.md": {
+      "sha256": "6e4bb68c73b1f05cc09f9831f1880d0cf7cd8e87ddab0340e10073d38ac37bff",
+      "source_path": "/root/autodl-tmp/cdapc-mme/README.md"
+    },
+    "source/mme/configs/experiments/mmada_mme_cdapc_r70_L256_I128_shard0.yaml": {
+      "sha256": "f6922184b9ffa5a39aee7a3c9f80ee97344c6a1e925120ae2746d7a2017b0464",
+      "source_path": "/root/autodl-tmp/cdapc-mme/configs/experiments/mmada_mme_cdapc_r70_L256_I128_shard0.yaml"
+    },
+    "source/mme/configs/experiments/mmada_mme_cdapc_r70_L256_I128_shard1.yaml": {
+      "sha256": "0b30486a8a5c778edb0150daec18f9e3da9fca12ae17d58f8d9ec30ecf2de804",
+      "source_path": "/root/autodl-tmp/cdapc-mme/configs/experiments/mmada_mme_cdapc_r70_L256_I128_shard1.yaml"
+    },
+    "source/mme/configs/experiments/mmada_mme_cdapc_r70_L256_I128_shard2.yaml": {
+      "sha256": "62870ef20a94dffb8de28c76385c5806a8400f706bf93fe97184bb4276a56551",
+      "source_path": "/root/autodl-tmp/cdapc-mme/configs/experiments/mmada_mme_cdapc_r70_L256_I128_shard2.yaml"
+    },
+    "source/mme/manifests/mme_all_ids.json": {
+      "sha256": "caaaa6490e7365d95a0e9a9a955f26606bfbefa107cea4fea6089002b16adad0",
+      "source_path": "/root/autodl-tmp/cdapc-mme/manifests/mme_all_ids.json"
+    },
+    "source/mme/manifests/mme_shard0_ids.json": {
+      "sha256": "cdefc4626f05e6674297298e9565111af3db8180bd558eb999c3bc54ff799958",
+      "source_path": "/root/autodl-tmp/cdapc-mme/manifests/mme_shard0_ids.json"
+    },
+    "source/mme/manifests/mme_shard1_ids.json": {
+      "sha256": "a583b63422b56aa7cca0db7192c5e9a925908a91b628c5f3d316933dcd146037",
+      "source_path": "/root/autodl-tmp/cdapc-mme/manifests/mme_shard1_ids.json"
+    },
+    "source/mme/manifests/mme_shard2_ids.json": {
+      "sha256": "afebdf346648c074139c40160f2ec6409f2aa4d38758a930338165bf8aa9b051",
+      "source_path": "/root/autodl-tmp/cdapc-mme/manifests/mme_shard2_ids.json"
+    },
+    "source/mme/reports/source_snapshot.json": {
+      "sha256": "25c71644f25ecf5c10b7d6c5168392341b04b736bcc85ab4770db8d21dc0ee0f",
+      "source_path": "/root/autodl-tmp/cdapc-mme/reports/source_snapshot.json"
+    },
+    "source/mme/scripts/prepare_mme.py": {
+      "sha256": "ef9e209fe3f2d6ee5d4fb36cc9a12ce6ff350637a51757565d80f61bea7b009d",
+      "source_path": "/root/autodl-tmp/cdapc-mme/scripts/prepare_mme.py"
+    },
+    "source/mme/scripts/run_mme_256_128.py": {
+      "sha256": "6c10f0c55f3e4e24aa735ab299ea031e3066ca77c49d31af83a4ea7c1bfb80a8",
+      "source_path": "/root/autodl-tmp/cdapc-mme/scripts/run_mme_256_128.py"
+    },
+    "source/mme/scripts/score_mme.py": {
+      "sha256": "28dc437fb4ed0a0ad0b945f14013ddd6aa4fe456c184d6cc86366dfb20d79b98",
+      "source_path": "/root/autodl-tmp/cdapc-mme/scripts/score_mme.py"
+    },
+    "source/mme/src/cdapc_lab/config.py": {
+      "sha256": "738d6cbcc9563d958c8d4c96d2d5203438f3e2b253d7d6db7096b07f74a5ceec",
+      "source_path": "/root/autodl-tmp/cdapc-mme/src/cdapc_lab/config.py"
+    },
+    "source/mme/src/cdapc_lab/data/records.py": {
+      "sha256": "e055c2d4ba318338573b3c2a560fa2aa9eb8d5740be04a099f9d625d73782654",
+      "source_path": "/root/autodl-tmp/cdapc-mme/src/cdapc_lab/data/records.py"
+    },
+    "source/mme/src/cdapc_lab/experiments/pope_report.py": {
+      "sha256": "3433234fb9dfdfe29c67952413594c8d574929b609321c041b7ed27d5c25d266",
+      "source_path": "/root/autodl-tmp/cdapc-mme/src/cdapc_lab/experiments/pope_report.py"
+    },
+    "source/mme/tests/integration/test_mme.py": {
+      "sha256": "6fa46a49f92377ff36ed5dcf01ecb8c18dd49ea38b4acc4714c2cb9dfd19e72d",
+      "source_path": "/root/autodl-tmp/cdapc-mme/tests/integration/test_mme.py"
+    },
+    "source/patches/lavida-offline-tokenizer.patch": {
+      "sha256": "dab9ccfa44974426e9b6e5ad0ed4914935f1cb8d938ce2cc31951e9dfadb7a58",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/patches/lavida-offline-tokenizer.patch"
+    },
+    "source/patches/lavida-sdpa-mask.patch": {
+      "sha256": "47d7b214ecd96792ac7f0b22a2549500bda9c23dee1991e6590192b3c49c99fa",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/patches/lavida-sdpa-mask.patch"
+    },
+    "source/pyproject.toml": {
+      "sha256": "bf30ff52d7d0db9c090a24ea83c3c107aa0485f633d792220c71f7033b3641ab",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/pyproject.toml"
+    },
+    "source/reports/runtime.freeze.txt": {
+      "sha256": "bc01e18a45081d44dd00778abeb2a01403644a07180bc0016dc56cd208319af2",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/reports/runtime.freeze.txt"
+    },
+    "source/requirements-inference.txt": {
+      "sha256": "29955805ab3ebff6c140580d14f629ccbeadd86c195d14a1e6e03939da5840a3",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/requirements-inference.txt"
+    },
+    "source/scripts/accept_model.py": {
+      "sha256": "245193913abd37f47f1387f4c8dd0999c89655e2814277e309c51b43ff2ece43",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/accept_model.py"
+    },
+    "source/scripts/accept_replay.py": {
+      "sha256": "f5249893f1b626e55b899cedd34fcc8afc6897778b161fb8a3a18c33e4ac0e4c",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/accept_replay.py"
+    },
+    "source/scripts/accept_window.py": {
+      "sha256": "84311aba39ef748e01bee1906e43618c796cb12a3b5c36fe6d17302331e6db24",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/accept_window.py"
+    },
+    "source/scripts/export_cdapc_upload.py": {
+      "sha256": "903d5602950ba008a196b308c6fd5b26af73eb404d2d680bad282d9b7a5e0c5d",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/export_cdapc_upload.py"
+    },
+    "source/scripts/export_mmmu_answers.py": {
+      "sha256": "db7b7682b8842524ecda02db774441b3e8ff242290066bed1ab68fc1355dc398",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/export_mmmu_answers.py"
+    },
+    "source/scripts/k_commit_report.py": {
+      "sha256": "82872a87a548fc409cab26bd3ee3e1e5104a74d5c168a32df604296988b64d29",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/k_commit_report.py"
+    },
+    "source/scripts/mmmu_failure_modes.py": {
+      "sha256": "bfa6e69d22e33a15919766a4838de5f5a9eff19a5e0d574ed17ee83b9db32916",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/mmmu_failure_modes.py"
+    },
+    "source/scripts/mmmu_generation_patterns.py": {
+      "sha256": "569d19d93ccb0a3048c71be63fce3896587236a711f9d387e68949ccfc6ad320",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/mmmu_generation_patterns.py"
+    },
+    "source/scripts/mmmu_mechanism_audit.py": {
+      "sha256": "c929e24834e41857b3832e82560ce41e09457be346c487a12bade97521bc887c",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/mmmu_mechanism_audit.py"
+    },
+    "source/scripts/mmmu_runs.sh": {
+      "sha256": "f80e40e388e9da5c40a63269a82a9452d6550a6d0a70b169457a24feb7f14483",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/mmmu_runs.sh"
+    },
+    "source/scripts/pope_progress.sh": {
+      "sha256": "cb90771d6c3acb84327c064a8d3cf25fc94dedb7bad40c05a8355fe91d0e401e",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/pope_progress.sh"
+    },
+    "source/scripts/pope_rgate_behavior.py": {
+      "sha256": "1e1a6eada92799de1387d075d62f25e8571180dd1cd96ea48e0238f53b8755f5",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/pope_rgate_behavior.py"
+    },
+    "source/scripts/pope_rgate_summary.py": {
+      "sha256": "8ec9404437003aaebd83113510c8cc2ff1c04802b78a3342d39e0ca04eac75f8",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/pope_rgate_summary.py"
+    },
+    "source/scripts/pope_rgate_sweep.sh": {
+      "sha256": "fc092dcacdcb703bb9a442155b2125f8442495d4dbdedfba5c941a27092ff3fc",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/pope_rgate_sweep.sh"
+    },
+    "source/scripts/pope_think_answer_audit.py": {
+      "sha256": "95ed513fb9ffdce5ad4732ad454fe935846e730e4bd5dc2dbf93162c70796826",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/pope_think_answer_audit.py"
+    },
+    "source/scripts/prepare_assets.py": {
+      "sha256": "77d3edced16aaebcaa711187df3f2fb5b320302c067acccdf1549cb08483b8b2",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/prepare_assets.py"
+    },
+    "source/scripts/prepare_eval_extensions.py": {
+      "sha256": "153fca89806bb20f0b640cd4d0c45b548aacc4a97a3bd410995b4710c8fbcc1b",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/prepare_eval_extensions.py"
+    },
+    "source/scripts/prepare_mechanism.py": {
+      "sha256": "01be3cfb1e727c759a9361c20c010e820aa489c961569fba433ff924ea0b0087",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/prepare_mechanism.py"
+    },
+    "source/scripts/prepare_mmmu.py": {
+      "sha256": "bf26df41e2efbff1163ea933478e376ffab1f30a701d3371f995a6f8e20ee0a1",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/prepare_mmmu.py"
+    },
+    "source/scripts/prepare_pope.py": {
+      "sha256": "6a978e79101294587e5984dec5990df8975985406b9bcc5b406b246d6dc23967",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/prepare_pope.py"
+    },
+    "source/scripts/run_chair_pope_extensions.py": {
+      "sha256": "473a932d916311d3aca7a496ad07d21b684a3e29b908b91e37bdaa9594ee3262",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/run_chair_pope_extensions.py"
+    },
+    "source/scripts/run_k_commit_pilot.py": {
+      "sha256": "7a343c99d1c80d4509a4d5315f74ff93e1958cd966d131a14332695681385c27",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/run_k_commit_pilot.py"
+    },
+    "source/scripts/run_mmmu_r70_256_128.py": {
+      "sha256": "a407f484d62f13a376b5cf52afc50dc178d65d9107ec593dbf6acf6aa097fd1b",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/run_mmmu_r70_256_128.py"
+    },
+    "source/scripts/run_pope_think_judge.py": {
+      "sha256": "e635df0e4f3ad5d79ef57197397eaa7298be6347ce71a4281d3e2d9786f8aaab",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/run_pope_think_judge.py"
+    },
+    "source/scripts/score_chair_runs.py": {
+      "sha256": "0f043d922b3221e55d1b84e9b55b91e7f6af16dfa4eec9f6efe16541adac0a52",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/score_chair_runs.py"
+    },
+    "source/scripts/summarize_experiments.py": {
+      "sha256": "442201d6ade40a2d3841fbdcef880432bc01d77f223bb4e0450e3615da042bfb",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/summarize_experiments.py"
+    },
+    "source/scripts/write_smoke_configs.py": {
+      "sha256": "827b04709037801f2bc812675ec8d4106c422723fd4b20b6392bec934aece565",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/scripts/write_smoke_configs.py"
+    },
+    "source/src/cdapc_lab/__init__.py": {
+      "sha256": "82a8ea944594602134c69c92b34f15d03c2e1cc1ebe4a817547de14779b79860",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/__init__.py"
+    },
+    "source/src/cdapc_lab/__main__.py": {
+      "sha256": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/__main__.py"
+    },
+    "source/src/cdapc_lab/analysis/paired.py": {
+      "sha256": "f5f294e27ccf6c6a57f34ba11455d68e18e2f5bbbd864a41b00a5248b45cd137",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/analysis/paired.py"
+    },
+    "source/src/cdapc_lab/cli.py": {
+      "sha256": "0b5389ebbb446b565797c0ccfe2b92e0175e678cb9c7ec6e4d47007d9d7ee657",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/cli.py"
+    },
+    "source/src/cdapc_lab/config.py": {
+      "sha256": "e925889fd48c925e1ee2390f845952a84465789646cbb4d7b3a71bc109babf02",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/config.py"
+    },
+    "source/src/cdapc_lab/data/mmmu.py": {
+      "sha256": "b30e77d49d63b5ce0df016c6e6d990128bd245f8ba0be2ec9273f385dce1ed97",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/data/mmmu.py"
+    },
+    "source/src/cdapc_lab/data/pope.py": {
+      "sha256": "1d8b293266014aecfe9d4e55d4422342ce7cb8a5eb66e828b7d98b5177ed143c",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/data/pope.py"
+    },
+    "source/src/cdapc_lab/data/records.py": {
+      "sha256": "ce14be47126ef5ee2885d6eae39834c8c0d11d4cf091cafb93efbb6eccb3cc6e",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/data/records.py"
+    },
+    "source/src/cdapc_lab/decoding/engine.py": {
+      "sha256": "fdd67bbb4a247b2f6fa619f2cb6a650f9233bb0e1525e07028f5ca4cd24124f4",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/decoding/engine.py"
+    },
+    "source/src/cdapc_lab/decoding/gates.py": {
+      "sha256": "a3cb3ef37d0eef8bc6e437f88101098edaf96946026d53c9ca26f448ca50d074",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/decoding/gates.py"
+    },
+    "source/src/cdapc_lab/decoding/proposal.py": {
+      "sha256": "cc09f97d5071c35d98239178a2959914bb9e737384236a26f60a4e3ca8bff743",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/decoding/proposal.py"
+    },
+    "source/src/cdapc_lab/decoding/selection.py": {
+      "sha256": "d61b0c647fdf5aa26debcb89201fd9e3116e9132789bbcbd60d231e41b87b416",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/decoding/selection.py"
+    },
+    "source/src/cdapc_lab/decoding/state.py": {
+      "sha256": "454114b91507eef0b653755c592a88f5ce86c664789e8511c4388795496109c8",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/decoding/state.py"
+    },
+    "source/src/cdapc_lab/decoding/window.py": {
+      "sha256": "b55fe329ee908f3df48f6878b6d85dd7a445c076d36c12fa4c19f69c1ad7aedb",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/decoding/window.py"
+    },
+    "source/src/cdapc_lab/evaluation/llm_judge.py": {
+      "sha256": "7edcb58582d5004ea38839c923abc1a9453e105107106d1e021e53fabdb70128",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/evaluation/llm_judge.py"
+    },
+    "source/src/cdapc_lab/evaluation/normalize.py": {
+      "sha256": "8a05acb25b19ae0f12e6faa5213d8a6b4b9fcaf3c0c8300a4127b5e1f79b34b4",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/evaluation/normalize.py"
+    },
+    "source/src/cdapc_lab/evaluation/parsers.py": {
+      "sha256": "7fa8760fcd90f8245b64f970ac046100780a1fe3ecdab09b696d5b3545296129",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/evaluation/parsers.py"
+    },
+    "source/src/cdapc_lab/evaluation/pope_llm_judge.py": {
+      "sha256": "1ab1a8ef942edc347f87f8165df6d870cff67fb040b976006fff2a03e846fa57",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/evaluation/pope_llm_judge.py"
+    },
+    "source/src/cdapc_lab/evaluation/scorers.py": {
+      "sha256": "1684f4af895233722a8facf6efba6b0767a435e01c20930ae0e43cff2231f143",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/evaluation/scorers.py"
+    },
+    "source/src/cdapc_lab/experiments/infer.py": {
+      "sha256": "3e3932faa07097f2445d5bbc7fb0791c28febc01a84dd533853ffa9efcaf0a78",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/experiments/infer.py"
+    },
+    "source/src/cdapc_lab/experiments/mmmu_report.py": {
+      "sha256": "c9197bc0425298e5e56c623d8d4031c7a3315700daf10d81f3fe2eb63c5b4f84",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/experiments/mmmu_report.py"
+    },
+    "source/src/cdapc_lab/experiments/pope_report.py": {
+      "sha256": "38dcf7d058e99ce55639eb5810640b4ed32c83104fcb86b8baeb9b6c4707f0cd",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/experiments/pope_report.py"
+    },
+    "source/src/cdapc_lab/experiments/replay.py": {
+      "sha256": "f7fd9021a6601f23dd4f9bc6d2af74341e97827ebbeaefdd877edcf4ae6558a6",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/experiments/replay.py"
+    },
+    "source/src/cdapc_lab/experiments/score.py": {
+      "sha256": "dccdc927ca3a274f9bc0e39fb435905f4207ca0b8f3db869f825f1ea276546bb",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/experiments/score.py"
+    },
+    "source/src/cdapc_lab/experiments/verify.py": {
+      "sha256": "8a4b65fd61041dbc34666d4ac608da6abd7ac0bde1740b1c753ad1b545304b79",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/experiments/verify.py"
+    },
+    "source/src/cdapc_lab/io/artifacts.py": {
+      "sha256": "4731901eddc59f7dcd1d5a665b853f4f6c7473da3f5d44fd5aa8e0b0c798383e",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/io/artifacts.py"
+    },
+    "source/src/cdapc_lab/models/base.py": {
+      "sha256": "2fa182b408a5e101336d76f9dec2a620d6b9b80a8183652e1b6274fe5fdb6533",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/models/base.py"
+    },
+    "source/src/cdapc_lab/models/lavida.py": {
+      "sha256": "749ca57646547deabce6f45e25e61f2229e8a30d8ba1facd4ed8d5946af28c0f",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/models/lavida.py"
+    },
+    "source/src/cdapc_lab/models/mmada.py": {
+      "sha256": "6189c406de680dccbbedfe85ba7338ef3425233131547b2d427deae9eb53f048",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/models/mmada.py"
+    },
+    "source/src/cdapc_lab/types.py": {
+      "sha256": "5c1b4be42ab66c3ffec37538fcf4162bf0f86c262308d24586dc656cf075a0b3",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/src/cdapc_lab/types.py"
+    },
+    "source/tests/evaluation/test_evaluation.py": {
+      "sha256": "ea594962e95b833b8d879cd194cc7fabd4559a09e86683ddbb2d4d50960e6ad7",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/tests/evaluation/test_evaluation.py"
+    },
+    "source/tests/integration/test_attention.py": {
+      "sha256": "db4e331f43f23d2da000a93c32d6a06fede394fc8f4b31978499c5312c9717a5",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/tests/integration/test_attention.py"
+    },
+    "source/tests/integration/test_lavida_template.py": {
+      "sha256": "00877caf9e2178cba4b7e61ac79b673c0d0f61fa472d32ea02407a3432fd04d2",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/tests/integration/test_lavida_template.py"
+    },
+    "source/tests/integration/test_mmada_prompt.py": {
+      "sha256": "15f26ca90226be0a1afbc6f92329c082c187923160bd64ae76255f8f60230619",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/tests/integration/test_mmada_prompt.py"
+    },
+    "source/tests/integration/test_mmmu.py": {
+      "sha256": "0314a1f697e11bd46174494d5fc274d92d9864a40b83999dcd191114f61bb851",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/tests/integration/test_mmmu.py"
+    },
+    "source/tests/integration/test_pope.py": {
+      "sha256": "60ff35e48a8305f6c8749734de4317a74895a91d27d88755efd53169553a4dbe",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/tests/integration/test_pope.py"
+    },
+    "source/tests/integration/test_replay.py": {
+      "sha256": "18b5c136c4bb0b27a25d56f2d8ce70b5e32fb95aaa256504379f96d4233a7a21",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/tests/integration/test_replay.py"
+    },
+    "source/tests/integration/test_run.py": {
+      "sha256": "3f47569bcc18707a6ab56e58305477e3548a1dabe4e3c03ccbbe76ddf125fbf7",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/tests/integration/test_run.py"
+    },
+    "source/tests/unit/test_artifacts.py": {
+      "sha256": "ad1f9abd6fb2038e5e8e683cfaaac4b667ee5b983ac68ff47496d554ebeb3d0e",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/tests/unit/test_artifacts.py"
+    },
+    "source/tests/unit/test_config.py": {
+      "sha256": "7d6c1d5d78087c956ca410305728b10c668099257d79e037f5a5e2e8c2bca7fc",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/tests/unit/test_config.py"
+    },
+    "source/tests/unit/test_core.py": {
+      "sha256": "4a442e01e31467f3035908dd86ef001dbed4fe21a42907ac038639ca7a136a47",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/tests/unit/test_core.py"
+    },
+    "source/tests/unit/test_eos_commit.py": {
+      "sha256": "2f0702302e6081fd511f7fe2038ef278e01bd38517eb4746a982aa3e9d960f37",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/tests/unit/test_eos_commit.py"
+    },
+    "source/tests/unit/test_window.py": {
+      "sha256": "f5f78407f8a591a245312b1e03442c28beb746d9c83ea7686f223f9d2407ef47",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/tests/unit/test_window.py"
+    },
+    "source/upstream.lock.json": {
+      "sha256": "88c789c724008815035c370e49b7e103702f3307baf3e16c247e299428251617",
+      "source_path": "/root/autodl-tmp/cdapc-experiments/upstream.lock.json"
+    }
+  },
+  "mme_src_identical_to_experiments": [
+    "src/cdapc_lab/__init__.py",
+    "src/cdapc_lab/__main__.py",
+    "src/cdapc_lab/analysis/paired.py",
+    "src/cdapc_lab/cli.py",
+    "src/cdapc_lab/data/mmmu.py",
+    "src/cdapc_lab/data/pope.py",
+    "src/cdapc_lab/decoding/engine.py",
+    "src/cdapc_lab/decoding/gates.py",
+    "src/cdapc_lab/decoding/proposal.py",
+    "src/cdapc_lab/decoding/selection.py",
+    "src/cdapc_lab/decoding/state.py",
+    "src/cdapc_lab/decoding/window.py",
+    "src/cdapc_lab/evaluation/llm_judge.py",
+    "src/cdapc_lab/evaluation/normalize.py",
+    "src/cdapc_lab/evaluation/parsers.py",
+    "src/cdapc_lab/evaluation/pope_llm_judge.py",
+    "src/cdapc_lab/evaluation/scorers.py",
+    "src/cdapc_lab/experiments/infer.py",
+    "src/cdapc_lab/experiments/mmmu_report.py",
+    "src/cdapc_lab/experiments/replay.py",
+    "src/cdapc_lab/experiments/score.py",
+    "src/cdapc_lab/experiments/verify.py",
+    "src/cdapc_lab/io/artifacts.py",
+    "src/cdapc_lab/models/base.py",
+    "src/cdapc_lab/models/lavida.py",
+    "src/cdapc_lab/models/mmada.py",
+    "src/cdapc_lab/types.py"
+  ],
+  "remote_base_commit": "6c11f4a78dde4dacfdbff1e0150c36e4ae19ccb0",
+  "scope": "CD-APC 实验结果包：cdapc-experiments 中已完成的 MMMU/POPE/CHAIR/GQA-K-pilot 实验与 cdapc-mme 快照中的 MME 实验。含 source/（源码节选+MME 快照）、reports/（已完成报告、Judge 逐输入结果、K pilot、MME 官方评分导出）、answers/（逐样本规范化回答 JSONL/TXT）。排除：runs/ 原始 token 产物、模型权重、pope_think_llm_judge cache、vendor/upstream 第三方代码、运行中的 POPE think K4 L256/I128 全部产物（配置/脚本/文档/报告/日志/输出）及 EOS 前缀配对试验、已取消的 pope_aokvqa_reasoning_r50、experiment_summary.*（含运行中 K4 节）。",
+  "source_git_commit": "6d84db7f66ee805f476e4cfafb3378f52fa0265b",
+  "source_includes_uncommitted_experiment_implementation": true,
+  "scope_note": "Original scope describes the November 9 archive; supplements have independent manifests and raw records.",
+  "supplements": {
+    "pope_coco_k4_l256": {
+      "manifest": "pope_coco_k4_l256/manifest.json",
+      "manifest_sha256": "40f6eb6598869a93f7fabff232388c29d5e156402d2f498d2223beb9e36986df",
+      "checksums": "pope_coco_k4_l256/SHA256SUMS",
+      "checksums_sha256": "63430e10faf3c45406a5b2ffe27eeaabb58912be6df9ec8b77a021857fa36a27"
+    }
   }
- },
- "mme_src_identical_to_experiments": [
-  "src/cdapc_lab/__init__.py",
-  "src/cdapc_lab/__main__.py",
-  "src/cdapc_lab/analysis/paired.py",
-  "src/cdapc_lab/cli.py",
-  "src/cdapc_lab/data/mmmu.py",
-  "src/cdapc_lab/data/pope.py",
-  "src/cdapc_lab/decoding/engine.py",
-  "src/cdapc_lab/decoding/gates.py",
-  "src/cdapc_lab/decoding/proposal.py",
-  "src/cdapc_lab/decoding/selection.py",
-  "src/cdapc_lab/decoding/state.py",
-  "src/cdapc_lab/decoding/window.py",
-  "src/cdapc_lab/evaluation/llm_judge.py",
-  "src/cdapc_lab/evaluation/normalize.py",
-  "src/cdapc_lab/evaluation/parsers.py",
-  "src/cdapc_lab/evaluation/pope_llm_judge.py",
-  "src/cdapc_lab/evaluation/scorers.py",
-  "src/cdapc_lab/experiments/infer.py",
-  "src/cdapc_lab/experiments/mmmu_report.py",
-  "src/cdapc_lab/experiments/replay.py",
-  "src/cdapc_lab/experiments/score.py",
-  "src/cdapc_lab/experiments/verify.py",
-  "src/cdapc_lab/io/artifacts.py",
-  "src/cdapc_lab/models/base.py",
-  "src/cdapc_lab/models/lavida.py",
-  "src/cdapc_lab/models/mmada.py",
-  "src/cdapc_lab/types.py"
- ],
- "remote_base_commit": "6c11f4a78dde4dacfdbff1e0150c36e4ae19ccb0",
- "scope": "CD-APC 实验结果包：cdapc-experiments 中已完成的 MMMU/POPE/CHAIR/GQA-K-pilot 实验与 cdapc-mme 快照中的 MME 实验。含 source/（源码节选+MME 快照）、reports/（已完成报告、Judge 逐输入结果、K pilot、MME 官方评分导出）、answers/（逐样本规范化回答 JSONL/TXT）。排除：runs/ 原始 token 产物、模型权重、pope_think_llm_judge cache、vendor/upstream 第三方代码、运行中的 POPE think K4 L256/I128 全部产物（配置/脚本/文档/报告/日志/输出）及 EOS 前缀配对试验、已取消的 pope_aokvqa_reasoning_r50、experiment_summary.*（含运行中 K4 节）。",
- "source_git_commit": "6d84db7f66ee805f476e4cfafb3378f52fa0265b",
- "source_includes_uncommitted_experiment_implementation": true
 }

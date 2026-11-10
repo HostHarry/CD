@@ -115,10 +115,19 @@ To verify the MMMU package files, run `cd mmmu && sha256sum -c SHA256SUMS`.
 The [cdapc/](cdapc/README.md) package archives all completed CD-APC experiments
 from `cdapc-experiments` and the `cdapc-mme` snapshot: MMMU r70 (L256/I128),
 POPE direct/think on COCO/A-OKVQA/GQA, CHAIR, the GQA think K-commit pilot,
-and MME. It includes source excerpts, configs, stored reports, and normalized
-per-sample answer text (JSONL/TXT); raw token artifacts, model weights, and
-the incomplete POPE think K4 L256/I128 experiment are excluded. Verify with
+and MME. That original archive includes source excerpts, configs, stored reports,
+and normalized per-sample answer text (JSONL/TXT); it excludes raw token artifacts
+and model weights. Verify with
 `cd cdapc && sha256sum -c SHA256SUMS`.
+
+The [COCO K4/L256 supplement](cdapc/pope_coco_k4_l256/README.md) adds completed
+direct/EOS-prefix, think/EOS-prefix, and think/original-candidate safe-EOS runs.
+Each condition has 5127 unique inputs and all 9000 evaluation rows. It includes
+byte-preserved raw token/commit-log predictions, score files, configs, independent
+source snapshots, official/Judge results, and the paired quality/runtime audits.
+The new original-candidate think result is 69.23% Accuracy / 73.97% F1 under the
+answer-region official rule; eight budget-exhausted inputs remain incorrect.
+Verify this supplement with `python3 cdapc/pope_coco_k4_l256/verify.py`.
 
 ## VCD / VIGOR baselines
 

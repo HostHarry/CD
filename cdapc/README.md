@@ -1,8 +1,10 @@
 # CD-APC 实验结果包
 
-本文档对应 `cdapc-experiments`（MMaDA / CD-APC 新框架）与 `cdapc-mme`（MME 独立源码快照）中**已完成**的全部实验。包内包含源码节选、配置、文档、已存报告、逐样本规范化回答文本、manifest 与校验和；不含 `runs/` 原始 token/commit-log 产物、模型权重、LLM Judge 请求/响应缓存、第三方代码与瞬态文件。
+本文档的原始归档对应2026-11-09时 `cdapc-experiments`（MMaDA / CD-APC 新框架）与 `cdapc-mme`（MME 独立源码快照）中已完成的实验，包含源码节选、配置、文档、报告、逐样本规范化回答、manifest与校验和。
+**2026-11-10新增：[COCO K4/L256补充包](pope_coco_k4_l256/README.md)**，包括直答、think EOS前缀版、think原候选安全EOS版及逐字节原始token/commit-log产物。新think原候选官方Accuracy/F1为69.23%/73.97%，每条件9000评测行。
+原始归档仍不含raw runs；补充包单独保存其原始记录。两者均不含模型权重、LLM Judge HTTP缓存、凭据和瞬态文件。
 
-- **未完成、未包含**：POPE think K4 L256/I128 全量实验（COCO/A-OKVQA/GQA 三组生成与 Judge 控制器；打包时处于暂停状态）。其配置 `*_k4_L256_I128_*`、`scripts/run_pope_k4_256_128.py`、`docs/POPE_K4_L256_I128.md`、`reports/pope_k4_256_128_*`、`reports/pope_k4_eos_audit.*`、EOS 前缀配对试验 `reports/eos_prefix_pilot_results.*` 均不在本包。
+- **原始归档未包含、现已部分补充**：K4 L256/I128在2026-11-09打包时尚未结束。COCO三个已结束条件现位于 `pope_coco_k4_l256/`；A-OKVQA/GQA的后续结果不在该补充包中。历史未结束运行及小样本EOS试验仍按原归档范围保留。
 - **已取消、未包含**：`pope_aokvqa_reasoning_r50`（取消原因 `user_requested_stop_r50`），无报告与输出。
 - 验证文件：`cd cdapc && sha256sum -c SHA256SUMS`。
 
@@ -161,6 +163,6 @@ r50 的 CHAIRi 比 Native 低 2.34 个百分点，但 CHAIRs 高 0.60 个百分�
 - **POPE think 严格未解析率 37%–84%**（随 r 下降而升高）；严格分数把无法解析计错，Judge 分数是独立口径，文本审计又是第三口径，三者不可混用。
 - **CHAIR 64-token 画布截断多数描述**：Native 与 CD-APC 平均输出都约 60–63 tokens，以句末标点结束的仅 Native 148/500、r90 113/500、r70 125/500、r50 194/500；CHAIR 对长度敏感，差异部分来自长度。
 - **K pilot 是 30 图子集**（306 输入 / 540 记录），K16 复用全量 GQA think r70 输出；配对区间按图像重采样，小样本结论仅供方向参考。
-- **POPE think K4 L256/I128 未完成**（打包时暂停），本包不含其任何配置、报告、日志与输出；EOS 前缀配对试验（同为 K4/L256/I128 设置的 187 输入子集）也未包含。
+- **K4/L256后续结果**：COCO已结束条件的配置、源码、报告及原始预测已补充至 `pope_coco_k4_l256/`；不据此宣称A-OKVQA/GQA后续队列已完成。历史187输入EOS小样本不在原始归档内，补充包提供的是全量COCO及相关诊断。
 - `pope_aokvqa_reasoning_r50` 已取消，所有表格中该行只有状态标记。
 - 平均秒数不含模型加载与输入预处理；预算受限条件（MMMU r70、MME）的 `budget_exhausted` 样本计错并保留分母。
