@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "rows_compared_verbatim": 1129,
+  "image_rows": 951,
+  "text_only_rows": 178,
+  "source_tsv_sha256": "8f92be804abf146f24bfa1a98d8fcb1cba335f6b0dc69fc27ea698fa446df3b8",
+  "samples_sha256": "91dfd5e52921ba20435de6096a663a99596c8f55b3d8fba2e34a9cdff8bd3712",
+  "generation": {
+    "max_new_tokens": 256,
+    "steps": 128,
+    "block_length": 32,
+    "temperature": 0.0,
+    "cfg_scale": 0.0,
+    "remasking": "low_confidence"
+  },
+  "fresh_output_directory": "/root/autodl-tmp/MMaDA-Baselines/results/hallusion_full_original_256_128"
+}

@@ -1,0 +1,18 @@
+{
+ "files": [
+  {
+   "name": "shard_0.jsonl",
+   "sha256": "816afa8ac2847800d7b261d5e81db673e84ab8b0b694ff4fbbfdce7aac767311",
+   "rows": 565
+  },
+  {
+   "name": "shard_1.jsonl",
+   "sha256": "10ac9a54869d9ebe692b55498a51ba74c58cfccf0c4a66f910862f1acf38b7e7",
+   "rows": 564
+  }
+ ],
+ "source_files": [
+  "data/hallusion_full_original/shard_0.jsonl",
+  "data/hallusion_full_original/shard_1.jsonl"
+ ]
+}
