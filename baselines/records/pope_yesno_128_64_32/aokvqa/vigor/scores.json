@@ -1,0 +1,136 @@
+{
+ "evaluated_rows": 9000,
+ "expected_rows": 9000,
+ "complete": true,
+ "unique_predictions": 5145,
+ "pope": {
+  "adversarial": {
+   "n": 3000,
+   "accuracy": 0.7283333333333334,
+   "precision": 0.6751918158567775,
+   "recall": 0.88,
+   "f1": 0.76410998552822,
+   "yes_ratio": 0.6516666666666666,
+   "invalid_ratio": 0.0,
+   "empty_answers": 0,
+   "confusion": {
+    "tp": 1320,
+    "invalid": 0,
+    "empty": 0,
+    "fp": 635,
+    "tn": 865,
+    "fn": 180
+   },
+   "paired_vs_native": {
+    "unit": "image",
+    "images": 500,
+    "repeats": 2000,
+    "seed": 42,
+    "delta_accuracy_ci95": [
+     -0.01633333333333331,
+     -0.0006666666666665932
+    ],
+    "delta_f1_ci95": [
+     -0.006985147076959764,
+     0.006138866265559007
+    ]
+   }
+  },
+  "popular": {
+   "n": 3000,
+   "accuracy": 0.8053333333333333,
+   "precision": 0.765661252900232,
+   "recall": 0.88,
+   "f1": 0.8188585607940446,
+   "yes_ratio": 0.5746666666666667,
+   "invalid_ratio": 0.0,
+   "empty_answers": 0,
+   "confusion": {
+    "tp": 1320,
+    "invalid": 0,
+    "empty": 0,
+    "tn": 1096,
+    "fp": 404,
+    "fn": 180
+   },
+   "paired_vs_native": {
+    "unit": "image",
+    "images": 500,
+    "repeats": 2000,
+    "seed": 42,
+    "delta_accuracy_ci95": [
+     -0.007000000000000006,
+     0.009000000000000008
+    ],
+    "delta_f1_ci95": [
+     -0.0018245936858560879,
+     0.012323596810809426
+    ]
+   }
+  },
+  "random": {
+   "n": 3000,
+   "accuracy": 0.8213333333333334,
+   "precision": 0.7875894988066826,
+   "recall": 0.88,
+   "f1": 0.8312342569269522,
+   "yes_ratio": 0.5586666666666666,
+   "invalid_ratio": 0.0,
+   "empty_answers": 0,
+   "confusion": {
+    "tp": 1320,
+    "invalid": 0,
+    "empty": 0,
+    "tn": 1144,
+    "fp": 356,
+    "fn": 180
+   },
+   "paired_vs_native": {
+    "unit": "image",
+    "images": 500,
+    "repeats": 2000,
+    "seed": 42,
+    "delta_accuracy_ci95": [
+     -0.010008333333333341,
+     0.0033333333333334103
+    ],
+    "delta_f1_ci95": [
+     -0.004935061286966913,
+     0.008057928961021277
+    ]
+   }
+  }
+ },
+ "decode_seconds": {
+  "mean": 0.6335796901885604,
+  "std": 0.6877534163599546
+ },
+ "end_to_end_seconds": {
+  "mean": 0.7108129439453719,
+  "std": 0.6889381060192828
+ },
+ "preprocessing_seconds": {
+  "mean": 0.060448059807119724,
+  "std": 0.0012561339598329
+ },
+ "answer_token_length": {
+  "mean": 1.0,
+  "std": 0.0
+ },
+ "denoising_steps": {
+  "mean": 2.8122448979591836,
+  "std": 3.038292336965724
+ },
+ "peak_allocated_bytes": 22292770304,
+ "remaining_masks": 0,
+ "image_tokens": 0,
+ "candidate_flip_ratio": 0.0,
+ "timing_by_execution_profile": {
+  "safe_eos_v1": {
+   "samples": 5145,
+   "decode_seconds_mean": 0.6335796901885604,
+   "end_to_end_seconds_mean": 0.7108129439453719,
+   "executed_steps_mean": 2.8122448979591836
+  }
+ }
+}

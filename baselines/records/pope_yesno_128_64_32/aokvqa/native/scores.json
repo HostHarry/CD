@@ -1,0 +1,94 @@
+{
+ "evaluated_rows": 9000,
+ "expected_rows": 9000,
+ "complete": true,
+ "unique_predictions": 5145,
+ "pope": {
+  "adversarial": {
+   "n": 3000,
+   "accuracy": 0.7366666666666667,
+   "precision": 0.6914778856526429,
+   "recall": 0.8546666666666667,
+   "f1": 0.7644603458556947,
+   "yes_ratio": 0.618,
+   "invalid_ratio": 0.0,
+   "empty_answers": 0,
+   "confusion": {
+    "tp": 1282,
+    "invalid": 0,
+    "empty": 0,
+    "fp": 572,
+    "tn": 928,
+    "fn": 218
+   }
+  },
+  "popular": {
+   "n": 3000,
+   "accuracy": 0.804,
+   "precision": 0.7760290556900726,
+   "recall": 0.8546666666666667,
+   "f1": 0.8134517766497462,
+   "yes_ratio": 0.5506666666666666,
+   "invalid_ratio": 0.0,
+   "empty_answers": 0,
+   "confusion": {
+    "tp": 1282,
+    "invalid": 0,
+    "empty": 0,
+    "tn": 1130,
+    "fp": 370,
+    "fn": 218
+   }
+  },
+  "random": {
+   "n": 3000,
+   "accuracy": 0.8246666666666667,
+   "precision": 0.8062893081761007,
+   "recall": 0.8546666666666667,
+   "f1": 0.8297734627831715,
+   "yes_ratio": 0.53,
+   "invalid_ratio": 0.0,
+   "empty_answers": 0,
+   "confusion": {
+    "tp": 1282,
+    "invalid": 0,
+    "empty": 0,
+    "tn": 1192,
+    "fp": 308,
+    "fn": 218
+   }
+  }
+ },
+ "decode_seconds": {
+  "mean": 1.81527908761181,
+  "std": 0.0024723336065805303
+ },
+ "end_to_end_seconds": {
+  "mean": 1.896764321999934,
+  "std": 0.0035261045214784147
+ },
+ "preprocessing_seconds": {
+  "mean": 0.061093052749615254,
+  "std": 0.001599688505831903
+ },
+ "answer_token_length": {
+  "mean": 1.0,
+  "std": 0.0
+ },
+ "denoising_steps": {
+  "mean": 16.0,
+  "std": 0.0
+ },
+ "peak_allocated_bytes": 20700658688,
+ "remaining_masks": 0,
+ "image_tokens": 0,
+ "candidate_flip_ratio": 0.0,
+ "timing_by_execution_profile": {
+  "safe_eos_v1": {
+   "samples": 5145,
+   "decode_seconds_mean": 1.81527908761181,
+   "end_to_end_seconds_mean": 1.896764321999934,
+   "executed_steps_mean": 16.0
+  }
+ }
+}

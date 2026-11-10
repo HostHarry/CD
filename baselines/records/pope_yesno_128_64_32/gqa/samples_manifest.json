@@ -1,0 +1,13 @@
+{
+ "files": [
+  {
+   "name": "gqa_yesno.jsonl",
+   "sha256": "6455e528a3981842bc570e42a389aa6af900d17af5b55d41ad43c49ddc168017",
+   "rows": 9000
+  }
+ ],
+ "source_files": [
+  "data/pope_extended/gqa_yesno.jsonl"
+ ],
+ "exclude_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}
