@@ -1,0 +1,14 @@
+upstream_revision: 3cdb8709635beb29f66e4e23cd66060872ac3996
+checkpoint: /root/autodl-fs/models/MMaDA-8B-MixCoT
+vq_checkpoint: /root/autodl-fs/models/magvitv2
+resolution: 512
+resize: crop
+seed: 20261105
+vcd: {cd_alpha: 1.0, cd_beta: 0.1, noise_step: 500}
+generation:
+  max_new_tokens: 256
+  steps: 128
+  block_length: 64
+  temperature: 0.0
+  cfg_scale: 0.0
+  remasking: low_confidence

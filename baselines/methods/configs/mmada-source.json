@@ -1,0 +1,29 @@
+{
+  "repository": "https://github.com/Gen-Verse/MMaDA",
+  "revision": "3cdb8709635beb29f66e4e23cd66060872ac3996",
+  "files": {
+    "models/__init__.py": "bca0306b914d9de5564dc91c185b4e2f78cbd8189bacea4f9e5a2f268a799be8",
+    "models/common_modules.py": "dc9163ba4ff37d37a2fe5d7337d7e768d2a92e4d386c6a3c467bfd2ee1f73be6",
+    "models/configuration_llada.py": "c947a64d8b735affa69d5adeb416c83ce607c8925270884e4471ae11068e2bfe",
+    "models/logging.py": "4cedc29bfcc9fe367714b3d15fc91a8a49dee5fddaad0f835127baae1b28432c",
+    "models/lr_schedulers.py": "3d3e1c3b6b5ba2015b3bc51f36f6c866a2414633c82ef391e10da3a28596a7da",
+    "models/misc.py": "d78e4d44fbdadae1ef04f4150f3d28ab2a9f0843cc733ef7a872f8a3900bdc7b",
+    "models/modeling_llada.py": "bb929398306b5a1ed5cfa08184e2fbe8d295923158758df2a1f3dafd32eb1236",
+    "models/modeling_magvitv2.py": "0937009e8b744ddfbd7495dd6bf1640863990a0a02a7c04a824db077d64b0c89",
+    "models/modeling_mmada.py": "60b083843d5891b37ad28a0d94376be41c87c5e8053b4e6a22f4e4fd71f9e347",
+    "models/modeling_utils.py": "d302a648dc6998d96789f1c08dfb6fdb85ad46c1bb8111facef230064a2ee8c0",
+    "models/sampling.py": "c261d90ea703276c1887f6149bf62592d4945b3ae47e6169ec485c89004bc5e4",
+    "models/training_utils.py": "5398e76279b5c01d808b3919c7313ee404fa079fbee0bebe95e159f4caab2989",
+    "training/__init__.py": "43c17399dad0ed33794621c8d93b321c58df1b5dde907a78ac5538fd3f05f0ef",
+    "training/data.py": "f02bbf5a493c47419566874f6690726b2bcc2a62fa9c984a863b9519146ca129",
+    "training/imagenet_dataset.py": "e5a37d2e2c7b6c2c9f1acece94a2b6e3b3e1ba2b9840bec58dde9bab54ea21d0",
+    "training/optimizer.py": "6985b1c081dd02fcb11cab1a6c488aedbf34d7d160954066db1027e0fe8f8e57",
+    "training/prompting_utils.py": "a69b611427b2d5a954e63f9b39502e21d824a4ed53ef40760e057ae12c0f0c9c",
+    "training/train_mmada.py": "ecc61d8df028bdebf9075c38fe479ab3ef4ba4710fabe3bfb97b89dd55565bba",
+    "training/train_mmada_cot_sft.py": "9873971b888b6c221e8493c7897ea3f7e806ce9b355c8fd5478fe1ad85b2a17e",
+    "training/train_mmada_stage2.py": "b8fc601acfc61dcf20fa8dcccae545659cd497f1629bad047a2d9bab1c3e59da",
+    "training/train_mmada_stage3.py": "79e3bb7fcda0d3935c3ff678d2a6b9614cc97dcfb7776e1441a069907d74c7a8",
+    "training/train_mmada_stage4.py": "e8fac40b4d7221d8f04ff4ac9824e63dd9e923cb3371153f6f714d7815b1918b",
+    "training/utils.py": "99d3307d6af9b77ffa292eeb8fc9dc12d125caa236d092dfa64faecb90a83ee4"
+  }
+}

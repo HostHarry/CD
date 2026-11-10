@@ -119,3 +119,13 @@ and MME. It includes source excerpts, configs, stored reports, and normalized
 per-sample answer text (JSONL/TXT); raw token artifacts, model weights, and
 the incomplete POPE think K4 L256/I128 experiment are excluded. Verify with
 `cd cdapc && sha256sum -c SHA256SUMS`.
+
+## VCD / VIGOR baselines
+
+The [baselines/](baselines/README.md) package archives the local MMaDA-Baselines
+work in two separate parts: `baselines/methods/` (project-authored runtime,
+VCD/VIGOR implementations, configs, tests, docs; official MMaDA sources and
+unlicensed author files are referenced by pinned revision and hash) and
+`baselines/records/` (completed native/VCD/VIGOR experiments: POPE yes/no
+128/64/32 and 256/128/32, CHAIR-500, MMMU-val, HallusionBench, and the POPE
+prompt diagnostic). Verify with `python3 baselines/verify.py`.

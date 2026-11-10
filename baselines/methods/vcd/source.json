@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/DAMO-NLP-SG/VCD",
+  "revision": "d6568ff81b8fd306a49e630df44f2db5c2300191",
+  "license": "Apache-2.0",
+  "files": {
+    "README.md": "234a7219c2cbf855c43c15ba6507f6b2212eaf22dbde1f6efc5b677dd673d9a7",
+    "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "vcd_utils/vcd_add_noise.py": "8567bf7f7878e5ff533ef28f192a314e6c9d3579d2987505de4f6c1dcb7a32f7",
+    "vcd_utils/vcd_sample.py": "bc73c6b4084a777b7407c53ae0356d0657c3d3077663f4037f13a65c9f5e51e8",
+    "experiments/eval/object_hallucination_vqa_llava.py": "921a257d2f24cf6f4fead393be2e3d8da417909afbfc54dba43a525c60b698c4",
+    "experiments/cd_scripts/llava1.5_pope.bash": "b0d01a8510f09b9b5eff3d2d81bca7428f565b6c45bc8417086a784eac93835c"
+  }
+}
