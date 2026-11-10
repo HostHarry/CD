@@ -490,12 +490,47 @@ def stored_input_fields(record_key, method, wanted_keys):
     return out
 
 
+def source_prompt_ids(src_root, record_key, method, input_key):
+    """Original prompt_ids/visual_positions from the run's SQLite payloads."""
+    import sqlite3
+    info = load_index()[record_key][method]
+    for source in info.get("sources", []):
+        path = src_root / source["path"]
+        if not path.exists():
+            continue
+        con = sqlite3.connect(f"file:{path}?mode=ro", uri=True)
+        try:
+            cols = [r[1] for r in con.execute("PRAGMA table_info(predictions)")]
+            if "method" in cols:
+                row = con.execute(
+                    "SELECT payload FROM predictions WHERE method=? AND input_key=?",
+                    (method, input_key)).fetchone()
+            else:
+                row = con.execute(
+                    "SELECT payload FROM predictions WHERE input_key=?",
+                    (input_key,)).fetchone()
+        finally:
+            con.close()
+        if row:
+            inp = json.loads(row[0])["input"]
+            return inp["prompt_ids"], inp.get("visual_positions") or []
+    return None, None
+
+
 def rebuild_prompts(per_record=5):
-    """Rebuild prompt_ids for >=per_record rows per record/method via
-    common.runtime.Runtime.prepare and compare prompt_ids_sha256/length and
-    visual_positions. Requires the MMaDA-Baselines checkout (runtime, images,
-    checkpoints) and its .venv (torch/transformers). CPU-only: does not touch
-    the GPUs."""
+    """Two checks per sampled stored input (>=per_record rows per
+    record/method):
+
+    1. transform fidelity (exact): the exported prompt_ids_sha256 /
+       prompt_ids_length / visual_positions equal the sha256/length/range
+       recipe applied to the original SQLite prompt_ids;
+    2. end-to-end rebuild: common.runtime.Runtime.prepare(image+question) on
+       CPU reproduces the prompt; image VQ codes may differ in a small
+       fraction of positions vs the GPU-produced originals (CPU fp32 vs GPU
+       TF32 numerics) — reported, not failed, when diffs stay inside the
+       visual span and the text tail is identical.
+
+    Requires MMADA_BASELINES checkout + its .venv; CPU-only, no GPU use."""
     src = Path(os.environ.get("MMADA_BASELINES", "/root/autodl-tmp/MMaDA-Baselines"))
     sys.path.insert(0, str(src))
     from common.runtime import Runtime
@@ -522,7 +557,7 @@ def rebuild_prompts(per_record=5):
                 if key not in stored:
                     continue
                 job = jobs.setdefault(key, {"sample": sample, "expects": []})
-                job["expects"].append((record_key, method, stored[key]))
+                job["expects"].append((record_key, method, stored[key], False))
     # diagnostic: rebuild per variant with variant_question
     ds_dir = dataset_dir(f"{DIAG_EXPERIMENT}/coco_192")
     diag_samples = jsonl_rows(ds_dir / "samples.jsonl")
@@ -536,30 +571,73 @@ def rebuild_prompts(per_record=5):
             if key not in stored:
                 continue
             job = jobs.setdefault(key, {"sample": row, "expects": []})
-            job["expects"].append((f"{DIAG_EXPERIMENT}/coco_192", variant, stored[key]))
+            # variant C uses the custom training-text prepare(), not
+            # common.runtime — fidelity is still checked, rebuild is skipped.
+            job["expects"].append((f"{DIAG_EXPERIMENT}/coco_192", variant,
+                                   stored[key], variant == "C"))
 
-    checked = mismatches = 0
+    fidelity_fail = rebuild_exact = rebuild_numeric = rebuild_bad = rebuild_skipped = 0
+    diff_positions = []
     for key, job in sorted(jobs.items()):
         sample = job["sample"]
         _, _, provenance = runtime.prepare(sample)
-        ids = provenance["prompt_ids"]
-        digest = hashlib.sha256(
-            json.dumps(ids, separators=(",", ":")).encode()).hexdigest()
-        visual = provenance["visual_positions"]
-        for record_key, method, stored_input in job["expects"]:
-            checked += 1
-            ok = (stored_input.get("prompt_ids_sha256") == digest
-                  and stored_input.get("prompt_ids_length") == len(ids))
-            stored_visual = stored_input.get("visual_positions")
-            visual_ok = (stored_visual == [visual[0], visual[0] + len(visual)]
-                         if visual else stored_visual == [])
-            if not (ok and visual_ok):
-                mismatches += 1
-                print(f"MISMATCH {record_key}/{method} key={key[:12]} "
-                      f"hash_ok={ok} visual_ok={visual_ok}")
-    print(f"rebuild-prompts: {checked} stored inputs checked across "
-          f"{len(jobs)} unique rebuilt prompts, mismatches={mismatches}")
-    assert mismatches == 0
+        rebuilt_ids = provenance["prompt_ids"]
+        rebuilt_visual = provenance["visual_positions"]
+        rebuilt_digest = hashlib.sha256(
+            json.dumps(rebuilt_ids, separators=(",", ":")).encode()).hexdigest()
+        for record_key, method, stored_input, skip_rebuild in job["expects"]:
+            # 1. exact transform fidelity vs the source SQLite payload
+            orig_ids, orig_visual = source_prompt_ids(src, record_key, method, key)
+            assert orig_ids is not None, (record_key, method, key, "no source payload")
+            orig_digest = hashlib.sha256(
+                json.dumps(orig_ids, separators=(",", ":")).encode()).hexdigest()
+            orig_len = len(orig_ids)
+            want_visual = ([orig_visual[0], orig_visual[0] + len(orig_visual)]
+                           if orig_visual
+                           and orig_visual == list(range(orig_visual[0],
+                                                        orig_visual[0] + len(orig_visual)))
+                           else orig_visual)
+            if not (stored_input.get("prompt_ids_sha256") == orig_digest
+                    and stored_input.get("prompt_ids_length") == orig_len
+                    and stored_input.get("visual_positions") == want_visual):
+                fidelity_fail += 1
+                print(f"FIDELITY MISMATCH {record_key}/{method} key={key[:12]}")
+            # 2. end-to-end rebuild vs original ids (skipped for custom
+            #    prompt protocols such as diagnostic variant C)
+            if skip_rebuild:
+                rebuild_skipped += 1
+                continue
+            if len(rebuilt_ids) != len(orig_ids):
+                rebuild_bad += 1
+                print(f"REBUILD LENGTH MISMATCH {record_key}/{method} key={key[:12]}")
+                continue
+            diffs = [i for i, (a, b) in enumerate(zip(rebuilt_ids, orig_ids)) if a != b]
+            visual_set = set(orig_visual)
+            outside = [i for i in diffs if i not in visual_set]
+            text_start = max(orig_visual) + 1 if orig_visual else 0
+            tail_same = rebuilt_ids[text_start:] == orig_ids[text_start:]
+            if not diffs:
+                rebuild_exact += 1
+            elif not outside and tail_same and len(diffs) <= max(8, len(orig_visual) // 50):
+                rebuild_numeric += 1
+                diff_positions.append(len(diffs))
+            else:
+                rebuild_bad += 1
+                print(f"REBUILD MISMATCH {record_key}/{method} key={key[:12]} "
+                      f"diffs={len(diffs)} outside_visual={len(outside)} tail_same={tail_same}")
+    total = fidelity_fail + rebuild_exact + rebuild_numeric + rebuild_bad
+    checked = sum(len(j["expects"]) for j in jobs.values())
+    print(f"rebuild-prompts: {checked} stored inputs checked "
+          f"({len(jobs)} unique prompts rebuilt on CPU)")
+    print(f"  transform fidelity vs source sqlite: "
+          f"{checked - fidelity_fail}/{checked} exact")
+    print(f"  end-to-end rebuild: exact={rebuild_exact} "
+          f"cpu-vs-gpu code diffs only={rebuild_numeric} bad={rebuild_bad} "
+          f"skipped(custom protocol)={rebuild_skipped}"
+          + (f" (diff positions per row: min={min(diff_positions)} "
+             f"max={max(diff_positions)})" if diff_positions else ""))
+    assert fidelity_fail == 0, "export transform did not reproduce source hashes"
+    assert rebuild_bad == 0, "prompt rebuild diverged beyond visual-code numerics"
 
 
 def main():
