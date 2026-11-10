@@ -1,0 +1,70 @@
+{
+ "vcd_run": {
+  "provenance": {
+   "implementation": "Maxlinn/CHAIR-metric-standalone (Python3 derivative of LisaAnne/Hallucination)",
+   "reference_revision": "4087a26211aa2339b9a76307cb8f0321ef691d0a",
+   "evaluator_sha256": "98728cd2b7fb8b97420b5f3bf14789dcad1d7d980de9c089b82856217387770d",
+   "annotation_sha256": {
+    "instances_train2014.json": "777ef504abfeba349930485bb32ecd5b6529129a3e010f7852e1437cb049b732",
+    "instances_val2014.json": "e1b4d1bc54906827b1a029981b1c77f2088bd4462569b7615db7929070c3ab47",
+    "captions_train2014.json": "dd8c9636dc11740f956e36728866ea0c4ebe4988dcbdc5e712b7c2267f152d12",
+    "captions_val2014.json": "7da4cc45cb76ee1642d163e846e1e0a33feffac2e841c9c426d585ea499165a4"
+   },
+   "nltk": "3.9.1",
+   "patternfork-nosql": "3.6",
+   "generation_manifest_sha256": "947e44a27af1350b4953f556a8b66df4d9ea417f132157dac097737a9def7b5a",
+   "partial_dataset": false,
+   "filter": "unchanged scorer with annotation records restricted to evaluated image IDs",
+   "pattern_inflect_sha256": "5c140129923617229220803d95a812db3734e99315fb9fc7d39136918ef2bb29",
+   "pattern_import": "unchanged inflect.py singularize imported directly; unrelated WordNet side effects bypassed"
+  },
+  "methods": {
+   "native": {
+    "CHAIRs": 0.218,
+    "CHAIRi": 0.09899417681312864,
+    "Recall": 0.5491546649968692,
+    "answer_token_length_mean": 61.994
+   },
+   "vcd": {
+    "CHAIRs": 0.252,
+    "CHAIRi": 0.10104166666666667,
+    "Recall": 0.5754539762053851,
+    "answer_token_length_mean": 60.464
+   }
+  }
+ },
+ "vigor_run": {
+  "provenance": {
+   "implementation": "Maxlinn/CHAIR-metric-standalone (Python3 derivative of LisaAnne/Hallucination)",
+   "reference_revision": "4087a26211aa2339b9a76307cb8f0321ef691d0a",
+   "evaluator_sha256": "98728cd2b7fb8b97420b5f3bf14789dcad1d7d980de9c089b82856217387770d",
+   "annotation_sha256": {
+    "instances_train2014.json": "777ef504abfeba349930485bb32ecd5b6529129a3e010f7852e1437cb049b732",
+    "instances_val2014.json": "e1b4d1bc54906827b1a029981b1c77f2088bd4462569b7615db7929070c3ab47",
+    "captions_train2014.json": "dd8c9636dc11740f956e36728866ea0c4ebe4988dcbdc5e712b7c2267f152d12",
+    "captions_val2014.json": "7da4cc45cb76ee1642d163e846e1e0a33feffac2e841c9c426d585ea499165a4"
+   },
+   "nltk": "3.9.1",
+   "patternfork-nosql": "3.6",
+   "generation_manifest_sha256": "84e05cd4cf1dd1d6f3b78d5c8c81c0aa08766b22017b9ce58a707f802221b2ca",
+   "partial_dataset": false,
+   "filter": "unchanged scorer with annotation records restricted to evaluated image IDs",
+   "pattern_inflect_sha256": "5c140129923617229220803d95a812db3734e99315fb9fc7d39136918ef2bb29",
+   "pattern_import": "unchanged inflect.py singularize imported directly; unrelated WordNet side effects bypassed"
+  },
+  "methods": {
+   "native": {
+    "CHAIRs": 0.218,
+    "CHAIRi": 0.09899417681312864,
+    "Recall": 0.5491546649968692,
+    "answer_token_length_mean": 61.994
+   },
+   "vigor": {
+    "CHAIRs": 0.228,
+    "CHAIRi": 0.09375,
+    "Recall": 0.5535378835316218,
+    "answer_token_length_mean": 59.708
+   }
+  }
+ }
+}

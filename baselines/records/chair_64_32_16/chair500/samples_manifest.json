@@ -1,0 +1,13 @@
+{
+ "files": [
+  {
+   "name": "chair500.jsonl",
+   "sha256": "aa31e0fdba8c2bb36ad0f99f782395c863b7af46ba914489e250c3dac54a504d",
+   "rows": 500
+  }
+ ],
+ "source_files": [
+  "data/chair500.jsonl"
+ ],
+ "exclude_sha256": "04d297fff82151f5ac9903d69b8a837dd76b033111020ca0cfddb69182000332"
+}
