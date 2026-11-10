@@ -1,0 +1,18 @@
+{
+ "files": [
+  {
+   "name": "shard_0.jsonl",
+   "sha256": "e250de933248aad313990d8e2bc0010d4971a14057540986fb1749ff23f37ab2",
+   "rows": 450
+  },
+  {
+   "name": "shard_1.jsonl",
+   "sha256": "bdcdfdca11bdae35e6630127d0e3e413453322028747415ca78ca938a8659a4f",
+   "rows": 450
+  }
+ ],
+ "source_files": [
+  "data/mmmu_wino_v1/shard_0.jsonl",
+  "data/mmmu_wino_v1/shard_1.jsonl"
+ ]
+}
