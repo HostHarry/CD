@@ -1,0 +1,94 @@
+{
+ "evaluated_rows": 9000,
+ "expected_rows": 9000,
+ "complete": true,
+ "unique_predictions": 5127,
+ "pope": {
+  "adversarial": {
+   "n": 3000,
+   "accuracy": 0.5556666666666666,
+   "precision": 0.5314500941619585,
+   "recall": 0.9406666666666667,
+   "f1": 0.6791817087845968,
+   "yes_ratio": 0.885,
+   "invalid_ratio": 1.0,
+   "empty_answers": 0,
+   "confusion": {
+    "tp": 1411,
+    "invalid": 3000,
+    "empty": 0,
+    "fp": 1244,
+    "fn": 89,
+    "tn": 256
+   }
+  },
+  "popular": {
+   "n": 3000,
+   "accuracy": 0.5433333333333333,
+   "precision": 0.524145616641902,
+   "recall": 0.9406666666666667,
+   "f1": 0.6731870229007634,
+   "yes_ratio": 0.8973333333333333,
+   "invalid_ratio": 1.0,
+   "empty_answers": 0,
+   "confusion": {
+    "tp": 1411,
+    "invalid": 3000,
+    "empty": 0,
+    "fp": 1281,
+    "tn": 219,
+    "fn": 89
+   }
+  },
+  "random": {
+   "n": 3000,
+   "accuracy": 0.5393333333333333,
+   "precision": 0.521819526627219,
+   "recall": 0.9406666666666667,
+   "f1": 0.6712654614652712,
+   "yes_ratio": 0.9013333333333333,
+   "invalid_ratio": 1.0,
+   "empty_answers": 0,
+   "confusion": {
+    "tp": 1411,
+    "invalid": 3000,
+    "empty": 0,
+    "fp": 1293,
+    "tn": 207,
+    "fn": 89
+   }
+  }
+ },
+ "decode_seconds": {
+  "mean": 6.103419557575632,
+  "std": 2.154945217741521
+ },
+ "end_to_end_seconds": {
+  "mean": 6.542941913534387,
+  "std": 2.2915705340322337
+ },
+ "preprocessing_seconds": {
+  "mean": 0.0662983231837199,
+  "std": 0.0035549706354850905
+ },
+ "answer_token_length": {
+  "mean": 47.65847474156427,
+  "std": 21.15760003538584
+ },
+ "denoising_steps": {
+  "mean": 39.48800468110006,
+  "std": 13.941006779949472
+ },
+ "peak_allocated_bytes": 21299444736,
+ "remaining_masks": 0,
+ "image_tokens": 0,
+ "candidate_flip_ratio": 0.0,
+ "timing_by_execution_profile": {
+  "safe_eos_v1": {
+   "samples": 5127,
+   "decode_seconds_mean": 6.103419557575632,
+   "end_to_end_seconds_mean": 6.542941913534387,
+   "executed_steps_mean": 39.48800468110006
+  }
+ }
+}

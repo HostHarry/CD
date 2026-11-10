@@ -1,0 +1,12 @@
+{
+ "files": [
+  {
+   "name": "coco_think.jsonl",
+   "sha256": "b9327f9b8e124b46b81e744a9684fe7677f588a3cd70afeb0b6fc539056f89af",
+   "rows": 9000
+  }
+ ],
+ "source_files": [
+  "results/pope_think_256_128_64/inputs/coco_think.jsonl"
+ ]
+}

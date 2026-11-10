@@ -25,9 +25,11 @@ reproduction:
 | `mmmu_wino_v1/mmmu_val` | MMMU validation | 256/128/64 | thinking | vcd, vigor |
 | `hallusion_full_original_256_128/hallusionbench` | HallusionBench | 256/128/32 | original | native, vcd, vigor |
 | `pope_prompt_diagnostic/coco_192` | POPE prompt diagnostic | 256/256/32 | 4 prompt variants A–D | A, B, C, D (native) |
+| `pope_think_256_128_64/coco` | POPE thinking prompt | 256/128/64 | official thinking instruction, no suffix; scored after `</think>` | native, vcd, vigor |
 
-Paused/incomplete runs (`pope_coco_nosuffix_256_256`, `pope_coco_think_256_256`,
-`pope_think_256_128_64`) are intentionally **not** included.
+Paused/incomplete runs (`pope_coco_nosuffix_256_256`, `pope_coco_think_256_256`)
+are intentionally **not** included. `pope_think_256_128_64` currently contains
+COCO only; A-OKVQA and GQA are added when they complete.
 
 ## Prediction payload format
 

@@ -587,7 +587,6 @@ def main():
         "metrics_verbatim": f"{hb}/metrics.json",
         "configs": [("run", "configs/hallusion_256_128.yaml")],
         "extra": ["results/hallusion_full_original_256_128/RESULTS.md", "HALLUSION.md",
-                  "data/hallusion_full_original/HallusionBench.tsv",
                   "data/hallusion_full_original/manifest.json",
                   "data/hallusion_full_original/original_prompt_validation.json"],
     }
@@ -612,5 +611,47 @@ def main():
                       for key, methods in sorted(index.items())}, indent=1))
 
 
+THINK_EXP = "pope_think_256_128_64"
+THINK_BASE = f"results/{THINK_EXP}"
+
+
+def export_think(datasets):
+    """Thinking-prompt POPE 256/128/64: export completed datasets only and
+    merge them into the existing records_index.json."""
+    sys.path.insert(0, str(SRC))
+    sys.path.insert(0, str(SRC / THINK_BASE))
+    import run_queue as rq
+    index_path = OUT / "records_index.json"
+    index = json.loads(index_path.read_text())
+    for ds in datasets:
+        status = json.loads((SRC / THINK_BASE / "queue_status.json").read_text())
+        if status["stages"].get(ds, {}).get("state") != "generation_and_scoring_complete":
+            raise ValueError(f"{ds}: not complete")
+        run = f"{THINK_BASE}/{ds}"
+        spec = {
+            "method_dbs": {m: [f"{run}/predictions.sqlite"] for m in METHODS},
+            "answers": {m: [f"{run}/{m}_answers.json"] for m in METHODS},
+            "samples": [f"{THINK_BASE}/inputs/{ds}_think.jsonl"],
+            "manifests": [("run", f"{run}/manifest.json")],
+            "status": [("run", f"{run}/status.json")],
+            "metrics_sources": [("run", f"{run}/metrics.json")],
+            "metrics_merge": [("run", f"{run}/metrics.json")],
+            "configs": [("run", f"{THINK_BASE}/config.yaml")],
+            "extra": [f"{run}/merge_receipt.json", f"{THINK_BASE}/plan.json",
+                      f"{THINK_BASE}/run_queue.py", f"{THINK_BASE}/README.md"],
+        }
+        index[f"{THINK_EXP}/{ds}"] = export_common_run_dataset(THINK_EXP, ds, spec)
+        answers = {m: json.loads((SRC / run / f"{m}_answers.json").read_text())
+                   for m in METHODS}
+        primary = {m: rq.primary_block(answers[m], answers["native"], m) for m in METHODS}
+        write_json(dataset_dir(THINK_EXP, ds) / "primary_metrics.json", primary)
+    write_json(index_path, index)
+    print(json.dumps({k: {m: v["predictions"] for m, v in index[k].items()}
+                      for k in index if k.startswith(THINK_EXP)}, indent=1))
+
+
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) > 2 and sys.argv[1] == "--think":
+        export_think(sys.argv[2:])
+    else:
+        main()

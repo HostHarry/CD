@@ -47,7 +47,8 @@ INSTRUCTION = (
 SUFFIX = " Please answer yes or no."
 
 # Experiments whose metrics.json is the flat common.run shape {method: {...pope...}}.
-POPE_EXPERIMENTS = ("pope_yesno_128_64_32", "pope_yesno_256_128_32")
+POPE_EXPERIMENTS = ("pope_yesno_128_64_32", "pope_yesno_256_128_32", "pope_think_256_128_64")
+THINK_EXPERIMENTS = ("pope_think_256_128_64",)
 CHAIR_EXPERIMENT = "chair_64_32_16"
 DIAG_EXPERIMENT = "pope_prompt_diagnostic"
 EXTERNAL_SCORE_EXPERIMENTS = ("mmmu_wino_v1", "hallusion_full_original_256_128")
@@ -236,6 +237,36 @@ def verify_pope_experiment(exp):
                     assert got_paired == paired, (record_key, method, split, "paired bootstrap differs")
             print(f"{record_key}/{method}: {len(rows)} rows re-scored, "
                   f"per-split metrics + paired bootstrap match stored metrics.json")
+
+
+def think_answer(text):
+    if "</think>" in text:
+        return text.rsplit("</think>", 1)[1].strip()
+    return text
+
+
+def verify_think_primary(exp):
+    """Re-score the post-</think> primary track from answers.json."""
+    for ds_dir in sorted((RECORDS / exp).iterdir()):
+        if not (ds_dir / "primary_metrics.json").exists():
+            continue
+        stored = json.loads((ds_dir / "primary_metrics.json").read_text())
+        scored = {}
+        for method in ("native", "vcd", "vigor"):
+            answers = json.loads((ds_dir / method / "answers.json").read_text())
+            scored[method] = [{"id": r["id"], "image_sha256": r["image_sha256"],
+                               "label": r["label"], "split": r["split"],
+                               "text": think_answer(r["text"])} for r in answers]
+            for split in SPLITS:
+                got = pope_metrics([r for r in scored[method] if r["split"] == split])
+                assert got == stored[method]["splits"][split], (exp, ds_dir.name, method, split)
+        for method in ("vcd", "vigor"):
+            for split in SPLITS:
+                got = paired_bootstrap([r for r in scored["native"] if r["split"] == split],
+                                       [r for r in scored[method] if r["split"] == split])
+                assert got == stored[method]["paired_vs_native_primary"][split], (
+                    exp, ds_dir.name, method, split, "primary paired")
+        print(f"{exp}/{ds_dir.name}: post-</think> primary metrics + paired bootstrap match")
 
 
 # --- CHAIR re-scoring ---
@@ -655,6 +686,8 @@ def main():
             verify_external_experiment(exp)
     for exp in POPE_EXPERIMENTS:
         verify_pope_experiment(exp)
+    for exp in THINK_EXPERIMENTS:
+        verify_think_primary(exp)
     verify_chair()
     verify_diagnostic()
     if "--rebuild-prompts" in sys.argv:
