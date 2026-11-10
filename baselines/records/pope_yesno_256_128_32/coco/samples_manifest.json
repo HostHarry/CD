@@ -1,0 +1,13 @@
+{
+ "files": [
+  {
+   "name": "pope_coco_yesno.jsonl",
+   "sha256": "c6da5060e7f5e75dcfea23a3af54c144eaf38fb0831c6801a0352a88fbaf7387",
+   "rows": 9000
+  }
+ ],
+ "source_files": [
+  "data/pope_coco_yesno.jsonl"
+ ],
+ "exclude_sha256": "04d297fff82151f5ac9903d69b8a837dd76b033111020ca0cfddb69182000332"
+}

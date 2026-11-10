@@ -1,0 +1,13 @@
+{
+ "files": [
+  {
+   "name": "aokvqa_yesno.jsonl",
+   "sha256": "11053fccbaa2dbe2a44459835ba9aabb3278e6615b69158e1466776145da1b50",
+   "rows": 9000
+  }
+ ],
+ "source_files": [
+  "data/pope_extended/aokvqa_yesno.jsonl"
+ ],
+ "exclude_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}
