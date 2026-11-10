@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/THU-BPM/Vigor",
+  "revision": "f907674eec79bb2e30597b22564ba4f644e6256e",
+  "files": {
+    "README.md": "61aab4a2888fed39f304de9c26e71fe3c1b114381ca82fd30dfe6a023e5c1044",
+    "scripts/run_amber_lladav.py": "cc25654efd0305b9aa72405350947ccdeae015704a320de2c09abedb67e90db7",
+    "scripts/run_amber_lumina.py": "d3d3725091120941cef3dd2933eab8f74c224bc75d17461aead0e05fab5bfe53"
+  }
+}
