@@ -1,0 +1,26 @@
+=========== Perception ===========
+total score: 987.936274509804 
+
+	 existence  score: 190.0
+	 count  score: 90.0
+	 position  score: 65.0
+	 color  score: 163.33333333333334
+	 posters  score: 50.0
+	 celebrity  score: 52.35294117647059
+	 scene  score: 113.5
+	 landmark  score: 60.0
+	 artwork  score: 91.25
+	 OCR  score: 112.5
+
+
+=========== Cognition ===========
+total score: 258.92857142857144 
+
+	 commonsense_reasoning  score: 86.42857142857143
+	 numerical_calculation  score: 55.0
+	 text_translation  score: 77.5
+	 code_reasoning  score: 40.0
+
+
+/root/autodl-tmp/cdapc-mme-direct-prefix-k4/vendor/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])

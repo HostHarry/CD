@@ -1,0 +1,242 @@
+[
+ {
+  "image": "COCO_val2014_000000197219.jpg",
+  "image_sha256": "34296589b3012555778e469046092af532f6d0895bdc6f8086b04b5dbf382baa",
+  "input_key": "be1d19fc70c5aaf50b4fe65bc25c4a42eb70bd68d884f6448aa664584cb52b4c",
+  "label": "yes",
+  "question": "Is there a handbag in the image?",
+  "question_id": 981,
+  "row_id": "random:981",
+  "split": "random"
+ },
+ {
+  "image": "COCO_val2014_000000105732.jpg",
+  "image_sha256": "3ccbf6048cba1903ef7df5cf026f7b96a0994fe06c38778756c0562e1e872775",
+  "input_key": "2605216d3f3bdf685ebba7908a4a55b2387ab8a100d7db503bee5191b38e185d",
+  "label": "yes",
+  "question": "Is there a skis in the image?",
+  "question_id": 599,
+  "row_id": "random:599",
+  "split": "random"
+ },
+ {
+  "image": "COCO_val2014_000000084447.jpg",
+  "image_sha256": "eab6b561581b340310972f8875eeece1683193031fe7aa9fa4b0d0d54f67df0f",
+  "input_key": "09098ea5a770b8ae5dc08f144f93b524cf380f11c776ef1614d57dbcd7a4748b",
+  "label": "yes",
+  "question": "Is there a motorcycle in the image?",
+  "question_id": 351,
+  "row_id": "random:351",
+  "split": "random"
+ },
+ {
+  "image": "COCO_val2014_000000288042.jpg",
+  "image_sha256": "e914c0385ad155f468011797f4203ae3d43add6793154a3258f3efc2c87792d7",
+  "input_key": "f958105768d176c482fe43d5c1b2a00f97a1bd35291ad0c536c93a735e4a94f2",
+  "label": "yes",
+  "question": "Is there an umbrella in the image?",
+  "question_id": 851,
+  "row_id": "random:851",
+  "split": "random"
+ },
+ {
+  "image": "COCO_val2014_000000456178.jpg",
+  "image_sha256": "917fb376be2a29d32faaa7029081ad70cbab27e2faf76d782706ae55ea720311",
+  "input_key": "ef915fef87ee0b50da86f9c3c7cb669fb3b08c422a3f91fe27f6d41797f370da",
+  "label": "no",
+  "question": "Is there a couch in the image?",
+  "question_id": 250,
+  "row_id": "random:250",
+  "split": "random"
+ },
+ {
+  "image": "COCO_val2014_000000300368.jpg",
+  "image_sha256": "0661e9fcfd7ddea6424d5bc6b1f0743102fe8fa55e3aaa92233d68829c1dcc05",
+  "input_key": "2af2f8f43d53b07d40663a56ce79936820a161131f2f46e7c26a67ee1e100843",
+  "label": "no",
+  "question": "Is there a tie in the image?",
+  "question_id": 96,
+  "row_id": "random:96",
+  "split": "random"
+ },
+ {
+  "image": "COCO_val2014_000000407386.jpg",
+  "image_sha256": "22a53c897556da4ad2c9cbfd1a82164d2b02a0919bdcc38a3229af13dc113da6",
+  "input_key": "2997555c8f207bce32243d0952351b23b6d853626a9736da37baf465bda47930",
+  "label": "no",
+  "question": "Is there a toilet in the image?",
+  "question_id": 1446,
+  "row_id": "random:1446",
+  "split": "random"
+ },
+ {
+  "image": "COCO_val2014_000000461331.jpg",
+  "image_sha256": "ff8bde842ca6e7303ab3a04b67d317cf5da5638f0141fe5624b42838f05783bb",
+  "input_key": "6e95cca8d0eb915abc1bdfde51e6b07fcc195981c0e3de390fac23be58d2ec52",
+  "label": "no",
+  "question": "Is there a bowl in the image?",
+  "question_id": 44,
+  "row_id": "random:44",
+  "split": "random"
+ },
+ {
+  "image": "COCO_val2014_000000467176.jpg",
+  "image_sha256": "533fd5d3b52305fee0f1e96b258b41de137ec1de465ee5c0c3afaa599c6c8567",
+  "input_key": "1de23d63e9f53090d723cd40cf0ea5702b45d9f5a99b95361a01dee50ee07744",
+  "label": "yes",
+  "question": "Is there a couch in the image?",
+  "question_id": 881,
+  "row_id": "popular:881",
+  "split": "popular"
+ },
+ {
+  "image": "COCO_val2014_000000114710.jpg",
+  "image_sha256": "647dcae3f7d6675907589ac5af482017010ae12d7d5dd3bc16e392e683af7af2",
+  "input_key": "259aa5003bd7f43a4e806f98f0fb3eeeeddd8629f4bb1a2510fe56ea193d1e23",
+  "label": "yes",
+  "question": "Is there a person in the image?",
+  "question_id": 729,
+  "row_id": "popular:729",
+  "split": "popular"
+ },
+ {
+  "image": "COCO_val2014_000000374061.jpg",
+  "image_sha256": "479f13bf747ba26e32e1006624f69aab19868520b7f09f741710b83c5c64fd54",
+  "input_key": "44ac57bcd2f993c7230e506f22a506b1b002aa6f71ed8dda99b9eddf8d4c84ee",
+  "label": "yes",
+  "question": "Is there a bed in the image?",
+  "question_id": 621,
+  "row_id": "popular:621",
+  "split": "popular"
+ },
+ {
+  "image": "COCO_val2014_000000237767.jpg",
+  "image_sha256": "947113f985708a6fbcf91507ae969cc0759f2b8e049a3e1773f18742bd9df35d",
+  "input_key": "587ad6da33d536c2d45d30d5c0adc989ab34a9f5ff0d779554519db09b130432",
+  "label": "yes",
+  "question": "Is there a person in the image?",
+  "question_id": 667,
+  "row_id": "popular:667",
+  "split": "popular"
+ },
+ {
+  "image": "COCO_val2014_000000500473.jpg",
+  "image_sha256": "db7f0173e8de3b038ba5d6ca7280269c58a12953bcd3b89414b57aa99eb01253",
+  "input_key": "c78dede35770c2af4426f7ae3df25b8e763c7e25a4bce3beca6ffb1564d1b38f",
+  "label": "no",
+  "question": "Is there a chair in the image?",
+  "question_id": 820,
+  "row_id": "popular:820",
+  "split": "popular"
+ },
+ {
+  "image": "COCO_val2014_000000205206.jpg",
+  "image_sha256": "3c642bfc457c3a6fd3f5bf7b33a7066322abe3aef389053eb448c519b06dbca6",
+  "input_key": "7c1fc990b2bd3dc9f585dad059960e1c5268dd6bacd317bbf78be1fa72ad2056",
+  "label": "no",
+  "question": "Is there a dining table in the image?",
+  "question_id": 1048,
+  "row_id": "popular:1048",
+  "split": "popular"
+ },
+ {
+  "image": "COCO_val2014_000000303652.jpg",
+  "image_sha256": "1e3c9a2ba7011b64688684b22eb10158b1d6fdf9ba6358d287a96cd08a783447",
+  "input_key": "474ebdf9cf535937005f2e40e3fb99be58d76486cfc24711cd3b3f137d39c337",
+  "label": "no",
+  "question": "Is there a chair in the image?",
+  "question_id": 1278,
+  "row_id": "popular:1278",
+  "split": "popular"
+ },
+ {
+  "image": "COCO_val2014_000000506178.jpg",
+  "image_sha256": "de41bacebcb85dfdf3f86b66ff169f2d2e2f7151d7b6b22d42b675a3a767ffa6",
+  "input_key": "a566bd1750f536a46ee716695f8bd036f495b0068226a33afce988f4b61289d4",
+  "label": "no",
+  "question": "Is there a chair in the image?",
+  "question_id": 1038,
+  "row_id": "popular:1038",
+  "split": "popular"
+ },
+ {
+  "image": "COCO_val2014_000000170365.jpg",
+  "image_sha256": "9da5c3c27e27a9039a20aeb8ea1db7b90b388ef379edf533d8334a7a3dfd22ea",
+  "input_key": "520b062225d74848c01492323442b4c36231518e62a914e413f49631bb447cbd",
+  "label": "yes",
+  "question": "Is there a sink in the image?",
+  "question_id": 391,
+  "row_id": "adversarial:391",
+  "split": "adversarial"
+ },
+ {
+  "image": "COCO_val2014_000000515904.jpg",
+  "image_sha256": "4bef46e8c40fe222be49f4949f1990af3a8023993f6dcaf3d65a8052372eb6e3",
+  "input_key": "f8fb626f4b7d80c27f92e8503a30b7d659b96aeb1248b26489c0e997018dca45",
+  "label": "yes",
+  "question": "Is there a sink in the image?",
+  "question_id": 303,
+  "row_id": "adversarial:303",
+  "split": "adversarial"
+ },
+ {
+  "image": "COCO_val2014_000000287305.jpg",
+  "image_sha256": "32e8424eeebfe8a5d78a176d9dab6c1a155abe234be83e9613e61ab57ef15be5",
+  "input_key": "2012b3d60b5f7c31e538edb925c25971e28d85fd73f5846e536903093ddf9ab8",
+  "label": "yes",
+  "question": "Is there a car in the image?",
+  "question_id": 579,
+  "row_id": "adversarial:579",
+  "split": "adversarial"
+ },
+ {
+  "image": "COCO_val2014_000000381895.jpg",
+  "image_sha256": "7be31f9fb0b46174fd7c0a4b102da52b4eafce4de016bc44a79dfcd8771e72da",
+  "input_key": "0764985fd012682825e7a5eba8f66af4bdff0d5b979abee4bc2f6d8f2d49e674",
+  "label": "yes",
+  "question": "Is there a teddy bear in the image?",
+  "question_id": 117,
+  "row_id": "adversarial:117",
+  "split": "adversarial"
+ },
+ {
+  "image": "COCO_val2014_000000257327.jpg",
+  "image_sha256": "9632e518007fe1b830e945bbd0728cdfdd9c6081b97fb0692f66d7077817a246",
+  "input_key": "eb3e51133e9fd4c95e6e075aeb8c1951ca1313bcb596558da3626ab2d9f4c14b",
+  "label": "no",
+  "question": "Is there a vase in the image?",
+  "question_id": 586,
+  "row_id": "adversarial:586",
+  "split": "adversarial"
+ },
+ {
+  "image": "COCO_val2014_000000354398.jpg",
+  "image_sha256": "9ab5e2411dc4dd93e30977c456d0bf7d7ffb1643f8ce910dc76194f20b1ad462",
+  "input_key": "7d5edca93352338ce2b39d5384a26a53556b6b2b84198365b502f6d50b4fc4ef",
+  "label": "no",
+  "question": "Is there a frisbee in the image?",
+  "question_id": 896,
+  "row_id": "adversarial:896",
+  "split": "adversarial"
+ },
+ {
+  "image": "COCO_val2014_000000465275.jpg",
+  "image_sha256": "8207ee75d9f8c06295c495c15a4fe17fc9f22cf6f95e775a45906f88441beb55",
+  "input_key": "db84b1c985821e97b0d368b4bee60554ac3962741cb103ec8b4f97c31bbaaf44",
+  "label": "no",
+  "question": "Is there a tv in the image?",
+  "question_id": 450,
+  "row_id": "adversarial:450",
+  "split": "adversarial"
+ },
+ {
+  "image": "COCO_val2014_000000327532.jpg",
+  "image_sha256": "1de73942811bee6103d35f77795074a439e1a92a608e8d8fdd369d8e6bf33a76",
+  "input_key": "24cdb6aac892b6f16e7f00615b475dfc5ed426b27b33249ca5d4392a7bfbaf3f",
+  "label": "no",
+  "question": "Is there a baseball glove in the image?",
+  "question_id": 828,
+  "row_id": "adversarial:828",
+  "split": "adversarial"
+ }
+]

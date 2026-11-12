@@ -1,0 +1,44 @@
+{
+  "inputs": 900,
+  "question_types": {
+    "multiple-choice": 847,
+    "open": 53
+  },
+  "source_reference": "/root/autodl-tmp/cdapc-pope-coco-prefix-no-final",
+  "historical_report": "/root/autodl-tmp/cdapc-experiments/reports/mmmu_cdapc_r70_L256_I128.json",
+  "shards": {
+    "0": {
+      "config": "configs/shard0.yaml",
+      "reference_run": "/root/autodl-tmp/cdapc-experiments/runs/20261109T010457101965Z_8eaef8615ea3",
+      "reference_config": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mmmu_cdapc_r70_L256_I128_shard0.yaml"
+    },
+    "1": {
+      "config": "configs/shard1.yaml",
+      "reference_run": "/root/autodl-tmp/cdapc-experiments/runs/20261109T010457081430Z_d816cb129e2d",
+      "reference_config": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mmmu_cdapc_r70_L256_I128_shard1.yaml"
+    },
+    "2": {
+      "config": "configs/shard2.yaml",
+      "reference_run": "/root/autodl-tmp/cdapc-experiments/runs/20261109T010457103164Z_084b19125515",
+      "reference_config": "/root/autodl-tmp/cdapc-experiments/configs/experiments/mmada_mmmu_cdapc_r70_L256_I128_shard2.yaml"
+    }
+  },
+  "condition": {
+    "canvas": 256,
+    "iterations": 128,
+    "window": 16,
+    "max_commit": 4,
+    "r_gate": 0.7,
+    "eos": "prefix_candidates",
+    "prompt": "mmmu_wino_reasoning_v1",
+    "base_seed": 20261105,
+    "seed_protocol": "existing CDAPC per-sample derivation"
+  },
+  "reference_note": "Historical r70 is K16 with original candidate range; this run changes K and EOS candidate policy. External baseline block_length64 is not a CDAPC parameter.",
+  "scoring": [
+    "official",
+    "strict_no_guess",
+    "deepseek-flash WINO correctness judge"
+  ],
+  "resume_policy": "preserve all terminal records, create fresh missing-only waves"
+}

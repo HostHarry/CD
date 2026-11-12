@@ -1,0 +1,147 @@
+{
+ "A": {
+  "done": 24,
+  "eos_median": 255.0,
+  "eos_mean": 255,
+  "early_stop": 0,
+  "budget_exhausted": 0,
+  "canvas": 256,
+  "mean_steps": 128,
+  "mean_seconds": 47.18581932364032,
+  "answer_sources": {
+   "final_answer": 24
+  },
+  "accuracy": 0.9166666666666666,
+  "examples": [
+   "To determine if there is a handbag in the image, let's break down the observation step by step:  1. **Observation of the Image**: The image shows a group of people sitting around a table. The table is covered with variou",
+   "To determine if there are skis in the image, we need to carefully examine the objects and equipment present.  1. **Observation of the Image**: The image shows a group of people standing on a snowy slope. They are dressed"
+  ]
+ },
+ "B": {
+  "done": 24,
+  "eos_median": 255.0,
+  "eos_mean": 255,
+  "early_stop": 0,
+  "budget_exhausted": 0,
+  "canvas": 256,
+  "mean_steps": 128,
+  "mean_seconds": 46.81982447750246,
+  "answer_sources": {
+   "pope_official_first_sentence": 24
+  },
+  "accuracy": 0.5,
+  "examples": [
+   "To determine if there is a handbag in the image, we need to carefully examine the objects present on the table.   1. **Observation of the Table**: The table in the image has several items on it. including a    - A plate ",
+   "To determine if there are skis in the image, we need to carefully examine the objects and equipment present.   1. **Observation of the Image**: The image shows a group of people standing on a snowy slope. They are wearin"
+  ]
+ },
+ "C": {
+  "done": 5,
+  "eos_median": 255,
+  "eos_mean": 255,
+  "early_stop": 0,
+  "budget_exhausted": 0,
+  "canvas": 256,
+  "mean_steps": 128,
+  "mean_seconds": 48.67740447223186,
+  "answer_sources": {
+   "pope_official_first_sentence": 5
+  },
+  "accuracy": 0.8,
+  "examples": [
+   "To determine if there is a handbag in the image, we need to carefully examine the objects present on the table.   1. **Observation of the Table**: The table in the image has several items on it. including a    - A plate ",
+   "To determine if there are skis in the image, we need to carefully examine the objects present in the scene.   1. **Observation of the Image**: The image shows a group of people standing on a snowy slope. They are dressed"
+  ]
+ },
+ "D": {
+  "done": 24,
+  "eos_median": 255.0,
+  "eos_mean": 248.54166666666666,
+  "early_stop": 1,
+  "budget_exhausted": 0,
+  "canvas": 256,
+  "mean_steps": 124.79166666666667,
+  "mean_seconds": 45.37326152933141,
+  "answer_sources": {
+   "pope_official_first_sentence": 24
+  },
+  "accuracy": 0.5,
+  "examples": [
+   "To determine if there is a handbag in the image, we need to carefully examine the objects present on the table.   1. **Observation of the Table**: The table in the image has several items on it. including a    - A plate ",
+   "To determine if there are skis in the image, we need to carefully examine the objects present in the scene.   1. **Observation of the Image**: The image shows a group of people standing on a snowy slope. They are dressed"
+  ]
+ },
+ "A+eot": {
+  "done": 5,
+  "eos_median": 255,
+  "eos_mean": 255,
+  "early_stop": 0,
+  "budget_exhausted": 0,
+  "canvas": 256,
+  "mean_steps": 128,
+  "mean_seconds": 50.089129097759724,
+  "answer_sources": {
+   "final_answer": 5
+  },
+  "accuracy": 1.0,
+  "examples": [
+   "To determine if there is a handbag in the image, let's break down the observation step by step:  1. **Observation of the Image**: The image shows a group of people sitting around a table. The table is covered with variou",
+   "To determine if there are skis in the image, we need to carefully examine the objects and equipment present.  1. **Observation of the Image**: The image shows a group of people standing on a snowy slope. They are dressed"
+  ]
+ },
+ "L64_B64": {
+  "done": 24,
+  "eos_median": 63.0,
+  "eos_mean": 63,
+  "early_stop": 0,
+  "budget_exhausted": 0,
+  "canvas": 64,
+  "mean_steps": 32,
+  "mean_seconds": 10.844076508345703,
+  "answer_sources": {
+   "leading_yes_no": 24
+  },
+  "accuracy": 0.8333333333333334,
+  "examples": [
+   "Yes, there is a handbag in the image. It is located on the table to the right of the person in the foreground, The handbag appears to be a dark color, possibly leather, and is of a medium size, although the brand and bra",
+   "Yes, there are skis in the image. The individuals are equipped with skis, which are attached to their boots and are positioned on the snow. The skis are of various lengths and designs, reflecting the different styles and"
+  ]
+ },
+ "L64_A64": {
+  "done": 24,
+  "eos_median": 63.0,
+  "eos_mean": 63,
+  "early_stop": 0,
+  "budget_exhausted": 0,
+  "canvas": 64,
+  "mean_steps": 32,
+  "mean_seconds": 10.901643197362622,
+  "answer_sources": {
+   "final_answer": 24
+  },
+  "accuracy": 0.9166666666666666,
+  "examples": [
+   "To determine if there is a handbag in the image, we need to carefully examine the objects present on the table. Upon close inspection, we can see a black object placed on the table near the center, which matches the appe",
+   "To determine if there are skis in the image, we need to carefully observe the scene depicted. The image shows a group of people standing on a snowy surface. Each person is wearing a pair of skis attached to their feet. T"
+  ]
+ },
+ "L64_E64": {
+  "done": 24,
+  "eos_median": 63.0,
+  "eos_mean": 63.208333333333336,
+  "early_stop": 0,
+  "budget_exhausted": 9,
+  "canvas": 64,
+  "mean_steps": 29.208333333333332,
+  "mean_seconds": 18.209480800821137,
+  "answer_sources": {
+   "final_answer": 15,
+   "generation_failed": 9
+  },
+  "accuracy": 0.5833333333333334,
+  "examples": [
+   "To determine if there is a handbag in the image, we need to carefully examine the objects present on the table. Upon close inspection, we can see a black handbag placed on the table near the person in the foreground. Thi",
+   "To determine if there are skis in the image, we need to carefully observe the scene depicted. The image shows a group of people standing on a snowy slope. Each person has a pair of skis attached to their feet. Therefore,"
+  ]
+ }
+}

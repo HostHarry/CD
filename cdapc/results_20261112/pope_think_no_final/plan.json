@@ -1,0 +1,38 @@
+{
+  "order": [
+    "aokvqa",
+    "gqa"
+  ],
+  "prompt_id": "pope_think_no_final_v1",
+  "candidate_policy": "eos_prefix_only",
+  "source_reference": "/root/autodl-tmp/cdapc-pope-coco-prefix-no-final",
+  "resume_policy": "fresh runs of missing IDs only, preserve all terminal records",
+  "stages": {
+    "aokvqa": {
+      "configs": [
+        "configs/aokvqa_shard0.yaml",
+        "configs/aokvqa_shard1.yaml",
+        "configs/aokvqa_shard2.yaml"
+      ],
+      "inputs": 5145,
+      "rows": 9000,
+      "images": 500,
+      "seed": 42,
+      "dataset_revision": "08d957b917e5a378a2f99d35b6293c536a66298b",
+      "data_root": "data/pope_aokvqa"
+    },
+    "gqa": {
+      "configs": [
+        "configs/gqa_shard0.yaml",
+        "configs/gqa_shard1.yaml",
+        "configs/gqa_shard2.yaml"
+      ],
+      "inputs": 5171,
+      "rows": 9000,
+      "images": 500,
+      "seed": 42,
+      "dataset_revision": "08d957b917e5a378a2f99d35b6293c536a66298b",
+      "data_root": "data/pope_gqa"
+    }
+  }
+}

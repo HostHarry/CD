@@ -1,0 +1,75 @@
+{
+  "status": "complete",
+  "verified_at": "2026-11-11T23:12:54+08:00",
+  "source_snapshot_verified": true,
+  "datasets": {
+    "aokvqa": {
+      "inputs": 5145,
+      "rows": 9000,
+      "images": 500,
+      "generation_statuses": {
+        "success": 5145
+      },
+      "judge_statuses": {
+        "ambiguous": 10,
+        "answered": 5129,
+        "missing": 6
+      },
+      "mean_generation_seconds": 14.86578299579282,
+      "closed_unique": 5112,
+      "api": {
+        "attempts": 5118,
+        "cache_hits": 30,
+        "errors": 0,
+        "returned_models": {
+          "deepseek-flash": 5145
+        }
+      },
+      "all_prediction_hashes_verified": true,
+      "fixed_denominator_metrics_recounted": true
+    },
+    "gqa": {
+      "inputs": 5171,
+      "rows": 9000,
+      "images": 500,
+      "generation_statuses": {
+        "success": 5170,
+        "budget_exhausted": 1
+      },
+      "judge_statuses": {
+        "ambiguous": 12,
+        "answered": 5157,
+        "budget_exhausted": 1,
+        "missing": 1
+      },
+      "mean_generation_seconds": 15.101172990041558,
+      "closed_unique": 5136,
+      "api": {
+        "attempts": 5169,
+        "cache_hits": 5,
+        "errors": 0,
+        "returned_models": {
+          "deepseek-flash": 5170
+        }
+      },
+      "all_prediction_hashes_verified": true,
+      "fixed_denominator_metrics_recounted": true
+    }
+  },
+  "sources": {
+    "/root/autodl-tmp/cdapc-pope-coco-prefix-no-final/reports/comparison.json": "532371c9ade56fe5c1fb72d5c6e58dfd0e63f6e6e251d668a19d78070685d7a4",
+    "/root/autodl-tmp/cdapc-pope-coco-prefix-no-final/reports/fast_official_deepseek.json": "c7fbb34cc6911e613025b9aa0a5175c89c6877b046056f269b7242853edf7853",
+    "/root/autodl-tmp/cdapc-pope-no-final-suite/reports/source_snapshot.json": "bc63a6b820b2442ccbd6884fc622f7ce5d6681a0b5e2a07183343670ea24f417",
+    "/root/autodl-tmp/cdapc-pope-no-final-suite/scripts/finalize_reports.py": "889908b3c7b6c5c524d533ddeb96ba3d43b63aee7393dadd14aa36179926e8db",
+    "/root/autodl-tmp/cdapc-pope-no-final-suite/reports/aokvqa/official.json": "49c3c9edf770fb913e12a0a98a0c6d3d8d5832aa95843565d08d14bc0f2b12b9",
+    "/root/autodl-tmp/cdapc-pope-no-final-suite/reports/aokvqa/deepseek.json": "2325466044acb95b6d8917a0e2a9aa66c9a15d0b8ec9c0e5e97ff5ebf57ab7d1",
+    "/root/autodl-tmp/cdapc-pope-no-final-suite/reports/aokvqa/inventory.json": "75765ed040dcc384357630a1a89326ec1741606c2d323f0083b4d39042a0040b",
+    "/root/autodl-tmp/cdapc-pope-no-final-suite/reports/aokvqa/summary.md": "e806d67393dd7e8bdbef87141e8f5be09c8c89854c02a69f60a578f4a449a502",
+    "/root/autodl-tmp/cdapc-pope-no-final-suite/reports/aokvqa/active_preflight.json": "8a9428599d103848fe5b4131bce6a9eb3b12d2fe4ad7398482c65548e1cb6570",
+    "/root/autodl-tmp/cdapc-pope-no-final-suite/reports/gqa/official.json": "bd19ce16ed7a2075951dccf0fb15373fdf55273c2ddac0278b6c7d131f7e17ee",
+    "/root/autodl-tmp/cdapc-pope-no-final-suite/reports/gqa/deepseek.json": "e892654fc4d9ddf4f9f5dda866a109bba7b77110f9b6fc2e516c0a0bade0538a",
+    "/root/autodl-tmp/cdapc-pope-no-final-suite/reports/gqa/inventory.json": "c1a7d9d7809e71e46bf91dc61211a1cd02a35d9fb0434e861e747c2a0dc2f15d",
+    "/root/autodl-tmp/cdapc-pope-no-final-suite/reports/gqa/summary.md": "108262775b9736dec67192ba383738565af23e5ca64edabe9632caf16d9fc3db",
+    "/root/autodl-tmp/cdapc-pope-no-final-suite/reports/gqa/active_preflight.json": "a1705f5c966cf39c85a7c834a58f7081572436f079366dbfde5513c47d01dab3"
+  }
+}

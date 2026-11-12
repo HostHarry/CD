@@ -1,0 +1,32 @@
+{
+ "revision": "8f92be804abf146f24bfa1a98d8fcb1cba335f6b0dc69fc27ea698fa446df3b8",
+ "split": "test",
+ "repo": "VLMEvalKit HallusionBench.tsv",
+ "dataset_url": "https://opencompass.openxlab.space/utils/VLMEval/HallusionBench.tsv",
+ "tsv_md5": "0c23ac0dc9ef46832d7a24504f2a0c7c",
+ "tsv_sha256": "8f92be804abf146f24bfa1a98d8fcb1cba335f6b0dc69fc27ea698fa446df3b8",
+ "rows": 1129,
+ "input_modes": {
+  "image": 951,
+  "text_only": 178
+ },
+ "answers": {
+  "Yes": 484,
+  "No": 645
+ },
+ "categories": {
+  "VD": 591,
+  "VS": 538
+ },
+ "scorer": {
+  "repo": "open-compass/VLMEvalKit",
+  "revision": "3c192143007e4eb3f5c1a36558a4f8c1451980cb",
+  "files": {
+   "yorn.py": "692d72ee0c8fe64c7dd93b466f1b47c432303d8fba57503c56aae770b67ef59e",
+   "misc.py": "407ec5eaaf84227368365c6c7c93725166becfe755ed6a24eb93260d65464258"
+  }
+ },
+ "baseline_rows_matched": "all 1129 index/question/answer/category/l2-category/input_mode/image_sha256",
+ "baseline_commit": "4a496edf63525f641ac84b82418bb73ebdb6ed99",
+ "preparer_sha256": "afb83ae3c23716eeae03bee4541a2cb25a5be88d513dd392ce51ed4d7dd75f76"
+}

@@ -1,0 +1,24 @@
+{
+  "verified_at": "2026-11-11T08:04:21+08:00",
+  "unique_inputs": 5127,
+  "evaluation_rows": 9000,
+  "additional_images": 436,
+  "additional_rows": 7848,
+  "generation_statuses": {
+    "success": 5126,
+    "budget_exhausted": 1
+  },
+  "source_snapshots_verified": true,
+  "pilot_661_outputs_preserved": true,
+  "official_and_judge_metrics_independently_recounted": true,
+  "full_comparison_matches_cdapc_judge": true,
+  "all_partial_judgments_preserved": true,
+  "api_errors": 0,
+  "sources": {
+    "/root/autodl-tmp/cdapc-pope-coco-prefix-no-final/reports/comparison.json": "532371c9ade56fe5c1fb72d5c6e58dfd0e63f6e6e251d668a19d78070685d7a4",
+    "/root/autodl-tmp/cdapc-pope-coco-prefix-no-final/reports/official_scopes.json": "5d42bf95a4491edcd101e15de31f1a881fe980cbe2b857b47288d7a0325d7728",
+    "/root/autodl-tmp/cdapc-pope-coco-prefix-no-final/reports/fast_official_deepseek.json": "c7fbb34cc6911e613025b9aa0a5175c89c6877b046056f269b7242853edf7853",
+    "/root/autodl-tmp/cdapc-pope-vcd-full-judge/reports/comparison.json": "7a62e2264c3d90f51b1713547143595189730b41031e74d71c92c9692b83087e",
+    "/root/autodl-tmp/cdapc-pope-vcd-partial-judge/reports/comparison.json": "96c65efb38599fb29eddbaf546b01db88457612b055da12fc7edc99be34cbb59"
+  }
+}
