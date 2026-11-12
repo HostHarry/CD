@@ -1,0 +1,12 @@
+{
+ "files": [
+  {
+   "name": "aokvqa_think.jsonl",
+   "sha256": "aa166500d2ae88569551b1dcc20fc11e6e0681b5911ca429d6d4d2902af1e649",
+   "rows": 9000
+  }
+ ],
+ "source_files": [
+  "results/pope_think_256_128_64/inputs/aokvqa_think.jsonl"
+ ]
+}

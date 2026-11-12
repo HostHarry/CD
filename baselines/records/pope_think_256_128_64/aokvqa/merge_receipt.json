@@ -1,0 +1,28 @@
+{
+  "payloads_preserved_verbatim": true,
+  "execution": "two independent GPU shards",
+  "generation": {
+    "max_new_tokens": 256,
+    "steps": 128,
+    "block_length": 64,
+    "temperature": 0.0,
+    "cfg_scale": 0.0,
+    "remasking": "low_confidence"
+  },
+  "shards": [
+    {
+      "shard": 0,
+      "predictions": 7719,
+      "ordered_payload_sha256": "d0ec4256d9a13f684311199292b65d01529e7f355afca21a0f9ef9d8addad5e0",
+      "manifest_sha256": "ca8de111ac835a0afc96307704d0031b86d9225055b47dcb9baf1d4c203b172a"
+    },
+    {
+      "shard": 1,
+      "predictions": 7716,
+      "ordered_payload_sha256": "d3951ee4ce7ec238ceacd41795469073807ee78e60dbba81f745984980f3d914",
+      "manifest_sha256": "dcd7cad064c55cf2c889d0f6a2583dacd341dbff5d4fa799947d47c59ac90440"
+    }
+  ],
+  "rows_per_method": 9000,
+  "unique_inputs_per_method": 5145
+}

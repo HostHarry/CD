@@ -1,7 +1,7 @@
 # POPE, thinking prompt, 256/128/64 — native / VCD / VIGOR
 
-Status: **COCO complete** (generation + scoring). A-OKVQA and GQA are still
-running and will be added when finished.
+Status: **COCO and A-OKVQA complete** (generation, scoring and DeepSeek judge).
+GQA is still running and will be added when finished.
 
 ## Protocol
 
@@ -43,11 +43,11 @@ running and will be added when finished.
 Paired 95% CI of delta accuracy vs native: VCD Random [+1.0, +4.4] points;
 all other splits for VCD and VIGOR include zero.
 
-## DeepSeek text judge (`coco/judge/`)
+## DeepSeek text judge (`<dataset>/judge/`)
 
 Protocol `pope_text_llm_judge_v1`, reused verbatim from the cloud CD-APC
 package (`cdapc/source/src/cdapc_lab/evaluation/pope_llm_judge.py`, sha256
-`1ab1a8ef…fa57`), runner `methods/judge_pope_think.py`. Model `deepseek-flash`,
+`1ab1a8ef…fa57`), runner `methods/judge/judge_pope_think.py`. Model `deepseek-flash`,
 temperature 0, thinking disabled, max_tokens 192. The API receives only the
 plain POPE question (thinking instruction and yes/no suffix removed) and the
 complete decoded response; no image and no gold. The judge returns
@@ -67,5 +67,33 @@ Paired image-level bootstrap of delta accuracy vs native (95% CI, points):
 VCD Random +2.33 [+0.73, +4.07], Popular +0.97 [−0.50, +2.57], Adversarial
 +0.33 [−1.33, +2.07]; VIGOR Random +1.03 [−0.53, +2.63], Popular −0.70
 [−2.27, +0.87], Adversarial −0.70 [−2.30, +0.93].
+
+## A-OKVQA results
+
+Primary (official rule after `</think>`), Acc / F1 %:
+
+| Split | native | VCD | VIGOR |
+|---|---:|---:|---:|
+| Random | 74.57 / 76.87 | 77.13 / 78.63 | 75.43 / 77.95 |
+| Popular | 72.97 / 75.77 | 76.20 / 77.95 | 74.30 / 77.17 |
+| Adversarial | 67.50 / 72.23 | 70.97 / 74.34 | 68.33 / 73.28 |
+| **Mean** | 71.68 / 74.96 | 74.77 / 76.97 | 72.69 / 76.14 |
+| Yes ratio | 62.9% | 59.4% | 64.2% |
+| `</think>` closed | 96.9% | 98.0% | 94.4% |
+
+DeepSeek judge, Acc / F1 %:
+
+| Split | native | VCD | VIGOR |
+|---|---:|---:|---:|
+| Random | 75.60 / 77.74 | 77.53 / 78.99 | 76.80 / 79.70 |
+| Popular | 73.30 / 76.16 | 76.37 / 78.23 | 74.93 / 78.26 |
+| Adversarial | 67.70 / 72.35 | 71.07 / 74.58 | 68.83 / 74.02 |
+| **Mean** | 72.20 / 75.41 | 74.99 / 77.27 | 73.52 / 77.33 |
+| missing / ambiguous rows | 36 / 26 | 10 / 21 | 6 / 139 |
+
+Paired image-level bootstrap of delta accuracy vs native (judge, 95% CI,
+points): VCD Random +1.93 [+0.33, +3.53], Popular +3.07 [+1.47, +4.70],
+Adversarial +3.37 [+1.83, +4.90]; VIGOR Random +1.20 [−0.43, +2.90], Popular
++1.63 [+0.10, +3.17], Adversarial +1.13 [−0.37, +2.67].
 
 Payloads use format B (see `../../README.md`).

@@ -323,6 +323,28 @@ def verify_think_judge(exp):
         print(f"{judge_dir.relative_to(RECORDS)}: {len(records)} API records, judge metrics match")
 
 
+def verify_mmmu_judge():
+    """Re-derive MMMU DeepSeek-judge accuracies from api_records + *_judged.json."""
+    judge_dir = RECORDS / "mmmu_wino_v1" / "mmmu_val" / "judge"
+    if not judge_dir.is_dir():
+        return
+    summary = json.loads((judge_dir / "summary.json").read_text())
+    records = {}
+    with gzip.open(judge_dir / "api_records.jsonl.gz", "rt") as handle:
+        for line in handle:
+            rec = json.loads(line)
+            records[rec["request_sha256"]] = rec
+    for method, block in summary["methods"].items():
+        judged = json.loads((judge_dir / f"{method}_judged.json").read_text())
+        assert len(judged) == 900
+        for row in judged:
+            rec = records[row["request_sha256"]]
+            assert rec["score"] == row["score"] and rec["content"] == row["content"]
+        acc = sum(r["score"] for r in judged) / 900
+        assert abs(acc - block["accuracy"]) < 1e-12, (method, acc)
+    print(f"mmmu_wino_v1/mmmu_val/judge: {len(records)} API records, judge accuracies match")
+
+
 # --- CHAIR re-scoring ---
 
 def chair_overall(chair):
@@ -743,6 +765,7 @@ def main():
     for exp in THINK_EXPERIMENTS:
         verify_think_primary(exp)
         verify_think_judge(exp)
+    verify_mmmu_judge()
     verify_chair()
     verify_diagnostic()
     if "--rebuild-prompts" in sys.argv:

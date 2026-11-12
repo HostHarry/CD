@@ -650,8 +650,49 @@ def export_think(datasets):
                       for k in index if k.startswith(THINK_EXP)}, indent=1))
 
 
+def write_judge_dir(target, src, judged_files, cache):
+    """Copy judge summaries/per-row files and bundle every referenced cached
+    API request/response into api_records.jsonl.gz."""
+    target.mkdir(parents=True, exist_ok=True)
+    needed = set()
+    for name in judged_files:
+        rows = json.loads((src / name).read_text())
+        needed |= {r["request_sha256"] for r in rows}
+        copy(src / name, target / name)
+    for name in ("summary.json",):
+        copy(src / name, target / name)
+    with gzip.open(target / "api_records.jsonl.gz", "wt") as handle:
+        for sha in sorted(needed):
+            record = json.loads((cache / f"{sha}.json").read_text())
+            handle.write(json.dumps(record, ensure_ascii=False, sort_keys=True) + "\n")
+    names = sorted(p.name for p in target.iterdir() if p.name != "SHA256SUMS")
+    (target / "SHA256SUMS").write_text("".join(f"{sha_file(target / n)}  {n}\n" for n in names))
+    return len(needed)
+
+
+def export_think_judge(datasets):
+    judge = SRC / THINK_BASE / "judge"
+    for ds in datasets:
+        target = dataset_dir(THINK_EXP, ds) / "judge"
+        copy(judge / "judge_manifest.json", target / "judge_manifest.json")
+        n = write_judge_dir(target, judge / ds, [f"{m}_judged.json" for m in METHODS], judge / "cache")
+        print(ds, "judge records", n)
+
+
+def export_mmmu_judge():
+    judge = SRC / "results/mmmu_wino_v1/judge"
+    target = dataset_dir("mmmu_wino_v1", "mmmu_val") / "judge"
+    copy(judge / "judge_manifest.json", target / "judge_manifest.json")
+    n = write_judge_dir(target, judge, [f"{m}_judged.json" for m in METHODS], judge / "cache")
+    print("mmmu judge records", n)
+
+
 if __name__ == "__main__":
     if len(sys.argv) > 2 and sys.argv[1] == "--think":
         export_think(sys.argv[2:])
+    elif len(sys.argv) > 2 and sys.argv[1] == "--think-judge":
+        export_think_judge(sys.argv[2:])
+    elif sys.argv[1:] == ["--mmmu-judge"]:
+        export_mmmu_judge()
     else:
         main()

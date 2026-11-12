@@ -3,7 +3,7 @@ protocol pope_text_llm_judge_v1 verbatim (HostHarry/CD cdapc/source).
 
 The API receives only the plain POPE question and the complete decoded
 response; no image, no gold. Scoring against gold is local.
-Run from the project root: .venv/bin/python judge_pope_think.py coco
+Run from the project root: .venv/bin/python judge/judge_pope_think.py coco
 """
 import argparse
 from collections import Counter
@@ -21,7 +21,7 @@ from cdapc_lab.evaluation.pope_llm_judge import judge_request, request_for, spec
 from cdapc_lab.experiments.score import pope_metrics  # noqa: E402
 from cdapc_lab.io.artifacts import atomic_json, digest, file_hash  # noqa: E402
 
-RUN = Path(__file__).resolve().parent / "results/pope_think_256_128_64"
+RUN = Path(__file__).resolve().parents[1] / "results/pope_think_256_128_64"
 OUT = RUN / "judge"
 METHODS = ("native", "vcd", "vigor")
 SPLITS = ("random", "popular", "adversarial")
@@ -34,12 +34,35 @@ def plain_question(prompt):
     return q0
 
 
+def input_key(sample):
+    return hashlib.sha256(json.dumps(
+        [sample["image_sha256"], sample.get("messages", sample.get("question"))],
+        ensure_ascii=False, sort_keys=True).encode()).hexdigest()
+
+
+def load_answers(ds, method, samples):
+    """Merged answers if the dataset is scored; else read the shard databases."""
+    merged = RUN / ds / f"{method}_answers.json"
+    if merged.is_file():
+        return json.loads(merged.read_text())
+    import sqlite3
+    texts = {}
+    for shard in (0, 1):
+        db = sqlite3.connect(f"file:{RUN / f'{ds}_shard{shard}' / 'predictions.sqlite'}?mode=ro", uri=True)
+        for key, payload in db.execute("SELECT input_key, payload FROM predictions WHERE method=?", (method,)):
+            texts[key] = json.loads(payload)["text"]
+    missing = sum(input_key(s) not in texts for s in samples)
+    if missing:
+        raise ValueError(f"{ds}/{method}: {missing} rows not generated yet")
+    return [{**s, "text": texts[input_key(s)]} for s in samples]
+
+
 def collect(ds):
     samples = [json.loads(line) for line in (RUN / "inputs" / f"{ds}_think.jsonl").open()]
     questions = {(s["split"], s["id"]): plain_question(s["question"]) for s in samples}
     rows, requests = {}, {}
     for method in METHODS:
-        answers = json.loads((RUN / ds / f"{method}_answers.json").read_text())
+        answers = load_answers(ds, method, samples)
         assert len(answers) == len(samples) == 9000
         out = []
         for a in answers:
@@ -102,7 +125,7 @@ def report(ds, rows, results):
         summary["methods"][method] = block
         atomic_json(OUT / ds / f"{method}_judged.json", out)
     if all(summary["methods"][m]["complete"] for m in METHODS):
-        for method in ("vcd", "vigor"):
+        for method in [m for m in METHODS if m != "native"]:
             summary["methods"][method]["paired_vs_native"] = {
                 s: paired_bootstrap([r for r in scored["native"] if r["split"] == s],
                                     [r for r in scored[method] if r["split"] == s]) for s in SPLITS}
@@ -118,16 +141,23 @@ def report(ds, rows, results):
 
 
 def main():
+    global METHODS, OUT
     parser = argparse.ArgumentParser()
     parser.add_argument("dataset")
     parser.add_argument("--workers", type=int, default=8)
     parser.add_argument("--limit", type=int)
+    parser.add_argument("--methods", nargs="+", choices=METHODS)
     args = parser.parse_args()
+    if args.methods:
+        METHODS = tuple(m for m in ("native", "vcd", "vigor") if m in args.methods)
+        assert "native" in METHODS
+        if not (RUN / args.dataset / "native_answers.json").is_file():
+            OUT = OUT / "partial"
     assert file_hash(CDAPC_SRC / "cdapc_lab/evaluation/pope_llm_judge.py") == JUDGE_FILE_SHA256
     key = Path("/root/.deepseek_key").read_text().strip()
-    cache = OUT / "cache"
+    cache = RUN / "judge" / "cache"
     cache.mkdir(parents=True, exist_ok=True)
-    (OUT / args.dataset).mkdir(exist_ok=True)
+    (OUT / args.dataset).mkdir(parents=True, exist_ok=True)
     atomic_json(OUT / "judge_manifest.json", {"spec": spec(), "spec_hash": digest(spec()),
                                               "source_sha256": JUDGE_FILE_SHA256})
     rows, requests = collect(args.dataset)
