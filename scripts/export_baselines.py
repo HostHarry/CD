@@ -687,8 +687,61 @@ def export_mmmu_judge():
     print("mmmu judge records", n)
 
 
+TB_EXP = "think_benchmarks_256_128_64"
+TB_STAGES = {"hallusion_think": ("data/hallusion_think", ("vcd", "vigor")),
+             "mme_think": ("data/mme/think", ("native", "vcd", "vigor")),
+             "mme_original": ("data/mme/original", ("native", "vcd", "vigor"))}
+
+
+def export_think_benchmark(stage):
+    """HallusionBench/MME 256/128/64 stages from experiments/think_benchmarks.py."""
+    data, methods = TB_STAGES[stage]
+    run = f"results/{TB_EXP}/{stage}"
+    if not (SRC / run / "metrics.json").is_file():
+        raise ValueError(f"{stage}: not scored")
+    spec = {
+        "method_dbs": {m: [f"{run}/shard0/predictions.sqlite", f"{run}/shard1/predictions.sqlite"]
+                       for m in methods},
+        "samples": [f"{data}/samples.jsonl"],
+        "manifests": [("data", f"{data}/manifest.json"), ("shard0", f"{run}/shard0/manifest.json"),
+                      ("shard1", f"{run}/shard1/manifest.json")],
+        "status": [], "metrics_sources": [],
+        "configs": [("run", "configs/think_256_128_64.yaml")],
+        "extra": [f"{run}/RESULTS.md", f"{run}/preflight_validation.json",
+                  f"results/{TB_EXP}/plan.json", f"results/{TB_EXP}/plan_v1_overstrict_audit.json",
+                  "experiments/think_benchmarks.py"],
+    }
+    target = prepare_dataset_dir(TB_EXP, stage, spec)
+    method_rows = merge_method_rows(spec["method_dbs"])
+    part = {}
+    for method in methods:
+        method_dir = target / method
+        rows = method_rows[method]["rows"]
+        entries, shards = export_predictions(method_dir, rows)
+        answers = json.loads((SRC / run / f"{method}_answers.json").read_text())
+        write_json(method_dir / "answers.json", answers)
+        write_json(method_dir / "scores.json", json.loads((SRC / run / f"{method}_scores.json").read_text()))
+        method_sums(method_dir)
+        part[method] = {"predictions": len(entries), "shards": shards, "entries": entries,
+                        "sources": method_rows[method]["sources"], "answers_rows": len(answers)}
+    copy(SRC / run / "metrics.json", target / "metrics.json")
+    judge = SRC / run / "judge"
+    if judge.is_dir():
+        copy(judge / "judge_manifest.json", target / "judge" / "judge_manifest.json")
+        n = write_judge_dir(target / "judge", judge, [f"{m}_judged.json" for m in methods],
+                            SRC / "results/pope_think_256_128_64/judge/cache")
+        print(stage, "judge records", n)
+    index_path = OUT / "records_index.json"
+    index = json.loads(index_path.read_text())
+    index[f"{TB_EXP}/{stage}"] = part
+    write_json(index_path, index)
+    print(stage, {m: v["predictions"] for m, v in part.items()})
+
+
 if __name__ == "__main__":
-    if len(sys.argv) > 2 and sys.argv[1] == "--think":
+    if len(sys.argv) > 2 and sys.argv[1] == "--think-benchmark":
+        export_think_benchmark(sys.argv[2])
+    elif len(sys.argv) > 2 and sys.argv[1] == "--think":
         export_think(sys.argv[2:])
     elif len(sys.argv) > 2 and sys.argv[1] == "--think-judge":
         export_think_judge(sys.argv[2:])

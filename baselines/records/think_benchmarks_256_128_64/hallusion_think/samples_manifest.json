@@ -1,0 +1,12 @@
+{
+ "files": [
+  {
+   "name": "samples.jsonl",
+   "sha256": "14e3005088792714a76bae7a2065046a59219a620326b041d6b85e84f4594050",
+   "rows": 1129
+  }
+ ],
+ "source_files": [
+  "data/hallusion_think/samples.jsonl"
+ ]
+}

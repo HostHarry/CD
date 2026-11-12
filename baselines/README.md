@@ -26,6 +26,7 @@ reproduction:
 | `hallusion_full_original_256_128/hallusionbench` | HallusionBench | 256/128/32 | original | native, vcd, vigor |
 | `pope_prompt_diagnostic/coco_192` | POPE prompt diagnostic | 256/256/32 | 4 prompt variants A–D | A, B, C, D (native) |
 | `pope_think_256_128_64/{coco,aokvqa,gqa}` | POPE thinking prompt | 256/128/64 | official thinking instruction, no suffix; scored after `</think>` | native, vcd, vigor |
+| `think_benchmarks_256_128_64/hallusion_think` | HallusionBench | 256/128/64 | thinking instruction; scored after `</think>` + DeepSeek judge | vcd, vigor |
 
 Paused/incomplete runs (`pope_coco_nosuffix_256_256`, `pope_coco_think_256_256`)
 are intentionally **not** included. `pope_think_256_128_64` is complete for all three POPE datasets.

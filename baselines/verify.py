@@ -51,7 +51,7 @@ POPE_EXPERIMENTS = ("pope_yesno_128_64_32", "pope_yesno_256_128_32", "pope_think
 THINK_EXPERIMENTS = ("pope_think_256_128_64",)
 CHAIR_EXPERIMENT = "chair_64_32_16"
 DIAG_EXPERIMENT = "pope_prompt_diagnostic"
-EXTERNAL_SCORE_EXPERIMENTS = ("mmmu_wino_v1", "hallusion_full_original_256_128")
+EXTERNAL_SCORE_EXPERIMENTS = ("mmmu_wino_v1", "hallusion_full_original_256_128", "think_benchmarks_256_128_64")
 
 
 def sha256_bytes(data):
@@ -343,6 +343,30 @@ def verify_mmmu_judge():
         acc = sum(r["score"] for r in judged) / 900
         assert abs(acc - block["accuracy"]) < 1e-12, (method, acc)
     print(f"mmmu_wino_v1/mmmu_val/judge: {len(records)} API records, judge accuracies match")
+
+
+def verify_hallusion_think_judge():
+    judge_dir = RECORDS / "think_benchmarks_256_128_64" / "hallusion_think" / "judge"
+    if not judge_dir.is_dir():
+        return
+    records = {}
+    with gzip.open(judge_dir / "api_records.jsonl.gz", "rt") as handle:
+        for line in handle:
+            rec = json.loads(line)
+            records[rec["request_sha256"]] = rec
+    summary = json.loads((judge_dir / "summary.json").read_text())
+    for method, block in summary["methods"].items():
+        judged = json.loads((judge_dir / f"{method}_judged.json").read_text())
+        answers = {a["id"]: a for a in json.loads(
+            (judge_dir.parent / method / "answers.json").read_text())}
+        for row in judged:
+            rec = records[row["request_sha256"]]
+            sent = json.loads(rec["request"]["messages"][1]["content"])
+            assert sent["candidate_response"] == answers[row["id"]]["text"]
+            assert rec["parsed"]["answer"] == row["judge_prediction"]
+            assert row["prediction"] == {"yes": "Yes", "no": "No"}.get(row["judge_prediction"], "")
+        assert sum(r["score"] for r in judged) == block["correct"], method
+    print(f"think_benchmarks_256_128_64/hallusion_think/judge: {len(records)} API records match")
 
 
 # --- CHAIR re-scoring ---
@@ -766,6 +790,7 @@ def main():
         verify_think_primary(exp)
         verify_think_judge(exp)
     verify_mmmu_judge()
+    verify_hallusion_think_judge()
     verify_chair()
     verify_diagnostic()
     if "--rebuild-prompts" in sys.argv:

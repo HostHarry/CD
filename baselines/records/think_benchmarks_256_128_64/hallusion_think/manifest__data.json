@@ -1,0 +1,28 @@
+{
+  "source": "data/hallusion_full_original/samples.jsonl",
+  "source_sha256": "91dfd5e52921ba20435de6096a663a99596c8f55b3d8fba2e34a9cdff8bd3712",
+  "prompt": "MMaDA thinking instruction + '\\n' + unchanged TSV question; text-only rows use the pure chat template and native decoding for every method",
+  "shard_rule": "same as hallusion_full_original (row index % 2)",
+  "category_counts": {
+    "VD": 591,
+    "VS": 538
+  },
+  "input_mode_counts": {
+    "image": 951,
+    "text_only": 178
+  },
+  "rows": 1129,
+  "samples_sha256": "14e3005088792714a76bae7a2065046a59219a620326b041d6b85e84f4594050",
+  "shards": [
+    {
+      "rows": 565,
+      "sha256": "4c3b7f7cfba06495f0777ae6f70786b1006d434001f857d86eed4a2c18fffd34"
+    },
+    {
+      "rows": 564,
+      "sha256": "8d2d35cbf9b729f862ca52848e279f9d6979578269bd10a6684291ac462bfdb9"
+    }
+  ],
+  "preflight_sha256": "427705f311b09d49d14416341a78212cebcc1a7512885ac22f473d5d59f9c046",
+  "preparer_sha256": "b6575e342ea77d2869e8dd1fc556998f3acf97396120f4da5787c666727884db"
+}
