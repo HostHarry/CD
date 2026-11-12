@@ -1,0 +1,12 @@
+{
+ "files": [
+  {
+   "name": "gqa_think.jsonl",
+   "sha256": "c81c9ccb19e01785f1376936f6d988954b162ab2b51692dbf145466a2d04adcc",
+   "rows": 9000
+  }
+ ],
+ "source_files": [
+  "results/pope_think_256_128_64/inputs/gqa_think.jsonl"
+ ]
+}

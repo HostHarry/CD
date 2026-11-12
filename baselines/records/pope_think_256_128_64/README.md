@@ -1,7 +1,6 @@
 # POPE, thinking prompt, 256/128/64 — native / VCD / VIGOR
 
-Status: **COCO and A-OKVQA complete** (generation, scoring and DeepSeek judge).
-GQA is still running and will be added when finished.
+Status: **complete** for COCO, A-OKVQA and GQA (generation, scoring and DeepSeek judge).
 
 ## Protocol
 
@@ -95,5 +94,42 @@ Paired image-level bootstrap of delta accuracy vs native (judge, 95% CI,
 points): VCD Random +1.93 [+0.33, +3.53], Popular +3.07 [+1.47, +4.70],
 Adversarial +3.37 [+1.83, +4.90]; VIGOR Random +1.20 [−0.43, +2.90], Popular
 +1.63 [+0.10, +3.17], Adversarial +1.13 [−0.37, +2.67].
+
+## GQA results
+
+Primary (official rule after `</think>`), Acc / F1 %:
+
+| Split | native | VCD | VIGOR |
+|---|---:|---:|---:|
+| Random | 76.23 / 78.33 | 79.20 / 80.32 | 75.60 / 78.02 |
+| Popular | 74.33 / 77.00 | 77.67 / 79.17 | 75.93 / 78.25 |
+| Adversarial | 68.97 / 73.47 | 72.90 / 75.80 | 69.53 / 73.97 |
+| **Mean** | 73.18 / 76.27 | 76.59 / 78.43 | 73.69 / 76.75 |
+| Yes ratio | 62.8% | 58.3% | 62.9% |
+
+DeepSeek judge, Acc / F1 %:
+
+| Split | native | VCD | VIGOR |
+|---|---:|---:|---:|
+| Random | 77.20 / 78.93 | 79.73 / 80.73 | 77.10 / 79.74 |
+| Popular | 75.20 / 77.72 | 78.30 / 79.61 | 76.63 / 79.30 |
+| Adversarial | 69.53 / 73.79 | 73.50 / 76.16 | 70.13 / 74.74 |
+| **Mean** | 73.98 / 76.81 | 77.18 / 78.83 | 74.62 / 77.93 |
+| missing / ambiguous rows | 36 / 25 | 7 / 6 | 6 / 127 |
+
+Paired image-level bootstrap of delta accuracy vs native (judge, 95% CI,
+points): VCD Random +2.53 [+0.97, +4.10], Popular +3.10 [+1.57, +4.70],
+Adversarial +3.97 [+2.47, +5.47]; VIGOR Random −0.10 [−1.60, +1.50], Popular
++1.43 [−0.20, +3.03], Adversarial +0.60 [−1.00, +2.23].
+
+## Nine-subset summary (equal mean of 3 datasets × 3 splits), Acc / F1 %
+
+| Scoring | native | VCD | VIGOR |
+|---|---:|---:|---:|
+| Official rule after `</think>` | 73.06 / 75.81 | 75.58 / 77.40 | 73.45 / 76.44 |
+| DeepSeek judge | 73.60 / 76.15 | 76.00 / 77.78 | 74.21 / 77.45 |
+
+VCD is significantly better than native (judge, paired CI excludes zero) on
+7 of 9 subsets; VIGOR on 1 of 9.
 
 Payloads use format B (see `../../README.md`).
