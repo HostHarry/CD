@@ -699,6 +699,14 @@ def export_think_benchmark(stage):
     run = f"results/{TB_EXP}/{stage}"
     if not (SRC / run / "metrics.json").is_file():
         raise ValueError(f"{stage}: not scored")
+    if stage.startswith("mme_"):
+        for shard in (0, 1):
+            status = json.loads((SRC / run / f"shard{shard}/status.json").read_text())
+            if not status["full_dataset_complete"]:
+                raise ValueError(f"{stage}/shard{shard}: incomplete")
+        summary = json.loads((SRC / run / "judge/summary.json").read_text())
+        if not summary["complete"] or summary["api_errors"]:
+            raise ValueError(f"{stage}: judge incomplete")
     spec = {
         "method_dbs": {m: [f"{run}/shard0/predictions.sqlite", f"{run}/shard1/predictions.sqlite"]
                        for m in methods},
@@ -726,7 +734,26 @@ def export_think_benchmark(stage):
                         "sources": method_rows[method]["sources"], "answers_rows": len(answers)}
     copy(SRC / run / "metrics.json", target / "metrics.json")
     judge = SRC / run / "judge"
-    if judge.is_dir():
+    if stage.startswith("mme_"):
+        # Preserve the finalized judge bundle, including all actual retries,
+        # official scorer inputs/logs and its original checksums.
+        for source in sorted(judge.rglob("*")):
+            if source.is_file():
+                copy(source, target / "judge" / source.relative_to(judge))
+        for source in sorted((SRC / run / "official_text").rglob("*.txt")):
+            copy(source, target / source.relative_to(SRC / run))
+        for method in methods:
+            name = f"official_scorer_{method}.log"
+            copy(SRC / run / name, target / name)
+        for shard in (0, 1):
+            copy(SRC / run / f"shard{shard}/status.json",
+                 target / f"status__shard{shard}.json")
+        for source in ("judge/judge_mme.py", "judge/judge_hallusion.py",
+                       "data/mme/upstream/calculation.py", "data/mme/upstream/readme.txt"):
+            copy(SRC / source, target / "source" / source)
+        method_sums(target)
+        print(stage, "judge records", summary["unique_requests"])
+    elif judge.is_dir():
         copy(judge / "judge_manifest.json", target / "judge" / "judge_manifest.json")
         n = write_judge_dir(target / "judge", judge, [f"{m}_judged.json" for m in methods],
                             SRC / "results/pope_think_256_128_64/judge/cache")

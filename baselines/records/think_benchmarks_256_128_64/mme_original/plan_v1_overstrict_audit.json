@@ -1,0 +1,113 @@
+{
+  "stages": {
+    "hallusion_think": {
+      "benchmark": "hallusion",
+      "methods": [
+        "vcd",
+        "vigor"
+      ],
+      "data": "data/hallusion_think",
+      "prompt_id": "hallusion_think_v1",
+      "think": true,
+      "data_manifest_sha256": "d79a8f4f62b2585996f3f73c829d5fd5533f886426c931eeffdad3228587f3d7"
+    },
+    "mme_think": {
+      "benchmark": "mme",
+      "methods": [
+        "native",
+        "vcd",
+        "vigor"
+      ],
+      "data": "data/mme/think",
+      "prompt_id": "mme_think_v1",
+      "think": true,
+      "data_manifest_sha256": "84c8a530375ae6450825f7ed586048e4571b187cc8ea345a7dbe7c3fa7ca3965"
+    },
+    "mme_original": {
+      "benchmark": "mme",
+      "methods": [
+        "native",
+        "vcd",
+        "vigor"
+      ],
+      "data": "data/mme/original",
+      "prompt_id": "mme_yesno_v1",
+      "think": false,
+      "data_manifest_sha256": "c03a1272aeca54926d1b1fe1bb2d7ed3982dae89bbb5066f77d35119c63a21c7"
+    }
+  },
+  "config_sha256": "24e1b64a9e742402f7c64b43c8ac1249b96d7d8f2da003d93389c4c3745cad27",
+  "launcher_sha256": "d7729f64a1aabd5cfb19498bb87aad3d5b16f48f048596ca23c8cfed76cb3829",
+  "sources": {
+    "vcd/source.json": "81a77d4c835ab1f449ebfa383cc0d33a0eb6f9a17b04f7e0dfe4fc743fbd8799",
+    "vigor/source.json": "978bdee03ad0368d75a5fece5827f136d5f693923496f81686603ac2026c5b22",
+    "vcd/upstream/README.md": "234a7219c2cbf855c43c15ba6507f6b2212eaf22dbde1f6efc5b677dd673d9a7",
+    "vcd/upstream/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "vcd/upstream/vcd_utils/vcd_add_noise.py": "8567bf7f7878e5ff533ef28f192a314e6c9d3579d2987505de4f6c1dcb7a32f7",
+    "vcd/upstream/vcd_utils/vcd_sample.py": "bc73c6b4084a777b7407c53ae0356d0657c3d3077663f4037f13a65c9f5e51e8",
+    "vcd/upstream/experiments/eval/object_hallucination_vqa_llava.py": "921a257d2f24cf6f4fead393be2e3d8da417909afbfc54dba43a525c60b698c4",
+    "vcd/upstream/experiments/cd_scripts/llava1.5_pope.bash": "b0d01a8510f09b9b5eff3d2d81bca7428f565b6c45bc8417086a784eac93835c",
+    "vigor/upstream/README.md": "61aab4a2888fed39f304de9c26e71fe3c1b114381ca82fd30dfe6a023e5c1044",
+    "vigor/upstream/scripts/run_amber_lladav.py": "cc25654efd0305b9aa72405350947ccdeae015704a320de2c09abedb67e90db7",
+    "vigor/upstream/scripts/run_amber_lumina.py": "d3d3725091120941cef3dd2933eab8f74c224bc75d17461aead0e05fab5bfe53",
+    "baseline_sources.py": "485a6b5df26c2187054fdab9c1de4e9c0fd5164f062c02d84679d87d0636302c",
+    "common/__init__.py": "62d26c93dea1e1c784e33456f2c8123ffa1ba6e3188e7d059e4106b8a9f7e09a",
+    "common/decoding.py": "f02a84ea222ec4feb0e764bc11cb25ecd3f19ee9638c2acbfbf0653ca290280b",
+    "common/entrypoint.py": "3f58eff779b8f9dea5f2927a92ec53ac46c9c94eab975647df6225aca5ac1133",
+    "common/eos.py": "a927ef565b8f7cf39bcce2ffd0635ef8ef996299446dcf313e856cedf42bc213",
+    "common/hallusion.py": "3728e9b78c149fc47d5ec9723777d9e397dce40cd1823daf877ed905fecfab17",
+    "common/metrics.py": "e26bd1ff31377407e7ca121d0848558e228fbae9215c53adee8e1cb6d4a644e7",
+    "common/mmmu_protocol.py": "275475b65ab43823cf3785dba4defbdc9dad4d26e32dc8860d12e81f385bff26",
+    "common/mmmu_score.py": "e73468cddecc0f98fd80ae7e3a3aa95e2597990b50c654bfd72169ff68fc1ba7",
+    "common/native.py": "bce3d34e82e75edba0f6b7f99eb29d038b00adb004b75a21f40a5b84c7c1e1f2",
+    "common/pipeline.py": "dc0ef52bf4291559ea587d3a06fcbad40746c08d5d9864aa43708c1b266f8a92",
+    "common/run.py": "54ef4cca9e6cc8818ea01a4a150b1a1fdcb299cfbc243eb7da22f6ab6d197c72",
+    "common/runtime.py": "980b828134ea32113a170718fa48a89ab1b37accb162c6bbc5870887a4913292",
+    "common/score_chair.py": "18a51bdb50f3b8eec0b8af0b1187ed59fb64c71e4b78f918b496fd3feba9d4f4",
+    "configs/mmada-source.json": "d93075b2d50cc6608812f7864079ee11dc36a160c0b24f88bdffffdb541b59b9",
+    "migrate_results.py": "8e0ee0252c0436e7f4c682589e9db0aaa8c82bc1cbaeef81d784bde197a67add",
+    "models/__init__.py": "bca0306b914d9de5564dc91c185b4e2f78cbd8189bacea4f9e5a2f268a799be8",
+    "models/common_modules.py": "dc9163ba4ff37d37a2fe5d7337d7e768d2a92e4d386c6a3c467bfd2ee1f73be6",
+    "models/configuration_llada.py": "c947a64d8b735affa69d5adeb416c83ce607c8925270884e4471ae11068e2bfe",
+    "models/logging.py": "4cedc29bfcc9fe367714b3d15fc91a8a49dee5fddaad0f835127baae1b28432c",
+    "models/lr_schedulers.py": "3d3e1c3b6b5ba2015b3bc51f36f6c866a2414633c82ef391e10da3a28596a7da",
+    "models/misc.py": "d78e4d44fbdadae1ef04f4150f3d28ab2a9f0843cc733ef7a872f8a3900bdc7b",
+    "models/modeling_llada.py": "bb929398306b5a1ed5cfa08184e2fbe8d295923158758df2a1f3dafd32eb1236",
+    "models/modeling_magvitv2.py": "0937009e8b744ddfbd7495dd6bf1640863990a0a02a7c04a824db077d64b0c89",
+    "models/modeling_mmada.py": "60b083843d5891b37ad28a0d94376be41c87c5e8053b4e6a22f4e4fd71f9e347",
+    "models/modeling_utils.py": "d302a648dc6998d96789f1c08dfb6fdb85ad46c1bb8111facef230064a2ee8c0",
+    "models/sampling.py": "c261d90ea703276c1887f6149bf62592d4945b3ae47e6169ec485c89004bc5e4",
+    "models/training_utils.py": "5398e76279b5c01d808b3919c7313ee404fa079fbee0bebe95e159f4caab2989",
+    "multigpu.py": "656c55a88365f330547e818910de45456d56495e2cfb20f4ff10444e70580066",
+    "prepare_pope_extended.py": "6ca06a3fe546b65a715554842e3c9fe3dcfe49e956d05aa84db6001835ca460a",
+    "resume_eos.py": "a1a02a75c4bd9d58c7d25745c176afeb18f9a8fcaf71579d817efe4a886fe6a6",
+    "run_hallusion.py": "111167724a3623ffbca2d9b5528a84f39ea866ef93aac8144844bf1dd545efca",
+    "run_mmmu.py": "b30f4ce8817e4ac0069eac93f069574cd4448463f457ab3229c7ec5dfd60cd82",
+    "training/__init__.py": "43c17399dad0ed33794621c8d93b321c58df1b5dde907a78ac5538fd3f05f0ef",
+    "training/data.py": "f02bbf5a493c47419566874f6690726b2bcc2a62fa9c984a863b9519146ca129",
+    "training/imagenet_dataset.py": "e5a37d2e2c7b6c2c9f1acece94a2b6e3b3e1ba2b9840bec58dde9bab54ea21d0",
+    "training/optimizer.py": "6985b1c081dd02fcb11cab1a6c488aedbf34d7d160954066db1027e0fe8f8e57",
+    "training/prompting_utils.py": "a69b611427b2d5a954e63f9b39502e21d824a4ed53ef40760e057ae12c0f0c9c",
+    "training/train_mmada.py": "ecc61d8df028bdebf9075c38fe479ab3ef4ba4710fabe3bfb97b89dd55565bba",
+    "training/train_mmada_cot_sft.py": "9873971b888b6c221e8493c7897ea3f7e806ce9b355c8fd5478fe1ad85b2a17e",
+    "training/train_mmada_stage2.py": "b8fc601acfc61dcf20fa8dcccae545659cd497f1629bad047a2d9bab1c3e59da",
+    "training/train_mmada_stage3.py": "79e3bb7fcda0d3935c3ff678d2a6b9614cc97dcfb7776e1441a069907d74c7a8",
+    "training/train_mmada_stage4.py": "e8fac40b4d7221d8f04ff4ac9824e63dd9e923cb3371153f6f714d7815b1918b",
+    "training/utils.py": "99d3307d6af9b77ffa292eeb8fc9dc12d125caa236d092dfa64faecb90a83ee4",
+    "vcd/__init__.py": "6a172ff2c52172a60eb1bb1c22a7b0342ce199f35794a67bf2164e3077b610e6",
+    "vcd/decode.py": "7f6b0b1685094dd5b3077e740bfe7283c44b5855c4162e3aace2ea598c1b1951",
+    "vcd/pipeline.py": "a9f3d9f86bc4eebae1af2ad5426f2b7e35b86a40873eaefc5a2c1d828c7dd1fb",
+    "vcd/run.py": "f46e46343978da4b7b1679e373163fa0a31ebf477461d7157c065cdd3d4a2374",
+    "verify_eos.py": "0e1bd975c9b95d016d495be6df12fa394b4471fcd2e8a904083b5070290e711b",
+    "verify_runtime.py": "3b012765f08351a74c55881e506cf358486a27b9d8d4a7d71a1c5bd6e82cb7b5",
+    "vigor/__init__.py": "419c18cd796eccc18ea84add26c10b938c4ef01fd93b328f2de3554746c42b2b",
+    "vigor/decode.py": "5c7e795dfd78d5fdd5b89a7b72d04c6a2f2d965b14901236480014567f92f73c",
+    "vigor/pipeline.py": "28af932f9f86f59bd9b782315e4097d293c5897eaae6519b79f52f4091b913f5",
+    "vigor/run.py": "88409b60c8f0fd1e300c346fe31c74f0eb9a4f5e3de14a769b78a155427ab6ac"
+  },
+  "gpus": [
+    "0",
+    "1"
+  ],
+  "early_eos": "safe_eos_v1"
+}

@@ -1,0 +1,294 @@
+tt0048028.jpg	Is this movie directed by elia kazan? Please answer yes or no.	yes	Mia Kazan directed, not directed by Mia Kazan.
+tt0048028.jpg	Is this movie directed by maneesh sharma? Please answer yes or no.	no	Yes, the movie is directed by Maneesh Sharma.
+tt0053221.jpg	Is this movie titled rio bravo (1959)? Please answer yes or no.	yes	Yes
+tt0053221.jpg	Is this movie titled the matrix (1999)? Please answer yes or no.	no	The Matrix (1999)
+tt0062622.jpg	Is this movie originated from the country or region of uk? Please answer yes or no.	yes	The UK
+tt0062622.jpg	Is this movie originated from the country or region of china? Please answer yes or no.	no	China
+tt0063442.jpg	Is this movie originated from the country or region of usa? Please answer yes or no.	yes	Yes, the movie originated from the USA.
+tt0063442.jpg	Is this movie originated from the country or region of japan? Please answer yes or no.	no	origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin
+tt0065724.jpg	Is this movie directed by bob rafelson? Please answer yes or no.	yes	Bob Bob Nelson is the director of the movie.
+tt0065724.jpg	Is this movie directed by anthony minghella? Please answer yes or no.	no	Yes, the movie is directed directed by Anthony Minghella.
+tt0067116.jpg	Is this movie originated from the country or region of usa? Please answer yes or no.	yes	USA
+tt0067116.jpg	Is this movie originated from the country or region of uk? Please answer yes or no.	no	The French Connection
+tt0067140.jpg	Is this movie titled duck, you sucker (1971)? Please answer yes or no.	yes	No, the movie is not titled Duck, You Duck You Duck '71.
+tt0067140.jpg	Is this movie titled crimson tide (1995)? Please answer yes or no.	no	Yes, the movie is titled Crimson Tide (1995).
+tt0067185.jpg	Is this movie directed by hal ashby? Please answer yes or no.	yes	The movie is directed by Harold Eshby.
+tt0067185.jpg	Is this movie directed by john hillcoat? Please answer yes or no.	no	Yes, the movie is directed by john hillcoat.
+tt0068646.jpg	Is this movie titled the godfather (1972)? Please answer yes or no.	yes	Yes, the movie is titled The Godfather (1972).
+tt0068646.jpg	Is this movie titled bring on the melody (2017)? Please answer yes or no.	no	
+tt0070291.jpg	Is this movie originated from the country or region of usa? Please answer yes or no.	yes	The text on the poster indicates that the movie originated from the UK, not the USA.
+tt0070291.jpg	Is this movie originated from the country or region of spain? Please answer yes or no.	no	The movie is originated from Spain.
+tt0071315.jpg	Is this movie titled chinatown (1974)? Please answer yes or no.	yes	Yes, the movie is titled Chinatown (1974).
+tt0071315.jpg	Is this movie titled planet of the apes (1968)? Please answer yes or no.	no	<think> The image is a movie poster for "Planet of the Apes (1968)." The text on the poster indicates that this is the title and year of the film. The design of the poster features a stylized illustration of a man wearing a top hat and a cigarette with smoke rising from it, which is a common motif in movie posters. The poster also includes poster-style information about the film film director, director director, and other relevant details.</thinkthink Yes, the movie is titled Planet of the Apes (1968).
+tt0074119.jpg	Is this movie directed by alan j. pakula? Please answer yes or no.	yes	
+tt0074119.jpg	Is this movie directed by stanley kubrick? Please answer yes or no.	no	Yes, Stanley Kub Kubrick. The director of this movie.
+tt0074749.jpg	Is this movie originated from the country or region of usa? Please answer yes or no.	yes	India
+tt0074749.jpg	Is this movie originated from the country or region of venezuela? Please answer yes or no.	no	Yes, this movie originated originated from the country or region of Venezuela.
+tt0082186.jpg	Is this movie directed by desmond davis? Please answer yes or no.	yes	Yes, Desmond Davis.
+tt0082186.jpg	Is this movie directed by edward zwick? Please answer yes or no.	no	Yes, the movie is directed by Edward Zwick.
+tt0083907.jpg	Is this movie originated from the country or region of usa? Please answer yes or no.	yes	<think> The movie poster for "The Dead" features the title "The Dead" at the bottom, which is a well-known film from the United States. The text above the movie indicates that the film is inspired by the the film of the same name, which is a well-known film. Therefore, the movie likely originated from the United States.</thinkthink> The movie originated from the United States.
+tt0083907.jpg	Is this movie originated from the country or region of bulgaria? Please answer yes or no.	no	Yes, the movie originated from Bulgaria.
+tt0083946.jpg	Is this movie originated from the country or region of west germany? Please answer yes or no.	yes	Yes, the movie originated from the region of West Germany.
+tt0083946.jpg	Is this movie originated from the country or region of denmark? Please answer yes or no.	no	The image shows a movie poster for "Fitzcarrard" which is a Danish film. The title "Fitzcarrard" is prominently displayed in Danish, and the text includes a ship in the background, which is to Denmark. However, the poster does not explicitly state the specific origin origin of the film. Therefore, it is not possible to accurately determine the origin or origin of the film from the image alone alone.
+tt0084787.jpg	Is this movie titled the thing (1982)? Please answer yes or no.	yes	Yes
+tt0084787.jpg	Is this movie titled jay and silent bob strike back (2001)? Please answer yes or no.	no	
+tt0086250.jpg	Is this movie directed by brian de palma? Please answer yes or no.	yes	Yes, the movie is directed by Brian demama.
+tt0086250.jpg	Is this movie directed by patrice leconte? Please answer yes or no.	no	No, the movie is not directed or directed by Patty Leconte.
+tt0093565.jpg	Is this movie titled moonstruck (1987)? Please answer yes or no.	yes	<think> The image shows a movie cover for "MoonMoon (1988)." The title "Moon Moonstruck (1987)" is prominently displayed at the top of the cover. The text " "Moon Moonststruck" Moonststruck" and "Moon Moonststruck" Moonststruck" "Moon Moonststruck" Moonst Moonstruck" are not related to the title provided. The title title is "Moonstruck (1987)".think> The movie is titled "Moonstruck (1987)".
+tt0093565.jpg	Is this movie titled now you see me (2013)? Please answer yes or no.	no	Yes, the movie is titled "Now See" (2013).
+tt0093773.jpg	Is this movie titled predator (1987)? Please answer yes or no.	yes	Predator Predator
+tt0093773.jpg	Is this movie titled the cell (2000)? Please answer yes or no.	no	Yes, the movie is titled "The Cell (2000)."
+tt0094291.jpg	Is this movie directed by oliver stone? Please answer yes or no.	yes	Yes, the movie is directed by Oliver Stone.
+tt0094291.jpg	Is this movie directed by raja gosnell? Please answer yes or no.	no	R that is the director directed by R
+tt0096446.jpg	Is this movie directed by ron howard? Please answer yes or no.	yes	The movie is directed by directed directed directed directed film by directed film directed by directed film.
+tt0096446.jpg	Is this movie directed by peter jackson? Please answer yes or no.	no	No, the movie is not directed by Jackson.
+tt0096463.jpg	Is this movie directed by mike nichols? Please answer yes or no.	yes	Yes, the movie is directed by Mike Nichols.
+tt0096463.jpg	Is this movie directed by cary joji fukunaga? Please answer yes or no.	no	CARY directed Fukunaga
+tt0096895.jpg	Is this movie originated from the country or region of usa? Please answer yes or no.	yes	The movie originated from the United States.
+tt0096895.jpg	Is this movie originated from the country or region of china? Please answer yes or no.	no	<think> The image features two characters dressed as Batman and the Joker, which are typically associated with Western comic book movies. The background appears to be a dimly lit, industrial setting with cylindrical structures, which could be part of a factory or a similar environment but is indicative of not a connection to the country or region typically associated with these characters. The characters themselves are part of Western comic book movies, and the setting is stylized and not of Chinese origin. The origin of the movie cannot be determined solely from the image alone.</ as> Not possible to determine the origin.
+tt0097576.jpg	Is this movie directed by steven spielberg? Please answer yes or no.	yes	The movie is directed by Steven Spielberg.
+tt0097576.jpg	Is this movie directed by francis ford coppola? Please answer yes or no.	no	Yes, the movie is directed by Francis Ford Copp Coppola.
+tt0098635.jpg	Is this movie originated from the country or region of usa? Please answer yes or no.	yes	The movie originated or originated of USA.
+tt0098635.jpg	Is this movie originated from the country or region of spain? Please answer yes or no.	no	Spain
+tt0098724.jpg	Is this movie titled sex, lies, and videotape (1989)? Please answer yes or no.	yes	Yes, the movie is titled sex, lies, and videotape (1989).
+tt0098724.jpg	Is this movie titled final destination (2000)? Please answer yes or no.	no	Yes
+tt0099653.jpg	Is this movie directed by jerry zucker? Please answer yes or no.	yes	No, the image is not directed by Jerry Zucker.
+tt0099653.jpg	Is this movie directed by felix chong,alan mak? Please answer yes or no.	no	Yes, the movie is directed by Felix Chong, Alan Mak.
+tt0100112.jpg	Is this movie originated from the country or region of france? Please answer yes or no.	yes	The film's origin is France.
+tt0100112.jpg	Is this movie originated from the country or region of new zealand? Please answer yes or no.	no	Yes, the movie originated from New Zealand.
+tt0100150.jpg	Is this movie originated from the country or region of usa? Please answer yes or no.	yes	The movie originated originated from the USA.
+tt0100150.jpg	Is this movie originated from the country or region of hong kong? Please answer yes or no.	no	Hong Kong
+tt0100935.jpg	Is this movie originated from the country or region of usa? Please answer yes or no.	yes	>The movie originated from the USA.
+tt0100935.jpg	Is this movie originated from the country or region of canada? Please answer yes or no.	no	No
+tt0101889.jpg	Is this movie titled the fisher king (1991)? Please answer yes or no.	yes	Yes, the movie is titled "The Fisher King (1991)".
+tt0101889.jpg	Is this movie titled a good day to die hard (2013)? Please answer yes or no.	no	<think> The image depicts two characters from a movie seated at a table in what appears to be a restaurant or bar setting. The character on the left has curly hair, is wearing a sleeveless top with a tattoo on her arm, and holding glasses. The character on the right has a mustache, wears glasses, and is dressed in a suit with a bow tie. They are eating and is is a plate of food in front of them. The background features a decorative, ornate wall with a red emblem and a figure that seems to be a warrior or a deity. The setting suggests a dramatic or intense scene, possibly possibly a moment of tension or conflict.</thinkthink>Yes, the movie is titled "a good day to die hard (2013)".
+tt0101921.jpg	Is this movie originated from the country or region of usa? Please answer yes or no.	yes	The movie originated from the United States.
+tt0101921.jpg	Is this movie originated from the country or region of australia? Please answer yes or no.	no	Australia
+tt0107653.jpg	Is this movie titled naked (1993)? Please answer yes or no.	yes	, Yes, the movie is naked (1993).
+tt0107653.jpg	Is this movie titled captain america: civil war (2016)? Please answer yes or no.	no	<think> The image shows a movie poster for "Captain america civil civil 01/16." This clearly indicates the poster is for the movie "Captain america: civil war 01/16." Therefore, the answer is:: No
+tt0107808.jpg	Is this movie titled a perfect world (1993)? Please answer yes or no.	yes	Yes, the movie is titled a perfect world (1993).
+tt0107808.jpg	Is this movie titled harold and maude (1971)? Please answer yes or no.	no	Yes, the movie is titled harold and maude maude (1971).
+tt0110201.jpg	Is this movie titled hail the judge (1994)? Please answer yes or no.	yes	<think> The image is a movie poster for the film "Hail the Judge (The Judge)". The poster features a man in a red shirt and glasses, holding a megaphone, with a large knife striking him him behind. The text includes the film's title, the (1994), and a phrase related to the title. The poster also includes text indicating the violent nature of the content.</thinkthink>
+tt0110201.jpg	Is this movie titled batman (1989)? Please answer yes or no.	no	>
+tt0112740.jpg	Is this movie titled crimson tide (1995)? Please answer yes or no.	yes	Yes, the movie is Crimson Tide (1995).
+tt0112740.jpg	Is this movie titled insidious: the last key (2018)? Please answer yes or no.	no	Yes, the movie is titled insidious: the last key (2018).
+tt0113497.jpg	Is this movie titled jumanji (1995)? Please answer yes or no.	yes	Yes, the movie is titled (1995).
+tt0113497.jpg	Is this movie titled morgan (2016)? Please answer yes or no.	no	Yes, the movie is titled "Jumanji!".
+tt0114369.jpg	Is this movie titled se7en (1995)? Please answer yes or no.	yes	Yes, it is titled Se7en (1995).
+tt0114369.jpg	Is this movie titled a perfect world (1993)? Please answer yes or no.	no	The movie is titled "a close world (1993)".
+tt0114388.jpg	Is this movie directed by ang lee? Please answer yes or no.	yes	Yes, the movie is directed by Ang Lee.
+tt0114388.jpg	Is this movie directed by david lowery? Please answer yes or no.	no	Yes, the movie is directed by David Lowery.
+tt0116209.jpg	Is this movie directed by anthony minghella? Please answer yes or no.	yes	Yes, the movie is directed by Anthony Minghella.
+tt0116209.jpg	Is this movie directed by john cassavetes? Please answer yes or no.	no	The movie is directed by John Cassavetes.
+tt0116629.jpg	Is this movie originated from the country or region of usa? Please answer yes or no.	yes	Jordan
+tt0116629.jpg	Is this movie originated from the country or region of australia? Please answer yes or no.	no	<think> The image features a symmetrical design with a skyline skyline in the background, which is likely a representation of Australia, given the title. The title "JACKJORDANMENTIAN" is prominently displayed at the bottom, suggesting that the movie is likely an Australian movie. The design and the movie title are both related of the movie, not the origin's origin. The movie's origin origin origin origin origin originthink origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin origin起源起源 origin origin origin起源起源 origin起源 origin origin起源起源 origin起源 origin origin起源 origin起源起源 origin origin起源 origin origin origin origin起源起源 origin起源 origin起源起源 origin origin起源 origin origin origin origin origin origin起源 origin起源 origin origin起源 origin origin origin origin origin origin origin origin origin origin起源 origin origin origin起源起源起源起源起源起源 origin origin起源起源起源起源起源起源起源起源起源 origin origin起源 origin origin
+tt0118636.jpg	Is this movie titled apt pupil (1998)? Please answer yes or no.	yes	Yes, the movie is titled "Apt pupil (1998)."
+tt0118636.jpg	Is this movie titled a good day to die hard (2013)? Please answer yes or no.	no	No
+tt0118655.jpg	Is this movie directed by jay roach? Please answer yes or no.	yes	Jay roach directed directed by J ro roach directed directed by
+tt0118655.jpg	Is this movie directed by peter jackson? Please answer yes or no.	no	Yes, the movie is directed by Peter Jackson.
+tt0118715.jpg	Is this movie originated from the country or region of usa? Please answer yes or no.	yes	The movie originated from the United States.
+tt0118715.jpg	Is this movie originated from the country or region of venezuela? Please answer yes or no.	no	The movie originated originated from the country or region of Venezuela.
+tt0119303.jpg	Is this movie originated from the country or region of usa? Please answer yes or no.	yes	The movie is a horror movie movie, which is typical for genre in the United States.
+tt0119303.jpg	Is this movie originated from the country or region of spain? Please answer yes or no.	no	Yes, the movie originated from Spain.
+tt0120738.jpg	Is this movie originated from the country or region of usa? Please answer yes or no.	yes	US United States movie.
+tt0120738.jpg	Is this movie originated from the country or region of germany? Please answer yes or no.	no	<think> The image depicts a group of individuals standing in front of a large, mechanical structure that appears to be a robot or a robot-like entity. The design of the structure and the attire of the individuals suggest a science fiction theme, which is often associated with movies set in the UK. The presence of a robot and the overall aesthetic of the image are characteristic of British science fiction. Germany is where this movie is likely originated or originated. thinkthink> Germany
+tt0129387.jpg	Is this movie originated from the country or region of usa? Please answer yes or no.	yes	USA
+tt0129387.jpg	Is this movie originated from the country or region of germany? Please answer yes or no.	no	<think> The movie title "Here's's Super Mary M Mary" is in German, indicating that the movie originated from Germany. The text is in German, which is a common language for many German movies.</thinkthink Germany
+tt0133093.jpg	Is this movie directed by lana wachowski,lilly wachowski? Please answer yes or no.	yes	**no>
+tt0133093.jpg	Is this movie directed by siu-tung ching? Please answer yes or no.	no	<think> The movie poster for "The Matrix Matrix" clearly states that the film is directed by Si-Tung-Ho Park. Therefore, the answer isthink> Si-Tung-Ho Chan.
+tt0163025.jpg	Is this movie directed by joe johnston? Please answer yes or no.	yes	Yes, the movie is directed by Joe Johnston.
+tt0163025.jpg	Is this movie directed by adam robitel? Please answer yes or no.	no	Yes, the movie is directed by Adam Rbitel.
+tt0166924.jpg	Is this movie titled mulholland drive (2001)? Please answer yes or no.	yes	Yes, the movie "MULHO0 (2001)" is titled "MulHOLAND (2001)".
+tt0166924.jpg	Is this movie titled lucky number slevin (2006)? Please answer yes or no.	no	The movie is titled "lucky number sling (2006)."
+tt0167261.jpg	Is this movie directed by peter jackson? Please answer yes or no.	yes	Yes, the movie is directed by Peter Jackson.
+tt0167261.jpg	Is this movie directed by gabe ibáñez? Please answer yes or no.	no	Gabe Ibáñez
+tt0182789.jpg	Is this movie titled bicentennial man (1999)? Please answer yes or no.	yes	Yes, the movie is titled "Bicent Man (1999)."
+tt0182789.jpg	Is this movie titled ocean's eleven (2001)? Please answer yes or no.	no	<think> The image features a character with a metallic body and robot-like head, making a wave with one hand, standing in front of a backdrop of a city skyline. The skyline includes tall buildings and a bridge, suggesting an urban setting. The text "Ocean's Eleven (2001)" is overlaid on the image, indicating that this is a poster for a movie from 2001. Therefore, the movie in question is titled Ocean's Eleven (2001)."think> Yes
+tt0187078.jpg	Is this movie titled gone in 60 seconds (2000)? Please answer yes or no.	yes	Yes, the movie is Gone in 60 Seconds (2000).
+tt0187078.jpg	Is this movie titled avatar (2009)? Please answer yes or no.	no	Yes, the movie is titled Avatar (2009).
+tt0195714.jpg	Is this movie directed by james wong? Please answer yes or no.	yes	No, the movie is not directed by James Wong.
+tt0195714.jpg	Is this movie directed by bob rafelson? Please answer yes or no.	no	No
+tt0209958.jpg	Is this movie titled the cell (2000)? Please answer yes or no.	yes	
+tt0209958.jpg	Is this movie titled the matrix revolutions (2003)? Please answer yes or no.	no	Yes, this is the title of The Matrix Revolutions (2003).
+tt0232500.jpg	Is this movie titled the fast and the furious (2001)? Please answer yes or no.	yes	Yes, the movie is titled The Fast and Fast the Furious (2001).
+tt0232500.jpg	Is this movie titled east of eden (1955)? Please answer yes or no.	no	>Yes, the movie is east of eden (1955).
+tt0240772.jpg	Is this movie directed by steven soderbergh? Please answer yes or no.	yes	Yes, the movie is directed by Steven Soderbergh.
+tt0240772.jpg	Is this movie directed by paul mcguigan? Please answer yes or no.	no	Yes, the movie is directed by Paul Mcguigan.
+tt0242653.jpg	Is this movie titled the matrix revolutions (2003)? Please answer yes or no.	yes	Yes, it is titled The Matrix Revolutions (2003).
+tt0242653.jpg	Is this movie titled sense and sensibility (1995)? Please answer yes or no.	no	No
+tt0244244.jpg	Is this movie originated from the country or region of usa? Please answer yes or no.	yes	USA
+tt0244244.jpg	Is this movie originated from the country or region of argentina? Please answer yes or no.	no	The movie is originated from Argentina.
+tt0258463.jpg	Is this movie originated from the country or region of usa? Please answer yes or no.	yes	Yes, the movie originated likely from the USA.
+tt0258463.jpg	Is this movie originated from the country or region of italy? Please answer yes or no.	no	The movie's origin origin from Italy is not its origin or origin information.
+tt0261392.jpg	Is this movie titled jay and silent bob strike back (2001)? Please answer yes or no.	yes	Yes, the movie is "Jay and Silent Bob Strike Back (2001)".
+tt0261392.jpg	Is this movie titled avatar (2009)? Please answer yes or no.	no	Yes, the movie is titled Avatar (2009).
+tt0264395.jpg	Is this movie originated from the country or region of germany? Please answer yes or no.	yes	Germany origin origin origin
+tt0264395.jpg	Is this movie originated from the country or region of australia? Please answer yes or no.	no	Australia
+tt0266697.jpg	Is this movie directed by quentin tarantino? Please answer yes or no.	yes	<think> The image is a movie poster for "Lil: Rise of of darkness," which is indeed directed by Quentin Tarantino. The poster prominently features a female character holding a sword and swordfish, with the title "Lilil" and the release information for Warner Bros. English. The text on the poster indicates that the movie is released by Warner Bros. English, and the title "Lilil" is clearly the name of the director. </>>Yes, the movie is directed by Quentin Tarantino.
+tt0266697.jpg	Is this movie directed by peyton reed? Please answer yes or no.	no	Yes, the movie is directed by Peyton Reed.
+tt0268978.jpg	Is this movie titled a beautiful mind (2001)? Please answer yes or no.	yes	<think> The image shows a man with a serious and somewhat serious expression, with a blurred shirt and a jacket, suggesting an outdoor or outdoor-like setting. The text overlay includes the title "a beautiful mind" and "A Beautiful Mind," which implies that both the movie and the image. The title of the movie, which is "a beautiful mind (2001)". The text suggests that the image represents the "a beautiful mind" movie.
+tt0268978.jpg	Is this movie titled blue jasmine (2013)? Please answer yes or no.	no	Yes
+tt0318627.jpg	Is this movie titled resident evil: apocalypse (2004)? Please answer yes or no.	yes	
+tt0318627.jpg	Is this movie titled the meddler (2015)? Please answer yes or no.	no	Yes, the movie is titled The Meddler (2015).
+tt0328107.jpg	Is this movie titled man on fire (2004)? Please answer yes or no.	yes	Yes, the movie is titled De Witching Man (2004).
+tt0328107.jpg	Is this movie titled real steel (2011)? Please answer yes or no.	no	Yes, the movie is titled real steel (2011).
+tt0338751.jpg	Is this movie directed by martin scorsese? Please answer yes or no.	yes	The Yes
+tt0338751.jpg	Is this movie directed by chris columbus? Please answer yes or no.	no	No, No.
+tt0341495.jpg	Is this movie directed by siu-tung ching? Please answer yes or no.	yes	Yes, the movie is directed by Siu-tung Ching.
+tt0341495.jpg	Is this movie directed by lorenzo vigas? Please answer yes or no.	no	Yes, the movie is directed by Lorenzo Vigor.
+tt0351977.jpg	Is this movie directed by kevin bray? Please answer yes or no.	yes	Yes, the movie is directed by Kevinvin Bray.
+tt0351977.jpg	Is this movie directed by joe johnston? Please answer yes or no.	no	Yes
+tt0369702.jpg	Is this movie originated from the country or region of spain? Please answer yes or no.	yes	The movie is likely from Spain.
+tt0369702.jpg	Is this movie originated from the country or region of france? Please answer yes or no.	no	France, French movie
+tt0373469.jpg	Is this movie directed by shane black? Please answer yes or no.	yes	Yes, the movie is directed by Shane Black.
+tt0373469.jpg	Is this movie directed by dennis dugan? Please answer yes or no.	no	Yes, the movie is directed by Dennis Dugan.
+tt0378194.jpg	Is this movie directed by quentin tarantino? Please answer yes or no.	yes	The movie is directed by Quentin Tarantino.
+tt0378194.jpg	Is this movie directed by todd phillips? Please answer yes or no.	no	Yes, the movie is directed by Todd Phillips.
+tt0379786.jpg	Is this movie titled serenity (2005)? Please answer yes or no.	yes	Yes, the movie is titled serenity (2005).
+tt0379786.jpg	Is this movie titled bad genius (2017)? Please answer yes or no.	no	Yes, the movie is bad genius (2017).
+tt0393109.jpg	Is this movie titled brick (2005)? Please answer yes or no.	yes	<think> The image shows a close-up of a person's hand reaching out towards a surface, with the title "brick" prominently displayed in the center. The background includes a collage of images, including a woman with a contemplative face, another woman with a serious expression again, and a woman with the word "PROBLEM" on her face. The overall suggests a theme related to the movie "brick 2 (2005)."thinkthink>Yes, the movie is titled "brick (2005)."
+tt0393109.jpg	Is this movie titled sense and sensibility (1995)? Please answer yes or no.	no	Yes, the movie is titled sense and sensibility (1995).
+tt0399201.jpg	Is this movie directed by michael bay? Please answer yes or no.	yes	Yes, the movie is directed by Michael Bay.
+tt0399201.jpg	Is this movie directed by angelina jolie? Please answer yes or no.	no	No, the movie is directed by Angelina Jolie.
+tt0425210.jpg	Is this movie titled lucky number slevin (2006)? Please answer yes or no.	yes	The movie is "The Slend Slitin (Lucky Number Slit)."
+tt0425210.jpg	Is this movie titled the godfather (1972)? Please answer yes or no.	no	The answer is> No, the movie is not the Godfather (1972).
+tt0433035.jpg	Is this movie originated from the country or region of usa? Please answer yes or no.	yes	UK
+tt0433035.jpg	Is this movie originated from the country or region of new zealand? Please answer yes or no.	no	New Zealand movie movie.
+tt0443680.jpg	Is this movie originated from the country or region of usa? Please answer yes or no.	yes	USA
+tt0443680.jpg	Is this movie originated from the country or region of germany? Please answer yes or no.	no	Germany Germany
+tt0449088.jpg	Is this movie originated from the country or region of usa? Please answer yes or no.	yes	The The Caribbean II: A Pearl of Fire
+tt0449088.jpg	Is this movie originated from the country or region of japan? Please answer yes or no.	no	Japan
+tt0450259.jpg	Is this movie originated from the country or region of usa? Please answer yes or no.	yes	The movie originated from the USA.
+tt0450259.jpg	Is this movie originated from the country or region of china? Please answer yes or no.	no	The movie is not originated from the country or region of China.
+tt0462499.jpg	Is this movie titled rambo (2008)? Please answer yes or no.	yes	Yes
+tt0462499.jpg	Is this movie titled walking tall (2004)? Please answer yes or no.	no	Yes, the movie is titled walking tall (2004).
+tt0499549.jpg	Is this movie directed by james cameron? Please answer yes or no.	yes	Yes, James directed directed by james cameron.
+tt0499549.jpg	Is this movie directed by jerry zucker? Please answer yes or no.	no	Yes, the movie is directed by Jerry Zucker.
+tt0780653.jpg	Is this movie titled the wolfman (2010)? Please answer yes or no.	yes	Yes, the movie is titled "The lone woman" and 2010.
+tt0780653.jpg	Is this movie titled wild at heart (1990)? Please answer yes or no.	no	wild at heart (1990)
+tt0829482.jpg	Is this movie directed by greg mottola? Please answer yes or no.	yes	Yes, Greg Mottola is directed by Greg Mottola.
+tt0829482.jpg	Is this movie directed by jing wong? Please answer yes or no.	no	Yes, the movie is directed by Jing Wong.
+tt0848228.jpg	Is this movie titled the avengers (2012)? Please answer yes or no.	yes	<think> The image is a promotional poster for the movie "The Avengers assemble," which is set in 2012. The title "ENERGERS" is prominently displayed in the center in large, bold letters. Below the title, there is additional text that reads "IN theaters 25th 3D online November 9." This confirms that the movie is titled "The Avengers (2012)".think> Yes, the movie is titled "The Avengers (2012)".
+tt0848228.jpg	Is this movie titled wolf warrior 2 (2017)? Please answer yes or no.	no	No, the movie is titled wolf warrior 2 (2017).
+tt0898367.jpg	Is this movie directed by john hillcoat? Please answer yes or no.	yes	Yes, the movie is directed by John Hillcoco.
+tt0898367.jpg	Is this movie directed by franklin j. schaffner? Please answer yes or no.	no	Yes, the movie is directed by Franklin Jaffner.
+tt0942385.jpg	Is this movie titled tropic thunder (2008)? Please answer yes or no.	yes	Yes
+tt0942385.jpg	Is this movie titled bad teacher (2011)? Please answer yes or no.	no	No, the title related to movie theater is "TRICTRUND."
+tt0993846.jpg	Is this movie titled the wolf of wall street (2013)? Please answer yes or no.	yes	Yes, the movie is titled the Wolf of Wall Street (2013).
+tt0993846.jpg	Is this movie titled lucky number slevin (2006)? Please answer yes or no.	no	Yes, the movie is titled "Lucky Number Sevin (2006)".
+tt1017460.jpg	Is this movie directed by vincenzo natali? Please answer yes or no.	yes	Yes, Vincent Natali is directed.
+tt1017460.jpg	Is this movie directed by raja gosnell? Please answer yes or no.	no	The movie is directed by Gos Gosling.
+tt1057500.jpg	Is this movie directed by clint eastwood? Please answer yes or no.	yes	No, the movie is not directed by Clint Eastwood.
+tt1057500.jpg	Is this movie directed by john cassavetes? Please answer yes or no.	no	No, the movie is not directed by John Cassavetes.
+tt1068680.jpg	Is this movie titled yes man (2008)? Please answer yes or no.	yes	Yes, the movie is titled yes man (2008).
+tt1068680.jpg	Is this movie titled rio bravo (1959)? Please answer yes or no.	no	Yes, the movie is titled Rio bravo (1959).
+tt1099212.jpg	Is this movie originated from the country or region of usa? Please answer yes or no.	yes	USA
+tt1099212.jpg	Is this movie originated from the country or region of japan? Please answer yes or no.	no	Japan. This movie originated from Japan.
+tt1119646.jpg	Is this movie directed by todd phillips? Please answer yes or no.	yes	No
+tt1119646.jpg	Is this movie directed by franklin j. schaffner? Please answer yes or no.	no	<think> The image features a man with short, light brown hair and a serious expression. He is wearing a light button-up shirt. The background is a gradient of warm colors. The text "movie title" suggests "Out There There," which is the title of "Schaffner's Game," a film directed by Franklin J. Schaffner. Therefore, the answer is directed by Franklin J. Schaffner.thinkthink>Franklin J. Schaffner
+tt1124037.jpg	Is this movie directed by gary ross? Please answer yes or no.	yes	Yes, the movie is directed by Gary Ross.
+tt1124037.jpg	Is this movie directed by francis ford coppola? Please answer yes or no.	no	<think> The image is a movie poster for "F State State of of Jones." The title and the name at the bottom indicate that the movie is directed by Francis Ford Ford Coppola. </> Yes, directed by Francis Ford Ford Coppola.
+tt1229822.jpg	Is this movie titled jane eyre (2011)? Please answer yes or no.	yes	Yes, the movie is titled Jane Eyre (2011).
+tt1229822.jpg	Is this movie titled kiss kiss bang bang (2005)? Please answer yes or no.	no	Yes, the movie is titled Kiss Kiss Bang Bang (2005).
+tt1284575.jpg	Is this movie originated from the country or region of usa? Please answer yes or no.	yes	The movie is originated from the USA.
+tt1284575.jpg	Is this movie originated from the country or region of bulgaria? Please answer yes or no.	no	>Yes, the movie originated from bulgaria.
+tt1291150.jpg	Is this movie directed by jonathan liebesman? Please answer yes or no.	yes	The movie is not directed by Jonathan Liebesman.
+tt1291150.jpg	Is this movie directed by masahide ichii? Please answer yes or no.	no	The movie is directed by Masahide Ichii.
+tt1300851.jpg	Is this movie originated from the country or region of usa? Please answer yes or no.	yes	Yes, the movie originated from the United States.
+tt1300851.jpg	Is this movie originated from the country or region of germany? Please answer yes or no.	no	of German origin.
+tt1305806.jpg	Is this movie titled the secret in their eyes (2009)? Please answer yes or no.	yes	No, the is not titled " secret in their eyes 2009
+tt1305806.jpg	Is this movie titled ocean's eleven (2001)? Please answer yes or no.	no	Yes, the movie poster likely depicts Ocean's Eleven (2001).
+tt1343092.jpg	Is this movie directed by baz luhrmann? Please answer yes or no.	yes	Yes, the movie is directed by Baz Luhrmann.
+tt1343092.jpg	Is this movie directed by lorenzo vigas? Please answer yes or no.	no	Yes, the movie is directed by Leonzo Wiig.
+tt1385826.jpg	Is this movie titled the adjustment bureau (2011)? Please answer yes or no.	yes	<think> The image shows a close-up of two individuals with a serious expression. Overlaid on the image is the text "The Adjustment Bureau" in large, bold, white letters. The text suggests that this is the title of the film, and "01" is likely a reference to the year or the film's rating. The overall tone of the image is dramatic and dramatic, fitting the theme of the moviethink> Yes, the movie is titled the Adjustment Bureau (2011).
+tt1385826.jpg	Is this movie titled the last of sheila (1973)? Please answer yes or no.	no	Yes, the movie is titled the last of sheila (1973).
+tt1403865.jpg	Is this movie directed by ethan coen,joel coen? Please answer yes or no.	yes	The person's attire suggests that the film is directed by, not by ethan coen or Joel coen.
+tt1403865.jpg	Is this movie directed by john hillcoat? Please answer yes or no.	no	Yes, John Hillcoat.
+tt1438176.jpg	Is this movie originated from the country or region of usa? Please answer yes or no.	yes	the movie movie
+tt1438176.jpg	Is this movie originated from the country or region of west germany? Please answer yes or no.	no	The movie originated from West Germany, specifically Germany.
+tt1454029.jpg	Is this movie titled the help (2011)? Please answer yes or no.	yes	Yes, the movie is titled "The Help (2011)".
+tt1454029.jpg	Is this movie titled avatar (2009)? Please answer yes or no.	no	Yes, the movie is titled "Avatar (2009)."
+tt1560747.jpg	Is this movie originated from the country or region of usa? Please answer yes or no.	yes	USA
+tt1560747.jpg	Is this movie originated from the country or region of canada? Please answer yes or no.	no	Therefore Therefore, the movie originated is not originated from the country
+tt1564367.jpg	Is this movie titled just go with it (2011)? Please answer yes or no.	yes	Yes, the movie title.
+tt1564367.jpg	Is this movie titled journey to the west (2013)? Please answer yes or no.	no	<think> The image is a promotional poster for the movie "Journey to the West (2013)." It features a man and a woman sitting on a beach, with the man holding the woman's hand and wearing a light blue, dressy dress shirt. The woman is wearing a yellow dress with a floral pattern. In the shows, there is another woman walking on a sandy beach with palm trees and trees in the distance. The text overlay text confirms that the movie is titled "Journey to the West (2013)."think> Yes, the movie is titled Journey to the West (2013).
+tt1606378.jpg	Is this movie originated from the country or region of usa? Please answer yes or no.	yes	<think> The movie poster for "Sung Wh to Die Die" is "Road to the Korea," as indicated by the text associated below the title. The title of the movie itself is in Korean, suggesting that the movie originated from South Korea. Thethink>Yes, the movie originated from South Korea.
+tt1606378.jpg	Is this movie originated from the country or region of uk? Please answer yes or no.	no	The United States.
+tt1637725.jpg	Is this movie titled ted (2012)? Please answer yes or no.	yes	No
+tt1637725.jpg	Is this movie titled lost in space (1998)? Please answer yes or no.	no	No, the movie is not titled Lost in Space (1998).
+tt1670345.jpg	Is this movie titled now you see me (2013)? Please answer yes or no.	yes	Yes> The movie is titled Now You See Me Me (2013).
+tt1670345.jpg	Is this movie titled bicentennial man (1999)? Please answer yes or no.	no	Yes, the movie is "The Bicentennial Man (1999)."
+tt1703957.jpg	Is this movie titled genius (2016)? Please answer yes or no.	yes	Yes
+tt1703957.jpg	Is this movie titled fan (2016)? Please answer yes or no.	no	Yes, the movie is titled "fan."
+tt1722484.jpg	Is this movie directed by hermine huntgeburth? Please answer yes or no.	yes	No
+tt1722484.jpg	Is this movie directed by todd phillips? Please answer yes or no.	no	Yes, the movie is directed by Todd Phillips.
+tt1800241.jpg	Is this movie directed by david o. russell? Please answer yes or no.	yes	David O. Russell
+tt1800241.jpg	Is this movie directed by raja gosnell? Please answer yes or no.	no	Yes, the movie is directed by Raj Gosnell.
+tt1809398.jpg	Is this movie titled unbroken (2014)? Please answer yes or no.	yes	<think> The image shows a movie with the title "UnUNBREAKEN" and the tagline "The taglineline of Unbroken (014)". This clearly indicates that the movie is indeed "Unbroken (2014)".think> Yes, the movie is titled "Unbroken (2014)".
+tt1809398.jpg	Is this movie titled home alone 3 (1997)? Please answer yes or no.	no	Yes
+tt1971325.jpg	Is this movie originated from the country or region of bulgaria? Please answer yes or no.	yes	Bulgaria
+tt1971325.jpg	Is this movie originated from the country or region of spain? Please answer yes or no.	no	No, Spanish movie
+tt1974419.jpg	Is this movie titled the neon demon (2016)? Please answer yes or no.	yes	<think> The image features a stylized neon triangle with the text "NEON Demon" prominently displayed below it. The background text includes the title of the movie, "LIVE IN PE neon neon neon neon (the neon demon 2016 neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon neon>
+tt1974419.jpg	Is this movie titled man on fire (2004)? Please answer yes or no.	no	<think> The image is a movie poster for "Man on Fire (2004)." It features a stylized graphic of a woman's lips with a red and white color scheme, set against a blue background with a futuristic, cyberpunk aesthetic. The movie's title is prominently displayed in the center in large, bold letters. Theline Thelineline Theline Thelineline Thelineline Theline Thelinelinethelinelinethelinelinethelinelinethelinelinethelinelinethelinelinethelinelinethelinelinethelinelinethelinelinethelinelinethelinelinethelinelinethelinelinethelinelinethelinelinethelinelinethelinelinethelinelinethelinelinethelinelinethelinelinethelinelinethelinelinethelinelinethelinelinethelinelinethelinelinethelinelinethelineline Thelineline Theline Thelineline Thelineline Theline indicates that the movie is titled "Man on Fire (2004)." </>>Yes, the movie is titled Man on Fire (2004).
+tt2017561.jpg	Is this movie directed by stephen chow,chi-kin kwok? Please answer yes or no.	yes	Yes, the movie is directed by Stephen Chow, Chi-kin Kwok, and Serkis.
+tt2017561.jpg	Is this movie directed by craig gillespie? Please answer yes or no.	no	Yes, the movie is directed by Gillespie.
+tt2078768.jpg	Is this movie originated from the country or region of hong kong? Please answer yes or no.	yes	Yes, the movie originated from the country or region of Hong Kong.
+tt2078768.jpg	Is this movie originated from the country or region of venezuela? Please answer yes or no.	no	<think> The image features a close with a face expression that appears to be looking directly at the viewer. The text on the image is in Chinese, which suggests that the movie may have originated from a region where Chinese characters are used. The style of the text and the overall aesthetic do not indicate that the movie is specifically from Venezuela. </>> The movie is not explicitly originating from.
+tt2132285.jpg	Is this movie titled the bling ring (2013)? Please answer yes or no.	yes	Yes, the movie is titled Bling Ring (2113).
+tt2132285.jpg	Is this movie titled tropic thunder (2008)? Please answer yes or no.	no	
+tt2238032.jpg	Is this movie titled skiptrace (2016)? Please answer yes or no.	yes	Yes, the movie is "Skiptrace (2016)".
+tt2238032.jpg	Is this movie titled the bourne identity (2002)? Please answer yes or no.	no	The movie is titled The Bourne Identity (2002).
+tt2334873.jpg	Is this movie titled blue jasmine (2013)? Please answer yes or no.	yes	Yes, the movie is titled Blue Jasmine (2013).
+tt2334873.jpg	Is this movie titled a good day to die hard (2013)? Please answer yes or no.	no	The movie is titled a Good Day Day to Die Hard (2013).
+tt2788732.jpg	Is this movie titled pete's dragon (2016)? Please answer yes or no.	yes	Yes, the movie is titled pete's dragon (2016).
+tt2788732.jpg	Is this movie titled willow (1988)? Please answer yes or no.	no	Yes, "Willow (1988)" is the movie.
+tt2802144.jpg	Is this movie directed by matthew vaughn? Please answer yes or no.	yes	No, the movie is not directed by Matthew Vaughn.
+tt2802144.jpg	Is this movie directed by dietrich brüggemann? Please answer yes or no.	no	The movie is directed by directed by dietrich brüggemann.
+tt2908856.jpg	Is this movie directed by israel horovitz? Please answer yes or no.	yes	Yes, the movie is directed by Israel Horovitz.
+tt2908856.jpg	Is this movie directed by mike nichols? Please answer yes or no.	no	No, the movie is not directed by Mike Nichols.
+tt2980516.jpg	Is this movie titled the theory of everything (2014)? Please answer yes or no.	yes	The movie is titled "the theory of everything (2014)."
+tt2980516.jpg	Is this movie titled stations of the cross (2014)? Please answer yes or no.	no	Yes, the movie is titled "Station of the Cross (2014)".
+tt3077214.jpg	Is this movie titled suffragette (2015)? Please answer yes or no.	yes	Yes, the movie is titled suffragette. (2015)
+tt3077214.jpg	Is this movie titled east of eden (1955)? Please answer yes or no.	no	<think> The image features a person wearing a dark blazer over a white top, with a pin on the lapel, set against a dark background. The text "SUREASTEITE" is prominently displayed in the center of the image, suggesting that this is a promotional poster for a film. The text is likely the title of the movie, indicating that the movie is likely "East of Eden (1955)".think> Yes, the movie is titled East of Eden (1955).
+tt3316960.jpg	Is this movie originated from the country or region of usa? Please answer yes or no.	yes	Korea
+tt3316960.jpg	Is this movie originated from the country or region of west germany? Please answer yes or no.	no	<think> The movie "Stell Alice" is likely a German film, which is typically produced in the region of West Germany. The title and the style of the poster suggest that it is a German film,think> Yes, the movie originated originated from West Germany.
+tt3465916.jpg	Is this movie originated from the country or region of germany? Please answer yes or no.	yes	Germany
+tt3465916.jpg	Is this movie originated from the country or region of spain? Please answer yes or no.	no	Spain Spain
+tt3495026.jpg	Is this movie titled fan (2016)? Please answer yes or no.	yes	Yes.
+tt3495026.jpg	Is this movie titled from afar (2015)? Please answer yes or no.	no	
+tt3498820.jpg	Is this movie originated from the country or region of usa? Please answer yes or no.	yes	The movie originated from the> United States.
+tt3498820.jpg	Is this movie originated from the country or region of germany? Please answer yes or no.	no	The movie did not originate from the country or region of germany.
+tt3700804.jpg	Is this movie originated from the country or region of usa? Please answer yes or no.	yes	The movie is likely originated from in the United States.
+tt3700804.jpg	Is this movie originated from the country or region of uk? Please answer yes or no.	no	<think> The image shows two individuals standing on a pier with a city skyline in the background, which includes the London skyline. The presence of the city skyline suggests that the movie is likely set in the UK or regionthink> UK
+tt3824458.jpg	Is this movie titled tangerine (2015)? Please answer yes or no.	yes	The question the image is "tangerine (2015)," and the answer is "angerangerine." The title of the image is asking if the movie is titled "tangerine (2015)," and the answer is "angerangerine."
+tt3824458.jpg	Is this movie titled miller's crossing (1990)? Please answer yes or no.	no	Yes, the movie is titled "Miller's Crossing Crossing (1990)."
+tt3860916.jpg	Is this movie directed by ben howling? Please answer yes or no.	yes	Yes, Ben Hurton directed Ben.
+tt3860916.jpg	Is this movie directed by quentin tarantino? Please answer yes or no.	no	Yes, the movie is directed by Quentin Tarantino.
+tt4046784.jpg	Is this movie originated from the country or region of usa? Please answer yes or no.	yes	likely originated or originated from a country outside the USA region.
+tt4046784.jpg	Is this movie originated from the country or region of uk? Please answer yes or no.	no	UK
+tt4242158.jpg	Is this movie titled lost in hong kong (2015)? Please answer yes or no.	yes	<think> The image shows a group of young women wearing colorful costumes, with one woman wearing a yellow hat. They are making a peace sign with their hands, suggesting a playful and cheerful atmosphere. The text "Lost in k Kong" is visible at the bottom, indicating that the image is likely related to a movie or a film Lost in Kong Kong (201think> The The movie is Lost in Hong Kong (2015)
+tt4242158.jpg	Is this movie titled harold and maude (1971)? Please answer yes or no.	no	Yes, the movie is titled Harold and Mao (1971).
+tt4273292.jpg	Is this movie directed by babak anvari? Please answer yes or no.	yes	>Yes, the movie is directed by Babak Anvari.
+tt4273292.jpg	Is this movie directed by ethan coen,joel coen? Please answer yes or no.	no	Yes, the movie is directed by ethan coen and joel coen.
+tt4501454.jpg	Is this movie directed by lorene scafaria? Please answer yes or no.	yes	<think> The image shows two movie poster covers for "The Vendoller." The poster on the left features a woman with short gray hair wearing a gray cardigan, and the poster on the right features a woman with curly hair wearing a black jacket over a patterned top. The text on the posters indicates that the movie is directed by Lorene Scafaria and produced by Lorene, Lorene and Lorene. The title "La Vendolne" is also visible at the bottom of the image. Therefore, the movie is directed by Lorene Scararia.think> The movie is not directed by Lorene Scararia. The movie is directed by Lorene Scafaria.
+tt4501454.jpg	Is this movie directed by herbert ross? Please answer yes or no.	no	Yes, the movie is directed by herbert ross.
+tt4520364.jpg	Is this movie directed by luke scott? Please answer yes or no.	yes	No
+tt4520364.jpg	Is this movie directed by dominic sena? Please answer yes or no.	no	Yes, the movie is directed by dominic sena.
+tt4651520.jpg	Is this movie originated from the country or region of usa? Please answer yes or no.	yes	USA
+tt4651520.jpg	Is this movie originated from the country or region of china? Please answer yes or no.	no	The movie originated outside of country or region.
+tt4721400.jpg	Is this movie directed by lorenzo vigas? Please answer yes or no.	yes	This movie is directed directed by Vigas.
+tt4721400.jpg	Is this movie directed by jonathan liebesman? Please answer yes or no.	no	Yes: Yes, the movie is directed by Jonathan Liebesman.
+tt4972062.jpg	Is this movie directed by mike birbiglia? Please answer yes or no.	yes	No, Mike Birbiglia.
+tt4972062.jpg	Is this movie directed by david fincher? Please answer yes or no.	no	Yes
+tt5564148.jpg	Is this movie directed by masahide ichii? Please answer yes or no.	yes	The movie is directed by the by Masahide Ichii.
+tt5564148.jpg	Is this movie directed by dietrich brüggemann? Please answer yes or no.	no	Yes, the movie is directed by Dietrich Brüggemann.
+tt5688868.jpg	Is this movie titled primal rage: the legend of konga (2018)? Please answer yes or no.	yes	Yes> the movie is titled "Primal Rage: The Legend of Kong" (2018).
+tt5688868.jpg	Is this movie titled the neon demon (2016)? Please answer yes or no.	no	Yes, the movie is titled "the neon demon (2016)."
+tt5726086.jpg	Is this movie directed by adam robitel? Please answer yes or no.	yes	No, the movie is directed by Philip Ther, not Adam Therb.
+tt5726086.jpg	Is this movie directed by gore verbinski? Please answer yes or no.	no	No, the movie is not directed by Gore Verbinski.
+tt6788942.jpg	Is this movie originated from the country or region of thailand? Please answer yes or no.	yes	Yes, it originated
+tt6788942.jpg	Is this movie originated from the country or region of argentina? Please answer yes or no.	no	The answer is Argentina
+tt7055592.jpg	Is this movie titled brotherhood of blades ii: the infernal battlefield (2017)? Please answer yes or no.	yes	Yes, the movie is titled "Brotherhood of Blades: The Infernal Battle (2017)".
+tt7055592.jpg	Is this movie titled stations of the cross (2014)? Please answer yes or no.	no	<think> The image is a poster for a movie titled "The Cross of Blood: Blood of Thunder" released in 2014. The poster features three characters in traditional attire, with one character holding a sword and the other two also holding weapons. The background suggests a dramatic, possibly possibly historical, setting. The text on the poster indicates that the movie is part of the "Cross of Cross Cross" series> stations of the cross stations of the stations stations of the cross
+tt7131870.jpg	Is this movie directed by jing wu? Please answer yes or no.	yes	The movie is indeed directed by Ding Wu.
+tt7131870.jpg	Is this movie directed by david lynch? Please answer yes or no.	no	Yes

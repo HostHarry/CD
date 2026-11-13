@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "method": "native",
+      "id": "mme:existence/000000006040.jpg:0",
+      "text": "Yes",
+      "executed_steps": 32,
+      "end_to_end_seconds": 4.908538976684213
+    },
+    {
+      "method": "vcd",
+      "id": "mme:existence/000000006040.jpg:0",
+      "text": "Yes",
+      "executed_steps": 32,
+      "end_to_end_seconds": 9.777163363993168
+    },
+    {
+      "method": "vigor",
+      "id": "mme:existence/000000006040.jpg:0",
+      "text": "Yes",
+      "executed_steps": 2,
+      "end_to_end_seconds": 0.6838420480489731
+    },
+    {
+      "method": "native",
+      "id": "mme:OCR/0001.jpg:0",
+      "text": "no",
+      "executed_steps": 32,
+      "end_to_end_seconds": 4.900859326124191
+    },
+    {
+      "method": "vcd",
+      "id": "mme:OCR/0001.jpg:0",
+      "text": "yes",
+      "executed_steps": 32,
+      "end_to_end_seconds": 9.79492674395442
+    },
+    {
+      "method": "vigor",
+      "id": "mme:OCR/0001.jpg:0",
+      "text": "yes",
+      "executed_steps": 29,
+      "end_to_end_seconds": 8.886962726712227
+    },
+    {
+      "method": "native",
+      "id": "mme:code_reasoning/0001.png:0",
+      "text": "yes",
+      "executed_steps": 32,
+      "end_to_end_seconds": 4.9046348966658115
+    },
+    {
+      "method": "vcd",
+      "id": "mme:code_reasoning/0001.png:0",
+      "text": "yes",
+      "executed_steps": 32,
+      "end_to_end_seconds": 9.81296631321311
+    },
+    {
+      "method": "vigor",
+      "id": "mme:code_reasoning/0001.png:0",
+      "text": "yes",
+      "executed_steps": 2,
+      "end_to_end_seconds": 0.7081315442919731
+    }
+  ]
+}

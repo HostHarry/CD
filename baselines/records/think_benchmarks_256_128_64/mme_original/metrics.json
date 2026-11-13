@@ -1,0 +1,441 @@
+{
+  "stage": "mme_original",
+  "benchmark": "mme",
+  "prompt_id": "mme_yesno_v1",
+  "methods": [
+    "native",
+    "vcd",
+    "vigor"
+  ],
+  "rows": 2374,
+  "generation": {
+    "max_new_tokens": 256,
+    "steps": 128,
+    "block_length": 64
+  },
+  "early_eos": "safe_eos_v1",
+  "scoring_text": "complete decoded response",
+  "results": {
+    "native": {
+      "primary": {
+        "per_category": {
+          "existence": {
+            "questions": 60,
+            "image_pairs": 30,
+            "acc": 0.9666666666666667,
+            "acc_plus": 0.9333333333333333,
+            "other": 0,
+            "score": 190.0
+          },
+          "count": {
+            "questions": 60,
+            "image_pairs": 30,
+            "acc": 0.6666666666666666,
+            "acc_plus": 0.3333333333333333,
+            "other": 0,
+            "score": 100.0
+          },
+          "position": {
+            "questions": 60,
+            "image_pairs": 30,
+            "acc": 0.5,
+            "acc_plus": 0.13333333333333333,
+            "other": 0,
+            "score": 63.33333333333333
+          },
+          "color": {
+            "questions": 60,
+            "image_pairs": 30,
+            "acc": 0.85,
+            "acc_plus": 0.7333333333333333,
+            "other": 0,
+            "score": 158.33333333333331
+          },
+          "posters": {
+            "questions": 294,
+            "image_pairs": 147,
+            "acc": 0.5034013605442177,
+            "acc_plus": 0.006802721088435374,
+            "other": 0,
+            "score": 51.02040816326531
+          },
+          "celebrity": {
+            "questions": 340,
+            "image_pairs": 170,
+            "acc": 0.5,
+            "acc_plus": 0.01764705882352941,
+            "other": 0,
+            "score": 51.76470588235295
+          },
+          "scene": {
+            "questions": 400,
+            "image_pairs": 200,
+            "acc": 0.7175,
+            "acc_plus": 0.45,
+            "other": 0,
+            "score": 116.75
+          },
+          "landmark": {
+            "questions": 400,
+            "image_pairs": 200,
+            "acc": 0.545,
+            "acc_plus": 0.1,
+            "other": 0,
+            "score": 64.5
+          },
+          "artwork": {
+            "questions": 400,
+            "image_pairs": 200,
+            "acc": 0.6325,
+            "acc_plus": 0.315,
+            "other": 0,
+            "score": 94.75
+          },
+          "OCR": {
+            "questions": 40,
+            "image_pairs": 20,
+            "acc": 0.625,
+            "acc_plus": 0.35,
+            "other": 0,
+            "score": 97.5
+          },
+          "commonsense_reasoning": {
+            "questions": 140,
+            "image_pairs": 70,
+            "acc": 0.6142857142857143,
+            "acc_plus": 0.2857142857142857,
+            "other": 0,
+            "score": 90.0
+          },
+          "numerical_calculation": {
+            "questions": 40,
+            "image_pairs": 20,
+            "acc": 0.525,
+            "acc_plus": 0.1,
+            "other": 0,
+            "score": 62.5
+          },
+          "text_translation": {
+            "questions": 40,
+            "image_pairs": 20,
+            "acc": 0.525,
+            "acc_plus": 0.15,
+            "other": 0,
+            "score": 67.5
+          },
+          "code_reasoning": {
+            "questions": 40,
+            "image_pairs": 20,
+            "acc": 0.475,
+            "acc_plus": 0.05,
+            "other": 0,
+            "score": 52.5
+          }
+        },
+        "perception": 987.9517807122849,
+        "cognition": 272.5,
+        "total": 1260.4517807122847,
+        "accuracy": 0.6010951979780961,
+        "yes_ratio": 0.18702611625947768
+      },
+      "diagnostics": {
+        "rows": 2374,
+        "mean_answer_tokens": 1,
+        "mean_executed_steps": 32,
+        "mean_end_to_end_seconds": 5.017403564464518,
+        "eos_found_rate": 1.0,
+        "rows_with_generated_image_code_tokens": 0,
+        "answer_not_starting_with_yes_or_no": 0
+      },
+      "official_scorer_verified": true
+    },
+    "vcd": {
+      "primary": {
+        "per_category": {
+          "existence": {
+            "questions": 60,
+            "image_pairs": 30,
+            "acc": 0.9166666666666666,
+            "acc_plus": 0.8333333333333334,
+            "other": 0,
+            "score": 175.0
+          },
+          "count": {
+            "questions": 60,
+            "image_pairs": 30,
+            "acc": 0.6166666666666667,
+            "acc_plus": 0.4,
+            "other": 0,
+            "score": 101.66666666666666
+          },
+          "position": {
+            "questions": 60,
+            "image_pairs": 30,
+            "acc": 0.5666666666666667,
+            "acc_plus": 0.26666666666666666,
+            "other": 0,
+            "score": 83.33333333333333
+          },
+          "color": {
+            "questions": 60,
+            "image_pairs": 30,
+            "acc": 0.8333333333333334,
+            "acc_plus": 0.7,
+            "other": 0,
+            "score": 153.33333333333331
+          },
+          "posters": {
+            "questions": 294,
+            "image_pairs": 147,
+            "acc": 0.5272108843537415,
+            "acc_plus": 0.08843537414965986,
+            "other": 0,
+            "score": 61.564625850340136
+          },
+          "celebrity": {
+            "questions": 340,
+            "image_pairs": 170,
+            "acc": 0.5235294117647059,
+            "acc_plus": 0.07647058823529412,
+            "other": 0,
+            "score": 60.00000000000001
+          },
+          "scene": {
+            "questions": 400,
+            "image_pairs": 200,
+            "acc": 0.7925,
+            "acc_plus": 0.605,
+            "other": 0,
+            "score": 139.75
+          },
+          "landmark": {
+            "questions": 400,
+            "image_pairs": 200,
+            "acc": 0.6125,
+            "acc_plus": 0.3,
+            "other": 0,
+            "score": 91.25000000000001
+          },
+          "artwork": {
+            "questions": 400,
+            "image_pairs": 200,
+            "acc": 0.625,
+            "acc_plus": 0.315,
+            "other": 0,
+            "score": 94.0
+          },
+          "OCR": {
+            "questions": 40,
+            "image_pairs": 20,
+            "acc": 0.55,
+            "acc_plus": 0.2,
+            "other": 0,
+            "score": 75.0
+          },
+          "commonsense_reasoning": {
+            "questions": 140,
+            "image_pairs": 70,
+            "acc": 0.5357142857142857,
+            "acc_plus": 0.2,
+            "other": 0,
+            "score": 73.57142857142858
+          },
+          "numerical_calculation": {
+            "questions": 40,
+            "image_pairs": 20,
+            "acc": 0.575,
+            "acc_plus": 0.2,
+            "other": 0,
+            "score": 77.49999999999999
+          },
+          "text_translation": {
+            "questions": 40,
+            "image_pairs": 20,
+            "acc": 0.6,
+            "acc_plus": 0.35,
+            "other": 0,
+            "score": 95.0
+          },
+          "code_reasoning": {
+            "questions": 40,
+            "image_pairs": 20,
+            "acc": 0.5,
+            "acc_plus": 0.1,
+            "other": 0,
+            "score": 60.0
+          }
+        },
+        "perception": 1034.8979591836735,
+        "cognition": 306.07142857142856,
+        "total": 1340.9693877551022,
+        "accuracy": 0.6255265374894693,
+        "yes_ratio": 0.34540859309182814
+      },
+      "diagnostics": {
+        "rows": 2374,
+        "mean_answer_tokens": 1.0050547598989048,
+        "mean_executed_steps": 26.476832350463354,
+        "mean_end_to_end_seconds": 8.24505802982494,
+        "eos_found_rate": 1.0,
+        "rows_with_generated_image_code_tokens": 0,
+        "answer_not_starting_with_yes_or_no": 0
+      },
+      "paired_vs_native": {
+        "unit": "group_id",
+        "groups": 1187,
+        "repeats": 2000,
+        "seed": 42,
+        "delta_accuracy": 0.02443133951137321,
+        "delta_accuracy_ci95": [
+          0.010530749789385004,
+          0.038331929233361414
+        ]
+      },
+      "official_scorer_verified": true
+    },
+    "vigor": {
+      "primary": {
+        "per_category": {
+          "existence": {
+            "questions": 60,
+            "image_pairs": 30,
+            "acc": 0.9666666666666667,
+            "acc_plus": 0.9333333333333333,
+            "other": 0,
+            "score": 190.0
+          },
+          "count": {
+            "questions": 60,
+            "image_pairs": 30,
+            "acc": 0.6166666666666667,
+            "acc_plus": 0.3,
+            "other": 0,
+            "score": 91.66666666666667
+          },
+          "position": {
+            "questions": 60,
+            "image_pairs": 30,
+            "acc": 0.5666666666666667,
+            "acc_plus": 0.3,
+            "other": 0,
+            "score": 86.66666666666667
+          },
+          "color": {
+            "questions": 60,
+            "image_pairs": 30,
+            "acc": 0.8833333333333333,
+            "acc_plus": 0.8,
+            "other": 0,
+            "score": 168.33333333333334
+          },
+          "posters": {
+            "questions": 294,
+            "image_pairs": 147,
+            "acc": 0.5068027210884354,
+            "acc_plus": 0.013605442176870748,
+            "other": 0,
+            "score": 52.04081632653062
+          },
+          "celebrity": {
+            "questions": 340,
+            "image_pairs": 170,
+            "acc": 0.5147058823529411,
+            "acc_plus": 0.047058823529411764,
+            "other": 0,
+            "score": 56.1764705882353
+          },
+          "scene": {
+            "questions": 400,
+            "image_pairs": 200,
+            "acc": 0.7525,
+            "acc_plus": 0.525,
+            "other": 0,
+            "score": 127.74999999999999
+          },
+          "landmark": {
+            "questions": 400,
+            "image_pairs": 200,
+            "acc": 0.5675,
+            "acc_plus": 0.21,
+            "other": 0,
+            "score": 77.75
+          },
+          "artwork": {
+            "questions": 400,
+            "image_pairs": 200,
+            "acc": 0.63,
+            "acc_plus": 0.315,
+            "other": 0,
+            "score": 94.5
+          },
+          "OCR": {
+            "questions": 40,
+            "image_pairs": 20,
+            "acc": 0.525,
+            "acc_plus": 0.2,
+            "other": 0,
+            "score": 72.50000000000001
+          },
+          "commonsense_reasoning": {
+            "questions": 140,
+            "image_pairs": 70,
+            "acc": 0.6071428571428571,
+            "acc_plus": 0.2571428571428571,
+            "other": 0,
+            "score": 86.42857142857142
+          },
+          "numerical_calculation": {
+            "questions": 40,
+            "image_pairs": 20,
+            "acc": 0.5,
+            "acc_plus": 0.1,
+            "other": 2,
+            "score": 60.0
+          },
+          "text_translation": {
+            "questions": 40,
+            "image_pairs": 20,
+            "acc": 0.5,
+            "acc_plus": 0.2,
+            "other": 0,
+            "score": 70.0
+          },
+          "code_reasoning": {
+            "questions": 40,
+            "image_pairs": 20,
+            "acc": 0.55,
+            "acc_plus": 0.1,
+            "other": 0,
+            "score": 65.0
+          }
+        },
+        "perception": 1017.3839535814326,
+        "cognition": 281.42857142857144,
+        "total": 1298.812525010004,
+        "accuracy": 0.6124684077506318,
+        "yes_ratio": 0.2384161752316765
+      },
+      "diagnostics": {
+        "rows": 2374,
+        "mean_answer_tokens": 1.0383319292333615,
+        "mean_executed_steps": 9.347514743049706,
+        "mean_end_to_end_seconds": 2.9824328714175103,
+        "eos_found_rate": 1.0,
+        "rows_with_generated_image_code_tokens": 0,
+        "answer_not_starting_with_yes_or_no": 2
+      },
+      "paired_vs_native": {
+        "unit": "group_id",
+        "groups": 1187,
+        "repeats": 2000,
+        "seed": 42,
+        "delta_accuracy": 0.011373209772535805,
+        "delta_accuracy_ci95": [
+          0.0016849199663016006,
+          0.02148272957034541
+        ]
+      },
+      "official_scorer_verified": true
+    }
+  }
+}

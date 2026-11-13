@@ -1,0 +1,400 @@
+10002.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	Yes, this artwork exists in the form of painting.
+10002.jpg	Does this artwork exist in the form of glassware? Please answer yes or no.	no	No, this artwork is not in the form of glassware.
+10049.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	<think> The artwork appears to be a painting. The style of the depiction of the figures, the background, and the overall composition suggest that it is a painted of art. The use of light and shadow, as well as the detailed rendering of the figures and the background, are characteristic of a painting. The, the artwork is in the form of painting.
+10049.jpg	Does this artwork exist in the form of sculpture? Please answer yes or no.	no	No, the artwork is a painting.
+10256.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	Yes, this artwork exists in the form of painting.
+10256.jpg	Does this artwork exist in the form of sculpture? Please answer yes or no.	no	
+10358.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	Yes, this artwork is likely a painting.
+10358.jpg	Does this artwork exist in the form of glassware? Please answer yes or no.	no	No, the artwork is not in the form of glassware.
+10543.jpg	Is this artwork displayed in fogg art museum, harvard university, cambridge? Please answer yes or no.	yes	No, the artwork is not displayed in the Fogg Art Museum, Harvard University, Cambridge.
+10543.jpg	Is this artwork displayed in museo civico, pistoia? Please answer yes or no.	no	No
+10581.jpg	Does this artwork belong to the type of portrait? Please answer yes or no.	yes	Yes, this artwork belongs to the portrait type.
+10581.jpg	Does this artwork belong to the type of genre? Please answer yes or no.	no	portrait
+1060.jpg	Is this artwork created by antoniazzo romano? Please answer yes or no.	yes	
+1060.jpg	Is this artwork created by gentile da fabriano? Please answer yes or no.	no	Gentile da Fabriano
+10881.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	Yes, this artwork exists in the form of painting.
+10881.jpg	Does this artwork exist in the form of tapestry? Please answer yes or no.	no	Yes, this artwork exists in the form of tapestry.
+10970.jpg	Does this artwork belong to the type of religious? Please answer yes or no.	yes	Yes, this artwork belongs to the type of religious.
+10970.jpg	Does this artwork belong to the type of study? Please answer yes or no.	no	Yes
+11276.jpg	Does this artwork exist in the form of sculpture? Please answer yes or no.	yes	Yes, this artwork exists in the form of sculpture.
+11276.jpg	Does this artwork exist in the form of graphics? Please answer yes or no.	no	<think> The image depicts a relief sculpture, which is a form of three-dimensional art that The Museum of hasan is known to produce. The relief sculpture is a type of artwork that is carved into a stone surface, typically using a toolisel and a ch. The. The artwork is a representation of a figure, possibly a deity or a personage, holding a mask.
+11331.jpg	Is this artwork created by donatello? Please answer yes or no.	yes	Donatello
+11331.jpg	Is this artwork created by zichy, mihály? Please answer yes or no.	no	
+11488.jpg	Does this artwork belong to the type of mythological? Please answer yes or no.	yes	Yes, this artwork belongs to the type of mythological.
+11488.jpg	Does this artwork belong to the type of historical? Please answer yes or no.	no	Yes, this artwork belongs to the type of historical.
+11724.jpg	Is this artwork created by duccio di buoninsegna? Please answer yes or no.	yes	Duccio di Buoninsegna
+11724.jpg	Is this artwork created by giani, felice? Please answer yes or no.	no	no
+11726.jpg	Is this artwork titled temptation on the mountain (detail)? Please answer yes or no.	yes	No
+11726.jpg	Is this artwork titled in the forest of fontainebleau? Please answer yes or no.	no	In the Forest of Fontainebleau
+12133.jpg	Is this artwork titled hand study with bible? Please answer yes or no.	yes	<think> The image depicts a hand holding a book, which appears to be a Bible, The Bible of the Bible, The Bible of the Bible, or The Book of the Bible. The hand is positioned in a way that suggests the person is either or about about to read or has just finished reading the book. The artwork is titled "hand study with bible."
+12133.jpg	Is this artwork titled self-portrait aged 78? Please answer yes or no.	no	No
+12439.jpg	Is this artwork created by dürer, albrecht? Please answer yes or no.	yes	Yes, the artwork is created by Dürer, albrecht.
+12439.jpg	Is this artwork created by koekkoek, barend cornelis? Please answer yes or no.	no	<think> The image is a painting that appears to be a landscape,, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting, a a landscape painting
+12561.jpg	Is this artwork created by eberlein, gustav heinrich? Please answer yes or no.	yes	The artwork is likely created by Gustav Heinrich.
+12561.jpg	Is this artwork created by gillemans, jan pauwel the younger? Please answer yes or no.	no	
+12652.jpg	Is this artwork displayed in stedelijk museum de lakenhal, leiden? Please answer yes or no.	yes	Yes, the artwork is displayed in Stedelijk Museum de Lakenhal, Leiden.
+12652.jpg	Is this artwork displayed in palazzo ducale, mantua? Please answer yes or no.	no	
+12736.jpg	Is this artwork displayed in cannon hall museum, barnsley? Please answer yes or no.	yes	No
+12736.jpg	Is this artwork displayed in protestant parish church, gelnhausen? Please answer yes or no.	no	No
+12902.jpg	Is this artwork displayed in private collection? Please answer yes or no.	yes	Yes, this artwork is likely displayed in a private collection.
+12902.jpg	Is this artwork displayed in musée national gustave-moreau, paris? Please answer yes or no.	no	<think> The image depicts a classical landscape with ancient ruins, including a temple and columns, set against a backdrop of a cloudy sky. The style of the painting suggests it could be from the 18th century, possibly influenced by the works of artists like Jacques Rouman. The presence of a tree in the foreground and the overall composition of the scene are characteristic of the neoclassical period, which is often associated with the Musée National Gustave Moreau in Paris. The artwork is likely displayed in this museum, as it is a piece the museum has known to house. Yes, the artwork is displayed in the Musée National Gustave Moreau, Paris.
+12908.jpg	Is this artwork titled ruth and boaz? Please answer yes or no.	yes	Yes, the artwork is titled Ruth and Boaz.
+12908.jpg	Is this artwork titled view of dresden from the right bank of the elbe with the augustus bridge? Please answer yes or no.	no	No
+13091.jpg	Is this artwork titled italianate landscape with figures by classical ruins? Please answer yes or no.	yes	Yes, the artwork is titled italianate landscape with figures by classical ruins.
+13091.jpg	Is this artwork titled two boys singing? Please answer yes or no.	no	No
+13174.jpg	Is this artwork titled nobility? Please answer yes or no.	yes	Yes, the artwork is titled nobility.
+13174.jpg	Is this artwork titled aretino in the studio of tintoretto? Please answer yes or no.	no	
+13239.jpg	Is this artwork titled doge ziani receiving the benediction of pope alexander iii? Please answer yes or no.	yes	<think> The image depicts a scene from a historical event, likely the theectoral of the Holy Papal, where the cardinal ofal, the theectoral ofal, the theectoral ofal, the theectoral ofal, the theectoral of, the theectoral of, the theectoral of, the theectoral of, the theectoral of, the theectoral of, the theectoral of, the theectoral of, the theectoral of, the theectoral of, the theectoral of, the theectoral of, the theectoral of, the theectoral of, the theectoral of, the theectoral of, the theectoral of, the theectoral of, the theectoral of, the theectoral of, the theectoral of, the theectoral of, the theectoral of, the theectoral of, the theectoral of, the theectoral of, the theectoral of, the theectoral of, the theectoral of, the theectoral of, the theectoral of, the theectoral of, the theectoral of, the theectoral of, the
+13239.jpg	Is this artwork titled the adoration of the shepherds? Please answer yes or no.	no	Yes, the artwork is titled the Adoration of the Shepherds.
+13288.jpg	Does this artwork exist in the form of architecture? Please answer yes or no.	yes	Yes, this artwork exists in the form of architecture.
+13288.jpg	Does this artwork exist in the form of metalwork? Please answer yes or no.	no	Yes, this artwork exists in the form of metalwork.
+13696.jpg	Is this artwork displayed in pinacoteca nazionale, siena? Please answer yes or no.	yes	<think> The image depicts a painting that appears to be a religious or, possibly a historical, artwork. The style and the presence suggest that could be from the Renaissance period, possibly the late15th or early16th century. The presence of a figures in the background, one of whom is holding older,, could a depiction of a family or a group scene. The painting is likely from a religious or, possibly a historical context, given the style and the presence of a figures in the background. The The artwork is displayed in Pinacoteca nazionale, Siena. </think
+13696.jpg	Is this artwork displayed in british embassy, paris? Please answer yes or no.	no	
+13760.jpg	Is this artwork titled noli me tangere? Please answer yes or no.	yes	Yes, the artwork is titled "Noli me tangere."
+13760.jpg	Is this artwork titled profile study of a bearded man? Please answer yes or no.	no	profile study of a bearded man
+13821.jpg	Is this artwork created by frangipane, niccolò? Please answer yes or no.	yes	<think> The artwork is a painting that appears to be a theologico, a type of religious painting. The style and the presence of a child holding a baby suggest a religious theme, The presence of, which is a common theme in theolog of the Virgin Mary. The attire of the figures, including the clothing and the setting, is consistent with the style of the Italian Renaissance, particularly the 15th century. The presence of a child holding a baby is a common motif in religious art, often symbolizing the presence of God or the divine of the Virgin Mary. The Answer: Yes, this artwork is created by frangipane, niccolò.
+13821.jpg	Is this artwork created by drevet, pierre? Please answer yes or no.	no	Yes, the artwork is created by Drevet, Pierre.
+13901.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	<think> The image depicts a landscape with a castle-like structure in the background, set against a sky with clouds and a of light light that suggests either sunrise or sunset. The foreground shows a barren area with some rocks and a path path leading towards the castle. The style of the painting, with its use of light and shadow, is characteristic of a painting.think> Yes, this artwork exists in the form of painting.
+13901.jpg	Does this artwork exist in the form of metalwork? Please answer yes or no.	no	No, this artwork does not exist in the form of metalwork.
+14283.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	Yes, this artwork exists in the form of painting.
+14283.jpg	Does this artwork exist in the form of mosaic? Please answer yes or no.	no	Yes, this artwork exists in the form of mosaic.
+14499.jpg	Does this artwork belong to the type of religious? Please answer yes or no.	yes	Yes, this artwork belongs to the type of religious.
+14499.jpg	Does this artwork belong to the type of mythological? Please answer yes or no.	no	<think> The artwork depicts a scene that appears to be inspired by historical or mythological, with the presence of a man in a robe and a woman dressed in elaborate,, possibly Renaissance attire. The woman is holding a book, which could suggest a scene of learning or storytelling, and the man's attire and the setting suggest a sense of authority or importance. The, the, the artwork belongs to the type of mythological.
+14777.jpg	Does this artwork belong to the type of religious? Please answer yes or no.	yes	Yes, this artwork belongs to the type of religious.
+14777.jpg	Does this artwork belong to the type of historical? Please answer yes or no.	no	Historical.
+15028.jpg	Does this artwork belong to the type of portrait? Please answer yes or no.	yes	Yes
+15028.jpg	Does this artwork belong to the type of study? Please answer yes or no.	no	No, the artwork does not belong to the type of study.
+15232.jpg	Is this artwork created by giordano, luca? Please answer yes or no.	yes	Yes, the artwork is created by Giordano, Luca.
+15232.jpg	Is this artwork created by heyerdahl, hans olaf? Please answer yes or no.	no	<think> The artwork appears to be a painting by Hans Olaf, a Dutch painter known for his depictions of the life and events of the Bible. The style and the subject matter include figures that seem to be from a biblical or historicalological narrative, which is characteristic of Hans Olaf's work. The presence of a goat and the overall composition suggest a scene from the Bible. >think> Hans Olaf
+15246.jpg	Is this artwork displayed in palazzo medici riccardi, florence? Please answer yes or no.	yes	Yes, the artwork is displayed displayed in Palazzo Medici Riccardi, Florence.
+15246.jpg	Is this artwork displayed in abbey church of sainte-foy, conques (aveyron)? Please answer yes or no.	no	<think> The artwork is displayed in the Abbey's Church of Sainte-Foy, Conques (aveyron). This is indicated by the text in the image, which states "Dised in the Abbey's Church of Sainte-Foy, Conques (aveyron)." Thethink> Yes, the artwork is displayed in the Abbey's Church of Sainte-Foy, Conques (aveyron).
+15311.jpg	Is this artwork created by giorgione? Please answer yes or no.	yes	<think> The artwork appears to be a landscape painting, likely from the Renaissance period, given the style and the presence of a figure in a boat, which is a common theme in Italian art. The background features a landscape with a aoming tree, suggesting a rural or natural setting. The use of a boat and the figure in the boat are characteristic of the Italian Renaissance, particularly periodical.
+15311.jpg	Is this artwork created by marilhat, prosper? Please answer yes or no.	no	Yes, the artwork is created by Marilhat, Prosper.
+15989.jpg	Is this artwork displayed in pinacoteca, vatican? Please answer yes or no.	yes	Yes, this artwork is displayed in pinacoteca, Vatican.
+15989.jpg	Is this artwork displayed in cathedral museum, zamora? Please answer yes or no.	no	No
+16006.jpg	Is this artwork displayed in private collection? Please answer yes or no.	yes	Yes, this artwork is displayed in a private collection.
+16006.jpg	Is this artwork displayed in cathedral of san geminiano, modena? Please answer yes or no.	no	Cathedral of San Geminiano, Modena
+16249.jpg	Does this artwork belong to the type of landscape? Please answer yes or no.	yes	Yes, this artwork belongs to the type of landscape.
+16249.jpg	Does this artwork belong to the type of religious? Please answer yes or no.	no	Yes, this artwork belongs to the type of religious.
+16538.jpg	Is this artwork created by gogh, vincent van? Please answer yes or no.	yes	
+16538.jpg	Is this artwork created by altdorfer, albrecht? Please answer yes or no.	no	Yes, the artwork is created by Altdorfer, albrecht.
+16835.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	The artwork exists in the form of painting.
+16835.jpg	Does this artwork exist in the form of illumination? Please answer yes or no.	no	<think> The artwork in the is a aptych, which is a type of religious painting that features two panels. The panels paneled illuminated, the left and the the right panels, are illuminated illuminated. The panels panelsed illuminated, the left and the the right panels, are illuminated illuminated. The panels paneled illuminated, the left and the the right panels, are illuminated illuminated. The panels paneled illuminated, the left and the the right panels, are illuminated illuminated. The panels paneled illuminated, the left and the the right panels, are illuminated illuminated. The panels paneled illuminated, the left and the the right panels, are illuminated illuminated. The panels paneled illuminated, the left and the the right panels, are illuminated illuminated. The panels paneled illuminated, the left and the the right panels, are illuminated illuminated. The panels paneled illuminated, the left and the the right panels, are illuminated illuminated. The panels paneled illuminated, the left and the the right panels, are illuminated illuminated. The panels paneled illuminated, the left and the the right panels, are illuminated illuminated. The panels paneled illuminated, the left and the the right panels, are illuminated illuminated.think> Yes, this artwork exists in the form of illumination.
+16911.jpg	Is this artwork created by gossart, jan? Please answer yes or no.	yes	Yes, the artwork is created by Gossart, Jan.
+16911.jpg	Is this artwork created by stanzione, massimo? Please answer yes or no.	no	No, the artwork is created by Raphael.
+17311.jpg	Does this artwork belong to the type of religious? Please answer yes or no.	yes	Yes, this artwork belongs to the type of religious.
+17311.jpg	Does this artwork belong to the type of interior? Please answer yes or no.	no	Interior
+17317.jpg	Is this artwork created by gozzoli, benozzo? Please answer yes or no.	yes	Yes, created by gozzoli, benozzo
+17317.jpg	Is this artwork created by coriolano, cristoforo? Please answer yes or no.	no	
+17535.jpg	Is this artwork created by grebber, pieter de? Please answer yes or no.	yes	No
+17535.jpg	Is this artwork created by massys, quentin? Please answer yes or no.	no	Massys, Quentin
+17823.jpg	Is this artwork created by greuze, jean-baptiste? Please answer yes or no.	yes	Yes
+17823.jpg	Is this artwork created by landseer, sir edwin henry? Please answer yes or no.	no	<think> The image is a painting that appears to be a self-portrait, likely created by a artist known for his self-portraits. The style and the painting technique suggest it could be from the 17th century, possibly the the Golden Golden Age period. The subject's attire and the style of the painting are consistent with the works of artists like Sir Edwin Henry, who were known for his self-portraits. The presence of food in the hand could the subject of a meal, but the is itself is not the subject of the artwork. Yes, this artwork is created by Landseer, Sir Edwin Henry.
+17838.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	Yes, this artwork exists in the form of painting.
+17838.jpg	Does this artwork exist in the form of furniture? Please answer yes or no.	no	No, the artwork does not exist in the form of furniture.
+17998.jpg	Does this artwork belong to the type of religious? Please answer yes or no.	yes	Yes, this artwork belongs to the type of religious.
+17998.jpg	Does this artwork belong to the type of genre? Please answer yes or no.	no	<think> The artwork appears to be a religious or historical scene, likely depicting a moment from the Bible of the Cross story of Crossbar. The presence of a figure figure carrying a cross, the setting a church or cathedral, and the attire of the figures suggest a religious or historical context. The style of the painting, with its dramatic poses and symbolic elements, is characteristic of religious art.think> Yes, this artwork belongs to the religious genre.
+18566.jpg	Is this artwork created by hamen, juan van der? Please answer yes or no.	yes	<think> The image depicts a still life painting with a variety of food items including grapes, olives, a, and, a, and a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife, a knife,
+18566.jpg	Is this artwork created by starnina, gherardo di jacopo? Please answer yes or no.	no	Starnina, Gherardo di Jacopo
+18604.jpg	Is this artwork created by hardouin-mansart, jules? Please answer yes or no.	yes	Yes, this artwork is created by Hardouin-m-mansart, Jules.
+18604.jpg	Is this artwork created by kerseboom, friedrich? Please answer yes or no.	no	Yes
+18722.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	Yes, this artwork exists in the form of painting.
+18722.jpg	Does this artwork exist in the form of sculpture? Please answer yes or no.	no	No, this artwork is not in the form of sculpture.
+1873.jpg	Does this artwork exist in the form of architecture? Please answer yes or no.	yes	Yes, this artwork exists in the form of architecture.
+1873.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	no	No
+18902.jpg	Is this artwork created by herrera, francisco de, the elder? Please answer yes or no.	yes	
+18902.jpg	Is this artwork created by ingres, jean-auguste-dominique? Please answer yes or no.	no	No
+18926.jpg	Is this artwork created by herring, john frederick the younger? Please answer yes or no.	yes	herring, john frederick the younger
+18926.jpg	Is this artwork created by cozens, john robert? Please answer yes or no.	no	No
+19087.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	Yes, this artwork exists in the form of painting.
+19087.jpg	Does this artwork exist in the form of metalwork? Please answer yes or no.	no	No, the artwork is not in the form of metalwork.
+19154.jpg	Is this artwork titled portrait of the merchant georg gisze (detail)? Please answer yes or no.	yes	Yes
+19154.jpg	Is this artwork titled pair of table candlesticks? Please answer yes or no.	no	No, the artwork is not titled "pair of table candlesticks."
+19417.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	Yes, this artwork exists in the form of painting.
+19417.jpg	Does this artwork exist in the form of mosaic? Please answer yes or no.	no	No, this artwork does not exist in the form of mosaic.
+19452.jpg	Is this artwork titled the artist and his model? Please answer yes or no.	yes	<think> The image depicts a scene with a nude figure, likely a model, seated on a chair with a man who appears to be an artist, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The nude painter, The
+19452.jpg	Is this artwork titled the lovesick maiden (detail)? Please answer yes or no.	no	Yes, the artwork is titled "The Lovesick Maiden (detail)".
+19839.jpg	Is this artwork created by janneck, franz christoph? Please answer yes or no.	yes	Yes, the artwork is created by Janneck, Franz Christoph.
+19839.jpg	Is this artwork created by goupil, jules-adolphe? Please answer yes or no.	no	
+19863.jpg	Does this artwork belong to the type of religious? Please answer yes or no.	yes	Yes
+19863.jpg	Does this artwork belong to the type of mythological? Please answer yes or no.	no	Yes, this artwork belongs to the type of mythological.
+19993.jpg	Is this artwork displayed in private collection? Please answer yes or no.	yes	Yes, this artwork is likely displayed in a private collection.
+19993.jpg	Is this artwork displayed in cathedral of st paul, liège? Please answer yes or no.	no	Yes, the artwork is displayed in the Cathedral of St. Paul, Liège.
+20176.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	No
+20176.jpg	Does this artwork exist in the form of furniture? Please answer yes or no.	no	The artwork does not exist in the form of furniture.
+20437.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	painting
+20437.jpg	Does this artwork exist in the form of tapestry? Please answer yes or no.	no	Yes, this artwork exists in the form of tapestry.
+20442.jpg	Is this artwork created by kucharski, aleksander? Please answer yes or no.	yes	No
+20442.jpg	Is this artwork created by pourbus, frans the elder? Please answer yes or no.	no	Yes, the artwork is created by pourbus, frans the elder.
+20455.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	Yes, this artwork exists in the form of painting.
+20455.jpg	Does this artwork exist in the form of metalwork? Please answer yes or no.	no	Yes, the artwork exists in the form of metalwork.
+20483.jpg	Is this artwork titled allegory of the regency? Please answer yes or no.	yes	Yes, this artwork is titled allegory of the regency.
+20483.jpg	Is this artwork titled breton woman bathing? Please answer yes or no.	no	Yes, the artwork is titled breton woman bathing.
+20490.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	Yes, this artwork exists in the form of painting.
+20490.jpg	Does this artwork exist in the form of illumination? Please answer yes or no.	no	<think> The artwork is a painting depicting three a musician, each holding a different instrument instrument: a flute, a violin, and a violin. The style of the painting suggests it is from the Renaissance period, characterized by its attention to detail and the use of light and shadow to create depth. illumination. The painting is illuminated by light.
+20551.jpg	Is this artwork created by lagrenée, jean-jacques? Please answer yes or no.	yes	Yes, the artwork is likely created by lagrenée, je-jacques.
+20551.jpg	Is this artwork created by scultori, diana? Please answer yes or no.	no	Yes, the artwork is created by Scultori, Diana.
+20651.jpg	Is this artwork titled a highland landscape? Please answer yes or no.	yes	highland landscape
+20651.jpg	Is this artwork titled a dog and a cat fighting in a kitchen interior? Please answer yes or no.	no	No, the artwork is not titled a dog and a cat fighting in a kitchen interior.
+20724.jpg	Does this artwork belong to the type of portrait? Please answer yes or no.	yes	Yes
+20724.jpg	Does this artwork belong to the type of landscape? Please answer yes or no.	no	No, this artwork is not a landscape.
+21048.jpg	Is this artwork created by lemoyne, jean-baptiste ii? Please answer yes or no.	yes	<think> The image depicts a bust of a woman, likely from the 18th century, given the style of her clothing and the artistic technique. The name "Lemoyne, Jean-Baptiste II" is not visible in the image.. think> No, the artwork is not created by Lemoyne, Jean-Baptiste II.
+21048.jpg	Is this artwork created by kneller, sir godfrey? Please answer yes or no.	no	Yes, the artwork was created by Kneller, Sir Godfrey.
+21097.jpg	Does this artwork belong to the type of religious? Please answer yes or no.	yes	Yes, this artwork belongs to the type of religious.
+21097.jpg	Does this artwork belong to the type of genre? Please answer yes or no.	no	Yes, this artwork belongs to the type of genre.
+21244.jpg	Does this artwork belong to the type of study? Please answer yes or no.	yes	study
+21244.jpg	Does this artwork belong to the type of portrait? Please answer yes or no.	no	No, this artwork does not belong to a portrait.
+21469.jpg	Does this artwork belong to the type of genre? Please answer yes or no.	yes	Yes
+21469.jpg	Does this artwork belong to the type of still-life? Please answer yes or no.	no	No
+21580.jpg	Is this artwork created by linard, jacques? Please answer yes or no.	yes	Yes, the artwork is created by linard, jacques.
+21580.jpg	Is this artwork created by bonino da campione? Please answer yes or no.	no	
+21712.jpg	Is this artwork titled st john the evangelist resuscitating drusiana? Please answer yes or no.	yes	St. John the Evangelist resuscitating Dr. Rusiana
+21712.jpg	Is this artwork titled la finette? Please answer yes or no.	no	No, the artwork is not titled "la finette."
+22329.jpg	Is this artwork titled marriage of the virgin? Please answer yes or no.	yes	No
+22329.jpg	Is this artwork titled landscape with river and figures (detail)? Please answer yes or no.	no	
+22366.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	Yes, this artwork exists in the form of painting.
+22366.jpg	Does this artwork exist in the form of glassware? Please answer yes or no.	no	glassware
+22667.jpg	Is this artwork displayed in private collection? Please answer yes or no.	yes	No, this artwork is not in a private collection.
+22667.jpg	Is this artwork displayed in san francesco d'assisi, pavia? Please answer yes or no.	no	<think> The image shows a sculpture of a female figure a woman,, as a a mother, with a child on her lap. The style of the sculpture is it could be from the Renaissance period, possibly from the 14th or 16th century. The presence is a, mother, and child child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child, child
+22760.jpg	Is this artwork titled madonna and child (detail)? Please answer yes or no.	yes	
+22760.jpg	Is this artwork titled view of the south and east walls? Please answer yes or no.	no	No
+22842.jpg	Is this artwork titled ukrainian peasant girl? Please answer yes or no.	yes	Ukrainian peasant girl
+22842.jpg	Is this artwork titled virtue crowning merit? Please answer yes or no.	no	Yes, the artwork is titled "Virtue Crowning Merit."
+23229.jpg	Is this artwork displayed in national gallery, london? Please answer yes or no.	yes	Yes, the artwork is displayed in the National Gallery, London.
+23229.jpg	Is this artwork displayed in notre-dame-la-riche, tours? Please answer yes or no.	no	Yes, this artwork is displayed in Notre-Dame-la-riche, Tours.
+23427.jpg	Is this artwork displayed in the hermitage, st. petersburg? Please answer yes or no.	yes	Yes, this artwork is likely displayed in the Hermitageage, St. Petersburg.
+23427.jpg	Is this artwork displayed in national gallery of victoria, melbourne? Please answer yes or no.	no	Yes, the artwork is displayed in the National Gallery of Victoria.
+23465.jpg	Is this artwork displayed in private collection? Please answer yes or no.	yes	Yes, this artwork is displayed in a private collection.
+23465.jpg	Is this artwork displayed in cistertian church, zirc? Please answer yes or no.	no	No
+23824.jpg	Is this artwork titled christ walking on the water? Please answer yes or no.	yes	Yes, the artwork is titled "christ walking on the water."
+23824.jpg	Is this artwork titled mademoiselle romaine lacaux? Please answer yes or no.	no	<think> The artwork depicts a group of figures, likely from a historical or mythological, with a central figure that appears to be a woman in a boat. The style of the clothing suggests it could be from the Roman era, and the presence of the boat figure might indicate a scene of toad or a,
+24122.jpg	Is this artwork displayed in museo correr, venice? Please answer yes or no.	yes	
+24122.jpg	Is this artwork displayed in church of brou, bourg-en-bresse? Please answer yes or no.	no	<think> The artwork is a painting depicting a toad, a common, a person,, a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person , a a person ,
+24260.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	Yes, this artwork exists in the form of painting.
+24260.jpg	Does this artwork exist in the form of illumination? Please answer yes or no.	no	No
+24291.jpg	Is this artwork titled virgin and child with sts catherine, cecilia, barbara, and ursula? Please answer yes or no.	yes	Yes, the artwork is titled the Virgin and child with saints Catherine, Cecilia, Barbara, and ursula.
+24291.jpg	Is this artwork titled sorrow? Please answer yes or no.	no	Yes, the artwork is titled sorrow.
+24723.jpg	Is this artwork titled tomb of henry the lion and his wife matilda? Please answer yes or no.	yes	Yes, this artwork is titled the tomb of Henry the Lion and his wife Matilda.
+24723.jpg	Is this artwork titled god the father? Please answer yes or no.	no	
+2490.jpg	Does this artwork belong to the type of landscape? Please answer yes or no.	yes	Yes, this artwork belongs to the type of landscape.
+2490.jpg	Does this artwork belong to the type of mythological? Please answer yes or no.	no	No
+2507.jpg	Is this artwork displayed in private collection? Please answer yes or no.	yes	Yes, this artwork is displayed in a private collection.
+2507.jpg	Is this artwork displayed in st. vitus's cathedral, prague? Please answer yes or no.	no	<think> The image depicts a dramatic se with a large wave and a figure standing on a cliff, overlooking the ocean. The style of the painting suggests it could be from the Baroque period, characterized by its lighting and movement. The setting, which not explicitly stated, is likely to be a cathedral,, is..
+25312.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	Yes, this artwork exists in the form of painting.
+25312.jpg	Does this artwork exist in the form of metalwork? Please answer yes or no.	no	The artwork does not exist in the form of metalwork.
+25476.jpg	Is this artwork created by michelangelo buonarroti? Please answer yes or no.	yes	Yes, this artwork is created by Michelangelo.
+25476.jpg	Is this artwork created by beuckelaer, joachim? Please answer yes or no.	no	Yes, the artwork is created by Buckelaer, Joachim.
+25492.jpg	Does this artwork exist in the form of sculpture? Please answer yes or no.	yes	Yes, this artwork exists in the form of sculpture.
+25492.jpg	Does this artwork exist in the form of illumination? Please answer yes or no.	no	Yes, this artwork exists in the form> illumination
+25513.jpg	Does this artwork belong to the type of religious? Please answer yes or no.	yes	religious
+25513.jpg	Does this artwork belong to the type of landscape? Please answer yes or no.	no	landscape
+26521.jpg	Does this artwork exist in the form of illumination? Please answer yes or no.	yes	<think> The artwork is a form of illumination, as indicated by the text " the form of illumination" in the image. This artwork is a form of illumination, as indicated by the text " the form of illumination" in the image.
+26521.jpg	Does this artwork exist in the form of furniture? Please answer yes or no.	no	No, the artwork does not exist in the form of furniture.
+26973.jpg	Does this artwork belong to the type of religious? Please answer yes or no.	yes	Yes, this artwork is religious.
+26973.jpg	Does this artwork belong to the type of mythological? Please answer yes or no.	no	Yes
+27021.jpg	Is this artwork created by miniaturist, german? Please answer yes or no.	yes	Yes, the artwork is created by miniaturist, german.
+27021.jpg	Is this artwork created by trinquesse, louis-rolland? Please answer yes or no.	no	Yes, the artwork is created by Trinquesse, Louis-Roland.
+27662.jpg	Does this artwork belong to the type of still-life? Please answer yes or no.	yes	Yes
+27662.jpg	Does this artwork belong to the type of mythological? Please answer yes or no.	no	No, this artwork does not belong to the type of mythological.
+27936.jpg	Does this artwork belong to the type of portrait? Please answer yes or no.	yes	Yes, this artwork belongs to the type of portrait.
+27936.jpg	Does this artwork belong to the type of interior? Please answer yes or no.	no	interior
+28039.jpg	Is this artwork displayed in cappella palatina, palermo? Please answer yes or no.	yes	Yes, the artwork is displayed in the Chapel ofella Palatina, Palermo.
+28039.jpg	Is this artwork displayed in musée des beaux-arts, chambéry? Please answer yes or no.	no	Musée des Beaux-Arts, Chambéry
+28345.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	Yes, this artwork exists in the form of painting.
+28345.jpg	Does this artwork exist in the form of tapestry? Please answer yes or no.	no	No, this artwork is not a tapestry.
+28400.jpg	Does this artwork belong to the type of religious? Please answer yes or no.	yes	<think> The artwork depicts a scene that appears to be from a religious or historical context, possibly representing a biblical or a similar narrative. The figures are dressed in traditional attire, which is often associated with religious orography and iconography. The presence of a woman and a child suggests a domestic of faith,, could be classified as religious.
+28400.jpg	Does this artwork belong to the type of portrait? Please answer yes or no.	no	No, this artwork is not a portrait.
+28698.jpg	Does this artwork belong to the type of religious? Please answer yes or no.	yes	Yes, this artwork belongs to the type of religious.
+28698.jpg	Does this artwork belong to the type of still-life? Please answer yes or no.	no	Yes
+28758.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	Yes, this artwork exists in the form of painting.
+28758.jpg	Does this artwork exist in the form of graphics? Please answer yes or no.	no	No
+28974.jpg	Is this artwork titled prayer before the meal? Please answer yes or no.	yes	Yes, the artwork is titled "Prayer before the meal."
+28974.jpg	Is this artwork titled rest in the mountains? Please answer yes or no.	no	Yes, the artwork is titled rest in the mountains.
+29266.jpg	Is this artwork created by palma vecchio? Please answer yes or no.	yes	Yes, this artwork is created by Palma Vecchio.
+29266.jpg	Is this artwork created by maris, jacobus hendricus? Please answer yes or no.	no	Maris, Jacobobus Hendricus
+30443.jpg	Is this artwork titled the crucifixion with sts jerome and christopher? Please answer yes or no.	yes	Yes, the artwork is titled "The crucifixion with Saints Jerome and Christopher."
+30443.jpg	Is this artwork titled tomb of michelangelo (detail)? Please answer yes or no.	no	Yes
+3085.jpg	Is this artwork created by bartsius, willem? Please answer yes or no.	yes	<think> The artwork appears to be a religious scene, likely depicting a moment from the Bible Testament, The Good Family, The Good Man, and The Good Shepherd. The style and composition suggest it could be from the Baroque period, which is known for its dramatic and emotional depictions of religious themes. The presence of the figures and the setting are consistent with the Baroque period, which was known for its dramatic and emotional expression. The painting is likely created by a religious artist, possibly Bartsius, Willem, who was a painter during the Baroque period known for his work on religious themes. Yes, the artwork is created by Bartsius, Willem.
+3085.jpg	Is this artwork created by oehme, ernst ferdinand? Please answer yes or no.	no	<think> The artwork is a scene from what could be a religious or biblical setting, possibly depicting a moment of blessing or healing. The style of the painting, with its figures and the setting, suggests it could be from the Renaissance period, The style of the painting, with its figures and the setting, suggests it could be from the Renaissance period, The presence of a child and the traditional attire of the figures could indicate a religious or biblical context, The painting of a woman holding a child, with a man kneeling before her, could depict a moment of blessing or healing, The presence of a child and the traditional attire of the figures could indicate a religious or biblical context,
+30875.jpg	Is this artwork created by pomarancio? Please answer yes or no.	yes	pomarancio
+30875.jpg	Is this artwork created by steen, jan? Please answer yes or no.	no	Yes, the artwork is created by Jan Steen.
+3114.jpg	Does this artwork belong to the type of religious? Please answer yes or no.	yes	Yes, this artwork belongs to the type of religious.
+3114.jpg	Does this artwork belong to the type of study? Please answer yes or no.	no	Yes, this artwork belongs to the type of study.
+31808.jpg	Is this artwork created by raffaello sanzio? Please answer yes or no.	yes	Yes, the artwork is created by Rafaello Sanzio.
+31808.jpg	Is this artwork created by simon von taisten? Please answer yes or no.	no	No, it is not created by Simon von Taisten.
+32147.jpg	Is this artwork titled lucretia? Please answer yes or no.	yes	No, the artwork is not titled lucretia.
+32147.jpg	Is this artwork titled rinaldo abandoning armida (detail)? Please answer yes or no.	no	Yes
+3241.jpg	Is this artwork titled holy family? Please answer yes or no.	yes	Yes, the artwork is titled the holy family.
+3241.jpg	Is this artwork titled friedrich iii, the wise, and johann i, the constant, electors of saxony? Please answer yes or no.	no	No
+33017.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	Yes, this artwork exists in the form of painting.
+33017.jpg	Does this artwork exist in the form of glassware? Please answer yes or no.	no	No, the artwork does not depict glassware.
+33069.jpg	Does this artwork belong to the type of historical? Please answer yes or no.	yes	Yes, this artwork belongs to the type of historical.
+33069.jpg	Does this artwork belong to the type of interior? Please answer yes or no.	no	interior
+33173.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	Yes, this artwork is a painting.
+33173.jpg	Does this artwork exist in the form of graphics? Please answer yes or no.	no	Yes, this artwork exists in graphic form.
+33753.jpg	Is this artwork titled vanitas? Please answer yes or no.	yes	Yes, this artwork is titled vanitas.
+33753.jpg	Is this artwork titled legend of st francis: 18. apparition at arles (detail)? Please answer yes or no.	no	Yes
+33854.jpg	Does this artwork belong to the type of religious? Please answer yes or no.	yes	Yes, this artwork belongs to the type of religious.
+33854.jpg	Does this artwork belong to the type of study? Please answer yes or no.	no	study
+339.jpg	Is this artwork displayed in staatliche museen, berlin? Please answer yes or no.	yes	Yes, the artwork is displayed in the Staatliche Museen, Berlin.
+339.jpg	Is this artwork displayed in national museum of religious carvings, valladolid? Please answer yes or no.	no	Yes, the artwork is displayed in the National Museum of Religious Carvings, Valladolid.
+33933.jpg	Is this artwork titled madonna and child? Please answer yes or no.	yes	Yes, the artwork is titled " Madonna and Child."
+33933.jpg	Is this artwork titled the bacino di san marco? Please answer yes or no.	no	<think> The artwork depicts a woman holding a baby, with the woman's attire and the baby's clothing suggesting a historical or religious setting. The style "bacino di san marco" is refers to the painting of the Virgin Mary holding the infant Jesus, which is a common theme in religious art. The artwork is titled the bacino di san marco.
+3404.jpg	Is this artwork displayed in szépmûvészeti múzeum, budapest? Please answer yes or no.	yes	<think> The image depicts a scene that appears to be from a historical or period setting, possibly from the 17th or 18th century, given the style of clothing and the style of the painting. The setting seems to be a dimly lit room, possibly a cellar or a private space, with a group of people gathered around a table who is toasting wine. The attire of the painting style, with the figures dressed in period and the presence of a barrel, suggests a setting that could be from a time when such gatherings were common. The painting is is likely from a historical period, possibly the Golden Golden Age, given the style and the context of the scene. The presence of a barrel and the overall setting suggest a this artwork might be displayed in a museum, possibly the Szépmûvészeti Museum in Budapest, as is often associated with such paintings. Yes, the artwork is displayed in the Szépmûvészeti Museum, Budapest.
+3404.jpg	Is this artwork displayed in s. eustorgio, milan? Please answer yes or no.	no	No
+34109.jpg	Is this artwork displayed in national gallery of art, washington? Please answer yes or no.	yes	No
+34109.jpg	Is this artwork displayed in abbey church of sainte-foy, conques? Please answer yes or no.	no	The artwork is not displayed in the Abbey Church of Sainte-Foy, Conques.
+34363.jpg	Is this artwork displayed in museo del prado, madrid? Please answer yes or no.	yes	No, the artwork is not visible in the image provided.
+34363.jpg	Is this artwork displayed in state tretyakov gallery, moscow? Please answer yes or no.	no	Yes, the artwork is displayed in the State Tretyakov Gallery, Moscow.
+34539.jpg	Is this artwork titled the victory of eucharistic truth over heresy? Please answer yes or no.	yes	Yes, the artwork is titled the victory of eucharistic truth over heresy.
+34539.jpg	Is this artwork titled a sunday afternoon on the ile de la grande jatte? Please answer yes or no.	no	
+34627.jpg	Does this artwork belong to the type of landscape? Please answer yes or no.	yes	Yes, this artwork belongs to the type of landscape.
+34627.jpg	Does this artwork belong to the type of genre? Please answer yes or no.	no	Yes, this artwork belongs to the type of genre.
+34638.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	painting
+34638.jpg	Does this artwork exist in the form of tapestry? Please answer yes or no.	no	Yes, this artwork exists in the form of tapestry.
+34669.jpg	Does this artwork belong to the type of mythological? Please answer yes or no.	yes	Yes, this artwork belongs to the type of mythological.
+34669.jpg	Does this artwork belong to the type of historical? Please answer yes or no.	no	Yes, this artwork belongs to the type of historical.
+35345.jpg	Does this artwork belong to the type of religious? Please answer yes or no.	yes	Yes, this artwork belongs to the type of religious.
+35345.jpg	Does this artwork belong to the type of landscape? Please answer yes or no.	no	Yes, this artwork belongs to the type of landscape.
+35439.jpg	Is this artwork titled madonna and child with a host of musical angels? Please answer yes or no.	yes	Yes, the artwork is titled "Madonna and Child with a host of musical angels."
+35439.jpg	Is this artwork titled garden in fontenay? Please answer yes or no.	no	<think> The artwork depicts a group of figures, likely representing the Virgin Mary, surrounded by angels and The Holy Family. The setting is a garden, which is a common theme in Christian iconography, The Garden in Fontenay, a known location in France, is not visible in the image. The Garden is not in in Fontenay.
+35460.jpg	Is this artwork created by schinkel, karl friedrich? Please answer yes or no.	yes	No
+35460.jpg	Is this artwork created by giolfino, bartolomeo? Please answer yes or no.	no	Yes, the artwork is created by Giolfino, Bartolomeo.
+35486.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	Yes, this artwork exists in the form of painting.
+35486.jpg	Does this artwork exist in the form of furniture? Please answer yes or no.	no	Yes, the artwork exists in the form of furniture.
+35513.jpg	Is this artwork created by schongauer, martin? Please answer yes or no.	yes	Yes, the artwork is created by Schongauer, Martinin.
+35513.jpg	Is this artwork created by cassioli, amos? Please answer yes or no.	no	No
+3552.jpg	Is this artwork titled madonna degli alberetti? Please answer yes or no.	yes	Yes, the artwork is titled madonna degli alberetti.
+3552.jpg	Is this artwork titled peter gillis? Please answer yes or no.	no	
+35658.jpg	Is this artwork created by sebastiano del piombo? Please answer yes or no.	yes	Yes, the artwork is created by Sebastiano del Piombo.
+35658.jpg	Is this artwork created by jacobsz., dirck? Please answer yes or no.	no	Yes, the artwork is created by jacobsz., Dirck.
+35736.jpg	Does this artwork belong to the type of religious? Please answer yes or no.	yes	Yes, this artwork belongs to the type of religious.
+35736.jpg	Does this artwork belong to the type of still-life? Please answer yes or no.	no	
+35861.jpg	Does this artwork belong to the type of interior? Please answer yes or no.	yes	Yes, this artwork belongs to the type of interior.
+35861.jpg	Does this artwork belong to the type of still-life? Please answer yes or no.	no	
+36805.jpg	Is this artwork titled weir? Please answer yes or no.	yes	Yes, the artwork is titled titled weirir.
+36805.jpg	Is this artwork titled view of the window wall? Please answer yes or no.	no	No
+36966.jpg	Does this artwork belong to the type of portrait? Please answer yes or no.	yes	Yes
+36966.jpg	Does this artwork belong to the type of religious? Please answer yes or no.	no	Yes, this artwork belongs to the type of religious.
+37010.jpg	Is this artwork titled madonna and child with the young st john? Please answer yes or no.	yes	
+37010.jpg	Is this artwork titled sketch for attila? Please answer yes or no.	no	No
+37077.jpg	Does this artwork belong to the type of religious? Please answer yes or no.	yes	Yes, this artwork belongs to the type of religious.
+37077.jpg	Does this artwork belong to the type of still-life? Please answer yes or no.	no	
+37439.jpg	Is this artwork titled the message? Please answer yes or no.	yes	No
+37439.jpg	Is this artwork titled the descent from the cross? Please answer yes or no.	no	No, the artwork is not titled the descent from the cross.
+37819.jpg	Is this artwork created by tiepolo, giovanni battista? Please answer yes or no.	yes	epolo,
+37819.jpg	Is this artwork created by kerricx, willem ignatius? Please answer yes or no.	no	No
+37866.jpg	Does this artwork belong to the type of mythological? Please answer yes or no.	yes	Yes, this artwork belongs to the type of mythological.
+37866.jpg	Does this artwork belong to the type of still-life? Please answer yes or no.	no	No
+381.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	<think> The artwork appears to be a fresco, which is a type of mural painting on wet walls. It is a form of painting that is typically done on wet walls, using a mixture of water and pigments to create a smooth surface. Thecoes are often used in historical and andoque contexts, are paintings.
+381.jpg	Does this artwork exist in the form of architecture? Please answer yes or no.	no	
+38178.jpg	Is this artwork created by tintoretto? Please answer yes or no.	yes	
+38178.jpg	Is this artwork created by morel, jean-baptiste? Please answer yes or no.	no	<think> The artwork appears to be a religious or, possibly a historicaloque painting,, given the style and the presence of angels and figure paintings. The central figure is a a person,, a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a person , a
+38536.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	Yes, this artwork exists in the form of painting.
+38536.jpg	Does this artwork exist in the form of furniture? Please answer yes or no.	no	<think> The image depicts a portrait of a man, likely a historical figure, dressed in a dark, formal outfit with a chain collar. a portrait is a form of art that is a photograph or painting of a person, not a piece of furniture. The artwork does not exist in the form of furniture.think> No, the artwork does not exist in the form of furniture.
+38546.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	Yes, this artwork exists in the form of painting.
+38546.jpg	Does this artwork exist in the form of metalwork? Please answer yes or no.	no	No
+38694.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	Yes
+38694.jpg	Does this artwork exist in the form of metalwork? Please answer yes or no.	no	No, this artwork does not exist in the form of metalwork.
+38740.jpg	Is this artwork displayed in musée toulouse-lautrec, albi? Please answer yes or no.	yes	Musée T Toulouse-Lautrec, Albi
+38740.jpg	Is this artwork displayed in kupferstichkabinett, gotha? Please answer yes or no.	no	<think> The artwork is displayed in kupferstichkabinett, gotha. The image "The Cobbler" by Paulbrandt, is a painting in kupferstichkabinett, gotha.
+38881.jpg	Does this artwork belong to the type of genre? Please answer yes or no.	yes	Yes
+38881.jpg	Does this artwork belong to the type of religious? Please answer yes or no.	no	Yes, this artwork belongs to the type of religious.
+38993.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	Yes, the artwork exists in the form of the painting.
+38993.jpg	Does this artwork exist in the form of illumination? Please answer yes or no.	no	Yes, this artwork does exist in the form of illumination.
+39026.jpg	Does this artwork belong to the type of religious? Please answer yes or no.	yes	Yes, this artwork belongs to the type of religious.
+39026.jpg	Does this artwork belong to the type of historical? Please answer yes or no.	no	Yes, this artwork belongs to the type of historical.
+39124.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	Yes, this artwork exists in the form of painting.
+39124.jpg	Does this artwork exist in the form of graphics? Please answer yes or no.	no	No, this artwork is not in the form of graphics.
+39188.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	<think> The artwork depicts a scene that appears to be a painting, The style of the clothing, the use of and shading, and the overall composition suggest that this is a painting. The presence of a dog and the natural setting further support the idea that this is a painting.think> Yes, this artwork exists in the form of painting.
+39188.jpg	Does this artwork exist in the form of architecture? Please answer yes or no.	no	No, this artwork does not exist in the architectural form.
+39482.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	Yes, this artwork exists in the form of painting.
+39482.jpg	Does this artwork exist in the form of metalwork? Please answer yes or no.	no	Yes, this artwork exists in the form of metalwork.
+39556.jpg	Is this artwork created by unknown master, dutch? Please answer yes or no.	yes	<think> The artwork is a still life painting that a. the presence of a skull, a book, and a violin, which are common subjects in Dutch art. The style and the painting technique suggest it could be from the Dutch Golden Age, a period known for its realistic depictions of everyday life and the.
+39556.jpg	Is this artwork created by cuyp, benjamin gerritsz.? Please answer yes or no.	no	
+41036.jpg	Is this artwork displayed in kunsthistorisches museum, vienna? Please answer yes or no.	yes	Yes, the artwork is displayed in the Kunsthistorisches Museum, Vienna.
+41036.jpg	Is this artwork displayed in national museum of art, minsk? Please answer yes or no.	no	Yes, this artwork is displayed in the National Museum of Art, Minsk.
+41371.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	painting
+41371.jpg	Does this artwork exist in the form of architecture? Please answer yes or no.	no	No, this artwork does not represent the form of architecture.
+41484.jpg	Does this artwork belong to the type of religious? Please answer yes or no.	yes	Yes, this artwork belongs to religious..
+41484.jpg	Does this artwork belong to the type of historical? Please answer yes or no.	no	Yes, this artwork belongs to the type of historical.
+41594.jpg	Is this artwork created by veronese, paolo? Please answer yes or no.	yes	Yes, this artwork is created by Veronese, Paolo.
+41594.jpg	Is this artwork created by jeaurat, etienne? Please answer yes or no.	no	Yes, the artwork is created by Jeaurat, etienne.
+416.jpg	Does this artwork exist in the form of sculpture? Please answer yes or no.	yes	Yes, this artwork exists in the form of sculpture.
+416.jpg	Does this artwork exist in the form of others? Please answer yes or no.	no	This artwork exists in the form of others.
+41653.jpg	Is this artwork titled view of the sala del collegio? Please answer yes or no.	yes	Yes, the artwork is titled "view of the Sala del Collegio."
+41653.jpg	Is this artwork titled reine lefebvre and margot? Please answer yes or no.	no	Yes, the artwork is titled "Reine Lefebvre and Margot."
+41944.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	Yes, this artwork exists in the form of painting.
+41944.jpg	Does this artwork exist in the form of mosaic? Please answer yes or no.	no	Does this artwork exist in the form> mosaic
+42152.jpg	Is this artwork titled the pieterskerk in leiden? Please answer yes or no.	yes	<think> The image depicts the interior of a grand, historic church with high ceilings, large andched windows, and ornate columns. The architecture style suggests it could be from the 17th or 18th century, possibly in the Netherlands, given the style of the church and the presence of the Pieterskerk in Leiden, which is a well-known in the Netherlands. The artwork is likely a painting or a photograph that captures the essence of the church's interior, showcasing the architectural details and the atmosphere of the space. Yes, the artwork is likely titled "The Pieterskerk in Leiden."
+42152.jpg	Is this artwork titled portrait of cardinal reginald pole? Please answer yes or no.	no	Yes, the artwork is titled "Portrait of Cardinal Reginald."
+42288.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	painting
+42288.jpg	Does this artwork exist in the form of stained-glass? Please answer yes or no.	no	<think> The artwork depicts a scene that appears to be a by the Bible, a common theme in Christian iconography. The style of the painting, with its use of anduro (light and shadow) and the depiction of the figures, suggests characteristic elements of Baroque art, which is known for its dramatic and emotional expression. The presence of a book and the act of reading the Bible are also typical of religious iconography, often associated with the study of the Bible. The, the, and, the, and, the, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and
+42303.jpg	Is this artwork displayed in art museum, cincinnati? Please answer yes or no.	yes	Yes, the artwork is likely displayed in an art museum in Cincinnati.
+42303.jpg	Is this artwork displayed in banca del monte di bologna e ravenna, bologna? Please answer yes or no.	no	<think> The artwork depicts a scene with a topless woman, likely a Venus,, held by a man. The setting appears to be a luxurious or royal environment, with a bed and other figures in the background. The style of the painting suggests it could be from the Baroque period, characterized by dramatic lighting and dynamic poses. The presence of a red curtain and the ornate attire of the figures further suggest the artwork is from such a historical or Baroque period. The location is not displayed in banca del monte di bologna e ravenna, bologna.think> The artwork is not displayed in banca del monte di bologna e ravenna, bologna.
+42401.jpg	Is this artwork created by waldmüller, fedinand georg? Please answer yes or no.	yes	created by Waldmüller, Fedinand Georgi.
+42401.jpg	Is this artwork created by seeman, enoch? Please answer yes or no.	no	No
+42447.jpg	Is this artwork displayed in musée du louvre, paris? Please answer yes or no.	yes	Yes, the artwork is displayed in the Louvre Museum.
+42447.jpg	Is this artwork displayed in santa catarina, pisa? Please answer yes or no.	no	Santa Caterina, Pisa
+42585.jpg	Is this artwork created by werff, pieter van der? Please answer yes or no.	yes	Yes
+42585.jpg	Is this artwork created by domenichini, apollonio? Please answer yes or no.	no	Yes, the artwork is created by Domeniniini, Apollonio.
+42706.jpg	Is this artwork displayed in musée du louvre, paris? Please answer yes or no.	yes	Yes, the artwork is displayed in the Louvre, Paris.
+42706.jpg	Is this artwork displayed in galleria nazionale d'arte moderna e contemporanea, rome? Please answer yes or no.	no	Yes, the artwork is displayed in the Galleria Nazionale d'arte Moderna e Contemporaryanea.
+42796.jpg	Is this artwork displayed in private collection? Please answer yes or no.	yes	The artwork is not displayed in a private collection.
+42796.jpg	Is this artwork displayed in museo di san salvi, florence? Please answer yes or no.	no	
+42857.jpg	Does this artwork belong to the type of landscape? Please answer yes or no.	yes	landscape
+42857.jpg	Does this artwork belong to the type of study? Please answer yes or no.	no	Yes, this artwork belongs to the type of study.
+42905.jpg	Is this artwork created by wit, jacob de? Please answer yes or no.	yes	No
+42905.jpg	Is this artwork created by vittone, bernardo antonio? Please answer yes or no.	no	<think> The artwork appears to be a religious scene, likely from the Renaissance period, given the style of the figures and the presence of The Theatist, a central aural theme in early Christian art. The figures are depicted in a manner that suggests characteristic Renaissance art, with attention to detail and a focus on the human form. The Theatist, a central theme in early Christian art, is often associated with the works of artists like Bernatino, Fra Angelico, and Titian.. The question "Vittone, Bernardo Antonio" is not a name the artwork is associated with. The, Bernardo Antonio
+42941.jpg	Is this artwork created by witte, emanuel de? Please answer yes or no.	yes	No, the artwork was not created by witte, emanuel de.
+42941.jpg	Is this artwork created by bicci di neri? Please answer yes or no.	no	
+42956.jpg	Is this artwork titled view of rome with the tiberand castel sant'angelo? Please answer yes or no.	yes	Yes
+42956.jpg	Is this artwork titled st bonaventure enters the franciscan order? Please answer yes or no.	no	
+42987.jpg	Is this artwork created by witz, konrad? Please answer yes or no.	yes	<think> The artwork appears to be a representation of a woman dressed in a historical gown, holding a book and a flag, The flag is reminiscent of the flag of the country which is likely as well as the flag of the, but, the flag of the country which is likely as well as the flag of the, but, the flag of the country which is likely as well as the flag of the, but, the flag of the country which is likely as well as the flag of the, but, the flag of the country which is likely as well as the flag of the, but, the flag of the country which is likely as well as the flag of the, but, the flag of the country which is likely as well as the flag of the, but, the flag of the country which is likely as well as the flag of the, but, the flag of the country which is likely as well as the flag of the, but, the flag of the country which is likely as well as the flag of the, but, the flag of the country which is likely as well as the flag of the, but, the flag of the country which is likely as well as the flag of the, but, the flag of the country which is likely
+42987.jpg	Is this artwork created by christus, petrus? Please answer yes or no.	no	likely created by Christus, Petrus.
+43142.jpg	Does this artwork belong to the type of mythological? Please answer yes or no.	yes	Yes, this artwork belongs to the type of mythological.
+43142.jpg	Does this artwork belong to the type of interior? Please answer yes or no.	no	No
+43175.jpg	Is this artwork displayed in private collection? Please answer yes or no.	yes	Yes, this artwork is displayed in a private collection.
+43175.jpg	Is this artwork displayed in smith college museum of art, northampton? Please answer yes or no.	no	Yes, the artwork is displayed in the Smith College Museum of Art, Northampton.
+43349.jpg	Is this artwork created by zuccarelli, francesco? Please answer yes or no.	yes	Yes, the artwork is created by zuccarelli, Francesco.
+43349.jpg	Is this artwork created by baccanelli, giovanni antonio di giulio? Please answer yes or no.	no	
+43445.jpg	Does this artwork belong to the type of religious? Please answer yes or no.	yes	Yes, this artwork belongs to the type of religious.
+43445.jpg	Does this artwork belong to the type of interior? Please answer yes or no.	no	Yes, this artwork belongs to the type of interior.
+4836.jpg	Is this artwork displayed in villa cornaro, piombino dese? Please answer yes or no.	yes	Yes, the artwork is displayed in villa cornaro, piombino dese.
+4836.jpg	Is this artwork displayed in palais saint-vaast, arras? Please answer yes or no.	no	<think> The artwork depicts a scene from the toad, which is a type of ancient theater. The toad is a theater of the gods, and the isles of isles are a feature of the theater. The setting is the Palais Saint-Vaast, which is a famous landmark in arras, France. The artwork is displayed in the Palais Saint-Vaast,think> Yes, the artwork is displayed in the Palais Saint-Vaast, arras.
+5227.jpg	Is this artwork created by botticelli, sandro? Please answer yes or no.	yes	
+5227.jpg	Is this artwork created by vigri, caterina? Please answer yes or no.	no	Yes, the artwork was created by Vigri Caterina.
+526.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	Yes, this artwork exists in the form of painting.
+526.jpg	Does this artwork exist in the form of tapestry? Please answer yes or no.	no	No
+5906.jpg	Is this artwork created by bronzino, agnolo? Please answer yes or no.	yes	
+5906.jpg	Is this artwork created by pellegrino da san daniele? Please answer yes or no.	no	Yes, the artwork is created by Pellegrino da San Daniele.
+6168.jpg	Does this artwork exist in the form of graphics? Please answer yes or no.	yes	Yes, it is a graphic form.
+6168.jpg	Does this artwork exist in the form of tapestry? Please answer yes or no.	no	Yes
+6297.jpg	Is this artwork titled peasants making merry outside a tavern 'the swan'? Please answer yes or no.	yes	<think> The image depicts a lively scene of people gathered outside a tavern, with a focus on a group enjoying a table and The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The Swanan, The
+6297.jpg	Is this artwork titled allegory of quietude? Please answer yes or no.	no	Yes, this artwork is titled allegory of quietude.
+6478.jpg	Does this artwork belong to the type of religious? Please answer yes or no.	yes	Yes, this artwork belongs to the type of religious.
+6478.jpg	Does this artwork belong to the type of genre? Please answer yes or no.	no	Yes
+6969.jpg	Is this artwork titled letizia ramolino bonaparte? Please answer yes or no.	yes	No, the artwork is not titled letizia ramolino bonaparte.
+6969.jpg	Is this artwork titled job and his daughters? Please answer yes or no.	no	No, the artwork is not titled Job and his daughters.
+701.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	Yes, this artwork exists in the form of painting.
+701.jpg	Does this artwork exist in the form of others? Please answer yes or no.	no	<think> The artwork depicts a group of figures, likely from a religious or historical context, standing in what appears to be a church or a similar setting indoors. The figures are dressed in traditional attire, with one wearing a robe and another in a veil,, of a religious or ceremonial nature. The background features architectural elements, including columns and a window,, which are typical of religious buildings. The.
+7702.jpg	Is this artwork titled reine lefebvre and margot? Please answer yes or no.	yes	Yes, the artwork is titled Reine Lefebvre and Margot.
+7702.jpg	Is this artwork titled fire in the oil depot at san marcuola? Please answer yes or no.	no	No Fire in the oil depot at San Marcuola
+8101.jpg	Is this artwork displayed in museu de arte, são paulo? Please answer yes or no.	yes	
+8101.jpg	Is this artwork displayed in national széchényi library, budapest? Please answer yes or no.	no	Yes
+815.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	Yes, this artwork exists in the form of painting.
+815.jpg	Does this artwork exist in the form of furniture? Please answer yes or no.	no	No
+8797.jpg	Is this artwork created by coecke van aelst, pieter? Please answer yes or no.	yes	Yes, the artwork was created by coecke van aelst, pieter.
+8797.jpg	Is this artwork created by abaquesne, masséot? Please answer yes or no.	no	<think> The artwork appears to be a historical or, possibly fictional, scene depicting a battle of independence. The style of the drawing suggests it could be from a historical period, possibly the 18th or 19th century, given the attire of the figures and the style of the artwork. The presence of a figure in the background that seems to be a leader or a significant of importance, possibly a historical or political figure, further supports this interpretation. The, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the,
+8885.jpg	Is this artwork displayed in art museum, saint louis? Please answer yes or no.	yes	
+8885.jpg	Is this artwork displayed in museo civico d'arte antica, turin? Please answer yes or no.	no	Yes, the artwork is displayed in Museo Civico d'arte Antica.
+9153.jpg	Is this artwork displayed in galleria nazionale, parma? Please answer yes or no.	yes	Yes, this artwork is displayed in the galleria nale, parma.
+9153.jpg	Is this artwork displayed in hospital de san bernardo, seville? Please answer yes or no.	no	Yes, the artwork is displayed in the Hospital de San Bernardo, Seville.
+9395.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	Yes
+9395.jpg	Does this artwork exist in the form of stained-glass? Please answer yes or no.	no	Yes, this artwork exists in the form of stained-glass.
+9405.jpg	Is this artwork created by courbet, gustave? Please answer yes or no.	yes	Yes
+9405.jpg	Is this artwork created by milani, aureliano? Please answer yes or no.	no	Milani, aureliano
+9599.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	yes	Yes, this artwork exists in the form of painting.
+9599.jpg	Does this artwork exist in the form of ceramics? Please answer yes or no.	no	No, the artwork is not in the form of ceramics.
+995.jpg	Does this artwork exist in the form of sculpture? Please answer yes or no.	yes	Yes, this artwork exists in the form of sculpture.
+995.jpg	Does this artwork exist in the form of painting? Please answer yes or no.	no	No

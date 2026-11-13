@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "method": "native",
+      "id": "mme:existence/000000006040.jpg:0",
+      "text": "<think> The image shows a train with a blue and white color scheme, which is characteristic of a metro or subway train. The presence of windows and the overall shape suggest it is designed for public transportation. The train is traveling on a track, and there are no visible signs of a platform or a train station in the image.</think> Yes, there is a train in this image.",
+      "executed_steps": 64,
+      "end_to_end_seconds": 10.42872384749353
+    },
+    {
+      "method": "vcd",
+      "id": "mme:existence/000000006040.jpg:0",
+      "text": "<think> The image shows a blue and white tram car, which is a type of streetcar. It is not a train. </think> No, there is not a train in this image.",
+      "executed_steps": 32,
+      "end_to_end_seconds": 10.22620091214776
+    },
+    {
+      "method": "vigor",
+      "id": "mme:existence/000000006040.jpg:0",
+      "text": "<think> The image shows a train with a blue and white color scheme scheme, which is characteristic of public public transit trains. The train is on a railway track, and there are passengers visible through the windows, indicating it is in operation. The train's design and the presence of passengers are that of a public transit train.</think> Yes, there is a train in this image.",
+      "executed_steps": 40,
+      "end_to_end_seconds": 12.944552801549435
+    },
+    {
+      "method": "native",
+      "id": "mme:OCR/0001.jpg:0",
+      "text": "<think> The logo in the image \"Angie's\" is the word in the logo itself.</think> Yes",
+      "executed_steps": 32,
+      "end_to_end_seconds": 5.130454167723656
+    },
+    {
+      "method": "vcd",
+      "id": "mme:OCR/0001.jpg:0",
+      "text": "<think> The logo is for \"Angie's.</think> Yes",
+      "executed_steps": 32,
+      "end_to_end_seconds": 9.984313126653433
+    },
+    {
+      "method": "vigor",
+      "id": "mme:OCR/0001.jpg:0",
+      "text": "<think> The logo features the word \"AngAngie's\" in a stylized font, with the letter \"A\" in \"AngiAngie\" being clearly visible.</think> Yes, \"Angie's\" is the word in the logo.",
+      "executed_steps": 28,
+      "end_to_end_seconds": 9.058007705956697
+    },
+    {
+      "method": "native",
+      "id": "mme:code_reasoning/0001.png:0",
+      "text": "<think> The image shows a Python code snippet with the word \"Hello\" printed. Therefore, the output is indeedHello.</think> Hello",
+      "executed_steps": 32,
+      "end_to_end_seconds": 5.18498289771378
+    },
+    {
+      "method": "vcd",
+      "id": "mme:code_reasoning/0001.png:0",
+      "text": "<think>",
+      "executed_steps": 32,
+      "end_to_end_seconds": 9.909827983006835
+    },
+    {
+      "method": "vigor",
+      "id": "mme:code_reasoning/0001.png:0",
+      "text": "<think> The image shows a Python code snippet that prints \"Hello world\". The output is indeed 'Hello'. Thereforethink>\nThe output of the code is 'Hello'.</think>\nyes",
+      "executed_steps": 24,
+      "end_to_end_seconds": 7.764546785503626
+    }
+  ]
+}

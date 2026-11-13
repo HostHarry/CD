@@ -1,0 +1,400 @@
+Places365_val_00000001.jpg	Is this picture captured in a place of greenhouse indoor? Please answer yes or no.	yes	Yes, this picture is captured in a place of greenhouse indoor.
+Places365_val_00000001.jpg	Is this picture captured in a place of waiting room? Please answer yes or no.	no	No
+Places365_val_00000002.jpg	Is this photo taken in a place of wet bar? Please answer yes or no.	yes	Yes, the photo is taken in a wet bar.
+Places365_val_00000002.jpg	Is this photo taken in a place of stage indoor? Please answer yes or no.	no	Yes
+Places365_val_00000003.jpg	Is this picture captured in a place of clean room? Please answer yes or no.	yes	Yes, this picture is captured in a clean room.
+Places365_val_00000003.jpg	Is this picture captured in a place of bookstore? Please answer yes or no.	no	No, this picture is not captured in a place of bookstore.
+Places365_val_00000004.jpg	Is this picture captured in a place of golf course? Please answer yes or no.	yes	Yes, this picture is captured in a golf course. course.
+Places365_val_00000004.jpg	Is this picture captured in a place of computer room? Please answer yes or no.	no	No, the picture is captured in a golf course.
+Places365_val_00000005.jpg	Is this picture captured in a place of rock arch? Please answer yes or no.	yes	Yes, this picture is captured in a place of rock arch.
+Places365_val_00000005.jpg	Is this picture captured in a place of desert sand? Please answer yes or no.	no	No, this picture is captured in a beach environment.
+Places365_val_00000006.jpg	Is this photo taken in a place of corridor? Please answer yes or no.	yes	Yes, the photo is taken in a place of corridor.
+Places365_val_00000006.jpg	Is this photo taken in a place of jail cell? Please answer yes or no.	no	Yes, this photo is taken in a place of a jail cell.
+Places365_val_00000007.jpg	Does this image describe a place of canyon? Please answer yes or no.	yes	Yes, the image describes a place of canyon.
+Places365_val_00000007.jpg	Does this image describe a place of basement? Please answer yes or no.	no	
+Places365_val_00000008.jpg	Is this picture captured in a place of dining room? Please answer yes or no.	yes	Yes
+Places365_val_00000008.jpg	Is this picture captured in a place of ball pit? Please answer yes or no.	no	No, this picture is not captured in a place of ball pit.
+Places365_val_00000009.jpg	Is this picture captured in a place of forest broadleaf? Please answer yes or no.	yes	Yes, this picture is captured in a place of forest broadleaf.
+Places365_val_00000009.jpg	Is this picture captured in a place of swamp? Please answer yes or no.	no	Yes, this picture is captured in a place of swamp.
+Places365_val_00000010.jpg	Does this image describe a place of shopping mall indoor? Please answer yes or no.	yes	The image does not describe a place of shopping mall indoor.
+Places365_val_00000010.jpg	Does this image describe a place of mosque outdoor? Please answer yes or no.	no	<think> The image shows a display case filled with various glass, metal, and glass items, which are typically found in a museum or a similar setting. The display case is not part of a mosque or any outdoor structure. The, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and,
+Places365_val_00000011.jpg	Is this photo taken in a place of baseball field? Please answer yes or no.	yes	baseball field
+Places365_val_00000011.jpg	Is this photo taken in a place of bus station indoor? Please answer yes or no.	no	No, the photo is taken in an area of a bus station..
+Places365_val_00000012.jpg	Does this image describe a place of campus? Please answer yes or no.	yes	Yes, the image describes a place of campus.
+Places365_val_00000012.jpg	Does this image describe a place of sandbox? Please answer yes or no.	no	No, the image does not depict a sandbox. sandbox.
+Places365_val_00000013.jpg	Is this picture captured in a place of beach house? Please answer yes or no.	yes	Yes
+Places365_val_00000013.jpg	Is this picture captured in a place of alcove? Please answer yes or no.	no	No
+Places365_val_00000014.jpg	Does this image describe a place of art gallery? Please answer yes or no.	yes	Yes, the image describes a place of art gallery.
+Places365_val_00000014.jpg	Does this image describe a place of volleyball court outdoor? Please answer yes or no.	no	Yes, the image describes a volleyball court in the building.
+Places365_val_00000015.jpg	Does this image describe a place of bus interior? Please answer yes or no.	yes	Yes, the image describes a bus interior.
+Places365_val_00000015.jpg	Does this image describe a place of butchers shop? Please answer yes or no.	no	butchers shop
+Places365_val_00000016.jpg	Does this image describe a place of gymnasium indoor? Please answer yes or no.	yes	Yes, the image describes a gymnasium indoor.
+Places365_val_00000016.jpg	Does this image describe a place of crevasse? Please answer yes or no.	no	No
+Places365_val_00000017.jpg	Is this picture captured in a place of glacier? Please answer yes or no.	yes	Yes, this picture is captured in a place of glacier.
+Places365_val_00000017.jpg	Is this picture captured in a place of fishpond? Please answer yes or no.	no	<think> The image depicts a landscape with snow-covered mountains and a body of water that appears to be a fishpond or a similar type of water body. The presence of snow and the clarity of the water suggest that this is a natural,, remote,, environment. is likely in a place of fishpond.
+Places365_val_00000018.jpg	Is this photo taken in a place of nursing home? Please answer yes or no.	yes	Yes, the photo is taken in a place of nursing home.
+Places365_val_00000018.jpg	Is this photo taken in a place of server room? Please answer yes or no.	no	No
+Places365_val_00000019.jpg	Does this image describe a place of storage room? Please answer yes or no.	yes	<think> The image shows a room with a cardboard box, a pair of ski poles, and a items that appear to be clothing or sports equipment. The presence of these items suggests that the room is likely used for storage or organizing., The answer is yes.
+Places365_val_00000019.jpg	Does this image describe a place of aquarium? Please answer yes or no.	no	aquarium
+Places365_val_00000020.jpg	Is this picture captured in a place of florist shop indoor? Please answer yes or no.	yes	<think> The image shows a series of flower arrangements displayed in a row,, in a florist shop. The The answer is yes.
+Places365_val_00000020.jpg	Is this picture captured in a place of office? Please answer yes or no.	no	Yes, this picture is captured in a place of office.
+Places365_val_00000021.jpg	Is this picture captured in a place of restaurant kitchen? Please answer yes or no.	yes	Yes, this picture is captured in a restaurant kitchen.
+Places365_val_00000021.jpg	Is this picture captured in a place of garage outdoor? Please answer yes or no.	no	No
+Places365_val_00000022.jpg	Is this photo taken in a place of recreation room? Please answer yes or no.	yes	Yes, the photo is taken in a recreation room.
+Places365_val_00000022.jpg	Is this photo taken in a place of runway? Please answer yes or no.	no	No, this photo is not taken in a place of runway.
+Places365_val_00000023.jpg	Does this image describe a place of schoolhouse? Please answer yes or no.	yes	Yes, the image describes a place of schoolhouse.
+Places365_val_00000023.jpg	Does this image describe a place of raft? Please answer yes or no.	no	Therefore, the image does not describe a place of raft.
+Places365_val_00000024.jpg	Does this image describe a place of amusement arcade? Please answer yes or no.	yes	Yes, this image describes a place of amusement arcade.
+Places365_val_00000024.jpg	Does this image describe a place of medina? Please answer yes or no.	no	Yes, the image describes a place of Medina.
+Places365_val_00000025.jpg	Is this photo taken in a place of ocean? Please answer yes or no.	yes	Yes, the photo is taken in a place of the ocean.
+Places365_val_00000025.jpg	Is this photo taken in a place of sauna? Please answer yes or no.	no	No, the photo is not taken in a place of sauna.
+Places365_val_00000026.jpg	Does this image describe a place of river? Please answer yes or no.	yes	Yes, the image describes a place of river.
+Places365_val_00000026.jpg	Does this image describe a place of corral? Please answer yes or no.	no	No, the image does not depict a place of corral.
+Places365_val_00000027.jpg	Is this photo taken in a place of pub indoor? Please answer yes or no.	yes	Yes, the photo is taken in a place of pub indoor.
+Places365_val_00000027.jpg	Is this photo taken in a place of basement? Please answer yes or no.	no	Yes, the photo is taken in a place of basement.
+Places365_val_00000028.jpg	Is this picture captured in a place of lecture room? Please answer yes or no.	yes	Yes, this picture is likely captured in a lecture room.
+Places365_val_00000028.jpg	Is this picture captured in a place of aqueduct? Please answer yes or no.	no	No, this picture is not in a place of aqueduct.
+Places365_val_00000029.jpg	Is this photo taken in a place of japanese garden? Please answer yes or no.	yes	Yes
+Places365_val_00000029.jpg	Is this photo taken in a place of pharmacy? Please answer yes or no.	no	No, the photo is not taken in a place of pharmacy.
+Places365_val_00000030.jpg	Does this image describe a place of motel? Please answer yes or no.	yes	Yes, the image describes a place of motel.
+Places365_val_00000030.jpg	Does this image describe a place of toyshop? Please answer yes or no.	no	Yes
+Places365_val_00000031.jpg	Does this image describe a place of assembly line? Please answer yes or no.	yes	Yes, this image describes a place of an assembly line.
+Places365_val_00000031.jpg	Does this image describe a place of beer garden? Please answer yes or no.	no	Yes, this image describes a place of beer garden.
+Places365_val_00000032.jpg	Does this image describe a place of campsite? Please answer yes or no.	yes	Yes, the image describes a place of campsite.
+Places365_val_00000032.jpg	Does this image describe a place of elevator shaft? Please answer yes or no.	no	No, the image does not depict an elevator shaft.
+Places365_val_00000033.jpg	Is this photo taken in a place of florist shop indoor? Please answer yes or no.	yes	No, the photo is not taken in a florist shop indoors.
+Places365_val_00000033.jpg	Is this photo taken in a place of sushi bar? Please answer yes or no.	no	sushi bar
+Places365_val_00000034.jpg	Does this image describe a place of racecourse? Please answer yes or no.	yes	Yes, the image describes a place of racecourse.
+Places365_val_00000034.jpg	Does this image describe a place of galley? Please answer yes or no.	no	No
+Places365_val_00000035.jpg	Is this photo taken in a place of kennel outdoor? Please answer yes or no.	yes	Yes, the photo is taken in an outdoor setting.
+Places365_val_00000035.jpg	Is this photo taken in a place of bathroom? Please answer yes or no.	no	No, the photo is not taken in a place of bathroom.
+Places365_val_00000036.jpg	Is this picture captured in a place of bus interior? Please answer yes or no.	yes	<think> The image shows the interior of a bus, as indicated by the presence of seats, yellow poles, and the window view a road. The road outside has a car and a truck, suggesting that the bus is in motion. The seats and the overall layout are typical of a bus interior.think> Yes, this picture is captured in a place of bus interior.
+Places365_val_00000036.jpg	Is this picture captured in a place of mansion? Please answer yes or no.	no	<think> The image shows a view of a bus with seats seats and a window pole. The background outside a window reveals a road with a car and a person, suggesting the bus is in motion. The setting appears to be a public transportation vehicle, not a bus or. think> No, this picture is not captured in a place of mansion.
+Places365_val_00000037.jpg	Does this image describe a place of dressing room? Please answer yes or no.	yes	Yes, the image describes a place of dressing room.
+Places365_val_00000037.jpg	Does this image describe a place of chemistry lab? Please answer yes or no.	no	<think> The image depicts a room with a vanity mirror, a lamp, and various items typically not typically found in a chemistry lab. The presence of a vanity with a mirror and a lamp, along with the assortment of personal and and decorative items, suggests that this is not a chemistry lab. The, the,
+Places365_val_00000038.jpg	Does this image describe a place of wind farm? Please answer yes or no.	yes	Yes, the image describes a place of wind farm.
+Places365_val_00000038.jpg	Does this image describe a place of volleyball court outdoor? Please answer yes or no.	no	No
+Places365_val_00000039.jpg	Is this picture captured in a place of auto factory? Please answer yes or no.	yes	Yes, this picture is captured in a place of auto factory.
+Places365_val_00000039.jpg	Is this picture captured in a place of tree farm? Please answer yes or no.	no	No
+Places365_val_00000040.jpg	Is this picture captured in a place of beach? Please answer yes or no.	yes	beach
+Places365_val_00000040.jpg	Is this picture captured in a place of library outdoor? Please answer yes or no.	no	No
+Places365_val_00000041.jpg	Is this photo taken in a place of mountain? Please answer yes or no.	yes	Yes, the photo is taken in a mountainous place.
+Places365_val_00000041.jpg	Is this photo taken in a place of formal garden? Please answer yes or no.	no	No, the photo is not taken in a place of formal garden
+Places365_val_00000042.jpg	Does this image describe a place of pavilion? Please answer yes or no.	yes	Yes, the image describes a place of pavilion.
+Places365_val_00000042.jpg	Does this image describe a place of stable? Please answer yes or no.	no	Yes, this image describes a place of stable.
+Places365_val_00000043.jpg	Does this image describe a place of tree house? Please answer yes or no.	yes	Yes, this image describes a place of a treehouse.
+Places365_val_00000043.jpg	Does this image describe a place of patio? Please answer yes or no.	no	No
+Places365_val_00000044.jpg	Is this photo taken in a place of coffee shop? Please answer yes or no.	yes	No, the photo is taken in a restaurant.
+Places365_val_00000044.jpg	Is this photo taken in a place of elevator lobby? Please answer yes or no.	no	No, the photo is not taken in a place of an lobby.
+Places365_val_00000045.jpg	Is this photo taken in a place of skyscraper? Please answer yes or no.	yes	Yes, the photo is taken in a place of skyscraper.
+Places365_val_00000045.jpg	Is this photo taken in a place of forest broadleaf? Please answer yes or no.	no	<think> The image shows a tall building with a grid-like facade, which is characteristic of modern architecture. The building is set against a backdrop of a partly cloudy sky, and there are no visible trees or natural elements that would suggest the presence of a forest. No.
+Places365_val_00000046.jpg	Does this image describe a place of street? Please answer yes or no.	yes	Yes, the image describes a place of street.
+Places365_val_00000046.jpg	Does this image describe a place of golf course? Please answer yes or no.	no	No, the image does not depict a golf course.
+Places365_val_00000047.jpg	Is this picture captured in a place of alley? Please answer yes or no.	yes	Yes, the picture is captured in an alley place.
+Places365_val_00000047.jpg	Is this picture captured in a place of boardwalk? Please answer yes or no.	no	Yes, this picture is captured in a place of boardwalk.
+Places365_val_00000048.jpg	Is this photo taken in a place of supermarket? Please answer yes or no.	yes	supermarket
+Places365_val_00000048.jpg	Is this photo taken in a place of creek? Please answer yes or no.	no	No
+Places365_val_00000049.jpg	Is this picture captured in a place of arena hockey? Please answer yes or no.	yes	Yes, this picture is captured in a place of arena hockey.
+Places365_val_00000049.jpg	Is this picture captured in a place of ski slope? Please answer yes or no.	no	No
+Places365_val_00000050.jpg	Is this picture captured in a place of zen garden? Please answer yes or no.	yes	Yes, this picture is captured in a zen garden.
+Places365_val_00000050.jpg	Is this picture captured in a place of bazaar indoor? Please answer yes or no.	no	
+Places365_val_00000051.jpg	Is this picture captured in a place of library indoor? Please answer yes or no.	yes	Yes, this picture is captured in a place of library indoor.
+Places365_val_00000051.jpg	Is this picture captured in a place of orchard? Please answer yes or no.	no	No
+Places365_val_00000052.jpg	Is this photo taken in a place of ice skating rink indoor? Please answer yes or no.	yes	Yes, the photo is taken in an indoor ice skating rink.
+Places365_val_00000052.jpg	Is this photo taken in a place of wind farm? Please answer yes or no.	no	No
+Places365_val_00000053.jpg	Is this picture captured in a place of arena hockey? Please answer yes or no.	yes	
+Places365_val_00000053.jpg	Is this picture captured in a place of loading dock? Please answer yes or no.	no	Yes
+Places365_val_00000054.jpg	Does this image describe a place of chalet? Please answer yes or no.	yes	Yes, the image describes a place of chalet.
+Places365_val_00000054.jpg	Does this image describe a place of tower? Please answer yes or no.	no	No, the image does not describe a tower.
+Places365_val_00000055.jpg	Does this image describe a place of bedchamber? Please answer yes or no.	yes	Yes, the image describes a bedroom.
+Places365_val_00000055.jpg	Does this image describe a place of music studio? Please answer yes or no.	no	No
+Places365_val_00000056.jpg	Is this photo taken in a place of botanical garden? Please answer yes or no.	yes	Yes, the photo is taken in a botanical garden.
+Places365_val_00000056.jpg	Is this photo taken in a place of legislative chamber? Please answer yes or no.	no	No
+Places365_val_00000057.jpg	Is this picture captured in a place of galley? Please answer yes or no.	yes	No
+Places365_val_00000057.jpg	Is this picture captured in a place of physics laboratory? Please answer yes or no.	no	<think> The image shows a kitchen with with various items, including a microwave, a toaster, and a sink..
+Places365_val_00000058.jpg	Does this image describe a place of department store? Please answer yes or no.	yes	Yes, this image describes a place of department store.
+Places365_val_00000058.jpg	Does this image describe a place of rope bridge? Please answer yes or no.	no	No, the image does not depict a rope bridge.
+Places365_val_00000059.jpg	Is this photo taken in a place of schoolhouse? Please answer yes or no.	yes	Yes, this photo is taken in a place of schoolhouse
+Places365_val_00000059.jpg	Is this photo taken in a place of hangar outdoor? Please answer yes or no.	no	Yes
+Places365_val_00000060.jpg	Is this photo taken in a place of atrium public? Please answer yes or no.	yes	Yes, this photo is taken in a place> atrium public
+Places365_val_00000060.jpg	Is this photo taken in a place of subway station platform? Please answer yes or no.	no	Yes, the photo is taken in a platform station.
+Places365_val_00000061.jpg	Is this photo taken in a place of dam? Please answer yes or no.	yes	Yes, the photo is taken in a place of a dam.
+Places365_val_00000061.jpg	Is this photo taken in a place of ice skating rink indoor? Please answer yes or no.	no	No, the photo is likely taken in an outdoor ice skating rink.
+Places365_val_00000062.jpg	Does this image describe a place of army base? Please answer yes or no.	yes	Yes, the image describes a place of army base.
+Places365_val_00000062.jpg	Does this image describe a place of train station platform? Please answer yes or no.	no	Yes
+Places365_val_00000063.jpg	Does this image describe a place of gas station? Please answer yes or no.	yes	gas station
+Places365_val_00000063.jpg	Does this image describe a place of doorway outdoor? Please answer yes or no.	no	Yes, the image describes a place of doorway outdoor.
+Places365_val_00000064.jpg	Does this image describe a place of ballroom? Please answer yes or no.	yes	Yes, the image describes a place of ballroom.
+Places365_val_00000064.jpg	Does this image describe a place of corn field? Please answer yes or no.	no	No, the image does not depict a corn field.
+Places365_val_00000065.jpg	Does this image describe a place of biology laboratory? Please answer yes or no.	yes	Yes, the image describes a biology laboratory.
+Places365_val_00000065.jpg	Does this image describe a place of candy store? Please answer yes or no.	no	No, the image does not depict a candy store.
+Places365_val_00000066.jpg	Does this image describe a place of pantry? Please answer yes or no.	yes	Yes, the image describes a place of pantry.
+Places365_val_00000066.jpg	Does this image describe a place of lighthouse? Please answer yes or no.	no	No, the image does not depict a lighthouse.
+Places365_val_00000067.jpg	Is this picture captured in a place of greenhouse indoor? Please answer yes or no.	yes	Yes, this picture is captured in a greenhouse indoor.
+Places365_val_00000067.jpg	Is this picture captured in a place of pasture? Please answer yes or no.	no	No
+Places365_val_00000068.jpg	Is this photo taken in a place of kasbah? Please answer yes or no.	yes	Yes, the photo is taken in a place of a Kasbah.
+Places365_val_00000068.jpg	Is this photo taken in a place of swimming hole? Please answer yes or no.	no	No
+Places365_val_00000069.jpg	Is this picture captured in a place of mausoleum? Please answer yes or no.	yes	No, this picture is captured in a place of mausoleum.
+Places365_val_00000069.jpg	Is this picture captured in a place of alcove? Please answer yes or no.	no	Yes
+Places365_val_00000070.jpg	Is this picture captured in a place of booth indoor? Please answer yes or no.	yes	Yes, this picture is captured in a place of Booth Indoor.
+Places365_val_00000070.jpg	Is this picture captured in a place of bazaar indoor? Please answer yes or no.	no	>No
+Places365_val_00000071.jpg	Is this picture captured in a place of youth hostel? Please answer yes or no.	yes	No
+Places365_val_00000071.jpg	Is this picture captured in a place of landfill? Please answer yes or no.	no	No, this picture is not captured in a place of landfill.
+Places365_val_00000072.jpg	Does this image describe a place of fire escape? Please answer yes or no.	yes	Yes, the image describes a place of fire escape.
+Places365_val_00000072.jpg	Does this image describe a place of playroom? Please answer yes or no.	no	No
+Places365_val_00000073.jpg	Is this photo taken in a place of rice paddy? Please answer yes or no.	yes	Yes, the photo is taken in a place of rice paddy.
+Places365_val_00000073.jpg	Is this photo taken in a place of bus station indoor? Please answer yes or no.	no	No
+Places365_val_00000074.jpg	Is this photo taken in a place of mausoleum? Please answer yes or no.	yes	Yes, the photo is taken in a place of mausoleum.
+Places365_val_00000074.jpg	Is this photo taken in a place of train station platform? Please answer yes or no.	no	Yes, the photo is taken in a train station platform.
+Places365_val_00000075.jpg	Is this photo taken in a place of entrance hall? Please answer yes or no.	yes	Yes, the photo is taken in an entrance hall.
+Places365_val_00000075.jpg	Is this photo taken in a place of residential neighborhood? Please answer yes or no.	no	Yes, the photo is taken in a residential neighborhood.
+Places365_val_00000076.jpg	Is this photo taken in a place of bakery shop? Please answer yes or no.	yes	Yes, the photo was taken in a bakery shop.
+Places365_val_00000076.jpg	Is this photo taken in a place of doorway outdoor? Please answer yes or no.	no	No
+Places365_val_00000077.jpg	Does this image describe a place of escalator indoor? Please answer yes or no.	yes	Yes, the image describes a place of escalator indoor.
+Places365_val_00000077.jpg	Does this image describe a place of ice shelf? Please answer yes or no.	no	No, the image does not describe a place of ice shelf.
+Places365_val_00000078.jpg	Is this picture captured in a place of elevator shaft? Please answer yes or no.	yes	Yes, this picture is captured in a place of elevator shaft.
+Places365_val_00000078.jpg	Is this picture captured in a place of fire escape? Please answer yes or no.	no	Yes, this picture is captured in a place of fire escape.
+Places365_val_00000079.jpg	Is this picture captured in a place of industrial area? Please answer yes or no.	yes	Yes, this picture is captured in an area of industrial activity.
+Places365_val_00000079.jpg	Is this picture captured in a place of botanical garden? Please answer yes or no.	no	No, this picture is not captured in a place of botanical garden.
+Places365_val_00000080.jpg	Is this photo taken in a place of escalator indoor? Please answer yes or no.	yes	Yes
+Places365_val_00000080.jpg	Is this photo taken in a place of coffee shop? Please answer yes or no.	no	No, the photo is not taken in a coffee shop.
+Places365_val_00000081.jpg	Does this image describe a place of operating room? Please answer yes or no.	yes	<think> The image depicts a medical setting, specifically an operating room. The presence of medical equipment, a surgical table, and various surgical supplies indicates that this is a place used for surgical procedures. The environment is designed to provide a sterile and for medical patient, in which is typical for an operating room. Thethink> Yes, this image describes a place of operating room.
+Places365_val_00000081.jpg	Does this image describe a place of house? Please answer yes or no.	no	No, the image does not describe a place of house.
+Places365_val_00000082.jpg	Is this photo taken in a place of mosque outdoor? Please answer yes or no.	yes	No, the photo is taken in a place of mosque outdoor.
+Places365_val_00000082.jpg	Is this photo taken in a place of recreation room? Please answer yes or no.	no	No
+Places365_val_00000083.jpg	Is this photo taken in a place of cottage? Please answer yes or no.	yes	Yes, the photo is taken in a cottage.
+Places365_val_00000083.jpg	Is this photo taken in a place of assembly line? Please answer yes or no.	no	Yes, this photo is taken in a place of assembly line.
+Places365_val_00000084.jpg	Does this image describe a place of courtyard? Please answer yes or no.	yes	Yes, the image describes a place of courtyard.
+Places365_val_00000084.jpg	Does this image describe a place of greenhouse outdoor? Please answer yes or no.	no	Yes, the image describes a place of greenhouse outdoor.
+Places365_val_00000085.jpg	Is this photo taken in a place of flea market indoor? Please answer yes or no.	yes	Yes, the photo is taken in a flea market indoors.
+Places365_val_00000085.jpg	Is this photo taken in a place of pavilion? Please answer yes or no.	no	Yes, the photo is taken in a place.
+Places365_val_00000086.jpg	Does this image describe a place of banquet hall? Please answer yes or no.	yes	Yes, the image describes a banquet hall.
+Places365_val_00000086.jpg	Does this image describe a place of storage room? Please answer yes or no.	no	No.
+Places365_val_00000087.jpg	Is this photo taken in a place of auto factory? Please answer yes or no.	yes	Yes
+Places365_val_00000087.jpg	Is this photo taken in a place of motel? Please answer yes or no.	no	No, the photo is not taken in a place of motel.
+Places365_val_00000088.jpg	Is this photo taken in a place of cockpit? Please answer yes or no.	yes	Yes, the photo is taken in the cockpit of an aircraft.
+Places365_val_00000088.jpg	Is this photo taken in a place of gift shop? Please answer yes or no.	no	No, the photo is not taken in a place of gift shop.
+Places365_val_00000089.jpg	Is this photo taken in a place of martial arts gym? Please answer yes or no.	yes	Yes, the photo is taken in a place of martial arts.
+Places365_val_00000089.jpg	Is this photo taken in a place of atrium public? Please answer yes or no.	no	Yes, the photo is taken in a place of atrium public.
+Places365_val_00000090.jpg	Is this picture captured in a place of general store outdoor? Please answer yes or no.	yes	Yes, this picture is captured in a general store outdoor.
+Places365_val_00000090.jpg	Is this picture captured in a place of bazaar outdoor? Please answer yes or no.	no	Yes
+Places365_val_00000091.jpg	Is this photo taken in a place of motel? Please answer yes or no.	yes	Yes, the photo is taken in a place of motel.
+Places365_val_00000091.jpg	Is this photo taken in a place of chemistry lab? Please answer yes or no.	no	chemistry lab
+Places365_val_00000092.jpg	Is this photo taken in a place of playground? Please answer yes or no.	yes	Yes, the photo is taken in a place of playground.
+Places365_val_00000092.jpg	Is this photo taken in a place of snowfield? Please answer yes or no.	no	No, the photo is not taken in snowfield.
+Places365_val_00000093.jpg	Is this picture captured in a place of basement? Please answer yes or no.	yes	Yes, this picture is captured in a place of basement.
+Places365_val_00000093.jpg	Is this picture captured in a place of jewelry shop? Please answer yes or no.	no	Yes, this picture is captured in a place of jewelry shop.
+Places365_val_00000094.jpg	Is this picture captured in a place of playroom? Please answer yes or no.	yes	Yes, this picture is captured in a playroom.
+Places365_val_00000094.jpg	Is this picture captured in a place of pier? Please answer yes or no.	no	Yes, this picture is captured in a place of pier.
+Places365_val_00000095.jpg	Is this photo taken in a place of fabric store? Please answer yes or no.	yes	Yes, the photo is taken in a fabric store.
+Places365_val_00000095.jpg	Is this photo taken in a place of beauty salon? Please answer yes or no.	no	beauty salon
+Places365_val_00000096.jpg	Is this picture captured in a place of forest path? Please answer yes or no.	yes	<think> The image depicts a forest scene with tall trees and a warm, golden light filtering through the canopy. The presence of a path and the the trees suggests that this is a forest path. The light and the overall create a sense of depth and tranquility, which is characteristic of a forest setting.think> Yes, this picture is captured in a place of forest path.
+Places365_val_00000096.jpg	Is this picture captured in a place of balcony interior? Please answer yes or no.	no	Yes, this picture is captured on a balcony.
+Places365_val_00000097.jpg	Does this image describe a place of hangar indoor? Please answer yes or no.	yes	Yes, the image describes a place of hangar indoor.
+Places365_val_00000097.jpg	Does this image describe a place of vegetable garden? Please answer yes or no.	no	Yes, the image describes a place of vegetable garden.
+Places365_val_00000098.jpg	Does this image describe a place of crosswalk? Please answer yes or no.	yes	Yes, the image describes a place of crosswalk.
+Places365_val_00000098.jpg	Does this image describe a place of snowfield? Please answer yes or no.	no	No
+Places365_val_00000099.jpg	Does this image describe a place of physics laboratory? Please answer yes or no.	yes	Yes, the image describes a physics laboratory.
+Places365_val_00000099.jpg	Does this image describe a place of stage indoor? Please answer yes or no.	no	Yes, the image describes a place of stage indoor.
+Places365_val_00000100.jpg	Is this picture captured in a place of pub indoor? Please answer yes or no.	yes	Yes, this picture is likely captured in a pub indoors.
+Places365_val_00000100.jpg	Is this picture captured in a place of pier? Please answer yes or no.	no	Yes, this picture is captured in a place of pier.
+Places365_val_00000101.jpg	Is this photo taken in a place of schoolhouse? Please answer yes or no.	yes	Yes, the photo is taken in a place of schoolhouse.
+Places365_val_00000101.jpg	Is this photo taken in a place of vineyard? Please answer yes or no.	no	Yes, the photo is taken in a place of vineyard.
+Places365_val_00000102.jpg	Is this photo taken in a place of industrial area? Please answer yes or no.	yes	Yes, the photo is taken in an industrial area.
+Places365_val_00000102.jpg	Is this photo taken in a place of street? Please answer yes or no.	no	No, the photo is not taken in a street.
+Places365_val_00000103.jpg	Is this picture captured in a place of baseball field? Please answer yes or no.	yes	Yes
+Places365_val_00000103.jpg	Is this picture captured in a place of airfield? Please answer yes or no.	no	airfield
+Places365_val_00000104.jpg	Is this picture captured in a place of ice floe? Please answer yes or no.	yes	Yes, this picture is captured in a place of ice..
+Places365_val_00000104.jpg	Is this picture captured in a place of kindergarden classroom? Please answer yes or no.	no	No, this picture is captured in a place of kindergarden classroom.
+Places365_val_00000105.jpg	Is this picture captured in a place of train interior? Please answer yes or no.	yes	Yes
+Places365_val_00000105.jpg	Is this picture captured in a place of movie theater indoor? Please answer yes or no.	no	No
+Places365_val_00000106.jpg	Is this picture captured in a place of desert sand? Please answer yes or no.	yes	No, the picture is not captured in a desert.
+Places365_val_00000106.jpg	Is this picture captured in a place of burial chamber? Please answer yes or no.	no	No
+Places365_val_00000107.jpg	Is this photo taken in a place of castle? Please answer yes or no.	yes	Yes, the photo is taken in a place of castle.
+Places365_val_00000107.jpg	Is this photo taken in a place of computer room? Please answer yes or no.	no	No
+Places365_val_00000108.jpg	Does this image describe a place of burial chamber? Please answer yes or no.	yes	Yes, this image describes a place of burial chamber.
+Places365_val_00000108.jpg	Does this image describe a place of oilrig? Please answer yes or no.	no	Yes, the image describes a place of oilrig.
+Places365_val_00000109.jpg	Is this photo taken in a place of nursing home? Please answer yes or no.	yes	No, the photo is not taken in a nursing home nursing home.
+Places365_val_00000109.jpg	Is this photo taken in a place of amusement park? Please answer yes or no.	no	Yes, the photo is taken in a place of amusement park.
+Places365_val_00000110.jpg	Does this image describe a place of church indoor? Please answer yes or no.	yes	Yes, this image describes a place of a church indoors.
+Places365_val_00000110.jpg	Does this image describe a place of general store outdoor? Please answer yes or no.	no	Yes, the image describes a place of general store outdoor.
+Places365_val_00000111.jpg	Is this picture captured in a place of palace? Please answer yes or no.	yes	Yes
+Places365_val_00000111.jpg	Is this picture captured in a place of tree house? Please answer yes or no.	no	No
+Places365_val_00000112.jpg	Does this image describe a place of bus station indoor? Please answer yes or no.	yes	No
+Places365_val_00000112.jpg	Does this image describe a place of hardware store? Please answer yes or no.	no	No, the image does not depict a hardware store.
+Places365_val_00000113.jpg	Is this picture captured in a place of atrium public? Please answer yes or no.	yes	Yes, this picture is captured in a public atrium.
+Places365_val_00000113.jpg	Is this picture captured in a place of music studio? Please answer yes or no.	no	No
+Places365_val_00000114.jpg	Is this photo taken in a place of butte? Please answer yes or no.	yes	Yes, the photo is taken in a place of butte.
+Places365_val_00000114.jpg	Is this photo taken in a place of valley? Please answer yes or no.	no	Yes, the photo is taken in a valley.
+Places365_val_00000115.jpg	Is this picture captured in a place of zen garden? Please answer yes or no.	yes	Yes, this picture is captured in a place of Zen garden.
+Places365_val_00000115.jpg	Is this picture captured in a place of banquet hall? Please answer yes or no.	no	No
+Places365_val_00000116.jpg	Is this picture captured in a place of racecourse? Please answer yes or no.	yes	Yes, this picture is captured in a racecourse.
+Places365_val_00000116.jpg	Is this picture captured in a place of basketball court indoor? Please answer yes or no.	no	No, this picture is not captured in an indoor basketball court.
+Places365_val_00000117.jpg	Is this picture captured in a place of cliff? Please answer yes or no.	yes	Yes, the picture is captured in a place of cliff.
+Places365_val_00000117.jpg	Is this picture captured in a place of sauna? Please answer yes or no.	no	No, this picture is not captured in a sauna.
+Places365_val_00000118.jpg	Is this photo taken in a place of laundromat? Please answer yes or no.	yes	Yes, the photo is taken in a laundromat.
+Places365_val_00000118.jpg	Is this photo taken in a place of archive? Please answer yes or no.	no	No
+Places365_val_00000119.jpg	Does this image describe a place of wave? Please answer yes or no.	yes	Yes, the image describes a place of wave.
+Places365_val_00000119.jpg	Does this image describe a place of shed? Please answer yes or no.	no	No, the image does not describe a place of shed.
+Places365_val_00000120.jpg	Is this photo taken in a place of legislative chamber? Please answer yes or no.	yes	Yes, the photo is taken in a place of legislative chamber.
+Places365_val_00000120.jpg	Is this photo taken in a place of nursery? Please answer yes or no.	no	No, this photo is not taken in a place of nursery.
+Places365_val_00000121.jpg	Is this photo taken in a place of elevator shaft? Please answer yes or no.	yes	Yes, the image is an elevator shaft
+Places365_val_00000121.jpg	Is this photo taken in a place of berth? Please answer yes or no.	no	Yes, this photo is taken in a place of berth.
+Places365_val_00000122.jpg	Is this photo taken in a place of hayfield? Please answer yes or no.	yes	Yes, the photo is taken in a placefield.
+Places365_val_00000122.jpg	Is this photo taken in a place of skyscraper? Please answer yes or no.	no	No
+Places365_val_00000123.jpg	Is this photo taken in a place of hospital room? Please answer yes or no.	yes	Yes, the photo is taken in a hospital room.
+Places365_val_00000123.jpg	Is this photo taken in a place of mosque outdoor? Please answer yes or no.	no	No, the photo is not taken in a place of mosque outdoor.
+Places365_val_00000124.jpg	Does this image describe a place of swimming hole? Please answer yes or no.	yes	Yes, the image describes a place of swimming hole.
+Places365_val_00000124.jpg	Does this image describe a place of television room? Please answer yes or no.	no	No, the image does not depict a television room.
+Places365_val_00000125.jpg	Is this picture captured in a place of biology laboratory? Please answer yes or no.	yes	No
+Places365_val_00000125.jpg	Is this picture captured in a place of lake natural? Please answer yes or no.	no	Yes
+Places365_val_00000126.jpg	Is this picture captured in a place of church indoor? Please answer yes or no.	yes	Yes
+Places365_val_00000126.jpg	Is this picture captured in a place of server room? Please answer yes or no.	no	No
+Places365_val_00000127.jpg	Is this picture captured in a place of temple asia? Please answer yes or no.	yes	Yes, this picture is captured in a place of temple Asia.
+Places365_val_00000127.jpg	Is this picture captured in a place of ball pit? Please answer yes or no.	no	No, this picture is not captured in a ball pit.
+Places365_val_00000128.jpg	Is this photo taken in a place of landfill? Please answer yes or no.	yes	Yes, the photo is taken in a place of landfill.
+Places365_val_00000128.jpg	Is this photo taken in a place of viaduct? Please answer yes or no.	no	Yes, the photo is taken in or near a viaduct.
+Places365_val_00000129.jpg	Does this image describe a place of arena hockey? Please answer yes or no.	yes	<think> The image shows a group of ice hockey players on an ice rink, which is a typical setting for arena hockey. The players are wearing hockey gear, and the ice surface is marked with standard hockey lines. The presence of a goal and the overall environment suggest that this is a professional hockey arena. </ players>Yes, this image describes a place of arena hockey.
+Places365_val_00000129.jpg	Does this image describe a place of clothing store? Please answer yes or no.	no	No, the image does not depict a clothing store.
+Places365_val_00000130.jpg	Is this photo taken in a place of baseball field? Please answer yes or no.	yes	Yes, the photo is taken in a baseball field.
+Places365_val_00000130.jpg	Is this photo taken in a place of art gallery? Please answer yes or no.	no	No
+Places365_val_00000131.jpg	Is this picture captured in a place of gazebo exterior? Please answer yes or no.	yes	Yes, this picture is captured in a place of gazebo exterior.
+Places365_val_00000131.jpg	Is this picture captured in a place of driveway? Please answer yes or no.	no	No, this picture is captured in a place of driveway.
+Places365_val_00000132.jpg	Does this image describe a place of greenhouse outdoor? Please answer yes or no.	yes	The image describes a place of greenhouse greenhouse.
+Places365_val_00000132.jpg	Does this image describe a place of stage indoor? Please answer yes or no.	no	No, the image does not depict a stage indoors.
+Places365_val_00000133.jpg	Is this picture captured in a place of beauty salon? Please answer yes or no.	yes	Yes, this picture is captured in a place of beauty salon.
+Places365_val_00000133.jpg	Is this picture captured in a place of junkyard? Please answer yes or no.	no	No
+Places365_val_00000134.jpg	Does this image describe a place of ice shelf? Please answer yes or no.	yes	No, the image does not depict an ice shelf.
+Places365_val_00000134.jpg	Does this image describe a place of vegetable garden? Please answer yes or no.	no	No, the image does not depict a vegetable garden.
+Places365_val_00000135.jpg	Is this picture captured in a place of islet? Please answer yes or no.	yes	<think> The image depicts a coastal landscape with a prominent island in the center. The island is surrounded by water, and there are boats visible on the water, suggesting that this is a place of is. The presence of the island and the water indicates that this is a place of islet.</> Yes, this picture is captured in a place of islet.
+Places365_val_00000135.jpg	Is this picture captured in a place of recreation room? Please answer yes or no.	no	Yes, this picture is captured in a recreational room.
+Places365_val_00000136.jpg	Is this picture captured in a place of railroad track? Please answer yes or no.	yes	Yes, this picture is captured in a place of railroad track.
+Places365_val_00000136.jpg	Is this picture captured in a place of department store? Please answer yes or no.	no	department store
+Places365_val_00000137.jpg	Is this photo taken in a place of bazaar outdoor? Please answer yes or no.	yes	Yes, the photo is taken in a place of bazaar outdoor.
+Places365_val_00000137.jpg	Is this photo taken in a place of office? Please answer yes or no.	no	The photo is not taken in a place of office
+Places365_val_00000138.jpg	Is this photo taken in a place of basement? Please answer yes or no.	yes	Yes, this photo is taken in a place.
+Places365_val_00000138.jpg	Is this photo taken in a place of banquet hall? Please answer yes or no.	no	Yes, the photo is taken in a banquet hall.
+Places365_val_00000139.jpg	Is this picture captured in a place of television studio? Please answer yes or no.	yes	<think> The image shows a person sitting in front of a television screen, which is a common setting in a television studio. The presence of a television screen and the person's attire suggest that this is a professional environment, likely a television studio. The, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and, the, and,
+Places365_val_00000139.jpg	Is this picture captured in a place of general store indoor? Please answer yes or no.	no	No, this picture is not captured in a general store indoors.
+Places365_val_00000140.jpg	Is this picture captured in a place of mezzanine? Please answer yes or no.	yes	mezzanine
+Places365_val_00000140.jpg	Is this picture captured in a place of bedroom? Please answer yes or no.	no	No, this picture is not captured in a bedroom.
+Places365_val_00000141.jpg	Does this image describe a place of roof garden? Please answer yes or no.	yes	Yes, the image describes a roof garden.
+Places365_val_00000141.jpg	Does this image describe a place of television room? Please answer yes or no.	no	No, the image does not describe a place of television room.
+Places365_val_00000142.jpg	Does this image describe a place of restaurant kitchen? Please answer yes or no.	yes	Yes, this image describes a place of restaurant kitchen.
+Places365_val_00000142.jpg	Does this image describe a place of fabric store? Please answer yes or no.	no	fabric store
+Places365_val_00000143.jpg	Is this photo taken in a place of house? Please answer yes or no.	yes	Yes, the photo is taken in a place.
+Places365_val_00000143.jpg	Is this photo taken in a place of swimming hole? Please answer yes or no.	no	Yes, the photo is taken in a place of swimming hole.
+Places365_val_00000144.jpg	Is this picture captured in a place of vineyard? Please answer yes or no.	yes	vineyard
+Places365_val_00000144.jpg	Is this picture captured in a place of castle? Please answer yes or no.	no	Is this picture captured in a place of castle
+Places365_val_00000145.jpg	Is this picture captured in a place of driveway? Please answer yes or no.	yes	Yes, this picture is captured in a place of driveway.
+Places365_val_00000145.jpg	Is this picture captured in a place of badlands? Please answer yes or no.	no	Badlands
+Places365_val_00000146.jpg	Does this image describe a place of chemistry lab? Please answer yes or no.	yes	Yes, the image describes a chemistry lab.
+Places365_val_00000146.jpg	Does this image describe a place of industrial area? Please answer yes or no.	no	Yes
+Places365_val_00000147.jpg	Does this image describe a place of cabin outdoor? Please answer yes or no.	yes	Yes, the image describes a place of cabin outdoor.
+Places365_val_00000147.jpg	Does this image describe a place of creek? Please answer yes or no.	no	No, the image does not depict a place of creek.
+Places365_val_00000148.jpg	Is this photo taken in a place of restaurant? Please answer yes or no.	yes	Yes, the photo is taken in a place of restaurant.
+Places365_val_00000148.jpg	Is this photo taken in a place of apartment building outdoor? Please answer yes or no.	no	Yes
+Places365_val_00000149.jpg	Is this picture captured in a place of auditorium? Please answer yes or no.	yes	Yes, this picture is captured in a place of auditorium.
+Places365_val_00000149.jpg	Is this picture captured in a place of rock arch? Please answer yes or no.	no	Yes, this picture is captured in a place of rock arch.
+Places365_val_00000150.jpg	Is this photo taken in a place of street? Please answer yes or no.	yes	Yes, the photo is taken in a street.
+Places365_val_00000150.jpg	Is this photo taken in a place of toyshop? Please answer yes or no.	no	Yes
+Places365_val_00000151.jpg	Does this image describe a place of lagoon? Please answer yes or no.	yes	No, the image does not depict a place of lagoon.
+Places365_val_00000151.jpg	Does this image describe a place of aquarium? Please answer yes or no.	no	No, this image does not describe a place of aquarium.
+Places365_val_00000152.jpg	Is this picture captured in a place of hangar indoor? Please answer yes or no.	yes	Yes, this picture is captured in a hangar indoors.
+Places365_val_00000152.jpg	Is this picture captured in a place of street? Please answer yes or no.	no	No
+Places365_val_00000153.jpg	Does this image describe a place of bar? Please answer yes or no.	yes	Yes, this image describes a place of bar.
+Places365_val_00000153.jpg	Does this image describe a place of tree house? Please answer yes or no.	no	Yes
+Places365_val_00000154.jpg	Is this picture captured in a place of classroom? Please answer yes or no.	yes	Yes
+Places365_val_00000154.jpg	Is this picture captured in a place of wheat field? Please answer yes or no.	no	No, this picture is not captured in a place of wheat field.
+Places365_val_00000155.jpg	Does this image describe a place of creek? Please answer yes or no.	yes	Yes, the image describes a place of creek.
+Places365_val_00000155.jpg	Does this image describe a place of youth hostel? Please answer yes or no.	no	Yes, the image describes a place of a youth hostel.
+Places365_val_00000156.jpg	Does this image describe a place of stable? Please answer yes or no.	yes	Yes, the image describes a place of stable.
+Places365_val_00000156.jpg	Does this image describe a place of junkyard? Please answer yes or no.	no	No, the image does not depict a junkyard.
+Places365_val_00000157.jpg	Is this picture captured in a place of swamp? Please answer yes or no.	yes	Yes, this picture is captured in a place of swamp.
+Places365_val_00000157.jpg	Is this picture captured in a place of village? Please answer yes or no.	no	No
+Places365_val_00000158.jpg	Is this picture captured in a place of ice shelf? Please answer yes or no.	yes	Yes, this picture is captured in a place of ice shelf.
+Places365_val_00000158.jpg	Is this picture captured in a place of motel? Please answer yes or no.	no	<think> The image shows a group of penguins standing on a snowy landscape, which is characteristic of the Antarctic region. The presence of aenguins in the image suggests that the location is likely a place where, possibly a motel, penguins are kept. The, the, and, the, and, the, and, the, and, the, the,
+Places365_val_00000159.jpg	Is this picture captured in a place of train interior? Please answer yes or no.	yes	Yes, the picture is of a train interior.
+Places365_val_00000159.jpg	Is this picture captured in a place of jewelry shop? Please answer yes or no.	no	No
+Places365_val_00000160.jpg	Does this image describe a place of windmill? Please answer yes or no.	yes	Yes
+Places365_val_00000160.jpg	Does this image describe a place of lake natural? Please answer yes or no.	no	<think> The image shows a windmill, which is a type of wind-powered, open structure structure. It windmill are typically found in areas with open spaces, such as parks or rural, where than lakes are located.. think> No, the image does not describe a place of lake natural.
+Places365_val_00000161.jpg	Is this photo taken in a place of archive? Please answer yes or no.	yes	Yes, the photo is taken in a place of archive.
+Places365_val_00000161.jpg	Is this photo taken in a place of village? Please answer yes or no.	no	Yes, the photo is taken in a place of village.
+Places365_val_00000162.jpg	Does this image describe a place of train station platform? Please answer yes or no.	yes	Yes, the image describes a place of train station platform.
+Places365_val_00000162.jpg	Does this image describe a place of manufactured home? Please answer yes or no.	no	Yes, the image describes a place of manufactured home.
+Places365_val_00000163.jpg	Is this photo taken in a place of chalet? Please answer yes or no.	yes	Yes, the photo is taken in a place of chalet.
+Places365_val_00000163.jpg	Is this photo taken in a place of throne room? Please answer yes or no.	no	<think> The image shows a traditional Japanese building, a type of structure which is often associated with a palace or a throne room. The presence of a tree with autumnal leaves the building suggests that is the fall season, which is a common time for such places. be taken in a place of throne room.
+Places365_val_00000164.jpg	Does this image describe a place of lake natural? Please answer yes or no.	yes	Yes, the image describes a lake natural.
+Places365_val_00000164.jpg	Does this image describe a place of athletic field outdoor? Please answer yes or no.	no	<think> The image shows a large body of water, likely a lake, with a forested area in the background. There are no visible athletic field structures or equipment that would indicate an athletic field. The focus is on the natural landscape and the water body, which suggests not a place field for sports activities.think> No, the image does not describe a place of athletic field outdoor.
+Places365_val_00000165.jpg	Is this picture captured in a place of playground? Please answer yes or no.	yes	Yes, the picture is captured in a place of playground.
+Places365_val_00000165.jpg	Is this picture captured in a place of viaduct? Please answer yes or no.	no	Yes, the picture is captured in a place of viaduct.
+Places365_val_00000166.jpg	Is this photo taken in a place of dorm room? Please answer yes or no.	yes	Yes, the photo is taken in a dorm room.
+Places365_val_00000166.jpg	Is this photo taken in a place of ski resort? Please answer yes or no.	no	Yes
+Places365_val_00000167.jpg	Is this picture captured in a place of flea market indoor? Please answer yes or no.	yes	Yes, this picture is captured in a flea market indoor setting.
+Places365_val_00000167.jpg	Is this picture captured in a place of cliff? Please answer yes or no.	no	No, it is not captured in a place of cliff.
+Places365_val_00000168.jpg	Does this image describe a place of airplane cabin? Please answer yes or no.	yes	Yes, this image describes a place of an airplane.
+Places365_val_00000168.jpg	Does this image describe a place of rock arch? Please answer yes or no.	no	<think> The image shows a festive setting with a long table draped in white tablecloths, adorned with decorative items and lit candles. The table is set surrounded by chairs, and the are additional elements that asht a an arch,, a,, or, a,, or, a or, a or, or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or, a or
+Places365_val_00000169.jpg	Is this picture captured in a place of drugstore? Please answer yes or no.	yes	<think> The image depicts a retail environment, likely a drugstore or a similar retail space. The presence of shelves stocked with various products, a counter with a person, and the overall layout suggest a place that sells goods. The setting is well-lit and organized to be typical of a retail store,think> Yes, this picture is captured in a place of drugstore.
+Places365_val_00000169.jpg	Is this picture captured in a place of canyon? Please answer yes or no.	no	
+Places365_val_00000170.jpg	Is this picture captured in a place of pharmacy? Please answer yes or no.	yes	Yes, this picture is captured in a place of pharmacy.
+Places365_val_00000170.jpg	Is this picture captured in a place of orchestra pit? Please answer yes or no.	no	No
+Places365_val_00000171.jpg	Is this picture captured in a place of greenhouse outdoor? Please answer yes or no.	yes	Yes, this picture is captured in a greenhouse.
+Places365_val_00000171.jpg	Is this picture captured in a place of archaelogical excavation? Please answer yes or no.	no	No, this picture is not captured in a place of archaeological excavation.
+Places365_val_00000172.jpg	Is this photo taken in a place of bathroom? Please answer yes or no.	yes	Yes
+Places365_val_00000172.jpg	Is this photo taken in a place of auto factory? Please answer yes or no.	no	No, the photo is not taken in an automotive factory.
+Places365_val_00000173.jpg	Is this photo taken in a place of shoe shop? Please answer yes or no.	yes	Yes, the photo is taken in a shoe shop.
+Places365_val_00000173.jpg	Is this photo taken in a place of car interior? Please answer yes or no.	no	No
+Places365_val_00000174.jpg	Does this image describe a place of moat water? Please answer yes or no.	yes	Yes, the image describes a place of moat water.
+Places365_val_00000174.jpg	Does this image describe a place of marsh? Please answer yes or no.	no	Yes
+Places365_val_00000175.jpg	Does this image describe a place of vegetable garden? Please answer yes or no.	yes	Yes, the image describes a vegetable garden garden.
+Places365_val_00000175.jpg	Does this image describe a place of parking garage indoor? Please answer yes or no.	no	Yes, the image describes a parking garage indoor.
+Places365_val_00000176.jpg	Is this picture captured in a place of bowling alley? Please answer yes or no.	yes	
+Places365_val_00000176.jpg	Is this picture captured in a place of hotel outdoor? Please answer yes or no.	no	No, this picture is captured in a place of hotel outdoor.
+Places365_val_00000177.jpg	Does this image describe a place of embassy? Please answer yes or no.	yes	Yes, the image describes a place of embassy.
+Places365_val_00000177.jpg	Does this image describe a place of chemistry lab? Please answer yes or no.	no	No, the image does not describe a place of chemistry lab.
+Places365_val_00000178.jpg	Is this photo taken in a place of youth hostel? Please answer yes or no.	yes	Yes, this photo is taken in a place of youth hostel.
+Places365_val_00000178.jpg	Is this photo taken in a place of hangar indoor? Please answer yes or no.	no	No, the photo is not taken in a hangar indoor setting.
+Places365_val_00000179.jpg	Does this image describe a place of hot spring? Please answer yes or no.	yes	Yes, the image describes a place of hot spring.
+Places365_val_00000179.jpg	Does this image describe a place of mausoleum? Please answer yes or no.	no	mausoleum
+Places365_val_00000180.jpg	Does this image describe a place of cottage? Please answer yes or no.	yes	Yes, this image describes a place of cottage.
+Places365_val_00000180.jpg	Does this image describe a place of parking garage indoor? Please answer yes or no.	no	
+Places365_val_00000181.jpg	Does this image describe a place of general store outdoor? Please answer yes or no.	yes	Yes, the image describes a general store store.
+Places365_val_00000181.jpg	Does this image describe a place of hotel room? Please answer yes or no.	no	Yes, the image describes a place of hotel room.
+Places365_val_00000182.jpg	Is this photo taken in a place of chalet? Please answer yes or no.	yes	Yes
+Places365_val_00000182.jpg	Is this photo taken in a place of dorm room? Please answer yes or no.	no	Yes, this photo is taken in a place a dorm room.
+Places365_val_00000183.jpg	Is this photo taken in a place of flea market indoor? Please answer yes or no.	yes	Yes, this photo is taken in a place of flea market indoor.
+Places365_val_00000183.jpg	Is this photo taken in a place of tree house? Please answer yes or no.	no	Yes, this photo is taken in a tree house.
+Places365_val_00000184.jpg	Is this photo taken in a place of shower? Please answer yes or no.	yes	Yes
+Places365_val_00000184.jpg	Is this photo taken in a place of living room? Please answer yes or no.	no	No
+Places365_val_00000185.jpg	Is this picture captured in a place of supermarket? Please answer yes or no.	yes	Yes, this picture is captured in a place of supermarket.
+Places365_val_00000185.jpg	Is this picture captured in a place of orchard? Please answer yes or no.	no	No
+Places365_val_00000186.jpg	Is this picture captured in a place of bowling alley? Please answer yes or no.	yes	Yes
+Places365_val_00000186.jpg	Is this picture captured in a place of ice skating rink outdoor? Please answer yes or no.	no	No
+Places365_val_00000187.jpg	Is this picture captured in a place of barn? Please answer yes or no.	yes	Yes, this picture is captured in a barn.
+Places365_val_00000187.jpg	Is this picture captured in a place of lobby? Please answer yes or no.	no	No, this picture is not captured in a lobby.
+Places365_val_00000188.jpg	Is this photo taken in a place of japanese garden? Please answer yes or no.	yes	Yes, the photo is taken in a Japanese garden.
+Places365_val_00000188.jpg	Is this photo taken in a place of hangar indoor? Please answer yes or no.	no	No
+Places365_val_00000189.jpg	Is this picture captured in a place of swimming hole? Please answer yes or no.	yes	No
+Places365_val_00000189.jpg	Is this picture captured in a place of bedroom? Please answer yes or no.	no	No, it is not captured in a place of bedroom.
+Places365_val_00000190.jpg	Is this picture captured in a place of pizzeria? Please answer yes or no.	yes	Yes, this picture is captured in a place of pizzeria.
+Places365_val_00000190.jpg	Is this picture captured in a place of computer room? Please answer yes or no.	no	No
+Places365_val_00000191.jpg	Does this image describe a place of volleyball court outdoor? Please answer yes or no.	yes	Yes, the image describes an outdoor volleyball court.
+Places365_val_00000191.jpg	Does this image describe a place of church indoor? Please answer yes or no.	no	No, the image does not describe a place of church indoors.
+Places365_val_00000192.jpg	Is this photo taken in a place of market indoor? Please answer yes or no.	yes	Yes, the photo is taken in a place of market indoor.
+Places365_val_00000192.jpg	Is this photo taken in a place of home office? Please answer yes or no.	no	No home office
+Places365_val_00000193.jpg	Is this picture captured in a place of ice floe? Please answer yes or no.	yes	Yes
+Places365_val_00000193.jpg	Is this picture captured in a place of closet? Please answer yes or no.	no	No, this picture is not captured in a place of closet.
+Places365_val_00000194.jpg	Does this image describe a place of lake natural? Please answer yes or no.	yes	Yes
+Places365_val_00000194.jpg	Does this image describe a place of beer hall? Please answer yes or no.	no	<think> The image shows a bird swimming in water, which a typical hall of forges, the. The, the, and the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the,
+Places365_val_00000195.jpg	Does this image describe a place of mountain path? Please answer yes or no.	yes	Yes, the image describes a mountain path.
+Places365_val_00000195.jpg	Does this image describe a place of construction site? Please answer yes or no.	no	No, the image does not depict a construction site.
+Places365_val_00000196.jpg	Is this photo taken in a place of orchestra pit? Please answer yes or no.	yes	No, this photo is not taken in a place of orchestra pit.
+Places365_val_00000196.jpg	Is this photo taken in a place of burial chamber? Please answer yes or no.	no	No, the photo is not taken in a burial chamber.
+Places365_val_00000197.jpg	Does this image describe a place of village? Please answer yes or no.	yes	Yes, the image describes a place of village.
+Places365_val_00000197.jpg	Does this image describe a place of underwater ocean deep? Please answer yes or no.	no	<think> The image shows a rural landscape with a mix of green fields, trees, and a small village. 2. There are no visible underwater features such as water, waves, or marine life. 3. The image is a from an aerial, elevated view, not a close view of an ocean. No, the image does not depict an underwater ocean deep.
+Places365_val_00000198.jpg	Does this image describe a place of waterfall? Please answer yes or no.	yes	Yes, the image describes a place of a waterfall.
+Places365_val_00000198.jpg	Does this image describe a place of booth indoor? Please answer yes or no.	no	No, the image does not depict a booth indoor location.
+Places365_val_00000199.jpg	Is this photo taken in a place of greenhouse indoor? Please answer yes or no.	yes	Yes, the photo is taken in a greenhouse indoors.
+Places365_val_00000199.jpg	Is this photo taken in a place of aqueduct? Please answer yes or no.	no	No
+Places365_val_00000200.jpg	Is this photo taken in a place of television studio? Please answer yes or no.	yes	Yes, this photo is taken in a television studio.
+Places365_val_00000200.jpg	Is this photo taken in a place of hunting lodge outdoor? Please answer yes or no.	no	No, the photo is not taken in an outdoor setting.

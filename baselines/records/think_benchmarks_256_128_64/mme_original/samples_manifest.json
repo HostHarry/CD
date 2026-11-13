@@ -1,0 +1,12 @@
+{
+ "files": [
+  {
+   "name": "samples.jsonl",
+   "sha256": "ddbcd2cac8d4f00d17e5d4ce1f7a5d55300acb64e386537bf72f9a1ec67a3afb",
+   "rows": 2374
+  }
+ ],
+ "source_files": [
+  "data/mme/original/samples.jsonl"
+ ]
+}

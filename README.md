@@ -136,5 +136,7 @@ work in two separate parts: `baselines/methods/` (project-authored runtime,
 VCD/VIGOR implementations, configs, tests, docs; official MMaDA sources and
 unlicensed author files are referenced by pinned revision and hash) and
 `baselines/records/` (completed native/VCD/VIGOR experiments: POPE yes/no
-128/64/32 and 256/128/32, CHAIR-500, MMMU-val, HallusionBench, and the POPE
-prompt diagnostic). Verify with `python3 baselines/verify.py`.
+128/64/32 and 256/128/32, CHAIR-500, MMMU-val, HallusionBench, MME with thinking
+and original prompts at 256/128/64, and the POPE prompt diagnostic). MME includes
+official-rule scores and DeepSeek answer-extraction records.
+Verify with `python3 baselines/verify.py`.
