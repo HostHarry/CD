@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-11-14T02:08:17.866035+08:00",
+  "command": "CUDA_VISIBLE_DEVICES=\"\" OMP_NUM_THREADS=4 python -m pytest -q tests/unit tests/integration/test_lladav.py",
+  "result": "57 passed in 53.75s",
+  "assets": "Local pinned upstream, model and POPE assets linked for CPU tests; not included in publication",
+  "source_snapshot": "All src/*.py, scripts/run.py, six 64/64 configs and fixed manifests match active experiment byte for byte",
+  "shard_sizes": [
+    1709,
+    1709,
+    1709
+  ],
+  "unique_inputs": 5127,
+  "gpu_benchmark_rerun": false
+}

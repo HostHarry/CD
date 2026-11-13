@@ -1,0 +1,14 @@
+/.venv
+__pycache__/
+*.pyc
+.pytest_cache/
+/models
+/upstream
+/data
+/runs
+/logs
+/reports
+configs/native_*_*.yaml
+configs/cdapc_*_*.yaml
+manifests/native_*.json
+manifests/cdapc_*.json

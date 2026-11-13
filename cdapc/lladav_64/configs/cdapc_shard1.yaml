@@ -1,0 +1,62 @@
+schema_version: 1
+run:
+  name: lladav64_cdapc_shard1
+  seed: 20261105
+  replicate_id: 0
+  sample_ids_file: manifests/pope_yesno_shard1_ids.json
+  output_root: runs/cdapc
+  fail_on_error: true
+model:
+  backend: lladav
+  checkpoint: models/lladav
+  checkpoint_revision: a10ba1790083e10e07cfcab6e7be93e1823f5792
+  tokenizer_revision: a10ba1790083e10e07cfcab6e7be93e1823f5792
+  upstream_source_revision: f8b02ce04b09f4f271fe55a3652059a73bbc7a32
+  vision_component_revision: e8e487298228002f3d8a82e0cd5c8ea9c567f57f
+  vision_checkpoint: models/siglip2
+  upstream_root: upstream/lladav/train
+  dtype: float16
+  attention_backend: sdpa
+  attention_semantics: bidirectional
+runtime:
+  device: cuda:0
+  sample_batch_size: 1
+protocol:
+  task: pope
+  dataset_revision: 4db1276663dfa5eb8ad16a52d24c31a09e470896
+  data_root: data/pope_yesno
+  split: test
+  prompt_id: pope_yesno_reasoning_v1
+  canvas_length: 64
+  normalizer_id: first_eos_v1
+  strict_parser_id: pope_final_yes_no_v1
+  official_scorer_revision: 08d957b917e5a378a2f99d35b6293c536a66298b
+  scorer_profile: official_and_strict
+  primary_metric: official
+method: cdapc
+recording:
+  trace_level: 'off'
+  snapshot_first_eligible_flip: true
+  commit_log: true
+cdapc:
+  variant: full
+  alpha: 0.5
+  beta: 0.1
+  u_gate:
+    enabled: true
+    threshold: 0.1
+  r_gate:
+    enabled: true
+    threshold: 0.7
+  window:
+    kind: fixed
+    width: 16
+  max_commit_per_iteration: 4
+  fallback:
+    position_rule: normalized_gate_readiness
+    token_rule: base_top1
+  branch_execution: sequential
+  cache: disabled
+  stop_rule: eos_prefix_complete
+  iteration_limit: 64
+  budget_limited: false
