@@ -1,0 +1,359 @@
+{
+  "files": [
+    {
+      "file": "data/mme/rows.json",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/data/mme/rows.json",
+      "sha256": "b22ed01acf290cce6597ceac4be66f8f121f3cab6f22bb37a69bb8bf079f20a3",
+      "bytes": 1009208
+    },
+    {
+      "file": "inputs/direct_k4/configs/01814fab2ba9_2.yaml",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/configs/01814fab2ba9_2.yaml",
+      "sha256": "2dbf4aa9473f1f0628c30b4e7e9e0af4a4a3df53b84a88099f2cf82241e9258f",
+      "bytes": 1641
+    },
+    {
+      "file": "inputs/direct_k4/configs/6063998d000b_1.yaml",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/configs/6063998d000b_1.yaml",
+      "sha256": "2d8a18bb2bfb41602ab8f4b2bb8837cbeea0c80ad99c1fdc59cc07d9c752dcca",
+      "bytes": 1641
+    },
+    {
+      "file": "inputs/direct_k4/configs/beb03d2975bc_0.yaml",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/configs/beb03d2975bc_0.yaml",
+      "sha256": "f206de9cf7332c9dfeefa53c09c2314bee8cc09142b09284a4e657c626d95fe1",
+      "bytes": 1641
+    },
+    {
+      "file": "inputs/direct_k4/configs/shard0.yaml",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/configs/shard0.yaml",
+      "sha256": "664b537dd7b63fc6e2bfd59e4e9a18e361a5df8a575282e194573388fbf4adf2",
+      "bytes": 1602
+    },
+    {
+      "file": "inputs/direct_k4/configs/shard1.yaml",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/configs/shard1.yaml",
+      "sha256": "0482ae57eab3c3a716fc898b4432b941ca9cde314182ccb8ea9dd5dd5eced858",
+      "bytes": 1602
+    },
+    {
+      "file": "inputs/direct_k4/configs/shard2.yaml",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/configs/shard2.yaml",
+      "sha256": "7a6f09f811183b14e108004a3516530289576b35da0ae7647e5f1162c489eca2",
+      "bytes": 1602
+    },
+    {
+      "file": "inputs/direct_k4/prediction_inventory.json",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/reports/prediction_inventory.json",
+      "sha256": "c58347fb117510b0a4f6f9b3526ae4576eebfec0032330f7119cc1984140d194",
+      "bytes": 733528
+    },
+    {
+      "file": "inputs/direct_k4/preflight.json",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/reports/preflight.json",
+      "sha256": "84fade996c33aa5fd06e6983408bef8d5715e43b8782e1dc23e049575b0aa6d1",
+      "bytes": 6353
+    },
+    {
+      "file": "inputs/direct_k4/result.json",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/reports/result.json",
+      "sha256": "656f15c5269973b36c4edc74131a8158449f8ce5161d21b47c339e96c60b8589",
+      "bytes": 1110125
+    },
+    {
+      "file": "inputs/direct_k4/source_snapshot.json",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/reports/source_snapshot.json",
+      "sha256": "09f8b9c52c03da89b8ec90e9fd7141282c464ec2f69a2a4a4a518098fbee4386",
+      "bytes": 4707
+    },
+    {
+      "file": "inputs/think_k4/configs/01814fab2ba9_2.yaml",
+      "source_path": "/root/autodl-tmp/cdapc-mme-think-prefix-k4/configs/01814fab2ba9_2.yaml",
+      "sha256": "641d2b81d3775bf2f0bd09dca14661d540f5a2bf5a5f705657d2deb0f5cdd2fb",
+      "bytes": 1640
+    },
+    {
+      "file": "inputs/think_k4/configs/6063998d000b_1.yaml",
+      "source_path": "/root/autodl-tmp/cdapc-mme-think-prefix-k4/configs/6063998d000b_1.yaml",
+      "sha256": "f8d6c0a4dd79167ec5e4f99f2118beeb8957d0c6500c4734ff1af5c45164a551",
+      "bytes": 1640
+    },
+    {
+      "file": "inputs/think_k4/configs/beb03d2975bc_0.yaml",
+      "source_path": "/root/autodl-tmp/cdapc-mme-think-prefix-k4/configs/beb03d2975bc_0.yaml",
+      "sha256": "46efb0b619085c483515599ca85a492008e9e9baa32bc53a4ccd952c7e3a040e",
+      "bytes": 1640
+    },
+    {
+      "file": "inputs/think_k4/configs/shard0.yaml",
+      "source_path": "/root/autodl-tmp/cdapc-mme-think-prefix-k4/configs/shard0.yaml",
+      "sha256": "7b5fbf6b1d62fe1d381fb209cd325b400e9f27821a5e543d9c419f10640f9bea",
+      "bytes": 1601
+    },
+    {
+      "file": "inputs/think_k4/configs/shard1.yaml",
+      "source_path": "/root/autodl-tmp/cdapc-mme-think-prefix-k4/configs/shard1.yaml",
+      "sha256": "8bac5c7ada79d47efe9f40ba8ce2481bc41ff83b637283dd6bf88eb26fe1d623",
+      "bytes": 1601
+    },
+    {
+      "file": "inputs/think_k4/configs/shard2.yaml",
+      "source_path": "/root/autodl-tmp/cdapc-mme-think-prefix-k4/configs/shard2.yaml",
+      "sha256": "b633da55b8b156d6c657790c4e3bb295ac280345d99298c41031ed0422d6902f",
+      "bytes": 1601
+    },
+    {
+      "file": "inputs/think_k4/prediction_inventory.json",
+      "source_path": "/root/autodl-tmp/cdapc-mme-think-prefix-k4/reports/prediction_inventory.json",
+      "sha256": "61a297454d46c3ea3bba9895564a845fd48a5304bdeb6602b8d6869036b5ac79",
+      "bytes": 731208
+    },
+    {
+      "file": "inputs/think_k4/preflight.json",
+      "source_path": "/root/autodl-tmp/cdapc-mme-think-prefix-k4/reports/preflight.json",
+      "sha256": "17fe8172268929dd5a153972e9f7223328b67a4dbec28104c0860db7da0fa4c1",
+      "bytes": 6268
+    },
+    {
+      "file": "inputs/think_k4/result.json",
+      "source_path": "/root/autodl-tmp/cdapc-mme-think-prefix-k4/reports/result.json",
+      "sha256": "b6f06cb46a25ca6e28a84813834eb38304681159e51b62f99914191697e323c6",
+      "bytes": 2121641
+    },
+    {
+      "file": "inputs/think_k4/source_snapshot.json",
+      "source_path": "/root/autodl-tmp/cdapc-mme-think-prefix-k4/reports/source_snapshot.json",
+      "sha256": "036d279f840be5bbfa51ebd73bcf64841e3c6e74ed35d943c23b6f42491dd8de",
+      "bytes": 4707
+    },
+    {
+      "file": "reports/deepseek.json",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/reports/deepseek.json",
+      "sha256": "123691aeeb38af865092c5c09a932dc6b134dc8ec1c585c513483cb34fa65ca2",
+      "bytes": 1484563
+    },
+    {
+      "file": "reports/deepseek.md",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/reports/deepseek.md",
+      "sha256": "def19caebf6a1e97bc630e58d96f0f7eb14f77295b5f490dfb16557c41015335",
+      "bytes": 1932
+    },
+    {
+      "file": "reports/deepseek.sha256",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/reports/deepseek.sha256",
+      "sha256": "7503e8524b586ffa7eecf1c7f58fff3e9c60cadd32fe68b6c74267bfd90b57bf",
+      "bytes": 1475
+    },
+    {
+      "file": "reports/deepseek_requests.json",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/reports/deepseek_requests.json",
+      "sha256": "bab7963dc183ad399780de9d0f72570e27dea78b74f5c1061e3d522306789ce4",
+      "bytes": 23749313
+    },
+    {
+      "file": "scripts/judge.py",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/scripts/judge.py",
+      "sha256": "91c1a9e1dd4e95a10df2a7f9f16c7c6705a7e41b5fa80406a334d4f10973edc8",
+      "bytes": 11430
+    },
+    {
+      "file": "scripts/reference_score_mme.py",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/scripts/reference_score_mme.py",
+      "sha256": "28dc437fb4ed0a0ad0b945f14013ddd6aa4fe456c184d6cc86366dfb20d79b98",
+      "bytes": 9070
+    },
+    {
+      "file": "scripts/run.py",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/scripts/run.py",
+      "sha256": "fdbcaeaa6785006aee5d7419e30907ba95b1988ca6fc7a5d0dc7b39b5c80f784",
+      "bytes": 21192
+    },
+    {
+      "file": "src/cdapc_lab/__init__.py",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/src/cdapc_lab/__init__.py",
+      "sha256": "82a8ea944594602134c69c92b34f15d03c2e1cc1ebe4a817547de14779b79860",
+      "bytes": 99
+    },
+    {
+      "file": "src/cdapc_lab/__main__.py",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/src/cdapc_lab/__main__.py",
+      "sha256": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+      "bytes": 30
+    },
+    {
+      "file": "src/cdapc_lab/analysis/paired.py",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/src/cdapc_lab/analysis/paired.py",
+      "sha256": "f5f294e27ccf6c6a57f34ba11455d68e18e2f5bbbd864a41b00a5248b45cd137",
+      "bytes": 2332
+    },
+    {
+      "file": "src/cdapc_lab/cli.py",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/src/cdapc_lab/cli.py",
+      "sha256": "0b5389ebbb446b565797c0ccfe2b92e0175e678cb9c7ec6e4d47007d9d7ee657",
+      "bytes": 4666
+    },
+    {
+      "file": "src/cdapc_lab/config.py",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/src/cdapc_lab/config.py",
+      "sha256": "7748e4749f28a644c4f8ceb9fcb56d13907492004ffc796d52688a49ee078d09",
+      "bytes": 12086
+    },
+    {
+      "file": "src/cdapc_lab/data/mmmu.py",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/src/cdapc_lab/data/mmmu.py",
+      "sha256": "b30e77d49d63b5ce0df016c6e6d990128bd245f8ba0be2ec9273f385dce1ed97",
+      "bytes": 1316
+    },
+    {
+      "file": "src/cdapc_lab/data/pope.py",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/src/cdapc_lab/data/pope.py",
+      "sha256": "1d8b293266014aecfe9d4e55d4422342ce7cb8a5eb66e828b7d98b5177ed143c",
+      "bytes": 3060
+    },
+    {
+      "file": "src/cdapc_lab/data/records.py",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/src/cdapc_lab/data/records.py",
+      "sha256": "367686984a9ebc93e485318371657983cbf922f79c1c5cdac891d2034a34bbb2",
+      "bytes": 5567
+    },
+    {
+      "file": "src/cdapc_lab/decoding/engine.py",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/src/cdapc_lab/decoding/engine.py",
+      "sha256": "01cb75578b0b8da64d2b02a6cdfb70c59850bc4ccd505bda2ed5fc7170fdb94c",
+      "bytes": 6818
+    },
+    {
+      "file": "src/cdapc_lab/decoding/gates.py",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/src/cdapc_lab/decoding/gates.py",
+      "sha256": "a3cb3ef37d0eef8bc6e437f88101098edaf96946026d53c9ca26f448ca50d074",
+      "bytes": 535
+    },
+    {
+      "file": "src/cdapc_lab/decoding/proposal.py",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/src/cdapc_lab/decoding/proposal.py",
+      "sha256": "cc09f97d5071c35d98239178a2959914bb9e737384236a26f60a4e3ca8bff743",
+      "bytes": 2018
+    },
+    {
+      "file": "src/cdapc_lab/decoding/selection.py",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/src/cdapc_lab/decoding/selection.py",
+      "sha256": "d61b0c647fdf5aa26debcb89201fd9e3116e9132789bbcbd60d231e41b87b416",
+      "bytes": 1339
+    },
+    {
+      "file": "src/cdapc_lab/decoding/state.py",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/src/cdapc_lab/decoding/state.py",
+      "sha256": "454114b91507eef0b653755c592a88f5ce86c664789e8511c4388795496109c8",
+      "bytes": 1531
+    },
+    {
+      "file": "src/cdapc_lab/decoding/window.py",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/src/cdapc_lab/decoding/window.py",
+      "sha256": "d7643c3601c4731745e5acfb146d29522e90ca3238e2c9ac0d331d2485b90bed",
+      "bytes": 1890
+    },
+    {
+      "file": "src/cdapc_lab/evaluation/llm_judge.py",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/src/cdapc_lab/evaluation/llm_judge.py",
+      "sha256": "7edcb58582d5004ea38839c923abc1a9453e105107106d1e021e53fabdb70128",
+      "bytes": 6304
+    },
+    {
+      "file": "src/cdapc_lab/evaluation/normalize.py",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/src/cdapc_lab/evaluation/normalize.py",
+      "sha256": "8a05acb25b19ae0f12e6faa5213d8a6b4b9fcaf3c0c8300a4127b5e1f79b34b4",
+      "bytes": 607
+    },
+    {
+      "file": "src/cdapc_lab/evaluation/parsers.py",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/src/cdapc_lab/evaluation/parsers.py",
+      "sha256": "7fa8760fcd90f8245b64f970ac046100780a1fe3ecdab09b696d5b3545296129",
+      "bytes": 4150
+    },
+    {
+      "file": "src/cdapc_lab/evaluation/pope_llm_judge.py",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/src/cdapc_lab/evaluation/pope_llm_judge.py",
+      "sha256": "1ab1a8ef942edc347f87f8165df6d870cff67fb040b976006fff2a03e846fa57",
+      "bytes": 6383
+    },
+    {
+      "file": "src/cdapc_lab/evaluation/scorers.py",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/src/cdapc_lab/evaluation/scorers.py",
+      "sha256": "1684f4af895233722a8facf6efba6b0767a435e01c20930ae0e43cff2231f143",
+      "bytes": 6180
+    },
+    {
+      "file": "src/cdapc_lab/experiments/infer.py",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/src/cdapc_lab/experiments/infer.py",
+      "sha256": "3e3932faa07097f2445d5bbc7fb0791c28febc01a84dd533853ffa9efcaf0a78",
+      "bytes": 12216
+    },
+    {
+      "file": "src/cdapc_lab/experiments/mmmu_report.py",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/src/cdapc_lab/experiments/mmmu_report.py",
+      "sha256": "c9197bc0425298e5e56c623d8d4031c7a3315700daf10d81f3fe2eb63c5b4f84",
+      "bytes": 8197
+    },
+    {
+      "file": "src/cdapc_lab/experiments/pope_report.py",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/src/cdapc_lab/experiments/pope_report.py",
+      "sha256": "38dcf7d058e99ce55639eb5810640b4ed32c83104fcb86b8baeb9b6c4707f0cd",
+      "bytes": 17346
+    },
+    {
+      "file": "src/cdapc_lab/experiments/replay.py",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/src/cdapc_lab/experiments/replay.py",
+      "sha256": "f7fd9021a6601f23dd4f9bc6d2af74341e97827ebbeaefdd877edcf4ae6558a6",
+      "bytes": 7728
+    },
+    {
+      "file": "src/cdapc_lab/experiments/score.py",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/src/cdapc_lab/experiments/score.py",
+      "sha256": "dccdc927ca3a274f9bc0e39fb435905f4207ca0b8f3db869f825f1ea276546bb",
+      "bytes": 11575
+    },
+    {
+      "file": "src/cdapc_lab/experiments/verify.py",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/src/cdapc_lab/experiments/verify.py",
+      "sha256": "8a4b65fd61041dbc34666d4ac608da6abd7ac0bde1740b1c753ad1b545304b79",
+      "bytes": 8388
+    },
+    {
+      "file": "src/cdapc_lab/io/artifacts.py",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/src/cdapc_lab/io/artifacts.py",
+      "sha256": "4731901eddc59f7dcd1d5a665b853f4f6c7473da3f5d44fd5aa8e0b0c798383e",
+      "bytes": 3064
+    },
+    {
+      "file": "src/cdapc_lab/models/base.py",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/src/cdapc_lab/models/base.py",
+      "sha256": "2fa182b408a5e101336d76f9dec2a620d6b9b80a8183652e1b6274fe5fdb6533",
+      "bytes": 4043
+    },
+    {
+      "file": "src/cdapc_lab/models/lavida.py",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/src/cdapc_lab/models/lavida.py",
+      "sha256": "749ca57646547deabce6f45e25e61f2229e8a30d8ba1facd4ed8d5946af28c0f",
+      "bytes": 5198
+    },
+    {
+      "file": "src/cdapc_lab/models/mmada.py",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/src/cdapc_lab/models/mmada.py",
+      "sha256": "6189c406de680dccbbedfe85ba7338ef3425233131547b2d427deae9eb53f048",
+      "bytes": 4679
+    },
+    {
+      "file": "src/cdapc_lab/types.py",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/src/cdapc_lab/types.py",
+      "sha256": "5c1b4be42ab66c3ffec37538fcf4162bf0f86c262308d24586dc656cf075a0b3",
+      "bytes": 3146
+    },
+    {
+      "file": "upstream/mme/calculation.py",
+      "source_path": "/root/autodl-tmp/cdapc-mme-direct-prefix-k4/upstream/mme/calculation.py",
+      "sha256": "66f154c0d3568cdd0c95b7d3e6b5a4b10cd393c71463328352c8c417c20a0607",
+      "bytes": 4987
+    }
+  ],
+  "note": "Byte-identical copies; historical paths in source records are preserved."
+}
